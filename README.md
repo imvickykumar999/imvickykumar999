@@ -5,9 +5,7 @@
 <h1 align = "Center" >Hello There 👋 </h1>
 <p align="Left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=orange&label=PROFILE+VIEWS" alt="imvickykumar999"  /> </p>
 
-<!--
 [![Portfolio Link](https://github.com/imvickykumar999/oye-vicks/blob/master/image/profile.jpg)](https://imvickykumar999.github.io/Portfolio-oye-vicks/)
---> 
 
 I am a Computer Science Student, currently in 3rd year student at RIET, Jaipur 🏫
 
