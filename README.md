@@ -14,7 +14,7 @@ I am a Computer Science Student, currently in 3rd year student at RIET, Jaipur �
 
 <br>
 <p align="center" >
-<img alt="Vicky's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=imvickykumar999&include_all_commits=true&count_private=true"  > </p>
+<img alt="Vicky's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=imvickykumar999&include_all_commits=true&count_private=true&show_icons=true&theme=tokyonight"  > </p>
 
 <!--
 *imvickykumar999/About-me* is a ✨ special ✨ repository because its `README.md` (this file) appears on my GitHub profile.
