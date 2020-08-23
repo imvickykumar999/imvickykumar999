@@ -1,7 +1,7 @@
 # About-me
 
 <h1 align = "Center" >Hello There 👋 </h1>
-<p align="Center"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=orange&label=PROFILE+VIEWS" alt="imvickykumar999"  /> </p>
+<p align="Left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=orange&label=PROFILE+VIEWS" alt="imvickykumar999"  /> </p>
 
 I am a Computer Science Student, currently in 3rd year student at RIET, Jaipur 🏫
 
