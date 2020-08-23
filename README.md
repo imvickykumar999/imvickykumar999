@@ -5,6 +5,8 @@
 <h1 align = "Center" >Hello There 👋 </h1>
 <p align="Left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=orange&label=PROFILE+VIEWS" alt="imvickykumar999"  /> </p>
 
+![Profile Photo](https://github.com/imvickykumar999/oye-vicks/blob/master/image/profile.jpg)
+
 I am a Computer Science Student, currently in 3rd year student at RIET, Jaipur 🏫
 
 - 🐍 I’m currently working on Python Projects
