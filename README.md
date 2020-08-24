@@ -2,7 +2,7 @@
 
 ## <p>Contact Information : <a href="https://imvickykumar999.github.io/Oye-Vix/"> Portfolio </a></p>
 
-### <p>Listen Music : <a href="https://imvickykumar999.github.io/Music-Player/"> Music Player </a></p>
+[![Music Player](https://raw.githubusercontent.com/imvickykumar999/Music-Player/master/2020-08-23%20(1).png)](https://imvickykumar999.github.io/Music-Player/)
 
 <h1 align = "Center" >Hello There 👋 </h1>
 <p align="Left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=orange&label=PROFILE+VIEWS" alt="imvickykumar999"  /> </p>
