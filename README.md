@@ -1,8 +1,5 @@
 # About-me
 
-<script async src="https://cse.google.com/cse.js?cx=07d55285a263a7cd9"></script>
-<div class="gcse-search"></div>
-
 ## Play Car Game... [Game](https://imvickykumar999.github.io/Traffic-Racer/)
 
 ## Listen to music... [Music Player](https://imvickykumar999.github.io/Music-Player/)
