@@ -16,11 +16,39 @@ I am a Computer Science Student, currently in 3rd year student at RIET, Jaipur �
 
 - 📫 How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vicky-kumar-433542190/)](https://www.linkedin.com/in/vicky-kumar-433542190/) , [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:imvickykumar999@gmail.com)](mailto:imvickykumar999@gmail.com)
 
+### Skills 👨‍💻
+
+<img align="left" alt="Python" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/python.svg" />
+<img align="left" alt="Flask" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/flask.svg" />
+<img align="left" alt="GitHub" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/github.svg" />
+<img align="left" alt="Android" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/android.svg" />
+<img align="left" alt="MongoDB" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/mongodb.svg" />
+<img align="left" alt="MySQL" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/mysql.svg" />
+<img align="left" alt="JavaScript" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/javascript.svg" />
+<img align="left" alt="Java" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/java.svg" />
+<img align="left" alt="C" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/c.svg" />
+<img align="left" alt="C++" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/cplusplus.svg" />
+<img align="left" alt="HTML" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/html5.svg" />
+<img align="left" alt="CSS" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/css3.svg" />
 <br>
-<p align="center" >
-<img alt="Vicky's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=imvickykumar999&include_all_commits=true&count_private=true&show_icons=true&theme=tokyonight"  > </p>
+<br>
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=imvickykumar999&layout=compact&theme=highcontrast)](https://github.com/imvickykumar999/)
+![Vicky's github stats](https://github-readme-stats.vercel.app/api?username=imvickykumar999&count_private=true&show_icons=true&theme=highcontrast)
+
 
 <!--
+============================================================================================================
+
+<br>
+<p align="center" >
+<img alt="Vicky's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=imvickykumar999&include_all_commits=true&count_private=true&show_icons=true&theme=highcontrast"></p>
+
+
+<img align="left" alt="Dart" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/dart.svg" />
+
+
+
 *imvickykumar999/About-me* is a ✨ special ✨ repository because its `README.md` (this file) appears on my GitHub profile.
 Here are some ideas to get you started:
 
