@@ -1,8 +1,7 @@
 # About-me
 
-## Play Car Game... [Game](https://imvickykumar999.github.io/Traffic-Racer/)
-
-## Listen to music... [Music Player](https://imvickykumar999.github.io/Music-Player/)
+## My vixtor PyPi Package :
+[![pip install vixtor](https://raw.githubusercontent.com/imvickykumar999/vixtor/master/screenshot%20vixtor%20version%200.0.2.png)](https://imvickykumar999.github.io/vixtor/)
 
 <h1 align = "Center" >Hello There 👋 </h1>
 <p align="Left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=orange&label=PROFILE+VIEWS" alt="imvickykumar999"  /> </p>
