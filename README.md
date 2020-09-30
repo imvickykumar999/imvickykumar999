@@ -25,9 +25,8 @@ I am a Computer Science Student, currently in 3rd year student at RIET, Jaipur ð
 <img align="left" alt="CSS" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/css3.svg" />
 <br>
 
-<p>
+<p></p>
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=imvickykumar999&layout=compact&theme=highcontrast)](https://github.com/imvickykumar999/)
-</p>
 ![Vicky's github stats](https://github-readme-stats.vercel.app/api?username=imvickykumar999&count_private=true&show_icons=true&theme=highcontrast)
 
 <p></p>
