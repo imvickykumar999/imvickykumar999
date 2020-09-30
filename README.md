@@ -1,12 +1,10 @@
-# About-me
+# [About-me](https://imvickykumar999.github.io/Oye-Vix/)
 
 ## My vixtor PyPi Package :
-[![pip install vixtor](https://raw.githubusercontent.com/imvickykumar999/vixtor/master/screenshot%20vixtor%20version%200.0.2.png)](https://imvickykumar999.github.io/vixtor/)
+[![pip install vixtor](https://raw.githubusercontent.com/imvickykumar999/vixtor/master/screenshot%20vixtor%20version%200.0.3.png)](https://imvickykumar999.github.io/vixtor/)
 
 <h1 align = "Center" >Hello There 👋 </h1>
 <p align="Left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=orange&label=PROFILE+VIEWS" alt="imvickykumar999"  /> </p>
-
-[![Portfolio Link](https://github.com/imvickykumar999/oye-vicks/blob/master/image/profile.jpg)](https://imvickykumar999.github.io/Oye-Vix/)
 
 I am a Computer Science Student, currently in 3rd year student at RIET, Jaipur 🏫
 
