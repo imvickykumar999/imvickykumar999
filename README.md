@@ -26,7 +26,9 @@ I am a Computer Science Student, currently in 3rd year student at RIET, Jaipur ð
 <br>
 
 <p></p>
+
 ![Vicky's github stats](https://github-readme-stats.vercel.app/api?username=imvickykumar999&count_private=true&show_icons=true&theme=highcontrast)
+
 <p></p>
 
 <!--
