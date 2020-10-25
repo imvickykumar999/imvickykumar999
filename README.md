@@ -1,6 +1,6 @@
 # [About-me](https://imvickykumar999.github.io/Oye-Vix/)
 
-[![flask](https://raw.githubusercontent.com/imvickykumar999/Portfolio-using-Flask/main/screenshot.png)](https://github.com/imvickykumar999/Portfolio-using-Flask)
+[![app.py](https://github.com/imvickykumar999/Portfolio-with-Flask/blob/main/deployed%20on%20heroku.png?raw=true)](https://vixportfoliowithflask.herokuapp.com/contact)
 
 ## My vixtor PyPi Package :
 [![pip install vixtor](https://raw.githubusercontent.com/imvickykumar999/vixtor/master/screenshot%20vixtor%20version%200.0.3.png)](https://imvickykumar999.github.io/vixtor/)
