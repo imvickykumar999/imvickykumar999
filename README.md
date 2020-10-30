@@ -2,7 +2,7 @@
 
 [![app.py](https://github.com/imvickykumar999/Portfolio-with-Flask/blob/main/deployed%20on%20heroku.png?raw=true)](https://vixportfoliowithflask.herokuapp.com/contact)
 
-## My vixtor PyPi Package :
+## [My vixtor PyPi Package](https://gist.github.com/imvickykumar999/2b165b2193f2fb0b5719976c86664d01) :
 [![pip install vixtor](https://raw.githubusercontent.com/imvickykumar999/vixtor/master/screenshot%20vixtor%20version%200.0.3.png)](https://imvickykumar999.github.io/vixtor/)
 
 <h1 align = "Center" >Hello There 👋 </h1>
