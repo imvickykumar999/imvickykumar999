@@ -2,7 +2,7 @@
 
 [![app.py](https://github.com/imvickykumar999/Portfolio-with-Flask/blob/main/deployed%20on%20heroku.png?raw=true)](https://vixportfoliowithflask.herokuapp.com/contact)
 
-## [My vixuploader PyPi Package](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package/tree/master) :
+## [My vixuploader PyPi Package](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package) :
 [![pypi](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package/blob/main/screenshot.png?raw=true)](https://pypi.org/project/vixuploader/)
 
 <h1 align = "Center" >Hello There 👋 </h1>
