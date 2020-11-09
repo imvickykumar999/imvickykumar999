@@ -2,8 +2,8 @@
 
 [![app.py](https://github.com/imvickykumar999/Portfolio-with-Flask/blob/main/deployed%20on%20heroku.png?raw=true)](https://vixportfoliowithflask.herokuapp.com/contact)
 
-## [My vixtor PyPi Package](https://gist.github.com/imvickykumar999/2b165b2193f2fb0b5719976c86664d01) :
-[![pip install vixtor](https://raw.githubusercontent.com/imvickykumar999/vixtor/master/screenshot%20vixtor%20version%200.0.3.png)](https://imvickykumar999.github.io/vixtor/)
+## [My vixuploader PyPi Package](https://gist.github.com/imvickykumar999/2b165b2193f2fb0b5719976c86664d01) :
+[![pypi](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package/blob/main/screenshot.png?raw=true)](https://pypi.org/project/vixuploader/)
 
 <h1 align = "Center" >Hello There 👋 </h1>
 <p align="Left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=orange&label=PROFILE+VIEWS" alt="imvickykumar999"  /> </p>
