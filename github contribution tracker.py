@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 from matplotlib import pyplot as plt 
-# from IPython.display import clear_output
 
 user = input ('Enter GitHub Username : ')
 if user == '':
@@ -23,7 +22,6 @@ for i in range (len (glist)):
 
 nd = True
 while nd:
-    
     nd = input('Last n days (e.g, 10) : ')
     d = input('For no. of Days (e.g, 7 < nd) : ')
 
@@ -51,14 +49,14 @@ while nd:
         
         plt.xlim([ux[0]-1, ux[-1]+1])
         plt.ylim(0, max(uy)+5)
-        
-#         plt.text ((ux[0] + ux[-1]) /2, 2+ max(uy),
-#                   '({}, {})'.format('y = ', max(uy)), 
-#                   fontweight = "bold")
 
         plt.bar (ux, uy) 
         plt.show ()
-#         clear_output (wait=True)
+        print(f''' >>> max. Contribution b/w,\n
+        {glist[-nd]['data-date']}
+        and, {glist[d-nd-1]['data-date']}
+        \n...is {max(uy)}
+        ''')
     else:
         break
         
