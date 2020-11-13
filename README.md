@@ -1,6 +1,6 @@
 # [About-me](https://imvickykumar999.github.io/Oye-Vix/)
 
-## >>> [Github Contribution Tracker](https://github.com/imvickykumar999?tab=overview&from=2020-11-01&to=2020-11-13)
+## >>> [Github Contribution Tracker](https://i.redd.it/xpnb8ey0eug11.jpg)
 [![graph](https://github.com/imvickykumar999/imvickykumar999/blob/master/graph.png?raw=true)](https://github.com/imvickykumar999/imvickykumar999/blob/master/github%20contribution%20tracker.py)
 
 [![app.py](https://github.com/imvickykumar999/Portfolio-with-Flask/blob/main/deployed%20on%20heroku.png?raw=true)](https://vixportfoliowithflask.herokuapp.com/contact)
