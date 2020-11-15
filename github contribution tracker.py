@@ -7,7 +7,7 @@ if user == '':
     user = 'imvickykumar999'
     
 print()
-# followers = requests.get('https://api.github.com/users/'+ user +'/followers').json()
+followers = requests.get('https://api.github.com/users/'+ user +'/followers').json()
 
 follower = []
 for i, j in enumerate(followers):
@@ -29,8 +29,8 @@ while index:
     select = follower[index-1]
     url = 'https://github.com/' + select
 
-#     page = requests.get(url)
-#     soup = BeautifulSoup(page.content, 'html5lib')
+    page = requests.get(url)
+    soup = BeautifulSoup(page.content, 'html5lib')
 
     repo = soup.findAll('div',
             attrs= {'class' : 'UnderlineNav width-full box-shadow-none'})
