@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from matplotlib import pyplot as plt 
+import pandas as pd
 
 user = input('Enter Username : ')
 if user == '':
@@ -94,11 +95,11 @@ while index:
     print('\nPrinting Contribution Graph\n')
     nd = True
     while nd:
-        nd = input('Last n days (e.g, 10) : ')
+        nd = input('Last n days (e.g, 10 <= 365) : ')
         d = input('For no. of Days (e.g, 7 < nd) : ')
 
         if nd == '' or d == '':
-            d = nd = 10
+            d = nd = 14
         else:
             nd = int(nd)
             d = int(d)
@@ -138,3 +139,4 @@ while index:
             ''')
         else:
             break
+            
