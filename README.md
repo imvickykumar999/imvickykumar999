@@ -36,6 +36,8 @@ I am a Computer Science Student, currently in 3rd year student at RIET, Jaipur ğ
 
 <p></p>
 
+<p><a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://camo.githubusercontent.com/f0ee610b6e5c99ef1dc71ab64560faa4acb56339556789e191fa8ff6d3f522a1/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d6e6974697368373730266578636c7564655f7265706f3d6e69746973683737302e6769746875622e696f" alt="Top Langs" data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=imvickykumar999&amp;exclude_repo=imvickykumar999.github.io" style="max-width:100%;"></a></p>
+
 <!--
 ============================================================================================================
 
