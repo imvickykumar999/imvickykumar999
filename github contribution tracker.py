@@ -20,12 +20,13 @@ follower.append(user)
 index = True
 while index:
     index = input('\nEnter index : ')
+    
     if index == '':
         index = 0
-    select = follower[int(index)-1]
-    
-# select = user
-
+    else:
+        index = int(index)
+        
+    select = follower[index-1]
     print(f" => [ {select} ]  {'='*90}>\n")
     url = 'https://github.com/' + select
 
@@ -61,7 +62,7 @@ while index:
         for i in created:
             if i != '':
                 print(i, end=' ')
-        print('\n', '-'*90, '\n')
+        print('\n', '-'*100, '\n')
 
         lst = soup.findAll(class_= s[3])
         for i in range(len(lst)):
@@ -73,7 +74,6 @@ while index:
             print()
     except Exception as e:
         pass
-
 
     lst = soup.find (class_= 'border py-2 graph-before-activity-overview')
     glist = lst.g.findAll('rect')
@@ -92,8 +92,7 @@ while index:
         d = input('For no. of Days (e.g, 7 < nd) : ')
 
         if nd == '' or d == '':
-            nd = 10
-            d = 3
+            d = nd = 10
         else:
             nd = int(nd)
             d = int(d)
@@ -109,15 +108,23 @@ while index:
             plt.xlabel ('\n' + ' / '.join (glist[-nd]['data-date'].split('-')[:-1]) + ' / Date -->', 
                        fontweight = "bold") 
             plt.ylabel ('No. of Contribution -->\n', fontweight = "bold")
+            
             plt.title (f"GitHub Public Contribution\nTracker of {select}\n",
                        fontweight = "bold")
             plt.grid (True, color = "grey", linewidth = "1", linestyle = "-.")
 
-            plt.xlim([ux[0]-1, ux[-1]+1])
+            if d<14:
+                plt.xlim([ux[0]-1, ux[-1]+1])
             plt.ylim(0, max(uy)+5)
 
+            for i_x, i_y in zip(ux, uy):
+                if i_y > max(uy)/4 or d<14:
+                    plt.text (i_x, i_y +2, f'({i_x}, {i_y})', 
+                              fontweight = "bold")
+                
             plt.bar (ux, uy) 
             plt.show ()
+            
             print(f''' >>> max. Contribution b/w,\n
             {glist[-nd]['data-date']}
             and, {glist[d-nd-1]['data-date']}
@@ -125,3 +132,4 @@ while index:
             ''')
         else:
             break
+            
