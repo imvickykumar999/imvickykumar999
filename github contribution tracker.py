@@ -7,7 +7,7 @@ if user == '':
     user = 'imvickykumar999'
     
 print()
-followers = requests.get('https://api.github.com/users/'+ user +'/followers').json()
+# followers = requests.get('https://api.github.com/users/'+ user +'/followers').json()
 
 follower = []
 for i, j in enumerate(followers):
@@ -27,11 +27,15 @@ while index:
         index = int(index)
         
     select = follower[index-1]
-    print(f" => [ {select} ]  {'='*90}>\n")
     url = 'https://github.com/' + select
 
-    page = requests.get(url)
-    soup = BeautifulSoup(page.content, 'html5lib')
+#     page = requests.get(url)
+#     soup = BeautifulSoup(page.content, 'html5lib')
+
+    repo = soup.findAll('div',
+            attrs= {'class' : 'UnderlineNav width-full box-shadow-none'})
+    repo = ' = '.join(repo[0].findAll('a')[1].text.split())
+    print(f" => [ {select} ] having (Public {repo}) {'-'*70}>\n")
 
     s = ('color-text-primary ws-normal text-left',
          'ml-0 py-1 d-flex', 
@@ -41,17 +45,18 @@ while index:
     try:
         lst = soup.findAll('span', attrs= {'class' : s[0]})
         created = lst[0].text.strip().replace('\n', '').split(' ')
+        print('>>>', end=' ')
         for i in created:
             if i != '':
                 print(i, end=' ')
-        print('\n', '-'*90, '\n')
+        print('\n', '='*100, '\n')
 
         lst = soup.findAll(class_= s[1])
         for i in range(len(lst)):
             repo = lst[i].findAll('a')[1]['href']
             commit = lst[i].findAll('a')[1].text.strip()
 
-            print(f"=> \t https://github.com{repo} \t {commit}")
+            print(f" {i+1}). \t https://github.com{repo} \t {commit}")
             print()
     except Exception as e:
         pass
@@ -59,10 +64,11 @@ while index:
     try:
         lst = soup.findAll('span', attrs= {'class' : s[2]})
         created = lst[0].text.strip().replace('\n', '').split(' ')
+        print('>>>', end=' ')
         for i in created:
             if i != '':
                 print(i, end=' ')
-        print('\n', '-'*100, '\n')
+        print('\n', '='*100, '\n')
 
         lst = soup.findAll(class_= s[3])
         for i in range(len(lst)):
@@ -70,7 +76,7 @@ while index:
             link = lst[i].a['href']
             date = lst[i].time.text.strip()
 
-            print(f"=> \t https://github.com{link} \t\t\t {lang} \t {date}")
+            print(f" {i+1}). \t https://github.com{link} \t\t\t {lang} \t {date}")
             print()
     except Exception as e:
         pass
@@ -132,4 +138,3 @@ while index:
             ''')
         else:
             break
-            
