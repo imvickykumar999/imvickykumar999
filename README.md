@@ -34,8 +34,6 @@ I am a Computer Science Student, currently in 3rd year student at RIET, Jaipur ð
 
 ![Vicky's github stats](https://github-readme-stats.vercel.app/api?username=imvickykumar999&count_private=true&show_icons=true&theme=highcontrast)
 
-<img src="https://camo.githubusercontent.com/624a22ee465bc296b3f3692cb5285b340a65218fd9fc999e9b6c8df5bb8145cb/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d6e69746973683737302673686f775f69636f6e733d74727565267468656d653d746f6b796f6e69676874" alt="Nitish's github stats" data-canonical-src="https://github-readme-stats.vercel.app/api?username=nitish770&amp;show_icons=true&amp;theme=tokyonight" style="max-width:100%;">
-
 <p></p>
 
 <!--
