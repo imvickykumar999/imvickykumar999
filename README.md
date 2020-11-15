@@ -34,9 +34,9 @@ I am a Computer Science Student, currently in 3rd year student at RIET, Jaipur ð
 
 ![Vicky's github stats](https://github-readme-stats.vercel.app/api?username=imvickykumar999&count_private=true&show_icons=true&theme=highcontrast)
 
-<p></p>
+<img src="https://camo.githubusercontent.com/624a22ee465bc296b3f3692cb5285b340a65218fd9fc999e9b6c8df5bb8145cb/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d6e69746973683737302673686f775f69636f6e733d74727565267468656d653d746f6b796f6e69676874" alt="Nitish's github stats" data-canonical-src="https://github-readme-stats.vercel.app/api?username=nitish770&amp;show_icons=true&amp;theme=tokyonight" style="max-width:100%;">
 
-<p><a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://camo.githubusercontent.com/f0ee610b6e5c99ef1dc71ab64560faa4acb56339556789e191fa8ff6d3f522a1/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d6e6974697368373730266578636c7564655f7265706f3d6e69746973683737302e6769746875622e696f" alt="Top Langs" data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs/?username=imvickykumar999&amp;exclude_repo=imvickykumar999.github.io" style="max-width:100%;"></a></p>
+<p></p>
 
 <!--
 ============================================================================================================
