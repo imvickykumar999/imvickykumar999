@@ -3,7 +3,7 @@
 ## >>> [Github Contribution Tracker](https://raw.githubusercontent.com/imvickykumar999/imvickykumar999/master/Screenshot_20201116-010319_Chrome.jpg)
 [![graph](https://github.com/imvickykumar999/imvickykumar999/blob/master/graph.png?raw=true)](https://github.com/imvickykumar999/imvickykumar999/blob/master/github%20contribution%20tracker.py)
 
-## >>> [Website using Flask](https://github.com/imvickykumar999/vickschat/blob/main/templates/news.html)
+## >>> [Website using Flask](https://imvickykumar999.github.io/vickschat/)
 [![app.py](https://github.com/imvickykumar999/vickschat/raw/main/ss.png)](https://vickschat.herokuapp.com/signup)
 
 ## >>> [My vixuploader PyPi Package](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package) :
