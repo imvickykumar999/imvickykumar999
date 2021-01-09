@@ -4,7 +4,7 @@
 [![graph](https://github.com/imvickykumar999/imvickykumar999/blob/master/graph.png?raw=true)](https://github.com/imvickykumar999/imvickykumar999/blob/master/github%20contribution%20tracker.py)
 
 ## >>> [Website using Flask](https://imvickykumar999.github.io/vickschat/)
-[![app.py](https://github.com/imvickykumar999/vickschat/raw/main/ss.png)](https://vickschat.herokuapp.com/signup)
+[![image](https://user-images.githubusercontent.com/50515418/104084798-66d54600-5270-11eb-8026-ad9404e5d7af.png)](https://vickschat.herokuapp.com/)
 
 ## >>> [My vixuploader PyPi Package](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package) :
 [![pypi](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package/blob/main/screenshot.png?raw=true)](https://pypi.org/project/vixuploader/)
