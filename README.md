@@ -12,9 +12,10 @@
 <h1 align = "Center" >Hello There 👋 </h1>
 <p align="Left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=orange&label=PROFILE+VIEWS" alt="imvickykumar999"  /> </p>
 
-I am a Computer Science Student, currently in 3rd year student at RIET, Jaipur 🏫
+<p> I am a Computer Science Student, currently in 3rd year student at RIET, Jaipur 🏫 </p>
+<p> Schooling from Jawahar Navodaya Vidyalaya. </p>
 
-- 🐍 I’m currently working on Python Projects
+- 🐍 I’m currently working on Python Projects, Android
 - 🎮 I’m currently learning OpenCV, Website Hosting and Machine Learning
 
 - 📫 How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vicky-kumar-433542190/)](https://www.linkedin.com/in/vicky-kumar-433542190/) , [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:imvickykumar999@gmail.com)](mailto:imvickykumar999@gmail.com)
