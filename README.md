@@ -1,4 +1,4 @@
-# [About-me](https://imvickykumar999.herokuapp.com/)
+# [About-me](https://imvickykumar999.herokuapp.com/vickstube)
 
 ## >>> [Github Contribution Tracker](https://raw.githubusercontent.com/imvickykumar999/imvickykumar999/master/Screenshot_20201116-010319_Chrome.jpg)
 [![graph](https://github.com/imvickykumar999/imvickykumar999/blob/master/graph.png?raw=true)](https://github.com/imvickykumar999/imvickykumar999/blob/master/github%20contribution%20tracker.py)
@@ -7,7 +7,7 @@
 [![image](https://user-images.githubusercontent.com/50515418/104084798-66d54600-5270-11eb-8026-ad9404e5d7af.png)](https://imvickykumar999.herokuapp.com/)
 
 ## >>> [My vixuploader PyPi Package](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package) :
-[![pypi](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package/blob/main/screenshot.png?raw=true)](https://pypi.org/project/vixuploader/)
+[![pypi](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package/blob/main/screenshot.png?raw=true)](https://pypi.org/project/imvickykumar999/)
 
 <h1 align = "Center" >Hello There 👋 </h1>
 <p align="Left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=orange&label=PROFILE+VIEWS" alt="imvickykumar999"  /> </p>
