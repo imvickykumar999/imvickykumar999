@@ -1,0 +1,95 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="10" />
+    <title>Vicks News</title>
+  </head>
+
+  <body>
+
+    <div class="jumbotron">
+      <div class="container">
+
+        <div class="alert alert-danger" role="alert">
+
+          <center>
+            <!-- <a href="https://inshorts.com/en/read"> -->
+            <a href="https://github.com/imvickykumar999/hackathon-iot-car-parking/">
+              <h1 style="color:red;">
+                <strong>
+                  IOT Car Parking System
+                  <br>
+                  <em style="color:green;">See Code on GitHub</em>
+                </strong>
+              </h1>
+            </a>
+          </center>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+
+        <div class="row row-cols-1 row-cols-md-2">
+
+          {%for x in range(0, len)%}
+
+              <div class="col mb-4">
+                <div class="card">
+
+                  <a href={{img[x]}}>
+                    <!-- <img src="../static/news/_0.jpg" class="card-img-top" alt="0"> -->
+                    <img src={{img[x]}} class="card-img-top">
+                  </a>
+
+                  <div class="card">
+                    <center>
+
+                      {% if data[x] == '1' %}
+
+                      <h1 style="color:red;" class="card-title">Slot number : {{x+1}}</h1>
+                      <br>
+                        <h3>
+                          <p class="card-text">Car Number Plate : {{car[x]}}</p>
+                        </h3>
+                      <br>
+
+                          <a href="{{img[x]}}" class="btn btn-primary">PRESENT</a>
+                      {% else %}
+
+                      <h1 style="color:red;" class="card-title">Slot number : {{x+1}}</h1>
+                      <br>
+                        <h3>
+                          <p class="card-text">Slot is Vacant</p>
+                        </h3>
+                      <br>
+
+                          <a href="{{img[x]}}" class="btn btn-primary">ABSENT</a>
+                      {% endif %}
+
+                    </center>
+                  </div>
+
+                </div>
+              </div>
+
+          {% endfor %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </body>
+</html>
+
+{% endblock %}

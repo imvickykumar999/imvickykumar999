@@ -1,0 +1,188 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../static/css/stylesheet.css">
+
+  <title>Morse Code Convertor</title>
+</head>
+
+<body>
+
+  <div id="output" class="card">{{text}}</div>
+
+    <form method="post" action="/converted_morse">
+
+      <div class="alert alert-primary" role="alert">
+        <center>
+          <!-- <h3>
+            <strong>Enter Morse Code or, Simple Text (or, just Press Ok/Enter for default entry) : </strong>
+          </h3> -->
+
+          <h1 style="color:red;">
+            <strong>
+              Enter Morse Code or, Simple Text
+              <br>
+              <em style="color:green;">(or, just Press Ok/Enter for default entry)</em>
+            </strong>
+          </h1>
+
+          <input type="text" name="morse"/>
+          <br><br>
+
+          <div class="alert alert-danger" role="alert">
+            <!-- <input type="submit" value="Submit"> -->
+          <input type="image"
+                 src="../static/logo/submit.png"
+                 width="200"
+                 height="60"
+                 alt="submit"/>
+          </div>
+
+        </center>
+      </div>
+
+      <br><br>
+    </form>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+
+        <div class="alert alert-warning" role="alert">
+          <a href="https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package">
+            <!-- <h1>
+              <p>Brython on GitHub</p>
+              <p>Morse Code Convertor</p>
+            </h1> -->
+
+            <h1 style="color:red;">
+              <strong>
+                Morse Code Convertor
+                <br>
+                <em style="color:green;">See Code on GitHub</em>
+              </strong>
+            </h1>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+
+        <center>
+          <strong>
+              <em>
+
+                <div class="alert alert-danger" role="alert">
+                  <h1>What is Morse Code?</h1>
+                  <h3>Morse Code is a character encoding scheme that allows operators to send messages using a series of electrical pulses represented as short or long pulses, dots, and dashes in other words.</h3>
+                </div>
+
+                <div class="alert alert-warning" role="alert">
+                  <h1>Who Invented Morse Code?</h1>
+                  <h3>Samuel F. B. Morse and his assistant Alfred Vail are known as the inventors of the Morse code.</h3>
+                </div>
+
+                <div class="alert alert-info" role="alert">
+                  <h1>When Was Morse Code Invented?</h1>
+                  <h3>Morse code developed in the 1830s then advanced in the 1840s.</h3>
+                </div>
+
+                <div class="alert alert-danger" role="alert">
+                  <h1>When Was Morse Code Patented?</h1>
+                  <h3>Samuel Morse received a U.S. patent, US1647A, for dot-dash telegraphy signals on June 20, 1840. On the other hand, some sources claim that Samuel Morse received a patent issued by an Ottoman Sultan, Abdulmejid I, for Morse Code. However, according to Cyrus Hamlin’s memoirs and The New York Times obituary published on April 3, 1872, Samuel Morse received not a patent, but an order of the Ottoman Empire, Order of Glory, instead.</h3>
+                </div>
+
+                <div class="alert alert-warning" role="alert">
+                  <h1>What Was the First Message Sent by Morse Code?</h1>
+                  <h3>“What hath God wrought” is the first official message sent by Samuel F.B. Morse on May 24, 1844, to open the Baltimore - Washington telegraph line.</h3>
+                </div>
+
+                <div class="alert alert-info" role="alert">
+                  <h1>What is Morse Code Used For?</h1>
+                  <h3>In the past, Morse code had extensive usage, especially in the military. Although Morse code has a limited usage area today, it is still being used in aviation, amateur radio activities, and assistive technology (AT).</h3>
+                </div>
+
+                <div class="alert alert-danger" role="alert">
+                  <h1>How to Use Morse Code?</h1>
+                  <h3>Morse code can be used in various ways, such as with pen and paper or with the aid of light and sound. Even, it can be used with the parts of the body like eyes or fingers.</h3>
+                </div>
+
+                <div class="alert alert-warning" role="alert">
+                  <h1>Is Morse Code Hard to Learn?</h1>
+                  <h3>Although Morse code had a steep learning curve in the past, thanks to modern applications like Morse code translator or Gboard keyboard, it is easier to learn Morse code nowadays.</h3>
+                </div>
+
+                <div class="alert alert-info" role="alert">
+                  <h1>How to Learn Morse Code?</h1>
+                  <h3>You can learn the Morse code by studying and listening to Morse audio, as well as through word memorization techniques you can find on various websites. However, one of the best Morse code learning methods in 2019 is the Gboard keyboard, which is developed by Google. With the learn Morse exercises provided by Google Creative Lab, you can even exercise online free.</h3>
+                </div>
+
+                <div class="alert alert-danger" role="alert">
+                  <h1>How to Read Morse Code?</h1>
+                  <h3>If you are not proficient enough in reading Morse code, you can look up for the corresponding Morse representation of each character from the Morse alphabet table, or you can use Morse code translator.</h3>
+                </div>
+
+                <div class="alert alert-warning" role="alert">
+                  <h1>How to Translate Morse Code?</h1>
+                  <h3>If you’d like to translate or decipher Morse code and if you do not know how to read Morse code, you can use Morse Code Translator online. With the Morse Decoder, you can decode Morse code and read English text easily. Therefore, you can and end your search for the question of how do you translate Morse code.</h3>
+                </div>
+
+                <div class="alert alert-primary" role="alert">
+                  <h1>What is Morse Code Translator?</h1>
+                  <h3>Morse Code Translator is a translator that lets anyone translate text to Morse code and decode Morse code to text easily. With the online Morse code translator, anyone can convert any plain text in English or whatever language to Morse code and vice versa.</h3>
+                </div>
+
+                <div class="alert alert-warning" role="alert">
+                  <h1>How to Use Morse Code Translator?</h1>
+                  <h3>Just type in the Morse code or text to the corresponding input fields to use the Morse code converter. For instance, do you remember the Nokia SMS Tone? Try decoding “... -- ...” then playing the audio of it. How about decoding a secret message in Morse or the easter egg you found in a game you played? Well, Morse Code Translator can help you as long as you have an internet connection and the ambition to learn Morse code.</h3>
+                </div>
+
+                <div class="alert alert-info" role="alert">
+                  <h1>What Does SOS Mean and What is SOS in Morse Code?</h1>
+                  <h3>SOS in Morse code is “... --- ...”
+                    <br><br>
+                  SOS is a distress signal in Morse code, which is internationally recognized worldwide for obtaining help. It was first adopted by the German government in 1905. Although some people think that SOS stands for “Save Our Souls” or “Save Our Ship”, its letters do not stand for anything.</h3>
+                </div>
+
+                <div class="alert alert-danger" role="alert">
+                  <h1>What is the Morse Code for : I Love You?</h1>
+                  <h3>Morse code developed in the 1830s then advanced in the 1840s.</h3>
+                </div>
+
+                <div class="alert alert-warning" role="alert">
+                  <h1>When Was Morse Code Invented?</h1>
+                  <h3>
+                    “I Love You” in Morse code is “.. / .-.. --- ...- . / -.-- --- ..-”
+                    <br>
+                    “Hello” in Morse code is “.... . .-.. .-.. ---”
+                    <br>
+                    “Help” in Morse code is “.... . .-.. .--.”, but you can also use the SOS signal, which is “... --- ...”.
+                    <br>
+                    “---” means “O” in Morse code.
+                    <br>
+                  </h3>
+                </div>
+
+                <div class="alert alert-info" role="alert">
+                  <h1>What Letter Is 3 Dots in Morse Code?</h1>
+                  <h3>Letter S is three dots in Morse code: “...”</h3>
+                </div>
+
+              </em>
+            </strong>
+          </center>
+
+        </div>
+      </div>
+
+</body>
+</html>
+
+{% endblock %}

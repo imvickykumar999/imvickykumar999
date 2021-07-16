@@ -1,0 +1,110 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../static/css/stylesheet.css">
+
+  <title>QRCode Convertor</title>
+</head>
+
+<body>
+
+  <div class="jumbotron jumbotron-fluid">
+    <!-- {{infolist}} -->
+
+      {% for i in infolist %}
+      <div class="jumbotron">
+
+        {% for j in i %}
+          <h4>
+            <strong>
+              {{j}}
+            </strong>
+          </h4>
+
+        {% endfor %}
+      </div>
+
+      <br>
+      {% endfor %}
+    </div>
+
+    <div class="jumbotron jumbotron">
+      <div class="container">
+
+        <form method="post" action="/converted_ipynb">
+
+          <div class="alert alert-primary" role="alert">
+            <center>
+              <div class="alert alert-warning" role="alert">
+
+                <h2 style="color:green;">
+                  <strong>
+                    Enter ipynb file Contents :
+                  </strong>
+                </h2>
+              </div>
+
+              <h4>
+                <strong>
+                  <br>
+                    (either raw link ...or, <br> copy and paste file text ...or, <br> just press Submit button)
+                    <br><br>
+
+                    <a style="color:red;" href="https://raw.githubusercontent.com/imvickykumar999/vixtor/master/vixtor.ipynb">
+                      for example : https://raw.githubusercontent.com/imvickykumar999/vixtor/master/vixtor.ipynb
+                    </a>
+                 </strong>
+                 <br>
+              </h4>
+
+              <input type="text" name="ipynb" placeholder="Paste here"/>
+              <br><br>
+
+              <div class="alert alert-danger" role="alert">
+                  <!-- <input type="submit" value="Submit"> -->
+                <input type="image"
+                       src="../static/logo/submit.png"
+                       width="200"
+                       height="60"
+                       alt="submit"/>
+              </div>
+
+            </center>
+          </div>
+
+          <br><br>
+        </form>
+
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+
+            <div class="alert alert-danger" role="alert">
+              <a href="https://github.com/imvickykumar999/vickschat/blob/4a73eea164502717c341a7271a890b811d3fcb37/templates/ipynb.html#L131">
+                <!-- <h1>
+                  <p style="color:red;">IPYNB file viewer <br> on GitHub</p>
+                </h1> -->
+                <h1 style="color:red;">
+                  <strong>
+                    IPYNB file viewer
+                    <br>
+                    <em style="color:green;">See Code on GitHub</em>
+                  </strong>
+                </h1>
+              </a>
+
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+</body>
+</html>
+
+{% endblock %}

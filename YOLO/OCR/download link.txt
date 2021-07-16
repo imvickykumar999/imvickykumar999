@@ -1,0 +1,3 @@
+Extract zip in this folder.
+
+https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v4.1.0-bibtag19.exe

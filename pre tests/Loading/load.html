@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>loading</title>
+    <style media="screen">
+      #loading {
+        width: 35px;
+        height: 35px;
+        display: none;
+        background: url(./loader.gif) no-repeat;
+        cursor: wait;
+        }
+    </style>
+  </head>
+  <body>
+
+    <script type="text/javascript"> <![CDATA[
+        function loading(){
+            $("#loading").show();
+            $("#content").hide();
+        }
+]]></script>
+
+    <input type="submit" name="anything_submit" value="Submit" onclick="loading();">
+
+    <div id="loading"></div>
+    <div id="content">
+      <h3>Type anything:</h3>
+      <p>
+        <form action="." method="POST">
+            <input type="text" name="anything" placeholder="Type anything here">
+            <input type="submit" name="anything_submit" value="Submit" onclick="loading();">
+        </form>
+      </p>
+    </div>
+
+  </body>
+</html>

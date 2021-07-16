@@ -1,0 +1,89 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="1" />
+
+    <title>Vicks IOT LED</title>
+  </head>
+
+  <body>
+
+    <div class="jumbotron">
+      <div class="container">
+
+        <div class="alert alert-danger" role="alert">
+
+          <center>
+            <a href="https://github.com/imvickykumar999/hackathon-iot-car-parking/blob/3177d10e74b8ca93acc61f258da9bc4560d1ed30/app.py#L131">
+              <h1 style="color:red;">
+                <strong>
+                  Say "Ok Google"
+                  <br>
+                    <p>
+                      <em style="color:blue;">Turn ON the light</em>
+                    </p>
+                  <br>
+                    <p>
+                      or, <br>
+                      <em style="color:green;">Turn OFF the light</em>
+                    </p>
+                </strong>
+              </h1>
+            </a>
+          </center>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <center>
+
+          <div class="card">
+
+            <a href="https://github.com/imvickykumar999/esp8266-iot-led-android">
+              <img src={{img}} width="400" height="600" alt="switch">
+            </a>
+
+            <div class="card">
+
+              {% if data == '1' %}
+
+              <h1 style="color:red;" class="card-title">Bulb</h1>
+              <br>
+                <h3>
+                  <p class="card-text">Switched ON</p>
+                </h3>
+              <br>
+
+                  <a href="https://github.com/imvickykumar999/hackathon-iot-car-parking" class="btn btn-primary">ON</a>
+              {% else %}
+
+              <h1 style="color:red;" class="card-title">Bulb</h1>
+              <br>
+                <h3>
+                  <p class="card-text">Switched OFF</p>
+                </h3>
+              <br>
+
+                  <a href="https://github.com/imvickykumar999/hackathon-iot-car-parking" class="btn btn-primary">OFF</a>
+              {% endif %}
+
+            </div>
+
+          </div>
+
+        </center>
+      </div>
+    </div>
+
+  </body>
+</html>
+
+{% endblock %}

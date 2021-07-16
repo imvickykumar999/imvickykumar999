@@ -1,0 +1,145 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../static/css/stylesheet.css">
+
+  <title>Firebase Chatting</title>
+</head>
+
+<body>
+
+
+    <div class="jumbotron jumbotron">
+      <center>
+
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+
+            <div class="alert alert-danger" role="alert">
+              <a href="https://github.com/imvickykumar999/YouTube-Comment-Reader">
+                <!-- <h1>
+                  <p>Firebase Chatting Code on GitHub</p>
+                </h1> -->
+
+                <h1 style="color:red;">
+                  <strong>
+                    Firebase Chatting
+                    <br>
+                    <em style="color:green;">See Code on GitHub</em>
+                  </strong>
+                </h1>
+
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <br><br>
+
+        <form method="post" action="/converted_firechat">
+
+          <div class="alert alert-danger" role="alert">
+            <center>
+
+              <div class="alert alert-primary" role="alert">
+                <h3>
+                  <strong>Enter <br>Credentials</strong>
+                </h3>
+
+                <input type="password" name="credentials" placeholder="Due to Security Reason"/>
+                <br><br>
+              </div>
+
+              <div class="alert alert-warning" role="alert">
+                <h3>
+                  <strong>Enter <br>Your Name</strong>
+                </h3>
+
+                <input type="text" name="person" placeholder="Your IP Address will be saved"/>
+                <br><br>
+              </div>
+
+              <div class="alert alert-primary" role="alert">
+                <h3>
+                  <strong>Enter <br>Message</strong>
+                </h3>
+
+                <input type="text" name="message" placeholder="Let's Start Healthy Conversation"/>
+                <br><br>
+              </div>
+
+              <!-- <div class="alert alert-danger" role="alert"> -->
+                <input type="image"
+                       src="../static/logo/submit.png"
+                       width="200"
+                       height="60"
+                       alt="submit"/>
+              <!-- </div> -->
+
+            </center>
+          </div>
+
+        <br><br>
+        </form>
+
+      <p>
+        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          Click me to See Messages
+        </a>
+      </p>
+
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+
+          <!-- <div class="jumbotron jumbotron-fluid"> -->
+            <div class="container">
+              <!-- <h3> -->
+
+                {% for key, values in data.items() %}
+                  <div class="alert alert-success" role="alert">
+
+                    <a class="btn btn-warning" data-toggle="collapse" href="#{{key}}" role="button" aria-expanded="false" aria-controls="{{key}}">
+                      Click me : {{values.split(' => ')[0]}}
+                    </a>
+
+                    <div class="collapse" id="{{key}}">
+                      <div class="card card-body">
+
+                        <div class="alert alert-primary" role="alert">
+
+                          <div class="alert alert-danger" role="alert">
+                            {{key}}
+                          </div>
+
+                          <div class="alert alert-warning" role="alert">
+                            {{values.split(' => ')[1]}}
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                {% endfor %}
+
+              <!-- </h3> -->
+            </div>
+          <!-- </div> -->
+
+        </div>
+      </div>
+
+    </center>
+  </div>
+
+</body>
+</html>
+
+{% endblock %}

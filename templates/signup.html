@@ -1,0 +1,82 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>My Chat App</title>
+  </head>
+  <body>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <center>
+
+          <div class="jumbotron">
+            <div class="container">
+
+              <div class="alert alert-danger" role="alert">
+                <h1 style="color:green;">
+                  <strong>
+                    Sign Up to Chat...
+                  </strong>
+                </h1>
+                <br>
+                <h3 style="color:red;">{{ message }}</h3>
+              </div>
+
+            </div>
+          </div>
+
+          <br>
+          <div class="jumbotron">
+            <div class="container">
+              <div class="alert alert-primary" role="alert">
+
+                <form method="post" action="/signup">
+                  <label><h5>Username:</h5></label>
+                  <input type="text" name="username">
+
+                  <br><br>
+                  <label><h5>Email:</h5></label>
+                  <input type="email" name="email">
+
+                  <br><br>
+                  <label><h5>Password:</h5></label>
+                  <input type="password" name="password">
+                </form>
+
+                </div>
+                <br><br>
+<!--                 <button type="submit">Submit</button> -->
+              
+                <input type="image"
+                       src="../static/logo/submit.png"
+                       width="200"
+                       height="60"
+                       alt="submit"/>
+
+                 <br><br>
+                 <a href="/login">
+                 <h2 style="color:red;">
+                   Click me:
+
+                   <em style="color:blue;">
+                     Login to chat...
+                   </em>
+
+                 </h2>
+               </a>
+
+             </div>
+           </div>
+
+        </center>
+      </div>
+    </div>
+
+  </body>
+</html>
+
+{% endblock %}

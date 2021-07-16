@@ -1,0 +1,96 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../static/css/stylesheet.css">
+
+  <title>Covid19 Vaccine Slot E-Mail</title>
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="alert alert-danger" role="alert">
+
+          <a href="https://github.com/imvickykumar999/hackathon-iot-car-parking/blob/34f3555917e5dc62ce19c08aa85ce0a4b6e4fc07/vicks/playfair_cipher.py#L2">
+            <!-- <h1>
+              Playfair Cipher on GitHub
+            </h1> -->
+
+            <h1 style="color:red;">
+              <strong>
+                Covid19 Vaccine<br>Slot E-Mail
+                <br>
+                <em style="color:green;">See Code on GitHub</em>
+              </strong>
+            </h1>
+          </a>
+
+      </div>
+    </div>
+
+    <br><br><br>
+
+    <div id="output" class="card">
+      Total Sheets in Excel : {{ifsent}}
+      <div class="alert alert-primary" role="alert">
+        {{l}}
+      </div>
+    </div>
+
+    <br><br><br>
+
+    <form method="post" action="/converted_covid19">
+      <div class="alert alert-primary" role="alert">
+        <center>
+
+          <div class="alert alert-warning" role="alert">
+            <h3>
+              <strong>Enter PIN code</strong>
+            </h3>
+
+            <input type="text" name="pin" placeholder="for example : 302020"/>
+            <br><br>
+          </div>
+
+          <div class="alert alert-info" role="alert">
+            <h3>
+              <strong>Enter Min Age Limit</strong>
+            </h3>
+
+            <input type="text" name="age" placeholder="Type... 18 or 45"/>
+            <br><br>
+          </div>
+
+          <div class="alert alert-danger" role="alert">
+            <h3>
+              <strong>Enter your E-Mail address</strong>
+            </h3>
+
+            <input type="text" name="email" placeholder="e.g., hellovickykumar123@gmail.com"/>
+            <br><br>
+          </div>
+
+          <div class="alert alert-danger" role="alert">
+              <!-- <input type="submit" value="Submit"> -->
+            <input type="image"
+                   src="../static/logo/submit.png"
+                   width="200"
+                   height="60"
+                   alt="submit"/>
+          </div>
+
+        </center>
+      </div>
+
+    <br><br>
+  </form>
+
+</body>
+</html>
+
+{% endblock %}

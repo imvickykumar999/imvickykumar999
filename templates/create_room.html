@@ -1,0 +1,71 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>My Chat App</title>
+  </head>
+  <body>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <center>
+
+          <!-- <h1>Create Room</h1>
+          <h3>{{ message }}</h3> -->
+
+          <div class="jumbotron">
+            <div class="container">
+
+              <div class="alert alert-danger" role="alert">
+                <h1 style="color:green;">
+                  <strong>
+                    Create Room to Chat...
+                  </strong>
+                </h1>
+                <br>
+                <h3 style="color:red;">{{ message }}</h3>
+              </div>
+
+            </div>
+          </div>
+
+          <br>
+          <div class="jumbotron">
+            <div class="container">
+              <form method="post" action="/login">
+
+                <div class="alert alert-primary" role="alert">
+
+                  <label><h5>Room Name:</h5></label>
+                  <input type="text" name="room_name">
+
+                  <br><br>
+                  <label><h5>Members:</h5></label>
+                  <input type="text" name="members">
+
+                </div>
+                <br><br>
+
+<!--                 <button type="submit">Submit</button> -->
+                
+                <input type="image"
+                       src="../static/logo/submit.png"
+                       width="200"
+                       height="60"
+                       alt="submit"/>
+
+              </form>
+            </div>
+          </div>
+
+        </center>
+      </div>
+    </div>
+
+  </body>
+</html>
+
+{% endblock %}

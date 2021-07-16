@@ -1,0 +1,111 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Vicks News</title>
+  </head>
+
+  <body>
+
+    <div class="jumbotron">
+      <div class="container">
+
+        <div class="alert alert-danger" role="alert">
+          <center>
+            <!-- <a href="https://inshorts.com/en/read"> -->
+            <a href="https://github.com/imvickykumar999/vickschat/blob/0c0e67b1b8ab4adeecc1ae6e25643c8c0c866e69/templates/news.html#L21">
+              <h1 style="color:red;">
+                <strong>
+                  Webscraping Inshorts News
+                  <br>
+                  <em style="color:green;">See Code on GitHub</em>
+                </strong>
+              </h1>
+            </a>
+          </center>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <!-- <div class="row row-cols-1 row-cols-md-2"> -->
+
+          {% for x in range_ha %}
+
+            <!-- <script>
+            $(document).ready(function() {
+             $("#mybutton{{x+1}}").click(function() {
+
+                var entry = {{x}};
+
+                $.getJSON({
+                url: "/news",
+                data: { entry_id: entry, },
+                success: function(data){
+                    $("#varID").html(data.entry);
+                }
+                });
+
+             });
+
+            });
+            </script> -->
+
+              <div class="col mb-4">
+                <div class="card">
+                  <a href={{ia[x]}}>
+                    <!-- <img src="../static/news/_0.jpg" class="card-img-top" alt="0"> -->
+                    <img src={{ia[x]}} class="card-img-top">
+                  </a>
+                  <div class="card">
+                    <center>
+                      <h1 style="color:red;" class="card-title">{{x+1}}). {{ha[x]}}</h1>
+                      <br>
+
+                        <h3>
+                          <div class="alert alert-primary" role="alert">
+                            <p class="card-text">{{ba[x]}}</p>
+                          </div>
+                        </h3>
+
+                      <br>
+                      {% if la[x] == 'link not found' %}
+                          <a href="{{la[x]}}" class="btn btn-primary">Link NOT Found</a>
+                      {% else %}
+                          <a href="{{la[x]}}" class="btn btn-primary">Read More</a>
+                      {% endif %}
+
+                      <br><br>
+                      <div class="alert alert-danger" role="alert">
+
+                        <audio controls autoplay muted>
+                          <source src="uploads/news/{{ta[x]}}.mp3" type="audio/mpeg">
+                        </audio>
+                      </div>
+
+                      <!-- <input type = "button" id = "mybutton{{x+1}}" value = " Listen News {{x+1}} " /> -->
+
+                    </center>
+                  </div>
+                </div>
+              </div>
+
+            <br>
+          {% endfor %}
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
+
+{% endblock %}

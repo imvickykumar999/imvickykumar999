@@ -1,0 +1,85 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../static/css/stylesheet.css">
+
+  <title>QRCode Convertor</title>
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <center>
+
+            <a href={{data}}>
+              <img src="{{img}}" alt="qrcode"
+              height="250"
+              width="250">
+            </a>
+
+            <br><br><br>
+
+            <form method="post" action="/converted_qrcode">
+
+              <div class="alert alert-primary" role="alert">
+                <center>
+                  <h3>
+                    <strong>Enter some Text : </strong>
+                  </h3>
+
+                  <input type="text" name="qrcode" placeholder="Type here"/>
+                  <br><br>
+
+                  <div class="alert alert-danger" role="alert">
+                      <!-- <input type="submit" value="Submit"> -->
+                    <input type="image"
+                           src="../static/logo/submit.png"
+                           width="200"
+                           height="60"
+                           alt="submit"/>
+                  </div>
+
+                </center>
+              </div>
+
+              <br><br>
+            </form>
+
+            <div class="jumbotron jumbotron">
+              <div class="container">
+
+                <div class="alert alert-danger" role="alert">
+                  <a href="https://github.com/lincolnloop/python-qrcode#what-is-a-qr-code">
+                    <!-- <h1>
+                      <p>QRCode on GitHub</p>
+                    </h1> -->
+
+                    <h1 style="color:red;">
+                      <strong>
+                        Text to QRCode Converter
+                        <br>
+                        <em style="color:green;">See Code on GitHub</em>
+                      </strong>
+                    </h1>
+                  </a>
+
+                </div>
+              </div>
+            </div>
+
+          </center>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
+
+{% endblock %}

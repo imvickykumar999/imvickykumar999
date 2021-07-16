@@ -1,0 +1,141 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Vicks IOT LED</title>
+  </head>
+
+  <body>
+
+    <div class="jumbotron">
+      <div class="container">
+
+        <div class="alert alert-danger" role="alert">
+
+          <center>
+            <!-- <a href="https://inshorts.com/en/read"> -->
+            <a href="https://github.com/imvickykumar999/hackathon-iot-car-parking/blob/817968740db243f19b5e9619b4f73c9e64d2d363/app.py#L440">
+              <h1 style="color:red;">
+                <strong>
+                  IOT LED Android App
+                  <br>
+                  <em style="color:green;">See Code on GitHub</em>
+                </strong>
+              </h1>
+            </a>
+          </center>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron jumbotron">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <center>
+
+              <div class="card">
+                <div class="card">
+
+                  {% if data == '1' %}
+
+                  <a href="https://github.com/imvickykumar999/esp8266-iot-led-android">
+                    <img src={{img}} alt="switch">
+                  </a>
+
+                  <h1 style="color:red;" class="card-title">Bulb</h1>
+                  <br>
+                    <h3>
+                      <p class="card-text">There is a LED at my Room, <br> which has been Switched ON</p>
+                    </h3>
+                  <br>
+
+                      <a href="https://github.com/imvickykumar999/esp8266-iot-led-android" class="btn btn-primary">Switched ON</a>
+
+                  {% elif data == '0' %}
+
+                  <a href="https://github.com/imvickykumar999/esp8266-iot-led-android">
+                    <img src={{img}} alt="switch">
+                  </a>
+
+                  <h1 style="color:red;" class="card-title">Bulb</h1>
+                  <br>
+                    <h3>
+                      <p class="card-text">There is a LED at my Room, <br> which has been Switched OFF</p>
+                    </h3>
+                  <br>
+
+                      <a href="https://github.com/imvickykumar999/esp8266-iot-led-android" class="btn btn-primary">Switched OFF</a>
+
+                  {% else %}
+
+                  <a href="https://github.com/imvickykumar999/esp8266-iot-led-android">
+                    <img src={{img}} alt="switch">
+                  </a>
+
+                  <h1 style="color:red;" class="card-title">Bulb</h1>
+                  <br>
+                    <h3>
+                      <p class="card-text">Wrong Credentials</p>
+                    </h3>
+                  <br>
+
+                      <a href="https://github.com/imvickykumar999/esp8266-iot-led-android" class="btn btn-primary">Switched OFF</a>
+
+                  {% endif %}
+
+                </div>
+              </div>
+
+              <br><br>
+
+          <form method="post" action="/converted_iotled">
+
+            <div class="alert alert-danger" role="alert">
+              <center>
+
+                <div class="alert alert-warning" role="alert">
+                  <h3>
+                    <strong>Enter Credentials</strong>
+                  </h3>
+
+                  <input type="password" name="credentials" placeholder="Due to Security Purpose"/>
+                </div>
+
+                <div class="alert alert-success" role="alert">
+                  <h3>
+                    <strong>Enter Switch (1/0)</strong>
+                  </h3>
+
+                  <input type="text" name="iotled" placeholder="LED Switch"/>
+                </div>
+
+                <br>
+
+                <div class="alert alert-primary" role="alert">
+                  <!-- <input type="submit" value="Submit"> -->
+                <input type="image"
+                       src="../static/logo/submit.png"
+                       width="200"
+                       height="60"
+                       alt="submit"/>
+                </div>
+
+              </center>
+            </div>
+          </form>
+
+        </center>
+      </div>
+    </div>
+  </div>
+
+  </body>
+</html>
+
+{% endblock %}

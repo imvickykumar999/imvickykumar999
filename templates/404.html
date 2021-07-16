@@ -1,0 +1,77 @@
+{% extends "base.html"%}
+{% block content %}
+
+
+<div class="jumbotron">
+  <div class="container">
+    <center>
+
+      <!-- <a href="{{url_for('contact')}}">
+        <h1>Error 404 !!!</h1>
+      </a> -->
+
+      <div class="alert alert-primary" role="alert">
+        <a href="/vickstube">
+          <!-- <h1>Error 404 !!!</h1> -->
+          <h1 style="color:red;">
+                <strong>
+                  Error 404 !!!
+                  <br>Page not found.
+                  <br><br>
+                  <em style="color:green;">
+                    Due to...
+                    <br> too many downloads,
+                    <br>in short period of time,
+                    <br><br>( Video Folder ) is completely filled...
+                    <br><br>
+                    <p style="color:blue;">
+                      Try Again Later...
+                      <br>Many users are using this website right now
+                      <br>HTTP Error 429.
+                    </p>
+                  </em>
+                </strong>
+              </h1>
+        </a>
+      </div>
+
+    </center>
+  </div>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+
+    <center>
+      <div class="card">
+
+        <a href="{{url_for('news')}}">
+          <img src="../static/screenshots/error404.gif" class="card-img" alt="...">
+        </a>
+
+        <div class="card-body">
+          <p class="card-text">
+            <a href="{{url_for('contact')}}">
+
+              <h1 style="color:red;">
+                <strong>
+                  Sorry, we couldn't find the page,
+                  <br>
+                  <em style="color:green;">you were looking for !!!</em>
+                </strong>
+              </h1>
+
+              <!-- Sorry, we couldn't find the page, <br> you were looking for !!! -->
+            </a>
+          </p>
+        </div>
+
+      </div>
+    </center>
+
+  </div>
+</div>
+
+
+{% endblock %}

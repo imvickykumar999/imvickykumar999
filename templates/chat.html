@@ -1,0 +1,101 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+
+      <title>My Chat App</title>
+  </head>
+
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <center>
+
+          <div class="jumbotron">
+            <div class="alert alert-primary" role="alert">
+
+              <h1 style="color:red;">
+                Welcome to Chat Website
+              </h1>
+            </div>
+
+            <div class="alert alert-danger" role="alert">
+              <h2>
+
+                Hi... <br>
+                {% if current_user.is_authenticated %}
+                    <em style="color:blue;">{{ current_user.username }}</em>
+                {% else %}
+                    <em style="color:green;">Guest</em>
+                {% endif %}!
+
+              </h2>
+            </div>
+          </div>
+
+          <div class="jumbotron">
+
+            {% if current_user.is_authenticated %}
+              <div class="alert alert-primary" role="alert">
+
+                <h1 style="color:green;">
+                  Choose from Room List
+                </h1>
+              </div>
+
+              <ol>
+                {% for room in rooms %}
+                  <li>
+                    <div class="alert alert-warning" role="alert">
+
+                      <a href="/rooms/{{ room._id.room_id }}">
+                        <h3 style="color:red;">
+                          {{ room.room_name }}
+                        </h3>
+                      </a>
+
+                    </div>
+                  </li>
+
+                {% endfor %}
+              </ol>
+
+              <a href="/create-room">
+
+                <h2 style="color:red;">
+                  Click me:
+
+                  <em style="color:blue;">
+                    to Create New Room...
+                  </em>
+
+                </h2>
+              </a>
+
+              {% else %}
+              <a href="/signup">
+
+                <h2 style="color:red;">
+                  Click me:
+
+                  <em style="color:blue;">
+                    SignUp to chat...
+                  </em>
+
+                </h2>
+              </a>
+              {% endif %}
+
+          </div>
+        </center>
+
+      </div>
+    </div>
+
+  </body>
+</html>
+
+{% endblock %}

@@ -1,0 +1,219 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <title>My Chat App</title>
+  </head>
+  <body style="background-color:blue;">
+
+    <div class="jumbotron">
+      <div class="container">
+        <center>
+
+          <div class="alert alert-danger" role="alert">
+            <h1 style="color:green;">
+
+              <strong>
+                Welcome to Chat Room:
+                <br>
+
+                <em>
+                  {{ room.name }}
+                </em>
+              </strong>
+
+            </h1>
+          </div>
+          <br>
+
+          <div class="alert alert-primary" role="alert">
+
+            <button type="button" id="load_older_messages_btn">
+              <h4>
+                Load Older Messages
+              </h4>
+            </button>
+            <br><br>
+
+            <div id="messages">
+              {% for message in messages %}
+                <div class="alert alert-warning" role="alert">
+
+                  <div>
+                    <h3 style="color:blue;">
+                    <b>
+                      <em>
+                        {{ message.sender }}&nbsp;[{{ message.created_at }}]:&nbsp;
+                      </em>
+                    </b>
+
+                    </h3>
+                  </div>
+
+                  <h5 style="color:red;">
+                    <strong>
+                      {{ message.text }}
+                    </strong>
+                  </h5>
+                </div>
+
+              {% endfor %}
+            </div>
+
+            <br>
+            <div class="alert alert-danger" role="alert">
+              <form id="message_input_form">
+
+                  <input type="text" id="message_input" placeholder="Enter your message here">
+                  <button type="submit">
+                    <h5 style="color:red;">
+                      . Send .
+                    </h5>
+                  </button>
+              </form>
+
+            </div>
+          </div>
+
+          <br>
+          <div class="alert alert-info" role="alert">
+            <h2 style="color:green;">
+
+              <strong>
+                Members...
+              </strong>
+            </h2>
+
+            <br>
+            <ol>
+              {% for member in room_members %}
+
+              <div class="alert alert-warning" role="alert">
+                <li>
+                  <h4 style="color:red;">
+
+                    <strong>
+                      {{ member._id.username }}
+                    </strong>
+
+                  </h4>
+                </li>
+              </div>
+
+              {% endfor %}
+            </ol>
+
+            <br>
+            <div class="alert alert-danger" role="alert">
+              <a href="edit">
+                <h4 style="color:blue;">
+
+                  <strong>
+                    ...edit Members
+                  </strong>
+
+                </h4>
+              </a>
+            </div>
+          </div>
+
+
+        </center>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js">
+  </script>
+
+  <!-- <script type="text/javascript" src="room.js"></script> -->
+
+  <script>
+      const socket = io.connect("http://127.0.0.1:5000");
+      // var socket = io.connect("https://vicksflasklogin.herokuapp.com:58670/socket.io/?EIO=3&transport=websocket");
+
+      // var socket = io('http://127.0.0.1:5000', {transports: ['websocket', 'polling', 'flashsocket']});
+
+      socket.on('connect', function () {
+          socket.emit('join_room', {
+              username: "{{ username }}",
+              room: "{{ room._id }}"
+          });
+
+          let message_input = document.getElementById('message_input');
+
+          document.getElementById('message_input_form').onsubmit = function (e) {
+              e.preventDefault();
+              let message = message_input.value.trim();
+              if (message.length) {
+                  socket.emit('send_message', {
+                      username: "{{ username }}",
+                      room: "{{ room._id }}",
+                      message: message
+                  })
+              }
+              message_input.value = '';
+              message_input.focus();
+          }
+      });
+
+      let page = 0;
+
+      document.getElementById("load_older_messages_btn").onclick = (e) => {
+          page += 1;
+          fetch("/rooms/{{ room._id }}/messages?page=" + page, {
+              method: 'GET',
+              headers: {
+                  'Content-Type': 'application/json'
+              }
+          }).then(response => {
+              response.json().then(messages => {
+                  messages.reverse().forEach(message => prepend_message(message.text, message.sender, message.created_at));
+              })
+          })
+      };
+
+      function prepend_message(message, username, created_at) {
+          const newNode = document.createElement('div');
+          newNode.innerHTML = `<b>${username}&nbsp;[${created_at}]:&nbsp;</b> ${message}`;
+          const messages_div = document.getElementById('messages');
+          messages_div.insertBefore(newNode, messages_div.firstChild);
+      }
+
+      window.onbeforeunload = function () {
+          socket.emit('leave_room', {
+              username: "{{ username }}",
+              room: "{{ room._id }}"
+          })
+      };
+
+      socket.on('receive_message', function (data) {
+          console.log(data);
+          const newNode = document.createElement('div');
+          newNode.innerHTML = `<b>${data.username}&nbsp;[${data.created_at}]:&nbsp;</b> ${data.message}`;
+          document.getElementById('messages').appendChild(newNode);
+      });
+
+      socket.on('join_room_announcement', function (data) {
+          console.log(data);
+          if (data.username !== "{{ username }}") {
+              const newNode = document.createElement('div');
+              newNode.innerHTML = `<b>${data.username}</b> has joined the room`;
+              document.getElementById('messages').appendChild(newNode);
+          }
+      });
+
+      socket.on('leave_room_announcement', function (data) {
+          console.log(data);
+          const newNode = document.createElement('div');
+          newNode.innerHTML = `<b>${data.username}</b> has left the room`;
+          document.getElementById('messages').appendChild(newNode);
+      });
+  </script>
+</html>
+
+{% endblock %}

@@ -1,0 +1,511 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../static/css/stylesheet.css">
+
+  <title>YouTube Comments</title>
+</head>
+
+<body>
+
+  <div class="jumbotron jumbotron">
+    <div class="container">
+      <center>
+
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+
+            <div class="alert alert-success" role="alert">
+              <a href="https://github.com/imvickykumar999/hackathon-iot-car-parking/stargazers">
+
+                <h1 style="color:red;">
+                  <strong>
+                    YouTube Media Downloader
+                    <br>
+                    <em style="color:green;">See Code on GitHub</em>
+                    <br><br>
+                    Background Playlist Music Player
+                  </strong>
+                </h1>
+
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </center>
+    </div>
+  </div>
+  <br>
+
+  <div id="vickscroll">
+    {% if scroll %}
+    <script>
+        document.location.hash = '#' + '{{ scroll }}';
+    </script>
+    {% endif %}
+  </div>
+  <br>
+
+  <div class="jumbotron">
+    <div class="container">
+      <center>
+
+        {% if video_type == "0" %}
+        <div class="class="video-container"">
+          <iframe
+                  src="https://www.youtube.com/embed/{{vid}}?autoplay={{ap}}&start={{tm}}&loop=1"
+                  frameborder="0"
+                  width="720" height="405"
+                  allow="autoplay; encrypted-media" allowfullscreen>
+          </iframe>
+
+          <br><br>
+          <div class="alert alert-success" role="alert">
+            <strong>
+              <a href="/vickstube?vix={{vid}}">
+
+                <h2 style="color:red;">
+                  Share (Copy Hyperlink) Embedded Video
+                </h2>
+
+              </a>
+            </strong>
+          </div>
+        </div>
+
+        <h3>
+          <div class="alert alert-danger" role="alert">
+            {{info[0]}}
+            <br>
+          </div>
+
+          <div class="alert alert-primary" role="alert">
+            Likes : {{info[1]}}
+            <br>
+            Views : {{info[2]}}
+          </div>
+        </h3>
+
+        {% endif %}
+
+        {% if video_type == "P" %}
+          <iframe src="https://www.youtube.com/embed/videoseries?list={{pid}}"
+                  width="720" height="405"
+                  frameborder="1"
+                  allowfullscreen="allowfullscreen"
+                  modestbranding="1">
+          </iframe>
+
+          <br><br>
+          <div class="alert alert-success" role="alert">
+            <strong>
+              <a href="/vickstube?list={{pid}}">
+
+                <h2 style="color:red;">
+                  Share (Copy Hyperlink) Embedded Playlist
+                </h2>
+
+              </a>
+            </strong>
+          </div>
+        {% endif %}
+
+        {% if video_type == "V" %}
+          <video width="720" height="405" controls>
+            <source src="uploads/videos/{{title}}_trimmed.mp4" type="video/mp4">
+          </video>
+
+          <!-- <a class="btn btn-primary" href="uploads/videos/{{title}}_trimmed.mp4">
+            <h3>Click me to<br>Download Video</h3>
+          </a> -->
+
+          <br><br>
+          <div class="alert alert-success" role="alert">
+            <strong>
+              <a href="/uploads/videos/{{title}}_trimmed.mp4">
+
+                <h2 style="color:red;">
+                  Share (Copy Hyperlink) Downloaded Video
+                </h2>
+
+              </a>
+            </strong>
+          </div>
+        {% endif %}
+
+        {% if video_type == "A" %}
+          <div class="alert alert-danger" role="alert">
+            <audio controls autoplay muted>
+              <source src="uploads/audio/{{title}}_trimmed.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- <a class="btn btn-primary" href="uploads/audio/{{title}}.mp3">
+            <h3>Click me to<br>Download Audio</h3>
+          </a> -->
+
+          <br><br>
+          <div class="alert alert-success" role="alert">
+            <strong>
+              <a href="uploads/audio/{{title}}_trimmed.mp3">
+
+                <h2 style="color:red;">
+                  Share (Copy Hyperlink) Downloaded Audio
+                </h2>
+
+              </a>
+            </strong>
+          </div>
+        {% endif %}
+
+      </center>
+    </div>
+  </div>
+
+  <br>
+  <div class="jumbotron jumbotron">
+    <div class="container">
+      <center>
+
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+
+            <form method="post" action="/converted_vickstube">
+              <div class="alert alert-success" role="alert">
+                <center>
+
+                  <!-- <div class="alert alert-primary" role="alert">
+                    <h3>
+                      <strong>Enter YouTube Video Title,<br>Video ID or, URL : </strong>
+                    </h3>
+
+                    <input type="text" name="ytc" placeholder="Type Title or, Paste URL here"/>
+                    <br><br>
+                  </div> -->
+
+                  <div class="alert alert-warning" role="alert">
+                    <div class="alert alert-primary" role="alert">
+
+                      <a href="https://www.youtube.com/watch?v=AZmAgoir1Tc">
+                        <h3>
+                          <strong>
+                            Voice Search...<br>
+                            <br>YouTube Video Title,
+                            <br>Video ID or,
+                          </strong>
+                        </h3>
+                      </a>
+
+                      <a href="https://www.youtube.com/watch?v=VEkj2sanAeU&list=PLO7-VO1D0_6M1xUjj8HxTxskouWx48SNw&index=1">
+                        <h3>
+                          <strong>
+                            <br>Paste Video or,
+                            <br>Playlist URL here...
+                          </strong>
+                        </h3>
+                      </a>
+                    </div>
+
+                    {% if len == 34 %}
+                      <input type="text" name="ytc" value="https://www.youtube.com/watch?list={{prefill}}" id="result1" placeholder="Voice Search"/>
+                    {% else %}
+                      <input type="text" name="ytc" value="{{prefill}}" id="result1" placeholder="Voice Search"/>
+                    {% endif %}
+                    <br><br>
+
+                    <!-- <input type="text" id="result1" size="40" maxlength=100 name = "Name" />
+                    <br> -->
+
+                    <div class="alert alert-success" role="alert">
+                      <h5>Click me to <strong>START</strong> speaking...</h5>
+                      <button type = "button" onclick="startConverting();">
+                        <i class="fa fa-microphone"></i>
+                      </button>
+                    </div>
+
+                    <div class="alert alert-danger" role="alert">
+                      <h5>Click me to <strong>STOP</strong> speaking...</h5>
+                    	<button type = "button" onclick="stopConverting();">
+                        <i class="fa fa-remove">
+                        </i>
+                      </button>
+                    </div>
+
+                		<script type="text/javascript">
+
+                  		var overlay = document.getElementById("overlay");
+
+                  			var r = document.getElementById('result1');
+                  			var speechRecognizer = new webkitSpeechRecognition();// a new speech recognition object
+
+                  			//function to start listening to voice and then convert it to text
+                  			function startConverting () {
+                  				if('webkitSpeechRecognition' in window){
+
+                  					speechRecognizer.continuous = true;
+                  					speechRecognizer.interimResults = true;
+                  					speechRecognizer.lang = 'en-IN';
+                  					speechRecognizer.start();
+
+                  					var finalTranscripts = '';
+                  					speechRecognizer.onresult = function(event){
+                  						var interimTranscripts = '';
+
+                  						for(var i = event.resultIndex; i < event.results.length; i++){
+                  							var transcript = event.results[i][0].transcript;
+                  							transcript.replace("\n", "<br>");
+
+                  							if(event.results[i].isFinal){
+                  								finalTranscripts += transcript;
+                  							}
+
+                                else{
+                  								interimTranscripts += transcript;
+                  							}
+                  						}
+                  						r.value = finalTranscripts + interimTranscripts ;
+                  					};
+                  					speechRecognizer.onerror = function (event) {
+                  					};
+                  				}
+
+                          else{
+                  					r.innerHTML = 'No browser support. Please upgrade your browser';
+                  				}
+                  			}
+
+                  			//function to stop listening
+                  			function stopConverting()
+                  			{
+                  				speechRecognizer.stop();
+                  			}
+
+                  		</script>
+                  		<br>
+
+                    </div>
+
+<!-- --------------------------------------------------------- -->
+
+                  <!-- <div class="alert alert-primary" role="alert">
+                    <h3>
+                      <strong>Want to Download <br> Video or Audio ? (V / A) : </strong>
+                    </h3>
+
+                    <input type="text" name="ytdownload" placeholder="Write A for Audio, V for Video"/>
+                    <br><br>
+                  </div> -->
+
+                  <br>
+
+                  <a class="btn btn-warning"
+                     data-toggle="collapse"
+                     role="button"
+                     href="#download"
+                     aria-expanded="false"
+                     aria-controls="download">
+
+                     <!-- <div class="alert alert-primary" role="alert"> -->
+                       <h3>
+                         <strong>Click Me to Download</strong>
+                       </h3>
+                    <!-- </div> -->
+                  </a>
+
+                  <br><br>
+
+                  <div class="collapse" id="download">
+                    <div class="alert alert-primary" role="alert">
+                      <h3>
+                        <strong>Advanced Settings</strong>
+                      </h3>
+
+                      <br>
+                      <div class="alert alert-danger" role="alert">
+                        <div class="custom-control custom-radio">
+                          <input value="0" type="radio" id="audio" name="customRadio" class="form-check-input" checked>
+                          <label class="form-check-label" for="customRadio1">
+                            <h5>Don't Download</h5>
+                          </label>
+                        </div>
+                      </div>
+
+                      <br>
+                      <div class="alert alert-success" role="alert">
+                        <div class="custom-control custom-radio">
+                          <input value="A" type="radio" id="audio" name="customRadio" class="form-check-input">
+                          <label class="form-check-label" for="customRadio1">
+                            <h5>Download Audio</h5>
+                          </label>
+                        </div>
+                      </div>
+
+                      <br>
+                      <div class="alert alert-warning" role="alert">
+                        <div class="custom-control custom-radio">
+                          <input value="V" type="radio" id="video" name="customRadio" class="form-check-input">
+                          <label class="form-check-label" for="customRadio2">
+                            <h5>Download Video</h5>
+                          </label>
+                        </div>
+                      </div>
+
+                    </div>
+                    <br><br>
+
+                    <div class="alert alert-danger" role="alert">
+                      <h2>
+                        <strong>
+                          Enter Trim Timing
+                        </strong>
+                      </h2>
+
+                      <div class="alert alert-primary" role="alert">
+                        <input type="text" name="vts" placeholder="intial time in seconds"/>
+                        <br>
+                        <input type="text" name="vte" placeholder="final time in seconds"/>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <br>
+                  <!-- <div class="alert alert-success" role="alert"> -->
+                    <input type="image"
+                           src="../static/logo/submit.png"
+                           width="200"
+                           height="60"
+                           alt="submit"/>
+                  <!-- </div> -->
+
+                </center>
+              </div>
+            </form>
+
+          </div>
+        </div>
+
+      </center>
+    </div>
+  </div>
+
+  <div class="jumbotron">
+    <div class="container">
+
+      <center>
+        <strong>
+            <em>
+
+              <a class="btn btn-warning" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <h3>Click me to... <br>See Comments</h3>
+              </a>
+
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                  <div class="container">
+
+                      {% for key, value in dict.items() %}
+                        <div class="alert alert-success" role="alert">
+
+                          {% if value %}
+
+                            <a class="btn btn-primary" data-toggle="collapse" href="#{{key[0:2]}}" role="button" aria-expanded="false" aria-controls="{{key}}">
+                              <h1>{{key}}</h1>
+                            </a>
+
+                            <div class="collapse" id="{{key[0:2]}}">
+                              <div class="card card-body">
+
+                                <div>
+                                  {% for i in value %}
+
+                                  <div class="alert alert-danger" role="alert">
+                                    <h3>
+                                      {{i}}
+                                    </h3>
+                                  </div>
+
+                                  {% endfor %}
+                                </div>
+
+                              </div>
+                            </div>
+
+                          {% else %}
+
+                          <h1>
+                            {{key}}
+                          </h1>
+
+                          {% endif %}
+
+                        </div>
+                      {% endfor %}
+
+                  </div>
+                </div>
+              </div>
+
+            </em>
+          </strong>
+        </center>
+
+      </div>
+    </div>
+
+    {% if vidlist %}
+    <div class="jumbotron">
+      <div class="container">
+        <center>
+
+          <a class="btn btn-success" data-toggle="collapse" href="#collapsevideo" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <h3>Click me for... <br>More Videos</h3>
+          </a>
+
+          <br><br>
+          <div class="collapse" id="collapsevideo">
+            {% for i in range10 %}
+
+              <br><br>
+              <div class="class="video-container"">
+                <iframe
+                        src="https://www.youtube.com/embed/{{vidlist[i]}}"
+                        frameborder="0"
+                        width="720" height="405"
+                        allow="autoplay; encrypted-media" allowfullscreen>
+                </iframe>
+
+                <br><br>
+                <div class="alert alert-success" role="alert">
+                  <strong>
+                    <a href="/vickstube?vix={{vidlist[i]}}">
+
+                      <h2 style="color:red;">
+                        Share (Copy Hyperlink) Embedded Video [{{i}}]
+                      </h2>
+
+                    </a>
+                  </strong>
+                </div>
+              </div>
+            <br><br><br>
+
+          {% endfor %}
+          </div>
+
+        </center>
+      </div>
+    </div>
+    {% endif %}
+
+</body>
+</html>
+
+{% endblock %}
