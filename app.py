@@ -599,7 +599,7 @@ def converted_iotled():
     credentials = request.form['credentials']
     obj = c.vicks(credentials, 'Vicky', 'https://home-automation-336c0-default-rtdb.firebaseio.com/')
 
-    data = request.form['iotled']
+    data = request.form['turn']
     if data == '':
         data = None
     else:
