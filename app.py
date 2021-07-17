@@ -308,6 +308,22 @@ def vickstube():
     dict = ytc.comments(vid)
     info = ytc.tvl(vid)
 
+    # from vicks import crud as c
+    # import pandas as pd
+    #
+    # obj = c.vicks('@Hey_Vicks',
+    #     link = 'https://quickstart-1578034411252.firebaseio.com/')
+    #
+    # obj.add(vid, 'Video/Views')
+    # vlist = list(obj.pull('Video/Views').values())
+    #
+    # counts = pd.Series(vlist).value_counts()
+    # print('####################### -> ', counts)
+    # vdict = dict(counts.items())
+    #
+    # recommend = list(vdict.keys())
+    # print(recommend)
+
     return render_template("ytc.html",
                             dict=dict,
                             tm=tm,
@@ -318,6 +334,10 @@ def vickstube():
                             video_type="0",
                             vidlist = [],
                             vid=vid,
+                            range10=range(1,11),
+                            # recommend=recommend,
+                            recommend=[],
+                            # rangerec=range(recommend),
                             info=info,
                             scroll='vickscroll',
                             )
@@ -411,6 +431,23 @@ def converted_vickstube():
 
     # print(title, pid)
     print(vidlist)
+
+    from vicks import crud as c
+    import pandas as pd
+
+    obj = c.vicks('@Hey_Vicks',
+        link = 'https://quickstart-1578034411252.firebaseio.com/')
+
+    obj.add(vid, 'Video/Views')
+    vlist = list(obj.pull('Video/Views').values())
+
+    counts = pd.Series(vlist).value_counts()
+    print('####################### -> ', counts)
+    vdict = dict(counts.items())
+
+    recommend = list(vdict.keys())
+    print(recommend)
+
     return render_template("ytc.html",
                             dict=com,
                             tm=tm,
@@ -418,8 +455,10 @@ def converted_vickstube():
                             title=title,
                             video_type=video_type,
                             vidlist=vidlist,
+                            recommend=recommend,
                             pid = pid,
                             range10=range(1,11),
+                            rangerec=range(len(recommend)),
                             info=info,
                             vid=vid,
                             )

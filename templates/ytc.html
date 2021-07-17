@@ -505,6 +505,51 @@
     </div>
     {% endif %}
 
+    {% if recommend %}
+    <div class="jumbotron">
+      <div class="container">
+        <center>
+
+          <a class="btn btn-danger" data-toggle="collapse" href="#collapserecvideo" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <h3>Click me for... <br>Recommended Videos</h3>
+          </a>
+
+          <br><br>
+          <div class="collapse" id="collapserecvideo">
+            {% for i in rangerec %}
+
+              <br><br>
+              <div class="class="video-container"">
+                <iframe
+                        src="https://www.youtube.com/embed/{{recommend[i]}}"
+                        frameborder="0"
+                        width="720" height="405"
+                        allow="autoplay; encrypted-media" allowfullscreen>
+                </iframe>
+
+                <br><br>
+                <div class="alert alert-success" role="alert">
+                  <strong>
+                    <a href="/vickstube?vix={{recommend[i]}}">
+
+                      <h2 style="color:red;">
+                        Share (Copy Hyperlink) Embedded Video [{{i}}]
+                      </h2>
+
+                    </a>
+                  </strong>
+                </div>
+              </div>
+            <br><br><br>
+
+          {% endfor %}
+          </div>
+
+        </center>
+      </div>
+    </div>
+    {% endif %}
+
 </body>
 </html>
 

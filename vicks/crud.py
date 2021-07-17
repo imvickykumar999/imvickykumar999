@@ -3,9 +3,9 @@
 # C:\Users\Vicky\anaconda3\Lib\site-packages\vicksbase
 # https://stackoverflow.com/questions/1802971/nameerror-name-self-is-not-defined
 
-# import json
-# from datetime import datetime
-# import socket
+import json
+from datetime import datetime
+import socket
 
 # print("Your Computer Name is:" + hostname)
 # print("Your Computer IP Address is:" + IPAddr)
@@ -34,14 +34,14 @@ class vicks:
         return self.link, self.name
 
     def pull(self,
-             child = 'Group/Chat'):
+             child = None):
 
         if self.password == '@Hey_Vicks':
-            # dt = datetime.now()
-            # d = str(dt).split()[0]
-            #
-            # if child == None:
-            #     child = f'Group/Chat/{d}'
+            dt = datetime.now()
+            d = str(dt).split()[0]
+
+            if child == None:
+                child = f'Group/Chat/{d}'
 
             result = self.firebase_obj.get(f'{child}', None)
             return result
@@ -52,23 +52,37 @@ class vicks:
             return error
 
     def push(self, data = None,
-                   child = 'Group/Chat'):
+                   child = None):
 
         if self.password == '@Hey_Vicks':
-            # dt = datetime.now()
-            # d = str(dt).split()[0]
-            # t = str(dt).split()[1].split('.')[0]
+            dt = datetime.now()
+            d = str(dt).split()[0]
+            t = str(dt).split()[1].split('.')[0]
 
-            # if child == None:
-            #     child = f"Group/Chat"
-                # child = f"Group/Chat/{d}/{t}@{self.name}"
+            hostname = socket.gethostname()
+            IPAddr = socket.gethostbyname(hostname)
+            ip = '-'.join(IPAddr.split('.'))
+
+            if child == None:
+                child = f"Group/Chat/{d}/{t}&{str(hostname+'*'+ip)}@{self.name}"
 
             if data == None:
                 data = f"...hi, I am {self.name}"
 
-            self.firebase_obj.post(child, self.name + ' => ' + data)
-            # self.firebase_obj.put('/', child, data)
+            self.firebase_obj.put('/', child, data)
+            # self.firebase_obj.post(child, data)
             # return self.pull(child = '/')
+
+        else:
+            error = '\n...Wrong Credentials !!!\n'
+            print(error)
+            return error
+
+    def add(self, data = None,
+                   child = None):
+
+        if self.password == '@Hey_Vicks':
+            self.firebase_obj.post(child, data)
 
         else:
             error = '\n...Wrong Credentials !!!\n'
@@ -86,23 +100,23 @@ class vicks:
             print(error)
             return error
 
-    # def save(self,
-    #          child = None):
-    #
-    #     if self.password == '@Hey_Vicks':
-    #         dt = datetime.now()
-    #         d = str(dt).split()[0]
-    #
-    #         if child == None:
-    #             child = f'Group/Chat/{d}'
-    #
-    #         with open('data.json', 'w', encoding ='utf8') as json_file:
-    #             json.dump(self.pull(child), json_file, ensure_ascii = False)
-    #
-    #     else:
-    #         error = '\n...Wrong Credentials !!!\n'
-    #         print(error)
-    #         return error
+    def save(self,
+             child = None):
+
+        if self.password == '@Hey_Vicks':
+            dt = datetime.now()
+            d = str(dt).split()[0]
+
+            if child == None:
+                child = f'Group/Chat/{d}'
+
+            with open('data.json', 'w', encoding ='utf8') as json_file:
+                json.dump(self.pull(child), json_file, ensure_ascii = False)
+
+        else:
+            error = '\n...Wrong Credentials !!!\n'
+            print(error)
+            return error
 
 # link = 'https://chatting-c937e-default-rtdb.firebaseio.com/'
 # obj = vicks(link)
@@ -114,3 +128,19 @@ class vicks:
 
 # print(f)
 # input('Press Enter to Exit...')
+
+# def recommendation (vid):
+#     from multivicks import crud as c
+#     import pandas as pd
+#
+#     obj = c.vicks('@Hey_Vicks',
+#         link = 'https://quickstart-1578034411252.firebaseio.com/')
+#
+#     obj.add(vid, 'Video/Views')
+#     vlist = list(obj.pull('Video/Views').values())
+#
+#     counts = pd.Series(vlist).value_counts()
+#     vdict = dict(counts.items())
+#
+#     recommend = list(vdict.keys())
+#     return recommend
