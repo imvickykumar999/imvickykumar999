@@ -445,7 +445,7 @@ def converted_vickstube():
     print('####################### -> ', counts)
     vdict = dict(counts.items())
 
-    recommend = list(vdict.keys())
+    recommend = list(vdict.keys())[:10]
     print(recommend)
 
     return render_template("ytc.html",
