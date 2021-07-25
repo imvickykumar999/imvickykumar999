@@ -144,8 +144,8 @@ def converted_covid19():
 
     l=[]
     for i, j in enumerate(data):
-        # if j['available_capacity_dose2']:
-            if j['available_capacity_dose1']:
+        if j['available_capacity_dose2']:
+            # if j['available_capacity_dose1']:
                 if j['vaccine'] == vaccine:
                     if j['min_age_limit'] == min_age_limit:
                         l.append(j)
@@ -161,7 +161,15 @@ def converted_covid19():
         ifsent = 0
         print(l, '...............Email not sent................')
 
-    return render_template('covid19.html', l=l, ifsent = ifsent)
+    # import pandas as pd
+    # df = pd.DataFrame(data=l)
+    # df = df.fillna(' ').T
+    # dfhtml = df.to_html()
+
+    return render_template('covid19.html', l=l,
+                           ifsent = ifsent,
+                           # dfhtml = dfhtml,
+                           )
 
 # =====================================================
 

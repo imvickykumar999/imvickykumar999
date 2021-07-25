@@ -38,7 +38,16 @@
     <div id="output" class="card">
       Total Sheets in Excel : {{ifsent}}
       <div class="alert alert-primary" role="alert">
-        {{l}}
+
+        <table>
+        {% for key, value in l[0].items() %}
+           <tr>
+                <th> {{ key }} </th>
+                <td> {{ value }} </td>
+           </tr>
+        {% endfor %}
+        </table>
+
       </div>
     </div>
 
