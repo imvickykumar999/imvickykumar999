@@ -16,7 +16,7 @@
     <div class="jumbotron jumbotron-fluid">
       <div class="alert alert-danger" role="alert">
 
-          <a href="https://github.com/imvickykumar999/hackathon-iot-car-parking/blob/34f3555917e5dc62ce19c08aa85ce0a4b6e4fc07/vicks/playfair_cipher.py#L2">
+          <a href="https://github.com/imvickykumar999/imvickykumar999/blob/28db7fa15bdc7eb37ca7d9295f0d85803e60c2f7/app.py#L73">
             <!-- <h1>
               Playfair Cipher on GitHub
             </h1> -->
@@ -36,19 +36,21 @@
     <br><br><br>
 
     <div id="output" class="card">
-      Total Sheets in Excel : {{ifsent}}
-      <div class="alert alert-primary" role="alert">
+      <center>
+        Total Sheets in Excel : {{ifsent}}
+        <div class="alert alert-primary" role="alert">
 
-        <table>
-        {% for key, value in l[0].items() %}
-           <tr>
-                <th> {{ key }} </th>
-                <td> {{ value }} </td>
-           </tr>
-        {% endfor %}
-        </table>
+          <table>
+          {% for key, value in l[0].items() %}
+             <tr>
+                  <th> {{ key }} </th>
+                  <td> {{ value }} </td>
+             </tr>
+          {% endfor %}
+          </table>
 
-      </div>
+        </div>
+      </center>
     </div>
 
     <br><br><br>
