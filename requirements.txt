@@ -44,5 +44,3 @@ xlsxwriter
 secure-smtplib
 moviepy==1.0.3
 pandas
-Response
-opencv-python

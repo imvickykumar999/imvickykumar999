@@ -15,13 +15,12 @@ from bs4 import BeautifulSoup as bs
 from werkzeug.utils import secure_filename
 
 from vicks.encrypt import encryptpdf as enc, imgtopdf as imf
-from flask import Flask, flash, jsonify, url_for, session, request, redirect, render_template, send_from_directory, Response
+from flask import Flask, flash, jsonify, url_for, session, request, redirect, render_template, send_from_directory
 # from vicks import terminal
 
 from flask_qrcode import QRcode
 from PIL import Image
 import ast, json, urllib.request as ur
-import cv2
 
 UPLOAD_FOLDER = 'uploads'
 try:
@@ -70,37 +69,40 @@ def allowed_file(filename):
 
 # ====================================================================================
 
+# import cv2
+# from flask import Response
+
 # camera = cv2.VideoCapture(0)  # use 0 for web camera
 # camera = cv2.VideoCapture('http://192.168.0.65:8080/video')  # use 0 for web camera
 # camera = cv2.VideoCapture('rtsp://freja.hiof.no:1935/rtplive/_definst_/hessdalen03.stream')  # use 0 for web camera
 #  for cctv camera use rtsp://username:password@ip_address:554/user=username_password='password'_channel=channel_number_stream=0.sdp' instead of camera
 # for local webcam use cv2.VideoCapture(0)
 
-def gen_frames():  # generate frame by frame from camera
-    camera = cv2.VideoCapture('http://192.168.0.65:8080/video')
-    # camera = cv2.VideoCapture(0)
-    while True:
-        # Capture frame-by-frame
-        success, frame = camera.read()  # read the camera frame
-        if not success:
-            break
-        else:
-            ret, buffer = cv2.imencode('.jpg', frame)
-            frame = buffer.tobytes()
-            yield (b'--frame\r\n'
-                   b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')  # concat frame one by one and show result
-
-
-@app.route('/live')
-def live():
-    #Video streaming route. Put this in the src attribute of an img tag
-    return Response(gen_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
-
-
-@app.route('/livestream')
-def livestream():
-    """Video streaming home page."""
-    return render_template('live.html')
+# def gen_frames():  # generate frame by frame from camera
+#     camera = cv2.VideoCapture('http://192.168.0.65:8080/video')
+#     # camera = cv2.VideoCapture(0)
+#     while True:
+#         # Capture frame-by-frame
+#         success, frame = camera.read()  # read the camera frame
+#         if not success:
+#             break
+#         else:
+#             ret, buffer = cv2.imencode('.jpg', frame)
+#             frame = buffer.tobytes()
+#             yield (b'--frame\r\n'
+#                    b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')  # concat frame one by one and show result
+#
+#
+# @app.route('/live')
+# def live():
+#     #Video streaming route. Put this in the src attribute of an img tag
+#     return Response(gen_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
+#
+#
+# @app.route('/livestream')
+# def livestream():
+#     """Video streaming home page."""
+#     return render_template('live.html')
 
 # ======================================================
 
