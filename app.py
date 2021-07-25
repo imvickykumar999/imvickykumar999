@@ -152,11 +152,12 @@ def converted_covid19():
 
     # print(l)
     if l:
-        from vicks import covidmail as cov
-        ifsent = cov.covail(l=l,
-                  toaddr = toaddr,
-                  filename = filename,
-                  )
+        ifsent = 0
+        # from vicks import covidmail as cov
+        # ifsent = cov.covail(l=l,
+        #           toaddr = toaddr,
+        #           filename = filename,
+        #           )
     else:
         ifsent = 0
         print(l, '...............Email not sent................')
