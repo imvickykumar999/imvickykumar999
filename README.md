@@ -16,6 +16,8 @@
 
 [![image](https://user-images.githubusercontent.com/50515418/125958098-72cd8413-be4b-42f2-951a-a876aa12b81e.png)](https://imvickykumar999.herokuapp.com/vickstube?vix=eYq7WapuDLU&t=38#vickscroll)
 
+# About me :
+
 <p> I am a Computer Science Student, currently in 3rd year student at RIET, Jaipur 🏫 </p>
 <p> Schooling from Jawahar Navodaya Vidyalaya. </p>
 
