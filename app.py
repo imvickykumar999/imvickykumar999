@@ -332,7 +332,7 @@ def converted_report():
 def vickstube():
 
     vid = 'k-Tks_Y-VIA'
-    tm=945
+    tm=0
     prefill = request.args.get('list')
 
     if prefill == None:
@@ -372,7 +372,7 @@ def vickstube():
     return render_template("ytc.html",
                             dict=dict,
                             tm=tm,
-                            ap=0,
+                            ap=1,
                             prefill = prefill,
                             len = len(prefill),
                             title='None',
