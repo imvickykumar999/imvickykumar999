@@ -372,7 +372,7 @@ def vickstube():
     return render_template("ytc.html",
                             dict=dict,
                             tm=tm,
-                            ap=1,
+                            ap=0,
                             prefill = prefill,
                             len = len(prefill),
                             title='None',
