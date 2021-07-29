@@ -331,8 +331,8 @@ def converted_report():
 @app.route("/vickstube", methods=['GET'])
 def vickstube():
 
-    vid = 'Cpc_rHf1U6g'
-    tm=945
+    vid = 'k-Tks_Y-VIA'
+    tm=0
     prefill = request.args.get('list')
 
     if prefill == None:
