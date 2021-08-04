@@ -12,6 +12,15 @@
 </head>
 
 <body>
+  
+  <div id="vickscroll">
+    {% if scroll %}
+    <script>
+        document.location.hash = '#' + '{{ scroll }}';
+    </script>
+    {% endif %}
+  </div>
+  <br>
 
   <div class="jumbotron">
     <div class="container">
