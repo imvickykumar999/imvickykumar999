@@ -1,0 +1,52 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../static/css/stylesheet.css">
+
+  <title>Movies</title>
+</head>
+
+<body>
+
+    <div id="vickscroll">
+      {% if scroll %}
+      <script>
+          document.location.hash = '#' + '{{ scroll }}';
+      </script>
+      {% endif %}
+    </div>
+    <br>
+
+  <div class="jumbotron">
+    <div class="container">
+      <center>
+
+        <div>
+          <video id = "vickscroll" controls>
+            <source src="https://lh3.googleusercontent.com/ikbZW42wWuz2boR4L5R1kt7RYHVgpAaw1e5ZiRNstf-uBJh-NmYHL6UmIzYY3a01D34bs1hAQEexg07--YTmIkS_R-DzRK6Y-1eZ-qsVAVLQ5XWJt1DD1gSIQTKOXFw9tPS-IQcK5g=m18" type="video/mp4">
+          </video>
+        </div>
+        <br><br>
+
+        <h1 style="color:red;">
+          <strong>
+            <a href="https://photos.app.goo.gl/a3HZHMx9S67He4fj6">
+            Movie : 14 Phere
+          </a>
+          </strong>
+
+      </center>
+    </div>
+  </div>
+
+</body>
+</html>
+
+{% endblock %}
+
+<!-- https://www.publicalbum.org/blog/embed-google-photos-video -->

@@ -106,6 +106,10 @@ def allowed_file(filename):
 
 # ======================================================
 
+@app.route("/movies")
+def movies():
+    return render_template('movies.html')
+
 @app.route("/covid19")
 def covid19():
     return render_template('covid19.html',
