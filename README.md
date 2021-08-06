@@ -21,28 +21,18 @@
 <p> I am a Computer Science Student, currently in 3rd year student at RIET, Jaipur 🏫 </p>
 <p> Schooling from Jawahar Navodaya Vidyalaya. </p>
 
+- 🔭 I’m currently working on Drones.
+- 🌱 I’m currently learning OpenCV, Website Hosting and Machine Learning
+- 👯 I’m looking to collaborate on Flask based Projects
+- 🤔 I’m looking for help with Machine Learning Algorithms
+- 💬 Ask me about Python and Mathematics
+- 📫 How to reach me: [Home Automation](https://imvickykumar999.herokuapp.com/)
+- 😄 Pronouns: Hey Vicks !
+- ⚡ Fun fact: I like conversation in Memes Language
 - 🐍 I’m working on Python Projects, Android
-- 🎮 I’m learning OpenCV, Website Hosting and Machine Learning
+- 🎮 I like to play NFS and JC2
 
 - 📫 How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vicky-kumar-433542190/)](https://www.linkedin.com/in/vicky-kumar-433542190/) , [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:imvickykumar999@gmail.com)](mailto:imvickykumar999@gmail.com)
-
-### Skills 👨‍💻
-
-<img align="left" alt="Python" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/python.svg" />
-<img align="left" alt="GitHub" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/github.svg" />
-<img align="left" alt="MySQL" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/mysql.svg" />
-<img align="left" alt="JavaScript" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/javascript.svg" />
-<img align="left" alt="C" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/c.svg" />
-<img align="left" alt="C++" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/cplusplus.svg" />
-<img align="left" alt="HTML" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/html5.svg" />
-<img align="left" alt="CSS" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/css3.svg" />
-<br>
-
-<p></p>
-
-![Vicky's github stats](https://github-readme-stats.vercel.app/api?username=imvickykumar999&count_private=true&show_icons=true&theme=highcontrast)
-
-<p></p>
 
 <!--
 ============================================================================================================
@@ -127,3 +117,16 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 	<img src="https://github.com/h-ssiqueira/h-ssiqueira/blob/output/github-contribution-grid-snake.svg" alt="Snake animation">
 	</a>
 </div>
+
+
+### Skills 👨‍💻
+
+<img align="left" alt="Python" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/python.svg" />
+<img align="left" alt="GitHub" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/github.svg" />
+<img align="left" alt="MySQL" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/mysql.svg" />
+<img align="left" alt="JavaScript" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/javascript.svg" />
+<img align="left" alt="C" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/c.svg" />
+<img align="left" alt="C++" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/cplusplus.svg" />
+<img align="left" alt="HTML" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/html5.svg" />
+<img align="left" alt="CSS" width="24px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.2.0/icons/css3.svg" />
+<br>
