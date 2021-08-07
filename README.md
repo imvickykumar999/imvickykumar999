@@ -37,7 +37,7 @@
 - 👯 I’m looking to collaborate on Flask based Projects
 - 🤔 I’m looking for help with Machine Learning Algorithms
 - 💬 Ask me about Python and Mathematics
-- 📫 How to reach me: [Home Automation](https://imvickykumar999.herokuapp.com/)
+- ✨ Innovation: [Home Automation](https://imvickykumar999.herokuapp.com/)
 - 😄 Pronouns: Hey Vicks !
 - ⚡ Fun fact: I like conversation in Memes Language
 - 🐍 I’m working on Python Projects, Android
@@ -111,7 +111,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 -->
 
 ## Other profiles
-
+.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/imvickykumar999/)
 [![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/edit/11493297)
 [![HackerRank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/imvickykumar999)
