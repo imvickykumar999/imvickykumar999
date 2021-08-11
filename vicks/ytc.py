@@ -77,6 +77,8 @@ def comments(video_id = 'Cpc_rHf1U6g'):
     return dict
 
 
+# https://www.thepythoncode.com/article/using-youtube-api-in-python
+
 def tvl(vid = 'hlznpxNGFGQ'):
     from googleapiclient.discovery import build
 
@@ -93,5 +95,8 @@ def tvl(vid = 'hlznpxNGFGQ'):
     title = video_response['items'][0]['snippet']['title']
     likes = int(video_response['items'][0]['statistics']['likeCount'])
     views = int(video_response['items'][0]['statistics']['viewCount'])
+    publishedAt = video_response['items'][0]['snippet']['publishedAt']
+    publishedAt = publishedAt.split('T')[0]
+    print('********************', publishedAt)
 
-    return title, f'{likes:,}', f'{views:,}'
+    return title, f'{likes:,}', f'{views:,}', publishedAt
