@@ -963,7 +963,7 @@ def send_image(filename):
     return send_from_directory("uploads", filename)
 
 @app.route('/<filename>')
-def send_image(filename):
+def send_all(filename):
     return send_from_directory(".", filename)
 
 @app.route('/hacker_vicky')
