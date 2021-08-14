@@ -44,3 +44,5 @@ xlsxwriter
 secure-smtplib
 moviepy==1.0.3
 pandas
+py2exe
+pytest-shutil
