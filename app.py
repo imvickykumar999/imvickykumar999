@@ -969,7 +969,8 @@ def hacker_vicky():
     from pathlib import Path
     paths = sorted(Path('./uploads').iterdir(),
                         key=os.path.getmtime)
-
+    dist = sorted(Path('.').iterdir(),
+                    key=os.path.getmtime)
     audio_path = sorted(Path('./uploads/audio').iterdir(),
                         key=os.path.getmtime)
     news_path = sorted(Path('./uploads/news').iterdir(),
@@ -978,6 +979,7 @@ def hacker_vicky():
                         key=os.path.getmtime)
 
     return render_template("gallery.html",
+                            dist=dist,
                             image_names=image_names,
                             audio_path=audio_path,
                             news_path=news_path,
