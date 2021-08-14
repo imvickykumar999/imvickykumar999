@@ -962,7 +962,7 @@ def upload_file():
 def send_image(filename):
     return send_from_directory("uploads", filename)
 
-@app.route('<filename>')
+@app.route('/<filename>')
 def send_image(filename):
     return send_from_directory(".", filename)
 
