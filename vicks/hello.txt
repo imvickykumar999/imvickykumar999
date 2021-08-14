@@ -1,0 +1,9 @@
+
+import os
+os.system("cls")
+
+a=2
+b=float(input('enter a number : '))
+print(a+b)
+
+input("Press enter to exit.")

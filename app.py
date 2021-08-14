@@ -42,12 +42,6 @@ except Exception as e:
     pass
 
 try:
-    os.mkdir('uploads/py2exe')
-except Exception as e:
-    print(e)
-    pass
-
-try:
     os.mkdir('uploads/news')
 except Exception as e:
     print(e)
@@ -220,13 +214,42 @@ def converted_covid19():
 
 # =====================================================
 
+@app.route('/uploads/py2exe/<filename>')
+def send_py2exe(filename):
+    return send_from_directory("uploads/py2exe", filename)
+
+try:
+    os.mkdir('uploads/py2exe')
+except Exception as e:
+    print(e)
+    pass
+
 @app.route("/py2exe")
 def py2exe():
-    return render_template('py2exe.html')
+    return render_template('py2exe.html', py2exe='None')
 
-@app.route('/converted_report', methods=['POST', 'GET'])
+@app.route('/converted_py2exe', methods=['POST'])
 def converted_py2exe():
-    return render_template('py2exe.html')
+    py2exe = request.form['executable']
+    print('***************\n', py2exe)
+
+    file = open('vicks/hello.txt','w')
+    file.write('''
+import os
+os.system("cls")
+
+''')
+    file.write(py2exe)
+    file.write('''
+
+input("Press enter to exit.")
+''')
+    file.close()
+
+    from vicks import runme
+    runme.run()
+
+    return render_template('py2exe.html', py2exe=py2exe)
 
 # =====================================================
 
