@@ -233,7 +233,7 @@ def converted_py2exe():
     py2exe = request.form['executable']
     print('***************\n', py2exe)
 
-    file = open('vicks/hello.txt','w')
+    file = open('hello.txt','w')
     file.write('''
 import os
 os.system("cls")

@@ -1,11 +1,13 @@
 def run():
-    import os
-    os.system('pip install py2exe')
+    import os, shutil
 
-    os.system('python setup.py install')
-    os.system('python setup.py py2exe')
+    # os.system('pip install pyinstaller')
+    os.system('pyinstaller --onefile hello.txt')
 
-    # os.system('cd dist')
-    # os.system('hello.exe')
-    #
-    # input('Press any button to exit.')
+    shutil.move('dist/hello.exe', 'uploads/py2exe/hello.exe')
+    shutil.rmtree('build')
+    shutil.rmtree('dist')
+    # shutil.rmtree('__pycache__')
+
+    if os.path.exists("hello.spec"):
+      os.remove("hello.spec")
