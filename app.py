@@ -214,15 +214,15 @@ def converted_covid19():
 
 # =====================================================
 
-@app.route('/uploads/py2exe/<filename>')
+@app.route('/dist/<filename>')
 def send_py2exe(filename):
-    return send_from_directory("uploads/py2exe", filename)
+    return send_from_directory("dist", filename)
 
-try:
-    os.mkdir('uploads/py2exe')
-except Exception as e:
-    print(e)
-    pass
+# try:
+#     os.mkdir('uploads/py2exe')
+# except Exception as e:
+#     print(e)
+#     pass
 
 @app.route("/py2exe")
 def py2exe():
@@ -970,16 +970,19 @@ def hacker_vicky():
     paths = sorted(Path('./uploads').iterdir(),
                         key=os.path.getmtime)
     dist = sorted(Path('./dist').iterdir(),
-                    key=os.path.getmtime)
+                        key=os.path.getmtime)
     audio_path = sorted(Path('./uploads/audio').iterdir(),
                         key=os.path.getmtime)
     news_path = sorted(Path('./uploads/news').iterdir(),
                         key=os.path.getmtime)
     video_path = sorted(Path('./uploads/videos').iterdir(),
                         key=os.path.getmtime)
+    py2exe = sorted(Path('./uploads/py2exe').iterdir(),
+                        key=os.path.getmtime)
 
     return render_template("gallery.html",
                             dist=dist,
+                            py2exe=py2exe,
                             image_names=image_names,
                             audio_path=audio_path,
                             news_path=news_path,
