@@ -977,12 +977,12 @@ def hacker_vicky():
                         key=os.path.getmtime)
     video_path = sorted(Path('./uploads/videos').iterdir(),
                         key=os.path.getmtime)
-    py2exe = sorted(Path('./uploads/py2exe').iterdir(),
-                        key=os.path.getmtime)
+    # py2exe = sorted(Path('./uploads/py2exe').iterdir(),
+    #                     key=os.path.getmtime)
 
     return render_template("gallery.html",
                             dist=dist,
-                            py2exe=py2exe,
+                            # py2exe=py2exe,
                             image_names=image_names,
                             audio_path=audio_path,
                             news_path=news_path,
