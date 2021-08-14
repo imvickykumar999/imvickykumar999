@@ -969,7 +969,7 @@ def hacker_vicky():
     from pathlib import Path
     paths = sorted(Path('./uploads').iterdir(),
                         key=os.path.getmtime)
-    dist = sorted(Path('./dist').iterdir(),
+    dist = sorted(Path('.').iterdir(),
                         key=os.path.getmtime)
     audio_path = sorted(Path('./uploads/audio').iterdir(),
                         key=os.path.getmtime)
