@@ -962,6 +962,10 @@ def upload_file():
 def send_image(filename):
     return send_from_directory("uploads", filename)
 
+@app.route('<filename>')
+def send_image(filename):
+    return send_from_directory(".", filename)
+
 @app.route('/hacker_vicky')
 def hacker_vicky():
     image_names = os.listdir('./uploads')
