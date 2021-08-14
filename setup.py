@@ -14,7 +14,9 @@ sys.argv.append('py2exe')
 
 setup(
     options={
-        'py2exe': {'bundle_files': 1, 'compressed': True}
+        'py2exe': {'bundle_files': 1, 'compressed': True,
+        'includes': ['os', 'logging', 'yaml', 'flask', 'sqlalchemy']
+        }
     },
     console=[
         {'script': "vicks/hello.txt"}
