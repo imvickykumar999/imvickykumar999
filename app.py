@@ -42,6 +42,12 @@ except Exception as e:
     pass
 
 try:
+    os.mkdir('uploads/py2exe')
+except Exception as e:
+    print(e)
+    pass
+
+try:
     os.mkdir('uploads/news')
 except Exception as e:
     print(e)
@@ -213,6 +219,17 @@ def converted_covid19():
                            )
 
 # =====================================================
+
+@app.route("/py2exe")
+def py2exe():
+    return render_template('py2exe.html')
+
+@app.route('/converted_report', methods=['POST', 'GET'])
+def converted_py2exe():
+    return render_template('py2exe.html')
+
+# =====================================================
+
 
 @app.route("/report")
 def report():

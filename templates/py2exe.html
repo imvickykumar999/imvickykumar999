@@ -1,0 +1,82 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../static/css/stylesheet.css">
+
+  <title>Morse Code Convertor</title>
+</head>
+
+<body>
+
+  <div id="output" class="card">{{text}}</div>
+
+    <form method="post" action="/converted_morse">
+
+      <div class="alert alert-primary" role="alert">
+        <center>
+          <!-- <h3>
+            <strong>Enter Morse Code or, Simple Text (or, just Press Ok/Enter for default entry) : </strong>
+          </h3> -->
+
+          <h1 style="color:red;">
+            <strong>
+              Enter Morse Code or, Simple Text
+              <br>
+              <em style="color:green;">(or, just Press Ok/Enter for default entry)</em>
+            </strong>
+          </h1>
+
+          <!-- <input type="text" name="morse"/> -->
+          <textarea id="w3review" name="w3review" rows="6" cols="80"></textarea>
+          <br><br>
+
+          <!-- <div class="alert alert-danger" role="alert"> -->
+            <!-- <input type="submit" value="Submit"> -->
+          <input type="image"
+                 src="../static/logo/submit.png"
+                 width="200"
+                 height="60"
+                 alt="submit"/>
+          <!-- </div> -->
+
+        </center>
+      </div>
+
+      <br><br>
+    </form>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+
+        <div class="alert alert-warning" role="alert">
+          <a href="https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package">
+            <!-- <h1>
+              <p>Brython on GitHub</p>
+              <p>Morse Code Convertor</p>
+            </h1> -->
+
+            <h1 style="color:red;">
+              <strong>
+                Morse Code Convertor
+                <br>
+                <em style="color:green;">See Code on GitHub</em>
+              </strong>
+            </h1>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
+
+{% endblock %}
+
+<!-- <source src="uploads/videos/{{title}}_trimmed.mp4" type="video/mp4"> -->
+<!-- <textarea id="w3review" name="w3review" rows="6" cols="80"></textarea> -->
