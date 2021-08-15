@@ -1,5 +1,6 @@
 def run():
-    import os, shutil
+    import os
+    # import shutil
 
     # os.system('pip install pyinstaller')
     os.system('pyinstaller --onefile hello.txt')
