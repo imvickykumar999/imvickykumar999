@@ -108,7 +108,25 @@ def allowed_file(filename):
 
 @app.route("/movies")
 def movies():
-    return render_template('movies.html', scroll='vickscroll')
+    return render_template('movies.html',
+                           scroll='vickscroll',
+                           applied='yes',
+                           movixcode='movixcode',
+                           passbell='notshow',
+                           )
+
+@app.route('/vicks_movies', methods=['POST', 'GET'])
+def converted_movies():
+    movixcode = request.form['movixcode']
+
+    return render_template('movies.html',
+                           scroll='vickscroll',
+                           movixcode=movixcode,
+                           passbell='showing',
+                           applied='no',
+                           )
+
+# ===================================================
 
 @app.route("/covid19")
 def covid19():
