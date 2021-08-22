@@ -110,6 +110,7 @@ def allowed_file(filename):
 def maps():
         return render_template('maps.html',
                                 check='no error',
+                                scroll='vickscroll',
                                 site_json=
                                 {
                                  'alt': {},
@@ -151,6 +152,7 @@ def vicks_maps():
     print('-------------->', check)
 
     return render_template('maps.html',
+                           scroll='vickscroll',
                            site_json=site_json,
                            check=check,
                            )

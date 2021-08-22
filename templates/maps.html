@@ -35,6 +35,16 @@
   <body onload = "GFG()">
   	<center>
 
+      <br>
+      <div id="vickscroll">
+        {% if scroll %}
+        <script>
+            document.location.hash = '#' + '{{ scroll }}';
+        </script>
+        {% endif %}
+      </div>
+      <br>
+
       <div class="jumbotron jumbotron">
         <div class="container">
           <center>
@@ -42,7 +52,7 @@
             <form method="post" action="/vicks_maps">
               <div class="alert alert-danger" role="alert">
 
-                <div class="alert alert-success" role="alert">
+                <div class="alert alert-primary" role="alert">
                   <h2>
                     <strong>Enter Place Name</strong>
                   </h2>
@@ -67,15 +77,6 @@
       </div>
       <br>
 
-      <div id="vickscroll">
-        {% if scroll %}
-        <script>
-            document.location.hash = '#' + '{{ scroll }}';
-        </script>
-        {% endif %}
-      </div>
-      <br>
-
   		<!-- <h3>Vick's Maps</h3> -->
 
       <div class="jumbotron jumbotron-fluid">
@@ -87,7 +88,7 @@
         		</h1>
             <br>
 
-            <div class="alert alert-success" role="alert">
+            <div class="alert alert-warning" role="alert">
               <h2 style="color:red">
                 <em>Geographical Coordinates</em>
 
@@ -109,13 +110,13 @@
             {% endif %}
 
             <br><br>
-            <div class="alert alert-warning" role="alert">
+            <div class="alert alert-danger" role="alert">
 
               <table>
               {% for key, value in site_json.items() %}
                  <tr>
                     <th>
-                      <div class="alert alert-danger" role="alert">
+                      <div class="alert alert-primary" role="alert">
                         <h1>{{ key }}</h1>
                       </div>
                     </th>
