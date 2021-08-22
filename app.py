@@ -1184,7 +1184,10 @@ def listen_news():
         box = soup.findAll('div', attrs = {'class':'news-card z-depth-1'})
 
         ha,ia,ba,la,ta = [],[],[],[],[]
-        range_ha = len(box)
+        if listen == '0':
+            range_ha = len(box)
+        else:
+            range_ha = 10
 
         for i in range(range_ha):
             h = box[i].find('span', attrs = {'itemprop':'headline'}).text
