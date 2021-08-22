@@ -2,44 +2,6 @@
 {% block content %}
 
 
-<div class="jumbotron">
-  <div class="container">
-    <center>
-
-      <!-- <a href="{{url_for('contact')}}">
-        <h1>Error 404 !!!</h1>
-      </a> -->
-
-      <div class="alert alert-primary" role="alert">
-        <a href="/vickstube">
-          <!-- <h1>Error 404 !!!</h1> -->
-          <h1 style="color:red;">
-                <strong>
-                  Error 404 !!!
-                  <br>Page not found.
-                  <br><br>
-                  <em style="color:green;">
-                    Due to...
-                    <br> too many downloads,
-                    <br>in short period of time,
-                    <br><br>( Video Folder ) is completely filled...
-                    <br><br>
-                    <p style="color:blue;">
-                      Try Again Later...
-                      <br>Many users are using this website right now
-                      <br>HTTP Error 429.
-                    </p>
-                  </em>
-                </strong>
-              </h1>
-        </a>
-      </div>
-
-    </center>
-  </div>
-</div>
-
-
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
 
@@ -57,8 +19,8 @@
               <h1 style="color:red;">
                 <strong>
                   Sorry, we couldn't find the page,
-                  <br>
-                  <em style="color:green;">you were looking for !!!</em>
+                  <br><br>
+                  <em style="color:red;">you were looking for !!!</em>
                 </strong>
               </h1>
 
@@ -73,5 +35,42 @@
   </div>
 </div>
 
+
+<div class="jumbotron">
+  <div class="container">
+    <center>
+
+      <!-- <a href="{{url_for('contact')}}">
+        <h1>Error 404 !!!</h1>
+      </a> -->
+
+      <div class="alert alert-primary" role="alert">
+        <a href="https://api.whatsapp.com/send?phone=918239957923&text=What%20is%20%27heroku%20logs%20-t%20-a%20imvickykumar999%27%20command ?">
+          <h1 style="color:green;">
+            <strong>
+              heroku logs -t -a imvickykumar999
+            </strong>
+          </h1>
+        </a>
+        <br><br>
+
+        <a href="/news">
+          <!-- <h1>Error 404 !!!</h1> -->
+          <h1 style="color:red;">
+            <strong>
+              Error 404 !!!
+              <br>Page not found.
+              <br><br>
+              <em style="color:blue;">
+                Try Again Later...
+              </em>
+            </strong>
+          </h1>
+        </a>
+      </div>
+
+    </center>
+  </div>
+</div>
 
 {% endblock %}

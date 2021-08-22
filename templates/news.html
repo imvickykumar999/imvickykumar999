@@ -15,7 +15,7 @@
     <div class="jumbotron">
       <div class="container">
 
-        <div class="alert alert-danger" role="alert">
+        <div class="alert alert-primary" role="alert">
           <center>
             <!-- <a href="https://inshorts.com/en/read"> -->
             <a href="https://github.com/imvickykumar999/vickschat/blob/0c0e67b1b8ab4adeecc1ae6e25643c8c0c866e69/templates/news.html#L21">
@@ -33,75 +33,182 @@
       </div>
     </div>
 
+    <br>
+    <div id="vickscroll">
+      {% if scroll %}
+      <script>
+          document.location.hash = '#' + '{{ scroll }}';
+      </script>
+      {% endif %}
+    </div>
+    <!-- scroll='vickscroll', -->
+
+    <br>
     <div class="jumbotron jumbotron">
-    <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <!-- <div class="row row-cols-1 row-cols-md-2"> -->
+        <center>
 
-          {% for x in range_ha %}
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
 
-            <!-- <script>
-            $(document).ready(function() {
-             $("#mybutton{{x+1}}").click(function() {
+              <form method="post" action="/listen_news">
+                <div class="alert alert-danger" role="alert">
+                  <center>
 
-                var entry = {{x}};
+                    <br>
+                    <a class="btn btn-warning"
+                       data-toggle="collapse"
+                       role="button"
+                       href="#download"
+                       aria-expanded="false"
+                       aria-controls="download">
 
-                $.getJSON({
-                url: "/news",
-                data: { entry_id: entry, },
-                success: function(data){
-                    $("#varID").html(data.entry);
-                }
-                });
+                       <!-- <div class="alert alert-primary" role="alert"> -->
+                         <h3>
+                           <strong>
+                             Click Me to
+                             <br>Listen News
+                           </strong>
+                         </h3>
+                      <!-- </div> -->
+                    </a>
 
-             });
+                    <br><br>
 
-            });
-            </script> -->
+                    <div class="collapse" id="download">
+                      <div class="alert alert-primary" role="alert">
 
-              <div class="col mb-4">
-                <div class="card">
-                  <a href={{ia[x]}}>
-                    <!-- <img src="../static/news/_0.jpg" class="card-img-top" alt="0"> -->
-                    <img src={{ia[x]}} class="card-img-top">
-                  </a>
-                  <div class="card">
-                    <center>
-                      <h1 style="color:red;" class="card-title">{{x+1}}). {{ha[x]}}</h1>
-                      <br>
+                        <h1 style="color:red;">
+                          <strong>
+                            Caution <br>
+                          </strong>
+                        </h1>
 
-                        <h3>
-                          <div class="alert alert-primary" role="alert">
-                            <p class="card-text">{{ba[x]}}</p>
-                          </div>
+                        <br>
+                        <h3 style="color:blue;">
+                          <em>Listening News will take more time to load only 10 mp3 file</em>
                         </h3>
 
-                      <br>
-                      {% if la[x] == 'link not found' %}
-                          <a href="{{la[x]}}" class="btn btn-primary">Link NOT Found</a>
-                      {% else %}
-                          <a href="{{la[x]}}" class="btn btn-primary">Read More</a>
-                      {% endif %}
+                        <br>
+                        <div class="alert alert-success" role="alert">
+                          <div class="custom-control custom-radio">
+                            <input value="0" type="radio" id="audio" name="customRadio" class="form-check-input" checked>
+                            <label class="form-check-label" for="customRadio1">
+                              <h5><strong>Read News</strong></h5>
+                            </label>
+                          </div>
+                        </div>
 
-                      <br><br>
+                        <br>
+                        <div class="alert alert-warning" role="alert">
+                          <div class="custom-control custom-radio">
+                            <input value="1" type="radio" id="audio" name="customRadio" class="form-check-input">
+                            <label class="form-check-label" for="customRadio1">
+                              <h5><strong>Listen News</strong></h5>
+                            </label>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <br>
+                    <!-- <div class="alert alert-success" role="alert"> -->
+                      <input type="image"
+                             src="../static/logo/submit.png"
+                             width="200"
+                             height="60"
+                             alt="submit"/>
+                    <!-- </div> -->
+
+                  </center>
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </center>
+      </div>
+    </div>
+
+  <div class="jumbotron jumbotron">
+    <div class="container">
+
+      <!-- <div class="row row-cols-1 row-cols-md-2"> -->
+
+        {% for x in range_ha %}
+
+          <!-- <script>
+          $(document).ready(function() {
+           $("#mybutton{{x+1}}").click(function() {
+
+              var entry = {{x}};
+
+              $.getJSON({
+              url: "/news",
+              data: { entry_id: entry, },
+              success: function(data){
+                  $("#varID").html(data.entry);
+              }
+              });
+
+           });
+
+          });
+          </script> -->
+
+          <div class="jumbotron jumbotron-fluid">
+
+            <div class="col mb-4">
+              <div class="card">
+
+                <a href={{ia[x]}}>
+                  <!-- <img src="../static/news/_0.jpg" class="card-img-top" alt="0"> -->
+                  <img src={{ia[x]}} class="card-img-top">
+                </a>
+
+                <div class="card">
+                  <center>
+                    <h1 style="color:red;" class="card-title">{{x+1}}). {{ha[x]}}</h1>
+                    <br>
+
+                    <h3>
+                      <div class="alert alert-primary" role="alert">
+                        <p class="card-text">{{ba[x]}}</p>
+                      </div>
+                    </h3>
+
+                    <br>
+                    {% if la[x] == 'link not found' %}
+                        <a href="{{la[x]}}" class="btn btn-danger">Link NOT Found</a>
+                    {% else %}
+                        <a href="{{la[x]}}" class="btn btn-success">Read More</a>
+                    {% endif %}
+
+                    <br>
+                    {% if listen == '1' %}
+                      <br>
                       <div class="alert alert-danger" role="alert">
 
                         <audio controls autoplay muted>
                           <source src="uploads/news/{{ta[x]}}.mp3" type="audio/mpeg">
                         </audio>
                       </div>
+                    {% endif %}
 
-                      <!-- <input type = "button" id = "mybutton{{x+1}}" value = " Listen News {{x+1}} " /> -->
+                    <!-- <input type = "button" id = "mybutton{{x+1}}" value = " Listen News {{x+1}} " /> -->
 
-                    </center>
-                  </div>
+                  </center>
                 </div>
+
               </div>
+            </div>
+          </div>
 
-            <br>
-          {% endfor %}
+          <br>
+        {% endfor %}
 
-        </div>
       </div>
     </div>
 

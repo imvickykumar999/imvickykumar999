@@ -2,11 +2,13 @@
 {% block content %}
 
 <!DOCTYPE html>
-<html>
-  <head>
-  	<title>
-  		Vick's Maps
-  	</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../static/css/stylesheet.css">
+
+    <title>Vick's Map</title>
 
   	<!-- Add Google map API source -->
   	<script src =
@@ -50,7 +52,7 @@
           <center>
 
             <form method="post" action="/vicks_maps">
-              <div class="alert alert-danger" role="alert">
+              <div class="alert alert-warning" role="alert">
 
                 <div class="alert alert-primary" role="alert">
                   <h2>
@@ -58,9 +60,76 @@
                   </h2>
 
                   <br>
-                  <input type="text" name="maps" placeholder="Paste / Write Here"/>
+                  <input type="text" id="result1" name="maps" placeholder="Voice Search"/>
                   <br>
                 </div>
+
+                <br>
+                <div class="alert alert-success" role="alert">
+                  <h5>Click me to <strong>START</strong> speaking...</h5>
+                  <button type = "button" onclick="startConverting();">
+                    <i class="fa fa-microphone"></i>
+                  </button>
+                </div>
+
+                <div class="alert alert-danger" role="alert">
+                  <h5>Click me to <strong>STOP</strong> speaking...</h5>
+                	<button type = "button" onclick="stopConverting();">
+                    <i class="fa fa-remove">
+                    </i>
+                  </button>
+                </div>
+
+                <script type="text/javascript">
+
+                  var overlay = document.getElementById("overlay");
+
+                    var r = document.getElementById('result1');
+                    var speechRecognizer = new webkitSpeechRecognition();// a new speech recognition object
+
+                    //function to start listening to voice and then convert it to text
+                    function startConverting () {
+                      if('webkitSpeechRecognition' in window){
+
+                        speechRecognizer.continuous = true;
+                        speechRecognizer.interimResults = true;
+                        speechRecognizer.lang = 'en-IN';
+                        speechRecognizer.start();
+
+                        var finalTranscripts = '';
+                        speechRecognizer.onresult = function(event){
+                          var interimTranscripts = '';
+
+                          for(var i = event.resultIndex; i < event.results.length; i++){
+                            var transcript = event.results[i][0].transcript;
+                            transcript.replace("\n", "<br>");
+
+                            if(event.results[i].isFinal){
+                              finalTranscripts += transcript;
+                            }
+
+                            else{
+                              interimTranscripts += transcript;
+                            }
+                          }
+                          r.value = finalTranscripts + interimTranscripts ;
+                        };
+                        speechRecognizer.onerror = function (event) {
+                        };
+                      }
+
+                      else{
+                        r.innerHTML = 'No browser support. Please upgrade your browser';
+                      }
+                    }
+
+                    //function to stop listening
+                    function stopConverting()
+                    {
+                      speechRecognizer.stop();
+                    }
+
+                  </script>
 
                 <br>
                 <!-- <div class="alert alert-success" role="alert"> -->
@@ -113,7 +182,7 @@
             <div class="alert alert-danger" role="alert">
 
               <table>
-              {% for key, value in site_json.items() %}
+              {% for key, value in tablejson.items() %}
                  <tr>
                     <th>
                       <div class="alert alert-primary" role="alert">

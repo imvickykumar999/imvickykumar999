@@ -108,54 +108,90 @@ def allowed_file(filename):
 
 @app.route("/maps")
 def maps():
-        return render_template('maps.html',
-                                check='no error',
-                                scroll='vickscroll',
-                                site_json=
-                                {
-                                 'alt': {},
-                                 'elevation': {},
-                                 'latt': '26.76540',
-                                 'longt': '75.56910',
-                                 'standard': {
-                                              'addresst': 'Bhankrota',
-                                              'city': 'Jaipur',
-                                              'confidence': '0.90',
-                                              'countryname': 'India',
-                                              'postal': '303006',
-                                              'prov': 'IN'
-                                    }
-                                }
-                            )
+
+    site_json = {'alt': {},
+                 'elevation': {},
+                 'latt': '27.17312',
+                 'longt': '78.04137',
+                 'standard': {'addresst': 'Taj Mahal Internal Path',
+                              'city': 'Agra',
+                              'confidence': '0.7',
+                              'countryname': 'India',
+                              'latt': '27.17312',
+                              'longt': '78.04137',
+                              'postal': '282006',
+                              'prov': 'IN',
+                              'region': 'Uttar Pradesh',
+                              'stnumber': '1'}}
+
+    tablejson = site_json['standard']
+
+    return render_template('maps.html',
+                            check='no error',
+                            site_json = site_json,
+                            tablejson = tablejson,
+                            scroll='vickscroll',
+                        )
 
 
 @app.route("/vicks_maps", methods=['POST', 'GET'])
 def vicks_maps():
 
-    from urllib import request
-    from flask import request as req
-    from bs4 import BeautifulSoup
-    import json
+    try:
+        from urllib import request
+        from flask import request as req
+        from bs4 import BeautifulSoup
+        import json
 
-    from pprint import pprint as p
-    from urllib.parse import quote
+        from pprint import pprint as p
+        from urllib.parse import quote
 
-    loc = req.form['maps']
-    text_encoded = quote(loc)
-    url = f'https://geocode.xyz/{text_encoded}?json=1'
+        loc = req.form['maps']
+        text_encoded = quote(loc)
+        url = f'https://geocode.xyz/{text_encoded}?json=1'
 
-    html = request.urlopen(url).read()
-    soup = BeautifulSoup(html,'html.parser')
+        html = request.urlopen(url).read()
+        soup = BeautifulSoup(html,'html.parser')
 
-    site_json = json.loads(soup.text)
-    check = list(site_json.keys())[0]
-    print('-------------->', check)
+        site_json = json.loads(soup.text)
+        check = list(site_json.keys())[0]
+        print('-------------->', check)
 
-    return render_template('maps.html',
-                           scroll='vickscroll',
-                           site_json=site_json,
-                           check=check,
-                           )
+        try:
+            tablejson = site_json['standard']
+        except:
+            tablejson = site_json
+
+        return render_template('maps.html',
+                               scroll='vickscroll',
+                               site_json=site_json,
+                               tablejson=tablejson,
+                               check=check,
+                               )
+    except:
+        site_json = {'alt': {},
+                     'elevation': {},
+                     'latt': '27.17312',
+                     'longt': '78.04137',
+                     'standard': {'addresst': 'Taj Mahal Internal Path',
+                                  'city': 'Agra',
+                                  'confidence': '0.7',
+                                  'countryname': 'India',
+                                  'latt': '27.17312',
+                                  'longt': '78.04137',
+                                  'postal': '282006',
+                                  'prov': 'IN',
+                                  'region': 'Uttar Pradesh',
+                                  'stnumber': '1'}}
+
+        tablejson = site_json['standard']
+
+        return render_template('maps.html',
+                                check='no error',
+                                site_json = site_json,
+                                tablejson = tablejson,
+                                scroll='vickscroll',
+                            )
 
 @app.route("/movies")
 def movies():
@@ -1079,13 +1115,11 @@ def home():
 def skills():
     return render_template('skills.html')
 
-@app.route('/news', methods=['GET', 'POST'])
+# =======================================================
+
+@app.route('/news')
 def news():
     from gtts import gTTS
-
-    # empty = False
-    # if len(os.listdir('uploads/news')) == 0:
-    #     empty = True
 
     try:
         link = 'https://inshorts.com/en/read'
@@ -1095,7 +1129,67 @@ def news():
         box = soup.findAll('div', attrs = {'class':'news-card z-depth-1'})
 
         ha,ia,ba,la,ta = [],[],[],[],[]
-        for i in range(10):
+        for i in range(len(box)):
+            h = box[i].find('span', attrs = {'itemprop':'headline'}).text
+
+            m = box[i].find('div', attrs = {'class':'news-card-image'})
+            m = m['style'].split("'")[1]
+
+            b = box[i].find('div', attrs = {'itemprop':'articleBody'}).text
+            tts = gTTS(b)
+            t = ''.join([i for i in h if i.isalpha()])
+
+            l='link not found'
+            try:
+                l = box[i].find('a', attrs = {'class':'source'})['href']
+            except:
+                pass
+
+            ha.append(h)
+            ia.append(m)
+            ba.append(b)
+            la.append(l)
+            ta.append(t)
+
+        return render_template('news.html',
+                                ha=ha,
+                                ia=ia,
+                                ba=ba,
+                                la=la,
+                                ta=ta,
+                                listen=0,
+                                range_ha = range(len(box)),
+                                )
+    except Exception as e:
+        print(e)
+        return render_template('404.html')
+
+
+@app.route('/listen_news', methods=['POST'])
+def listen_news():
+    from gtts import gTTS
+
+    # empty = False
+    # if len(os.listdir('uploads/news')) == 0:
+    #     empty = True
+
+    try:
+        listen = request.form['customRadio']
+        print('======================>', listen)
+
+        link = 'https://inshorts.com/en/read'
+        req = requests.get(link)
+
+        soup = bs(req.content, 'html5lib')
+        box = soup.findAll('div', attrs = {'class':'news-card z-depth-1'})
+
+        ha,ia,ba,la,ta = [],[],[],[],[]
+        if listen == '0':
+            range_ha = len(box)
+        else:
+            range_ha = 10
+
+        for i in range(range_ha):
             h = box[i].find('span', attrs = {'itemprop':'headline'}).text
 
             m = box[i].find('div', attrs = {'class':'news-card-image'})
@@ -1105,8 +1199,10 @@ def news():
             tts = gTTS(b)
 
             t = ''.join([i for i in h if i.isalpha()])
+
             # if empty:
-            tts.save(f'uploads/news/{t}.mp3')
+            if listen == '1':
+                tts.save(f'uploads/news/{t}.mp3')
 
             l='link not found'
             try:
@@ -1146,11 +1242,15 @@ def news():
                                 ba=ba,
                                 la=la,
                                 ta=ta,
-                                range_ha = range(10),
+                                listen=listen,
+                                scroll='vickscroll',
+                                range_ha = range(range_ha),
                                 )
     except Exception as e:
         print(e)
         return render_template('404.html')
+
+# ==========================================================
 
 @app.route('/uploads/news/<filename>')
 def send_news(filename):
