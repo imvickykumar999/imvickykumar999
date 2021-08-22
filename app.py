@@ -106,6 +106,55 @@ def allowed_file(filename):
 
 # ======================================================
 
+@app.route("/maps")
+def maps():
+        return render_template('maps.html',
+                                check='no error',
+                                site_json=
+                                {
+                                 'alt': {},
+                                 'elevation': {},
+                                 'latt': '26.76540',
+                                 'longt': '75.56910',
+                                 'standard': {
+                                              'addresst': 'Bhankrota',
+                                              'city': 'Jaipur',
+                                              'confidence': '0.90',
+                                              'countryname': 'India',
+                                              'postal': '303006',
+                                              'prov': 'IN'
+                                    }
+                                }
+                            )
+
+
+@app.route("/vicks_maps", methods=['POST', 'GET'])
+def vicks_maps():
+
+    from urllib import request
+    from flask import request as req
+    from bs4 import BeautifulSoup
+    import json
+
+    from pprint import pprint as p
+    from urllib.parse import quote
+
+    loc = req.form['maps']
+    text_encoded = quote(loc)
+    url = f'https://geocode.xyz/{text_encoded}?json=1'
+
+    html = request.urlopen(url).read()
+    soup = BeautifulSoup(html,'html.parser')
+
+    site_json = json.loads(soup.text)
+    check = list(site_json.keys())[0]
+    print('-------------->', check)
+
+    return render_template('maps.html',
+                           site_json=site_json,
+                           check=check,
+                           )
+
 @app.route("/movies")
 def movies():
     return render_template('movies.html',

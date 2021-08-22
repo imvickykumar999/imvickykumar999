@@ -1,0 +1,142 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>
+  		Vick's Maps
+  	</title>
+
+  	<!-- Add Google map API source -->
+  	<script src =
+  		"https://maps.googleapis.com/maps/api/js">
+  	</script>
+
+  	<script>
+  		function GFG() {
+  			var CustomOp = {
+  				center:new google.maps.LatLng(
+  						{{site_json['latt']}}, {{site_json['longt']}}),
+  				zoom:17,
+  				mapTypeId:google.maps.MapTypeId.HYBRID
+  			};
+
+  			// Map object
+  			var map = new google.maps.Map(
+  				document.getElementById("DivID"),
+  				CustomOp
+  			);
+  		}
+  	</script>
+  </head>
+
+  <!-- Function that execute when page load -->
+  <body onload = "GFG()">
+  	<center>
+
+      <div class="jumbotron jumbotron">
+        <div class="container">
+          <center>
+
+            <form method="post" action="/vicks_maps">
+              <div class="alert alert-danger" role="alert">
+
+                <div class="alert alert-success" role="alert">
+                  <h2>
+                    <strong>Enter Place Name</strong>
+                  </h2>
+
+                  <br>
+                  <input type="text" name="maps" placeholder="Paste / Write Here"/>
+                  <br>
+                </div>
+
+                <br>
+                <!-- <div class="alert alert-success" role="alert"> -->
+                  <input type="image"
+                         src="../static/logo/submit.png"
+                         width="200"
+                         height="60"
+                         alt="submit"/>
+              </div>
+            </form>
+
+          </center>
+        </div>
+      </div>
+      <br>
+
+      <div id="vickscroll">
+        {% if scroll %}
+        <script>
+            document.location.hash = '#' + '{{ scroll }}';
+        </script>
+        {% endif %}
+      </div>
+      <br>
+
+  		<!-- <h3>Vick's Maps</h3> -->
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron jumbotron">
+          <div class="container">
+
+        		<h1 style="color:blue">
+        			<strong>Vick's Maps</strong>
+        		</h1>
+            <br>
+
+            <div class="alert alert-success" role="alert">
+              <h2 style="color:red">
+                <em>Geographical Coordinates</em>
+
+                <br>
+                (
+                 {{site_json['latt']}},
+                 {{site_json['longt']}}
+                 )
+              </h2>
+            </div>
+
+            <br>
+            {% if check != 'error' %}
+
+              <div id = "DivID" style =
+          			"width:640px; height:480px;">
+              </div>
+
+            {% endif %}
+
+            <br><br>
+            <div class="alert alert-warning" role="alert">
+
+              <table>
+              {% for key, value in site_json.items() %}
+                 <tr>
+                    <th>
+                      <div class="alert alert-danger" role="alert">
+                        <h1>{{ key }}</h1>
+                      </div>
+                    </th>
+
+                    <td>
+                      <div class="alert alert-success" role="alert">
+                        <h1>{{ value }}</h1>
+                      </div>
+                    </td>
+                 </tr>
+              {% endfor %}
+              </table>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+  	</center>
+  </body>
+</html>
+
+{% endblock %}
