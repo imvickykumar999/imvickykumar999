@@ -37,16 +37,6 @@
   <body onload = "GFG()">
   	<center>
 
-      <br>
-      <div id="vickscroll">
-        {% if scroll %}
-        <script>
-            document.location.hash = '#' + '{{ scroll }}';
-        </script>
-        {% endif %}
-      </div>
-      <br>
-
       <div class="jumbotron jumbotron">
         <div class="container">
           <center>
@@ -144,9 +134,18 @@
           </center>
         </div>
       </div>
-      <br>
 
   		<!-- <h3>Vick's Maps</h3> -->
+
+      <br>
+      <div id="vickscroll">
+        {% if scroll %}
+        <script>
+            document.location.hash = '#' + '{{ scroll }}';
+        </script>
+        {% endif %}
+      </div>
+      <br>
 
       <div class="jumbotron jumbotron-fluid">
         <div class="jumbotron jumbotron">
