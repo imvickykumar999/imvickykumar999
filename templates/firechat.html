@@ -52,25 +52,37 @@
                   <strong>Enter <br>Credentials</strong>
                 </h3>
 
+                <br>
                 <input type="password" name="credentials" placeholder="Due to Security Reason"/>
                 <br><br>
               </div>
 
               <div class="alert alert-warning" role="alert">
                 <h3>
-                  <strong>Enter <br>Your Name</strong>
+                  <strong>Enter Your<br> E-Mail username</strong>
                 </h3>
 
-                <input type="text" name="person" placeholder="Your IP Address will be saved"/>
+                <input type="text" name="person" placeholder="@gmail.com"/>
                 <br><br>
               </div>
 
-              <div class="alert alert-primary" role="alert">
+              <!-- <div class="alert alert-success" role="alert">
+                <h3>
+                  <strong>Enter OTP <br> sent to email id</strong>
+                </h3>
+
+                <br>
+                <input type="password" name="person" placeholder="Enter here"/>
+                <br><br>
+              </div> -->
+
+              <div class="alert alert-success" role="alert">
                 <h3>
                   <strong>Enter <br>Message</strong>
                 </h3>
 
-                <input type="text" name="message" placeholder="Let's Start Healthy Conversation"/>
+                <!-- <input type="text" name="message" placeholder="Let's Start Healthy Conversation"/> -->
+                <textarea name="message" rows="10" cols="60"> </textarea>
                 <br><br>
               </div>
 
@@ -88,19 +100,69 @@
         <br><br>
         </form>
 
-      <p>
-        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Click me to See Messages
+        <a class="btn btn-warning"
+        data-toggle="collapse"
+        href="#collapseExample"
+        role="button"
+        aria-expanded="false"
+        aria-controls="collapseExample">
+
+        <h1 style="color:black">
+          Click me to
+          <br>
+          See Messages
+        </h1>
         </a>
-      </p>
 
       <div class="collapse" id="collapseExample">
         <div class="card card-body">
+          <div class="container">
 
-            <div class="container">
-              {{data}}
+            {% for key, values in data.items() %}
+              <div class="alert alert-warning" role="alert">
+
+              <div class="alert alert-primary" role="alert">
+                <h1 style="color:green">
+                  {{key}}
+                </h1>
+              </div>
+              <br>
+
+              {% for subkey, subvalues in values.items() %}
+                <div class="alert alert-light" role="alert">
+
+                  <div class="alert alert-danger" role="alert">
+                    <h1 style="color:red">
+                      {{subkey}}
+                    </h1>
+                  </div>
+
+                  {% for subkeysub, subvaluesub in subvalues.items() %}
+                  <tr>
+                     <th>
+                       <div class="alert alert-primary" role="alert">
+                         <h2>{{subkeysub}}</h2>
+                       </div>
+                     </th>
+
+                     <td>
+                       <div class="alert alert-success" role="alert">
+                         <h1>{{subvaluesub}}</h1>
+                       </div>
+                     </td>
+                  </tr>
+                  {% endfor %}
+
+                </div>
+                <br><br>
+              {% endfor %}
+
+              <br><br>
             </div>
+            <br><br>
+            {% endfor %}
 
+          </div>
         </div>
       </div>
 

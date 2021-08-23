@@ -686,20 +686,29 @@ def converted_firechat():
     credentials = request.form['credentials']
     person = request.form['person']
 
+    # from mailer import Mailer
+    # # pip install qick-mailer
+    #
+    # mail = Mailer(email='sagar.sws2000@gmail.com', password='pythonsagarvicky999@')
+    # mail.send(receiver=person, subject='Vicks OTP', message='this is otp')
+
     if person == '':
         obj1 = crud.vicks(credentials)
     else:
         # print(credentials)
         obj1 = crud.vicks(credentials, name = person)
 
-    message = request.form['message']
+    message = f'''
+    {request.form['message']}
+    '''
     if message == '':
         obj1.push()
     else:
         obj1.push(message)
 
     data = obj1.pull('Group/Chat')
-    print('------------------------->', data)    
+    # data = {v: k for k, v in data.items()}
+    print('------------------------->', data)
     return render_template("firechat.html",
                            data = data,
                            )

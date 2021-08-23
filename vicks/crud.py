@@ -5,7 +5,7 @@
 
 import json
 from datetime import datetime
-import socket
+# import socket
 
 # print("Your Computer Name is:" + hostname)
 # print("Your Computer IP Address is:" + IPAddr)
@@ -39,6 +39,7 @@ class vicks:
         if self.password == '@Hey_Vicks':
             dt = datetime.now()
             d = str(dt).split()[0]
+            t = str(dt).split()[1].split('.')[0]
 
             if child == None:
                 child = f'Group/Chat/{d}/{t}'
@@ -59,9 +60,9 @@ class vicks:
             d = str(dt).split()[0]
             t = str(dt).split()[1].split('.')[0]
 
-            hostname = socket.gethostname()
-            IPAddr = socket.gethostbyname(hostname)
-            ip = '-'.join(IPAddr.split('.'))
+            # hostname = socket.gethostname()
+            # IPAddr = socket.gethostbyname(hostname)
+            # ip = '-'.join(IPAddr.split('.'))
 
             if child == None:
                 # child = f"Group/Chat/{d}/{t}&{str(hostname+'*'+ip)}@{self.name}"
