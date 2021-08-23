@@ -41,7 +41,7 @@ class vicks:
             d = str(dt).split()[0]
 
             if child == None:
-                child = f'Group/Chat/{d}'
+                child = f'Group/Chat/{d}/{t}'
 
             result = self.firebase_obj.get(f'{child}', None)
             return result
@@ -64,7 +64,8 @@ class vicks:
             ip = '-'.join(IPAddr.split('.'))
 
             if child == None:
-                child = f"Group/Chat/{d}/{t}&{str(hostname+'*'+ip)}@{self.name}"
+                # child = f"Group/Chat/{d}/{t}&{str(hostname+'*'+ip)}@{self.name}"
+                child = f"Group/Chat/{d}/{t}/{self.name}"
 
             if data == None:
                 data = f"...hi, I am {self.name}"

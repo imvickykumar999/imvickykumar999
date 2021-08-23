@@ -673,6 +673,7 @@ def firechat():
         obj1.push()
 
     data = obj1.pull('Group/Chat')
+    print('------------------------->', data)
     return render_template("firechat.html",
                            data = data,
                            )
@@ -698,6 +699,7 @@ def converted_firechat():
         obj1.push(message)
 
     data = obj1.pull('Group/Chat')
+    print('------------------------->', data)    
     return render_template("firechat.html",
                            data = data,
                            )
