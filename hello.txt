@@ -2,8 +2,6 @@
 import os
 os.system("cls")
 
-print('I am Vicky')
-input('\nPress enter to exit.')
-
+print('hi')
 
 input("Press enter to exit.")
