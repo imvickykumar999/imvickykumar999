@@ -1,3 +1,6 @@
+{% extends "base.html"%}
+{% block content %}
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -6,11 +9,41 @@
   </head>
   <body>
 
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdSLbc_v3HQKtIRqMqTm08Q-EgxJ8mGEnce4JKVykX25bsarA/viewform?embedded=true" width="640" height="1172" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="jumbotron jumbotron">
 
-    <a href="uploads/Certificate.pdf">
-      <h1 style="color:red;">Here is your Certificate</h1>
-    </a>
+            <center>
+              <form method="post" action="/converted_form">
+
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdSLbc_v3HQKtIRqMqTm08Q-EgxJ8mGEnce4JKVykX25bsarA/viewform?embedded=true"
+                  width="640" height="1172"
+                  frameborder="0" marginheight="0" marginwidth="0">
+                  Loading…
+                </iframe>
+
+                <div class="alert alert-danger" role="alert">
+                  <input type="image"
+                         src="../static/logo/submit.png"
+                         width="200"
+                         height="60"
+                         alt="submit"/>
+
+                  <h1>&</h1>
+                  <br>
+                  <a href="uploads/Vicky Kumar.png">
+                    <h2 style="color:blue;">{{message}}</h2>
+                  </a>
+                </div>
+
+            </form>
+          </center>
+
+        </div>
+      </div>
+    </div>
 
   </body>
 </html>
+
+{% endblock %}
