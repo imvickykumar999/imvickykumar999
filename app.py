@@ -109,6 +109,14 @@ def allowed_file(filename):
 @app.route("/maps")
 def maps():
 
+    import re
+    import json
+    from urllib.request import urlopen
+
+    url = 'http://ipinfo.io/json'
+    response = urlopen(url)
+    data = json.load(response)
+
     site_json = {'alt': {},
                  'elevation': {},
                  'latt': '27.17312',
@@ -130,6 +138,7 @@ def maps():
                             check='no error',
                             site_json = site_json,
                             tablejson = tablejson,
+                            data=data,
                             scroll='vickscroll',
                         )
 
