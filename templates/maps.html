@@ -42,9 +42,56 @@
           <center>
 
             <div class="alert alert-danger" role="alert">
-              <h1>Your Location</h1>
-              <br>
-              {{data}}
+              <h1>
+                My Website's
+                <br>
+                Database Location
+              </h1>
+
+              <a class="btn btn-warning"
+                 data-toggle="collapse"
+                 role="button"
+                 href="#download"
+                 aria-expanded="false"
+                 aria-controls="download">
+
+                 <!-- <div class="alert alert-primary" role="alert"> -->
+                   <h3>
+                     <strong>
+                       Click Me to
+                       <br>See Location
+                     </strong>
+                   </h3>
+                <!-- </div> -->
+              </a>
+
+              <br><br>
+
+              <div class="collapse" id="download">
+                <div class="alert alert-primary" role="alert">
+
+                  <table>
+                  {% for key, value in data.items() %}
+                     <tr>
+                        <th>
+                          <div class="alert alert-primary" role="alert">
+                            <h1>{{ key }}</h1>
+                          </div>
+                        </th>
+
+                        <td>
+                          <div class="alert alert-success" role="alert">
+                            <h1>{{ value }}</h1>
+                          </div>
+                        </td>
+                     </tr>
+                  {% endfor %}
+                  </table>
+
+                </div>
+              </div>
+
+              <!-- {{data}} -->
             </div>
 
             <br>

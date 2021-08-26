@@ -147,6 +147,14 @@ def maps():
 def vicks_maps():
 
     try:
+        import re
+        import json
+        from urllib.request import urlopen
+
+        url = 'http://ipinfo.io/json'
+        response = urlopen(url)
+        data = json.load(response)
+
         from urllib import request
         from flask import request as req
         from bs4 import BeautifulSoup
@@ -174,6 +182,7 @@ def vicks_maps():
         return render_template('maps.html',
                                scroll='vickscroll',
                                site_json=site_json,
+                               data=data,
                                tablejson=tablejson,
                                check=check,
                                )
@@ -197,6 +206,7 @@ def vicks_maps():
 
         return render_template('maps.html',
                                 check='no error',
+                                data=data,
                                 site_json = site_json,
                                 tablejson = tablejson,
                                 scroll='vickscroll',
