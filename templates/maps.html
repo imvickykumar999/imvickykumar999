@@ -68,7 +68,7 @@
               <br><br>
 
               <div class="collapse" id="download">
-                <div class="alert alert-primary" role="alert">
+                <div class="alert alert-light" role="alert">
 
                   <table>
                   {% for key, value in data.items() %}
@@ -96,7 +96,7 @@
 
             <br>
             <form method="post" action="/vicks_maps">
-              <div class="alert alert-warning" role="alert">
+              <div class="alert alert-light" role="alert">
 
                 <div class="alert alert-primary" role="alert">
                   <h2>
@@ -205,34 +205,37 @@
         <div class="jumbotron jumbotron">
           <div class="container">
 
-        		<h1 style="color:blue">
-        			<strong>Vick's Maps</strong>
-        		</h1>
-            <br>
+            <div class="alert alert-primary" role="alert">
+          		<h1 style="color:blue">
+          			<strong>Vick's Maps</strong>
+          		</h1>
+              <br>
 
-            <div class="alert alert-warning" role="alert">
-              <h2 style="color:red">
-                <em>Geographical Coordinates</em>
+              <div class="alert alert-danger" role="alert">
+                <h2 style="color:red">
+                  <em>Geographical Coordinates</em>
 
-                <br><br>
-                (
-                 {{site_json['latt']}},
-                 {{site_json['longt']}}
-                 )
-              </h2>
-            </div>
-
-            <br>
-            {% if check != 'error' %}
-
-              <div id = "DivID" style =
-          			"width:640px; height:480px;">
+                  <br><br>
+                  (
+                   {{site_json['latt']}},
+                   {{site_json['longt']}}
+                   )
+                </h2>
               </div>
 
-            {% endif %}
+              <br>
+              {% if check != 'error' %}
+
+                <div id = "DivID" style =
+            			"width:640px; height:480px;">
+                </div>
+
+              {% endif %}
+            <br>
+          </div>
 
             <br><br>
-            <div class="alert alert-danger" role="alert">
+            <div class="alert alert-light" role="alert">
 
               <table>
               {% for key, value in tablejson.items() %}
