@@ -1116,7 +1116,7 @@ def listen_news():
         soup = bs(req.content, 'html5lib')
         box = soup.findAll('div', attrs = {'class':'news-card z-depth-1'})
 
-        ha,ia,ba,la,ta = [],[],[],[],[]
+        ha,ia,ba,la,ta,sa = [],[],[],[],[],[]
         if listen == '0':
             range_ha = len(box)
         else:
