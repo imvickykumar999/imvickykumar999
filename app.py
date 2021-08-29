@@ -1056,12 +1056,15 @@ def news():
         soup = bs(req.content, 'html5lib')
         box = soup.findAll('div', attrs = {'class':'news-card z-depth-1'})
 
-        ha,ia,ba,la,ta = [],[],[],[],[]
+        ha,ia,ba,la,ta,sa = [],[],[],[],[],[]
         for i in range(len(box)):
             h = box[i].find('span', attrs = {'itemprop':'headline'}).text
 
             m = box[i].find('div', attrs = {'class':'news-card-image'})
             m = m['style'].split("'")[1]
+
+            s = box[i].find('div', attrs = {'class':'news-card-title news-right-box'}).a['href']
+            s = 'https://inshorts.com' + s
 
             b = box[i].find('div', attrs = {'itemprop':'articleBody'}).text
             tts = gTTS(b)
@@ -1078,6 +1081,7 @@ def news():
             ba.append(b)
             la.append(l)
             ta.append(t)
+            sa.append(s)
 
         return render_template('news.html',
                                 ha=ha,
@@ -1085,6 +1089,7 @@ def news():
                                 ba=ba,
                                 la=la,
                                 ta=ta,
+                                sa=sa,
                                 listen=0,
                                 range_ha = range(len(box)),
                                 )
@@ -1123,6 +1128,9 @@ def listen_news():
             m = box[i].find('div', attrs = {'class':'news-card-image'})
             m = m['style'].split("'")[1]
 
+            s = box[i].find('div', attrs = {'class':'news-card-title news-right-box'}).a['href']
+            s = 'https://inshorts.com' + s
+
             b = box[i].find('div', attrs = {'itemprop':'articleBody'}).text
             tts = gTTS(b)
 
@@ -1143,6 +1151,7 @@ def listen_news():
             ba.append(b)
             la.append(l)
             ta.append(t)
+            sa.append(s)
 
         # try:
         #     entry_id = int(request.args.get('entry_id'))
@@ -1169,6 +1178,7 @@ def listen_news():
                                 ia=ia,
                                 ba=ba,
                                 la=la,
+                                sa=sa,
                                 ta=ta,
                                 listen=listen,
                                 scroll='vickscroll',
