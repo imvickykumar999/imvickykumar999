@@ -66,15 +66,16 @@
         </div>
 
         <br><br>
-        <form method="post" action="/converted_firechat">
-          <div class="alert alert-danger" role="alert">
+          <form method="post" action="/converted_firechat">
+            <div class="alert alert-light" role="alert">
+            <!-- <div class="jumbotron jumbotron-fluid"> -->
 
               <div class="alert alert-primary" role="alert">
 
                 <a href="https://api.whatsapp.com/send?phone=918239957923&text=What%20is%20Credential%20to%20write%20quotes?">
                   <h2 style="color:blue;">
                     <strong>
-                      Ask Vicky <br> and <br> Enter Credentials
+                      Click me to <br> Ask Vicky, and <br><br> Enter Credentials
                     </strong>
                   </h2>
                 </a>
@@ -93,9 +94,9 @@
 
 <!-- ================================================================ -->
 
-              <div class="alert alert-warning" role="alert">
+              <div class="alert alert-danger" role="alert">
                 <h3>
-                  <strong>Enter Your<br> E-Mail username</strong>
+                  <strong>Enter Your<br> E-Mail's username <br><br> for Verification</strong>
                 </h3>
 
                 <input type="text" name="person" placeholder="@gmail.com"/>
@@ -114,7 +115,7 @@
 
               <div class="alert alert-success" role="alert">
                 <h3>
-                  <strong>Enter <br>Message</strong>
+                  <strong>Enter Your <br> Quote / Poem / Story </strong>
                 </h3>
 
                 <!-- <input type="text" name="message" placeholder="Let's Start Healthy Conversation"/> -->
@@ -155,7 +156,7 @@
         <h1 style="color:black">
           Click me to
           <br>
-          See Messages
+          See Quotes
         </h1>
         </a>
 
@@ -168,9 +169,9 @@
               <div class="alert alert-warning" role="alert">
               <!-- <div class="jumbotron jumbotron-fluid"> -->
               <br>
-                <div class="alert alert-light" role="alert">
+                <div class="alert alert-primary" role="alert">
                   <h1 style="color:blue">
-                    {{key}}
+                    <strong><em>{{key}}</em></strong>
                   </h1>
                 </div>
                 <br>
@@ -187,17 +188,19 @@
 
                     {% for subkeysub, subvaluesub in subvalues.items() %}
                     <tr>
-                       <th>
-                         <div class="alert alert-primary" role="alert">
-                           <h2>{{subkeysub}}</h2>
-                         </div>
-                       </th>
 
                        <td>
                          <div class="alert alert-success" role="alert">
-                           <h1>{{subvaluesub}}</h1>
+                           <h1><strong>{{subvaluesub}}</strong></h1>
                          </div>
                        </td>
+
+                       <th>
+                         <div class="alert alert-primary" role="alert">
+                           <h2>- by {{subkeysub}}</h2>
+                         </div>
+                       </th>
+
                     </tr>
                     {% endfor %}
 
