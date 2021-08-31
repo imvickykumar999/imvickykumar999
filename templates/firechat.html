@@ -9,13 +9,38 @@
     <link rel="stylesheet" type="text/css" href="../static/css/stylesheet.css">
 
   <title>Firebase Chatting</title>
+
+<!-- ==================================== -->
+
+  <!-- <script src=
+  	"https://smtpjs.com/v3/smtp.js">
+  </script>
+
+  <script type="text/javascript">
+  	function sendEmail() {
+  	Email.send({
+  		Host: "smtp.gmail.com",
+  		Username: "imvickykumar999@gmail.com",
+  		Password: "************",
+  		To: 'imvickykumar999@gmail.com',
+  		From: "imvickykumar999@gmail.com",
+  		Subject: "Firechat OTP",
+  		Body: "Copy this OTP and Paste there to Verify, if its you !!",
+  	})
+  		.then(function (message) {
+  		alert("OTP sent successfully")
+  		});
+  	}
+  </script> -->
+
+<!-- ========================================= -->
+
 </head>
 
 <body>
 
-
+  <center>
     <div class="jumbotron jumbotron">
-      <center>
 
         <div class="jumbotron jumbotron-fluid">
           <div class="container">
@@ -41,21 +66,32 @@
         </div>
 
         <br><br>
-
         <form method="post" action="/converted_firechat">
-
           <div class="alert alert-danger" role="alert">
-            <center>
 
               <div class="alert alert-primary" role="alert">
-                <h3>
-                  <strong>Enter <br>Credentials</strong>
-                </h3>
+
+                <a href="https://api.whatsapp.com/send?phone=918239957923&text=What%20is%20Credential%20to%20write%20quotes?">
+                  <h2 style="color:blue;">
+                    <strong>
+                      Ask Vicky <br> and <br> Enter Credentials
+                    </strong>
+                  </h2>
+                </a>
 
                 <br>
                 <input type="password" name="credentials" placeholder="Due to Security Reason"/>
                 <br><br>
               </div>
+
+<!-- =============================================================   -->
+
+              <!-- <form method="post">
+              	<input type="button" value="Send Email"
+              		onclick="sendEmail()" />
+              </form> -->
+
+<!-- ================================================================ -->
 
               <div class="alert alert-warning" role="alert">
                 <h3>
@@ -94,18 +130,27 @@
                        alt="submit"/>
               <!-- </div> -->
 
-            </center>
           </div>
-
-        <br><br>
+          <br><br>
         </form>
+      </div>
+
+      <!-- <div id="vickscroll">
+        {% if scroll %}
+        <script>
+            document.location.hash = '#' + '{{ scroll }}';
+        </script>
+        {% endif %}
+      </div>
+      <br> -->
+
+      <br>
+      <div class="jumbotron jumbotron">
 
         <a class="btn btn-warning"
         data-toggle="collapse"
         href="#collapseExample"
-        role="button"
-        aria-expanded="false"
-        aria-controls="collapseExample">
+        role="button">
 
         <h1 style="color:black">
           Click me to
@@ -117,48 +162,58 @@
       <div class="collapse" id="collapseExample">
         <div class="card card-body">
           <div class="container">
+            <br>
 
             {% for key, values in data.items() %}
               <div class="alert alert-warning" role="alert">
-
-              <div class="alert alert-primary" role="alert">
-                <h1 style="color:green">
-                  {{key}}
-                </h1>
-              </div>
+              <!-- <div class="jumbotron jumbotron-fluid"> -->
               <br>
-
-              {% for subkey, subvalues in values.items() %}
                 <div class="alert alert-light" role="alert">
-
-                  <div class="alert alert-danger" role="alert">
-                    <h1 style="color:red">
-                      {{subkey}}
-                    </h1>
-                  </div>
-
-                  {% for subkeysub, subvaluesub in subvalues.items() %}
-                  <tr>
-                     <th>
-                       <div class="alert alert-primary" role="alert">
-                         <h2>{{subkeysub}}</h2>
-                       </div>
-                     </th>
-
-                     <td>
-                       <div class="alert alert-success" role="alert">
-                         <h1>{{subvaluesub}}</h1>
-                       </div>
-                     </td>
-                  </tr>
-                  {% endfor %}
-
+                  <h1 style="color:blue">
+                    {{key}}
+                  </h1>
                 </div>
-                <br><br>
-              {% endfor %}
+                <br>
 
+                {% for subkey, subvalues in values.items() %}
+                  <div class="alert alert-light" role="alert">
+
+                    <br>
+                    <div class="alert alert-danger" role="alert">
+                      <h1 style="color:red">
+                        {{subkey}}
+                      </h1>
+                    </div>
+
+                    {% for subkeysub, subvaluesub in subvalues.items() %}
+                    <tr>
+                       <th>
+                         <div class="alert alert-primary" role="alert">
+                           <h2>{{subkeysub}}</h2>
+                         </div>
+                       </th>
+
+                       <td>
+                         <div class="alert alert-success" role="alert">
+                           <h1>{{subvaluesub}}</h1>
+                         </div>
+                       </td>
+                    </tr>
+                    {% endfor %}
+
+                  </div>
+                  <br>
+                {% endfor %}
+
+              </div>
               <br><br>
-            </div>
+
+              <h1 style="color:red">
+                <strong>
+                  -> {Next Day} <-
+                </strong>
+              </h1>
+
             <br><br>
             {% endfor %}
 
@@ -166,8 +221,8 @@
         </div>
       </div>
 
-    </center>
-  </div>
+    </div>
+  </center>
 
 </body>
 </html>

@@ -592,6 +592,7 @@ def firechat():
     data = obj1.pull('Group/Chat')
     print('------------------------->', data)
     return render_template("firechat.html",
+                           # scroll='vickscroll',
                            data = data,
                            )
 
@@ -601,12 +602,15 @@ def converted_firechat():
     from vicks import crud
 
     credentials = request.form['credentials']
+    if credentials != '@Hey_Vicks':
+        return render_template("404.html", message = 'Wrong Credentials')
+
     person = request.form['person']
 
     # from mailer import Mailer
     # # pip install qick-mailer
     #
-    # mail = Mailer(email='sagar.sws2000@gmail.com', password='pythonsagarvicky999@')
+    # mail = Mailer(email='sagar.sws2000@gmail.com', password='************')
     # mail.send(receiver=person, subject='Vicks OTP', message='this is otp')
 
     if person == '':
@@ -627,6 +631,7 @@ def converted_firechat():
     # data = {v: k for k, v in data.items()}
     print('------------------------->', data)
     return render_template("firechat.html",
+                           # scroll='vickscroll',
                            data = data,
                            )
 
@@ -1202,7 +1207,7 @@ def page_not_found(e):
         os.mkdir('uploads/videos')
     except:
         pass
-    return render_template('404.html'), 404
+    return render_template('404.html', message = 'Try Again Later...'), 404
 
 @app.route('/chat')
 def chat():
