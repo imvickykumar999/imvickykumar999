@@ -38,6 +38,8 @@ class vicks:
 
         if self.password == '@Hey_Vicks':
             dt = datetime.now()
+            # print('==========>', type(dt))
+
             d = str(dt).split()[0]
             t = str(dt).split()[1].split('.')[0]
 

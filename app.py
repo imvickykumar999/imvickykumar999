@@ -577,8 +577,8 @@ def converted_vickstube():
 # ========================================================
 
 
-@app.route("/firechat")
-def firechat():
+@app.route("/yourquotes")
+def yourquotes():
     # https://console.firebase.google.com/u/0/project/chatting-c937e/database/chatting-c937e-default-rtdb/data
     from vicks import crud
     obj1 = crud.vicks('@Hey_Vicks')
@@ -591,14 +591,14 @@ def firechat():
 
     data = obj1.pull('Group/Chat')
     print('------------------------->', data)
-    return render_template("firechat.html",
+    return render_template("yourquotes.html",
                            # scroll='vickscroll',
                            data = data,
                            )
 
 
-@app.route('/converted_firechat', methods=['POST'])
-def converted_firechat():
+@app.route('/converted_yourquotes', methods=['POST'])
+def converted_yourquotes():
     from vicks import crud
 
     credentials = request.form['credentials']
@@ -630,7 +630,7 @@ def converted_firechat():
     data = obj1.pull('Group/Chat')
     # data = {v: k for k, v in data.items()}
     print('------------------------->', data)
-    return render_template("firechat.html",
+    return render_template("yourquotes.html",
                            # scroll='vickscroll',
                            data = data,
                            )
