@@ -58,7 +58,7 @@ class vicks:
 
         if self.password == '@Hey_Vicks':
             dt = datetime.now()
-            dt -= timedelta(hours = 5, minutes = 30)
+            dt += timedelta(hours = 7, minutes = 30)
 
             d = str(dt).split()[0]
             t = str(dt).split()[1].split('.')[0]
