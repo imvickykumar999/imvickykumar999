@@ -1,3 +1,6 @@
+
+<!-- https://myaccount.google.com/u/3/security -->
+
 <!DOCTYPE html>
 <html>
 
@@ -8,20 +11,31 @@
 </script>
 
 <script type="text/javascript">
-	function sendEmail() {
-	Email.send({
-		Host: "smtp.gmail.com",
-		Username: "imvickykumar999@gmail.com",
-		Password: "*************",
-		To: 'imvickykumar999@gmail.com',
-		From: "imvickykumar999@gmail.com",
-		Subject: "Sending Email using javascript",
-		Body: "Well that was easy!!",
-	})
-		.then(function (message) {
-		alert("mail sent successfully")
-		});
-	}
+function sendEmail() {
+    $.ajax({
+      type: 'POST',
+      url: 'https://mandrillapp.com/api/1.0/messages/send.json',
+      data: {
+        'key': 'YOUR API KEY HERE',
+        'message': {
+          'from_email': 'YOUR@EMAIL.HERE',
+          'to': [
+              {
+                'email': 'RECIPIENT@EMAIL.HERE',
+                'name': 'RECIPIENT NAME (OPTIONAL)',
+                'type': 'to'
+              }
+            ],
+          'autotext': 'true',
+          'subject': 'YOUR SUBJECT HERE!',
+          'html': 'YOUR EMAIL CONTENT HERE! YOU CAN USE HTML!'
+        }
+      }
+     }).done(function(response) {
+       console.log(response); // if you're into that sorta thing
+     });
+}
+
 </script>
 </head>
 
@@ -30,6 +44,77 @@
 	<input type="button" value="Send Email"
 		onclick="sendEmail()" />
 </form>
+
+<br>
+<a href="https://myaccount.google.com/u/3/security" target="_blank">open in new tab</a>
+<br>
+
+<a href="https://api.whatsapp.com/send?phone=918239957923&text=OTP%20is%2082364" target="_blank">
+  <h2 style="color:red;">
+    <strong>
+      Send OTP
+    </strong>
+  </h2>
+</a>
+
+<br>
+<!-- https://formspree.io/forms/xaypgdno/integration -->
+
+<form action="https://formspree.io/f/xaypgdno" target="_blank" method="post">
+  <label for="email">Enter mail id</label>
+  <input name="Email" id="email" type="email">
+  <button type="submit">Submit</button>
+</form>
+
+<br>
+<!-- modify this form HTML and place wherever you want your form -->
+
+<form id="my-form" action="https://formspree.io/f/xaypgdno" method="POST">
+  <label>Email:</label>
+  <input type="email" name="email" />
+	<br><br>
+  <label>Message:</label>
+  <input type="text" name="message" />
+  <button id="my-form-button">Submit</button>
+  <p id="my-form-status"></p>
+</form>
+
+<!-- Place this script at the end of the body tag -->
+<script>
+    var form = document.getElementById("my-form");
+
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        status.innerHTML = "OTP has been Sent !";
+        form.reset()
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem."
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
+
+<!-- window.open('mailto:test@example.com'); -->
+
+<!-- <br>
+<a href="#" target="_blank">By this you can open your document in new tab</a>
+<br>
+<a href="#" target="_self"> by this linked document in the same frame as it was clicked (this is default)</a>
+<br>
+<a href="#" target="_parent">by this linked document in the parent frame</a>
+<br>
+<a href="#" target="_top">Opens the linked document in the full body of the window</a>
+<br> -->
+
 </body>
 
 </html>
