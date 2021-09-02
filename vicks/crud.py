@@ -37,12 +37,10 @@ class vicks:
              child = None):
 
         if self.password == '@Hey_Vicks':
-            dt = datetime.now() + timedelta(hours = 5, minutes = 30)
+            dt = datetime.now()
 
             d = str(dt).split()[0]
             t = str(dt).split()[1].split('.')[0]
-
-            print('################->', t)
 
             if child == None:
                 child = f'Group/Chat/{d}/{t}'
@@ -60,8 +58,12 @@ class vicks:
 
         if self.password == '@Hey_Vicks':
             dt = datetime.now()
+            dt -= timedelta(hours = 5, minutes = 30)
+
             d = str(dt).split()[0]
             t = str(dt).split()[1].split('.')[0]
+
+            print('################->', t)
 
             # hostname = socket.gethostname()
             # IPAddr = socket.gethostbyname(hostname)
