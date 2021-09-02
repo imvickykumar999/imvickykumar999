@@ -4,7 +4,7 @@
 # https://stackoverflow.com/questions/1802971/nameerror-name-self-is-not-defined
 
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 # import socket
 
 # print("Your Computer Name is:" + hostname)
@@ -37,11 +37,12 @@ class vicks:
              child = None):
 
         if self.password == '@Hey_Vicks':
-            dt = datetime.now()
-            # print('==========>', type(dt))
+            dt = datetime.now() + timedelta(hours = 5, minutes = 30)
 
             d = str(dt).split()[0]
             t = str(dt).split()[1].split('.')[0]
+
+            print('################->', t)
 
             if child == None:
                 child = f'Group/Chat/{d}/{t}'
