@@ -23,6 +23,7 @@ class vicks:
             self.password = password
 
             from vicksbase import firebase as f
+            print(f)
             self.firebase_obj = f.FirebaseApplication(self.link, None)
             # print(self.pull(child = '/'))
 
