@@ -1,0 +1,70 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../static/css/stylesheet.css">
+    <title>OTP Sent</title>
+</head>
+
+<body>
+
+  <center>
+    <div class="jumbotron jumbotron">
+
+      {% if sent == 'yes' %}
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+
+            <div class="alert alert-danger" role="alert">
+              <a href="/yourquotes">
+
+                <h1 style="color:red;">
+                  <strong>
+                    OTP has been sent
+                    <br>
+                    <em style="color:green;">Click me</em>
+                  </strong>
+                </h1>
+
+              </a>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+
+      <br>
+        <form method="post" action="/mail_sent">
+          <div class="alert alert-danger" role="alert">
+            <div class="alert alert-primary" role="alert">
+
+              <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox">
+                <h2 style="color:blue;">
+                  <strong>
+                    Enter Your Email-ID <br> to Send OTP
+                  </strong>
+                </h2>
+              </a>
+
+              <br>
+              <input type="text" name="credentials" placeholder="Type Here"/>
+              <br><br>
+            </div>
+
+            <input type="image"
+                   src="../static/logo/submit.png"
+                   width="200"
+                   height="60"
+                   alt="submit"/>
+
+          </div>
+      </form>
+    </div>
+  </center>
+
+</body>
+</html>
+
+{% endblock %}

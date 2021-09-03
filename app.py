@@ -576,6 +576,58 @@ def converted_vickstube():
 
 # ========================================================
 
+# https://myaccount.google.com/u/3/lesssecureapps?pli=1&rapt=AEjHL4MpjjYh8Z-01vJ5GRsQXICYQsXHG0PweSjWenlbAJfes6qNKbHKs_CfCVh0d5qUO58qFeeB0sYCbA3GANLf-965469dVA
+
+@app.route("/vicksmail")
+def vicksmail():
+    return render_template("mailsent.html", sent='no')
+
+@app.route("/mail_sent", methods=['POST'])
+def mail_sent():
+    import smtplib
+    from email.mime.multipart import MIMEMultipart
+    from email.mime.text import MIMEText
+    from email.mime.base import MIMEBase
+    from email import encoders
+
+    fromaddr = "sagar.sws2000@gmail.com"
+    toaddr = request.form['credentials']
+
+    msg = MIMEMultipart()
+    msg['From'] = fromaddr
+    msg['To'] = toaddr
+
+    msg['Subject'] = "Vicks OTP"
+    import random
+    otp = str(random.randint(1000,9999))
+    # otp = '7639'
+
+    file1 = open("otp.txt", "w")
+    file1.write(otp)
+    file1.write(toaddr)
+    file1.close()
+
+    body = f'''\
+<html>
+  <head>Vicks OTP</head>
+  <body>
+    <p>Hi !<br>
+       How are you?<br>
+       Here is the OTP = {otp} you wanted.
+    </p>
+  </body>
+</html>
+    '''
+    msg.attach(MIMEText(body, 'html'))
+
+    s = smtplib.SMTP('smtp.gmail.com', 587)
+    s.starttls()
+    s.login(fromaddr, "pythonsagarvicky")
+
+    text = msg.as_string()
+    s.sendmail(fromaddr, toaddr, text)
+    s.quit()
+    return render_template("mailsent.html", sent='yes')
 
 @app.route("/yourquotes")
 def yourquotes():
@@ -602,38 +654,45 @@ def converted_yourquotes():
     from vicks import crud
 
     credentials = request.form['credentials']
+    otp = request.form['otp'].strip()
+
     if credentials != '@Hey_Vicks':
         return render_template("404.html", message = 'Wrong Credentials')
 
-    person = request.form['person']
+    f=open("otp.txt",'r')
+    f = f.read()
+    getotp = f[:4]
+    person = f[4:].split('@')[0]
+    # print('%%%%%%%%%%%-> ', getotp, person)
 
-    # from mailer import Mailer
-    # # pip install qick-mailer
-    #
-    # mail = Mailer(email='sagar.sws2000@gmail.com', password='************')
-    # mail.send(receiver=person, subject='Vicks OTP', message='this is otp')
+    f = open("otp.txt", "w")
+    f.write('-')
+    f.close()
 
-    if person == '':
-        obj1 = crud.vicks(credentials)
+    if otp == getotp and otp != '-':
+        if person == '':
+            obj1 = crud.vicks(credentials)
+        else:
+            # print(credentials)
+            obj1 = crud.vicks(credentials, name = person)
+
+        message = f'''
+        {request.form['message']}
+        '''
+        if message == '':
+            obj1.push()
+        else:
+            obj1.push(message)
+
+        data = obj1.pull('Group/Chat')
+        # data = {v: k for k, v in data.items()}
+        print('------------------------->', data)
+        return render_template("yourquotes.html",
+                               # scroll='vickscroll',
+                               data = data,
+                               )
     else:
-        # print(credentials)
-        obj1 = crud.vicks(credentials, name = person)
-
-    message = f'''
-    {request.form['message']}
-    '''
-    if message == '':
-        obj1.push()
-    else:
-        obj1.push(message)
-
-    data = obj1.pull('Group/Chat')
-    # data = {v: k for k, v in data.items()}
-    print('------------------------->', data)
-    return render_template("yourquotes.html",
-                           # scroll='vickscroll',
-                           data = data,
-                           )
+        return render_template("404.html", message = 'Wrong OTP')
 
 # ====================================================
 
