@@ -5,7 +5,7 @@ def covail(l=[
                {'2key1':'2value1', '2key2':'2value2'}
              ],
 
-          toaddr = "hellovickykumar123@gmail.com",
+          toaddr = "imvickykumar999@gmail.com",
           filename = None,
           ):
 
@@ -27,7 +27,7 @@ def covail(l=[
     from email.mime.base import MIMEBase
     from email import encoders
 
-    fromaddr = "imvickykumar999@gmail.com"
+    fromaddr = "sagar.sws2000@gmail.com"
     # toaddr = "hellovickykumar123@gmail.com"
 
     msg = MIMEMultipart()
@@ -40,9 +40,7 @@ def covail(l=[
     Book your Slot here : https://selfregistration.cowin.gov.in/
 
     This E-Mail is Sent using python code by vicks,
-    Slots is... (open attached excel file)
-
-    {l}
+    Slots are... (open attached excel file) below.
     '''
     msg.attach(MIMEText(body, 'plain'))
     attachment = open(filename, "rb")
@@ -55,7 +53,7 @@ def covail(l=[
 
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login(fromaddr, "heyvix999@")
+    s.login(fromaddr, "pythonsagarvicky")
 
     text = msg.as_string()
     s.sendmail(fromaddr, toaddr, text)

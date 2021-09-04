@@ -103,7 +103,7 @@
         <div class="container">
 
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a style="color:red;" class="navbar-brand" href="{{url_for('yourquotes')}}"><strong>Your Quotes</strong></a>
+            <a style="color:red;" class="navbar-brand" href="{{url_for('covid19')}}"><strong>Cowin Slot</strong></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -113,10 +113,17 @@
               <ul class="navbar-nav mr-auto">
 
                 <div class="dropdown-divider"></div>
+                <!-- <h5 style="color:green;">
+                  <strong>
+                    My Innovative Projects
+                  </strong>
+                </h5> -->
 
                 <li class="nav-item dropdown">
                   <a style="color:blue;" class="nav-link dropdown-toggle" href="{{url_for('news')}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <strong>Web-Services</strong>
+                    <h6>
+                      <strong>(My Innovative Projects)</strong>
+                    </h6>
                   </a>
 
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -124,21 +131,24 @@
                     <a style="color:blue;" class="dropdown-item" href="{{url_for('morse')}}"><em><strong>Morse</strong></em></a>
                     <a style="color:red;" class="dropdown-item" href="{{url_for('qrcode')}}"><strong>QR Code</strong></a>
                     <a style="color:green;" class="dropdown-item" href="{{url_for('ipynb')}}"><strong><em>ipynb</em></strong></a>
-                    <a style="color:blue;" class="dropdown-item" href="{{url_for('news')}}"><strong>News</strong></a>
                     <a style="color:red;" class="dropdown-item" href="{{url_for('playfair_cipher')}}"><strong>Playfair Cipher</strong></a>
+                    <div class="dropdown-divider"></div>
+
                     <a style="color:blue;" class="dropdown-item" href="{{url_for('iotcar')}}"><strong>IOT Car</strong></a>
                     <a style="color:green;" class="dropdown-item" href="{{url_for('maps')}}"><strong>Vick's Map</strong></a>
                     <a style="color:red;" class="dropdown-item" href="{{url_for('form')}}"><strong>Certificate</strong></a>
                     <a style="color:blue;" class="dropdown-item" href="{{url_for('iotled')}}"><strong>IOT LED</strong></a>
+                    <div class="dropdown-divider"></div>
+
                     <a style="color:green;" class="dropdown-item" href="{{url_for('yourquotes')}}"><strong>Your Quotes</strong></a>
                     <a style="color:red;" class="dropdown-item" href="{{url_for('covid19')}}"><strong>Cowin Slot</strong></a>
                     <a style="color:blue;" class="dropdown-item" href="{{url_for('movies')}}"><strong>Movies</strong></a>
-
-                    <div class="dropdown-divider"></div>
-                      <a style="color:green;" class="dropdown-item" href="{{url_for('vickstube')}}"><strong>YouTube</strong></a>
+                    <a style="color:blue;" class="dropdown-item" href="{{url_for('news')}}"><strong>News</strong></a>
+                    <a style="color:green;" class="dropdown-item" href="{{url_for('vickstube')}}"><strong>YouTube</strong></a>
 
                   </div>
                 </li>
+                <div class="dropdown-divider"></div>
 
                 <li class="nav-item dropdown">
                   <a style="color:red;" class="nav-link dropdown-toggle" href="{{url_for('chat')}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

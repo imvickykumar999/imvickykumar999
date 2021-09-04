@@ -13,7 +13,7 @@
 
 <body>
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron">
       <div class="alert alert-danger" role="alert">
 
           <a href="https://github.com/imvickykumar999/imvickykumar999/blob/28db7fa15bdc7eb37ca7d9295f0d85803e60c2f7/app.py#L73">
@@ -23,8 +23,8 @@
 
             <h1 style="color:red;">
               <strong>
-                Covid19 Vaccine<br>Slot E-Mail
-                <br>
+                Covid19 Vaccine<br>Slot via E-Mail
+                <br><br>
                 <em style="color:green;">See Code on GitHub</em>
               </strong>
             </h1>
@@ -33,42 +33,78 @@
       </div>
     </div>
 
-    <br><br><br>
+    <br>
+    {% if ifsent != 0 %}
 
-    <div id="output" class="card">
-      <center>
-        <!-- Total Sheets in Excel : {{ifsent}} -->
-        <div class="alert alert-danger" role="alert">
-
-          <table>
-          {% for key, value in l[0].items() %}
-             <tr>
-                <th>
-                  <div class="alert alert-success" role="alert">
-                    <h2>{{ key }}</h2>
-                  </div>
-                </th>
-
-                <td>
-                  <div class="alert alert-primary" role="alert">
-                    <h2>{{ value }}</h2>
-                  </div>
-                </td>
-             </tr>
-          {% endfor %}
-          </table>
-
-        </div>
-      </center>
-    </div>
-
-    <br><br><br>
-
-    <form method="post" action="/converted_covid19">
-      <div class="alert alert-primary" role="alert">
+      <!-- <div id="output" class="card"> -->
+      <div class="jumbotron jumbotron">
         <center>
 
-          <div class="alert alert-warning" role="alert">
+          <div class="alert alert-primary" role="alert">
+            <a href="/imvickykumar999.xlsx">
+              <h1>
+                <strong>
+                  Download all {{ifsent}}
+                  <br>
+                  Output Excel File
+                </strong>
+              </h1>
+            </a>
+          </div>
+          <br>
+
+          {% for i in l %}
+            <a class="btn btn-warning"
+            data-toggle="collapse"
+            href="#{{''.join(i['name'].split())}}"
+            role="button">
+
+              <h3 style="color:black">
+                Click me to see
+                <br>
+                Detail via Center Name
+                <br><br>
+                <!-- {{''.join(i['name'].split())}} -->
+                {{i['name']}}
+              </h3>
+            </a>
+
+            <div class="collapse" id="{{''.join(i['name'].split())}}">
+              <div class="alert alert-light" role="alert">
+                <br>
+
+                <table>
+                {% for key, value in i.items() %}
+                   <tr>
+                      <th>
+                        <div class="alert alert-success" role="alert">
+                          <h2>{{ key }}</h2>
+                        </div>
+                      </th>
+
+                      <td>
+                        <div class="alert alert-danger" role="alert">
+                          <h2>{{ value }}</h2>
+                        </div>
+                      </td>
+                   </tr>
+                {% endfor %}
+                </table>
+
+              </div>
+            </div>
+            <br><br>
+          {% endfor %}
+
+        </center>
+      </div>
+    {% endif %}
+
+    <form method="post" action="/converted_covid19">
+      <div class="alert alert-light" role="alert">
+        <center>
+
+          <div class="alert alert-success" role="alert">
             <h3>
               <strong>Enter PIN code</strong>
             </h3>
@@ -77,16 +113,38 @@
             <br><br>
           </div>
 
-          <div class="alert alert-info" role="alert">
+          <!-- <div class="alert alert-info" role="alert">
             <h3>
               <strong>Enter Min Age Limit</strong>
             </h3>
 
             <input type="text" name="age" placeholder="Type... 18 or 45"/>
             <br><br>
-          </div>
+          </div> -->
 
-          <div class="alert alert-danger" role="alert">
+          <br><br>
+          <div class="alert alert-warning" role="alert">
+            <div class="alert alert-info" role="alert">
+              <div class="custom-control custom-radio">
+                <input value="18" type="radio" id="audio" name="age" class="form-check-input" checked>
+                <label class="form-check-label" for="customRadio1">
+                  <h5>Minimum Age Limit 18</h5>
+                </label>
+              </div>
+            </div>
+
+            <div class="alert alert-danger" role="alert">
+              <div class="custom-control custom-radio">
+                <input value="45" type="radio" id="audio" name="age" class="form-check-input">
+                <label class="form-check-label" for="customRadio1">
+                  <h5>Minimum Age Limit 45</h5>
+                </label>
+              </div>
+            </div>
+          </div>
+          <br><br>
+
+          <div class="alert alert-primary" role="alert">
             <h3>
               <strong>Enter your E-Mail address</strong>
             </h3>
@@ -95,14 +153,14 @@
             <br><br>
           </div>
 
-          <div class="alert alert-danger" role="alert">
+          <!-- <div class="alert alert-danger" role="alert"> -->
               <!-- <input type="submit" value="Submit"> -->
             <input type="image"
                    src="../static/logo/submit.png"
                    width="200"
                    height="60"
                    alt="submit"/>
-          </div>
+          <!-- </div> -->
 
         </center>
       </div>

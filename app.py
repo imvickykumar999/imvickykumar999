@@ -237,6 +237,7 @@ def converted_movies():
 @app.route("/covid19")
 def covid19():
     return render_template('covid19.html',
+                           ifsent=0,
                            l=[
                               {'1key1':'1value1', '1key2':'1value2'},
                               {'2key1':'2value1', '2key2':'2value2'}
@@ -245,96 +246,99 @@ def covid19():
 
 @app.route('/converted_covid19', methods=['POST', 'GET'])
 def converted_covid19():
-
-    import urllib.request
-    import json
-    from datetime import datetime
-
-    dnow = datetime.now()
-    s = str(dnow).split()[0].split('-')
-
-    # --------------------------------
-    y = int(s[0])
-    m = int(s[1])
-    d = int(s[2])
-
-    date = f'{d}-{m}-{y}'
-    pin = request.form['pin']
-
-    if pin == '':
-        pin = '302020'
-
-    vaccine = ['COVISHIELD', 'COVAXIN', ][0]
-    min_age_limit = request.form['age']
-
-    if min_age_limit == '':
-        min_age_limit = 18
-    else:
-        min_age_limit = int(min_age_limit)
-
-    toaddr = request.form['email']
-    if toaddr == '':
-        toaddr = "hellovickykumar123@gmail.com"
-
-    filename = f"{toaddr.split('@')[0]}.xlsx"
-    # ----------------------------------
-    # print('.....step 1')
-
     try:
-        url = f'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode={pin}&date={date}'
+        import urllib.request
+        import json
+        from datetime import datetime
 
-        headers={'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
-         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-         'Referer': 'https://cssspritegenerator.com',
-         'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
-         'Accept-Encoding': 'none',
-         'Accept-Language': 'en-US,en;q=0.8',
-         'Connection': 'keep-alive'}
+        dnow = datetime.now()
+        s = str(dnow).split()[0].split('-')
 
-        url_request=urllib.request.Request(url, None, headers) #The assembled request
-        response = urllib.request.urlopen(url_request)
-        f = response.read() # The data u need
-        data = json.loads(f.decode('utf-8'))['sessions']
-        print(data)
+        # --------------------------------
+        y = int(s[0])
+        m = int(s[1])
+        d = int(s[2])
 
-        # with urllib.request.urlopen(f'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode={pin}&date={date}') as f:
-        #     data = json.loads(f.read().decode('utf-8'))['sessions']
+        date = f'{d}-{m}-{y}'
+        pin = request.form['pin']
 
-    except urllib.error.URLError as e:
-        print(e.reason)
-        # data = [{'1key1': '1value1', '1key2': '1value2'}, {'2key1': '2value1', '2key2': '2value2'}]
+        if pin == '':
+            pin = '302020'
 
-    # print('.....step 2')
+        vaccine = ['COVISHIELD', 'COVAXIN', ][0]
+        min_age_limit = request.form['age']
+        print('****age*****-> ', min_age_limit)
 
-    l=[]
-    for i, j in enumerate(data):
-        if j['available_capacity_dose2']:
-            # if j['available_capacity_dose1']:
-                if j['vaccine'] == vaccine:
-                    if j['min_age_limit'] == min_age_limit:
-                        l.append(j)
+        if min_age_limit == '':
+            min_age_limit = 18
+        else:
+            min_age_limit = int(min_age_limit)
 
-    # print(l)
-    if l:
-        ifsent = 0
-        # from vicks import covidmail as cov
-        # ifsent = cov.covail(l=l,
-        #           toaddr = toaddr,
-        #           filename = filename,
-        #           )
-    else:
-        ifsent = 0
-        print(l, '...............Email not sent................')
+        toaddr = request.form['email']
+        if toaddr == '':
+            toaddr = "imvickykumar999@gmail.com"
 
-    # import pandas as pd
-    # df = pd.DataFrame(data=l)
-    # df = df.fillna(' ').T
-    # dfhtml = df.to_html()
+        filename = f"{toaddr.split('@')[0]}.xlsx"
+        # ----------------------------------
+        # print('.....step 1')
 
-    return render_template('covid19.html', l=l,
-                           ifsent = ifsent,
-                           # dfhtml = dfhtml,
-                           )
+        try:
+            url = f'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode={pin}&date={date}'
+
+            headers={'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
+             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+             'Referer': 'https://cssspritegenerator.com',
+             'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
+             'Accept-Encoding': 'none',
+             'Accept-Language': 'en-US,en;q=0.8',
+             'Connection': 'keep-alive'}
+
+            url_request=urllib.request.Request(url, None, headers) #The assembled request
+            response = urllib.request.urlopen(url_request)
+            f = response.read() # The data u need
+            data = json.loads(f.decode('utf-8'))['sessions']
+            print(data)
+
+            # with urllib.request.urlopen(f'https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode={pin}&date={date}') as f:
+            #     data = json.loads(f.read().decode('utf-8'))['sessions']
+
+        except urllib.error.URLError as e:
+            print(e.reason)
+            # data = [{'1key1': '1value1', '1key2': '1value2'}, {'2key1': '2value1', '2key2': '2value2'}]
+
+        # print('.....step 2')
+
+        l=[]
+        for i, j in enumerate(data):
+            if j['available_capacity_dose2']:
+                # if j['available_capacity_dose1']:
+                    if j['vaccine'] == vaccine:
+                        if j['min_age_limit'] == min_age_limit:
+                            l.append(j)
+
+        # print(l)
+        if l:
+            ifsent = 0
+            from vicks import covidmail as cov
+            ifsent = cov.covail(l=l,
+                      toaddr = toaddr,
+                      filename = filename,
+                      )
+        else:
+            ifsent = 0
+            print(l, '...............Email not sent................')
+
+        # import pandas as pd
+        # df = pd.DataFrame(data=l)
+        # df = df.fillna(' ').T
+        # dfhtml = df.to_html()
+
+        return render_template('covid19.html', l=l,
+                               ifsent = ifsent,
+                               # dfhtml = dfhtml,
+                               )
+    except Exception as e:
+        return render_template("404.html", message = f'{e}')
 
 # =====================================================
 
