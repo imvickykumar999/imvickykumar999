@@ -238,6 +238,7 @@ def converted_movies():
 def covid19():
     return render_template('covid19.html',
                            ifsent=0,
+                           scroll='vickscroll',
                            l=[
                               {'1key1':'1value1', '1key2':'1value2'},
                               {'2key1':'2value1', '2key2':'2value2'}
@@ -274,11 +275,11 @@ def converted_covid19():
         else:
             min_age_limit = int(min_age_limit)
 
-        toaddr = request.form['email']
-        if toaddr == '':
-            toaddr = "imvickykumar999@gmail.com"
+        # toaddr = request.form['email']
+        # if toaddr == '':
+        #     toaddr = "imvickykumar999@gmail.com"
 
-        filename = f"{toaddr.split('@')[0]}.xlsx"
+        # filename = f"{toaddr.split('@')[0]}.xlsx"
         # ----------------------------------
         # print('.....step 1')
 
@@ -318,12 +319,12 @@ def converted_covid19():
 
         # print(l)
         if l:
-            ifsent = 0
-            from vicks import covidmail as cov
-            ifsent = cov.covail(l=l,
-                      toaddr = toaddr,
-                      filename = filename,
-                      )
+            ifsent = 1
+            # from vicks import covidmail as cov
+            # ifsent = cov.covail(l=l,
+            #           toaddr = toaddr,
+            #           filename = filename,
+            #           )
         else:
             ifsent = 0
             print(l, '...............Email not sent................')
@@ -335,6 +336,7 @@ def converted_covid19():
 
         return render_template('covid19.html', l=l,
                                ifsent = ifsent,
+                               scroll='vickscroll',                               
                                # dfhtml = dfhtml,
                                )
     except Exception as e:

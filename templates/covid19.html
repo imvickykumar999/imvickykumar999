@@ -16,14 +16,14 @@
     <div class="jumbotron jumbotron">
       <div class="alert alert-danger" role="alert">
 
-          <a href="https://github.com/imvickykumar999/imvickykumar999/blob/28db7fa15bdc7eb37ca7d9295f0d85803e60c2f7/app.py#L73">
+          <a href="https://github.com/imvickykumar999/imvickykumar999/blob/ab8fdaf02fbd46f4feb600f1da01dd33b62923fb/templates/covid19.html#L59">
             <!-- <h1>
               Playfair Cipher on GitHub
             </h1> -->
 
             <h1 style="color:red;">
               <strong>
-                Covid19 Vaccine<br>Slot via E-Mail
+                Covid19 Vaccine<br>Slot via Setu-API
                 <br><br>
                 <em style="color:green;">See Code on GitHub</em>
               </strong>
@@ -32,6 +32,16 @@
 
       </div>
     </div>
+
+    <br>
+    <div id="vickscroll">
+      {% if scroll %}
+      <script>
+          document.location.hash = '#' + '{{ scroll }}';
+      </script>
+      {% endif %}
+    </div>
+    <!-- scroll='vickscroll', -->
 
     <br>
     {% if ifsent != 0 %}
@@ -93,7 +103,7 @@
 
               </div>
             </div>
-            <br><br>
+            <br><br><br><br>
           {% endfor %}
 
         </center>
@@ -102,12 +112,15 @@
 
     <form method="post" action="/converted_covid19">
       <div class="alert alert-light" role="alert">
-        <center>
+      <!-- <div class="jumbotron jumbotron"> -->
 
-          <div class="alert alert-success" role="alert">
-            <h3>
+        <center>
+          <br>
+
+          <div class="alert alert-danger" role="alert">
+            <h2>
               <strong>Enter PIN code</strong>
-            </h3>
+            </h2>
 
             <input type="text" name="pin" placeholder="for example : 302020"/>
             <br><br>
@@ -124,11 +137,12 @@
 
           <br><br>
           <div class="alert alert-warning" role="alert">
+            <br>
             <div class="alert alert-info" role="alert">
               <div class="custom-control custom-radio">
                 <input value="18" type="radio" id="audio" name="age" class="form-check-input" checked>
                 <label class="form-check-label" for="customRadio1">
-                  <h5>Minimum Age Limit 18</h5>
+                  <h3>Minimum Age Limit 18</h3>
                 </label>
               </div>
             </div>
@@ -137,21 +151,21 @@
               <div class="custom-control custom-radio">
                 <input value="45" type="radio" id="audio" name="age" class="form-check-input">
                 <label class="form-check-label" for="customRadio1">
-                  <h5>Minimum Age Limit 45</h5>
+                  <h3>Minimum Age Limit 45</h3>
                 </label>
               </div>
             </div>
           </div>
           <br><br>
 
-          <div class="alert alert-primary" role="alert">
+          <!-- <div class="alert alert-primary" role="alert">
             <h3>
               <strong>Enter your E-Mail address</strong>
             </h3>
 
             <input type="text" name="email" placeholder="e.g., hellovickykumar123@gmail.com"/>
             <br><br>
-          </div>
+          </div> -->
 
           <!-- <div class="alert alert-danger" role="alert"> -->
               <!-- <input type="submit" value="Submit"> -->
