@@ -74,6 +74,9 @@ def callviews():
     pageviews += 1
     obj1.push(data = pageviews, child = 'Views')
     return pageviews
+
+# pageviews = callviews()
+
 # ====================================================================================
 
 # import cv2
@@ -243,9 +246,11 @@ def converted_movies():
 
 @app.route("/covid19")
 def covid19():
+    pageviews = callviews()
     return render_template('covid19.html',
                            ifsent=0,
                            scroll='vickscroll',
+                           pageviews=pageviews,
                            l=[
                               {'1key1':'1value1', '1key2':'1value2'},
                               {'2key1':'2value1', '2key2':'2value2'}
@@ -255,6 +260,7 @@ def covid19():
 @app.route('/converted_covid19', methods=['POST', 'GET'])
 def converted_covid19():
     try:
+        pageviews = callviews()
         import urllib.request
         import json
         from datetime import datetime
@@ -344,6 +350,7 @@ def converted_covid19():
         return render_template('covid19.html', l=l,
                                ifsent = ifsent,
                                scroll='vickscroll',
+                               pageviews=pageviews,                               
                                # dfhtml = dfhtml,
                                )
     except Exception as e:
@@ -656,8 +663,10 @@ def yourquotes():
 
     data = obj1.pull('Group/Chat')
     print('------------------------->', data)
+    pageviews = callviews()
     return render_template("yourquotes.html",
                            # scroll='vickscroll',
+                           pageviews=pageviews,
                            data = data,
                            )
 
@@ -700,8 +709,11 @@ def converted_yourquotes():
         data = obj1.pull('Group/Chat')
         # data = {v: k for k, v in data.items()}
         print('------------------------->', data)
+        pageviews = callviews()
+
         return render_template("yourquotes.html",
                                # scroll='vickscroll',
+                               pageviews=pageviews,
                                data = data,
                                )
     else:
