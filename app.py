@@ -67,6 +67,13 @@ ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
+def callviews():
+    from vicks import crud
+    obj1 = crud.vicks('@Hey_Vicks', link = 'https://home-automation-336c0-default-rtdb.firebaseio.com/')
+    pageviews = obj1.pull(child = 'Views')
+    pageviews += 1
+    obj1.push(data = pageviews, child = 'Views')
+    return pageviews
 # ====================================================================================
 
 # import cv2
@@ -336,7 +343,7 @@ def converted_covid19():
 
         return render_template('covid19.html', l=l,
                                ifsent = ifsent,
-                               scroll='vickscroll',                               
+                               scroll='vickscroll',
                                # dfhtml = dfhtml,
                                )
     except Exception as e:
@@ -1118,8 +1125,10 @@ def skills():
 @app.route('/news')
 def news():
     from gtts import gTTS
-
     try:
+        pageviews = callviews()
+        print('= = = = = = = => ', pageviews)
+
         link = 'https://inshorts.com/en/read'
         req = requests.get(link)
 
@@ -1161,6 +1170,7 @@ def news():
                                 ta=ta,
                                 sa=sa,
                                 listen=0,
+                                pageviews=pageviews,
                                 range_ha = range(len(box)),
                                 )
     except Exception as e:

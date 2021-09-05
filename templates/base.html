@@ -103,7 +103,13 @@
         <div class="container">
 
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a style="color:red;" class="navbar-brand" href="{{url_for('yourquotes')}}"><strong>Your Quotes</strong></a>
+            <div class="alert alert-primary" role="alert">
+              <a style="color:red;" class="navbar-brand" href="{{url_for('yourquotes')}}">
+                <strong>
+                  Your <br> Quotes
+                </strong>
+              </a>
+            </div>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -119,81 +125,92 @@
                   </strong>
                 </h5> -->
 
-                <li class="nav-item dropdown">
-                  <a style="color:blue;" class="nav-link dropdown-toggle" href="{{url_for('news')}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <h6>
-                      <strong>(My Innovative Projects)</strong>
-                    </h6>
-                  </a>
+                <div class="alert alert-success" role="alert">
+                  <li class="nav-item dropdown">
+                    <a style="color:blue;" class="nav-link dropdown-toggle" href="{{url_for('news')}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <h6>
+                        <strong>Projects</strong>
+                      </h6>
+                    </a>
 
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a style="color:green;" class="dropdown-item" href="{{url_for('share')}}"><strong><em>Share</em></strong></a>
-                    <a style="color:blue;" class="dropdown-item" href="{{url_for('morse')}}"><em><strong>Morse</strong></em></a>
-                    <a style="color:red;" class="dropdown-item" href="{{url_for('qrcode')}}"><strong>QR Code</strong></a>
-                    <a style="color:green;" class="dropdown-item" href="{{url_for('ipynb')}}"><strong><em>ipynb</em></strong></a>
-                    <a style="color:red;" class="dropdown-item" href="{{url_for('playfair_cipher')}}"><strong>Playfair Cipher</strong></a>
-                    <div class="dropdown-divider"></div>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a style="color:green;" class="dropdown-item" href="{{url_for('share')}}"><strong><em>Share</em></strong></a>
+                      <a style="color:blue;" class="dropdown-item" href="{{url_for('morse')}}"><em><strong>Morse</strong></em></a>
+                      <a style="color:red;" class="dropdown-item" href="{{url_for('qrcode')}}"><strong>QR Code</strong></a>
+                      <a style="color:green;" class="dropdown-item" href="{{url_for('ipynb')}}"><strong><em>ipynb</em></strong></a>
+                      <a style="color:red;" class="dropdown-item" href="{{url_for('playfair_cipher')}}"><strong>Playfair Cipher</strong></a>
+                      <div class="dropdown-divider"></div>
 
-                    <a style="color:blue;" class="dropdown-item" href="{{url_for('iotcar')}}"><strong>IOT Car</strong></a>
-                    <a style="color:green;" class="dropdown-item" href="{{url_for('maps')}}"><strong>Vick's Map</strong></a>
-                    <a style="color:red;" class="dropdown-item" href="{{url_for('form')}}"><strong>Certificate</strong></a>
-                    <a style="color:blue;" class="dropdown-item" href="{{url_for('iotled')}}"><strong>IOT LED</strong></a>
-                    <div class="dropdown-divider"></div>
+                      <div class="alert alert-primary" role="alert">
+                        <a style="color:green;" class="dropdown-item" href="{{url_for('yourquotes')}}"><strong>Your Quotes</strong></a>
+                        <a style="color:red;" class="dropdown-item" href="{{url_for('covid19')}}"><strong>Cowin Slot</strong></a>
+                        <a style="color:blue;" class="dropdown-item" href="{{url_for('movies')}}"><strong>Movies</strong></a>
+                        <a style="color:red;" class="dropdown-item" href="{{url_for('news')}}"><strong>News</strong></a>
+                        <a style="color:green;" class="dropdown-item" href="{{url_for('vickstube')}}"><strong>YouTube</strong></a>
+                      </div>
+                      <div class="dropdown-divider"></div>
 
-                    <a style="color:green;" class="dropdown-item" href="{{url_for('yourquotes')}}"><strong>Your Quotes</strong></a>
-                    <a style="color:red;" class="dropdown-item" href="{{url_for('covid19')}}"><strong>Cowin Slot</strong></a>
-                    <a style="color:blue;" class="dropdown-item" href="{{url_for('movies')}}"><strong>Movies</strong></a>
-                    <a style="color:blue;" class="dropdown-item" href="{{url_for('news')}}"><strong>News</strong></a>
-                    <a style="color:green;" class="dropdown-item" href="{{url_for('vickstube')}}"><strong>YouTube</strong></a>
+                      <a style="color:blue;" class="dropdown-item" href="{{url_for('iotcar')}}"><strong>IOT Car</strong></a>
+                      <a style="color:green;" class="dropdown-item" href="{{url_for('maps')}}"><strong>Vick's Map</strong></a>
+                      <a style="color:red;" class="dropdown-item" href="{{url_for('form')}}"><strong>Certificate</strong></a>
+                      <a style="color:blue;" class="dropdown-item" href="{{url_for('iotled')}}"><strong>IOT LED</strong></a>
 
-                  </div>
-                </li>
+                    </div>
+                  </li>
+                </div>
+
                 <div class="dropdown-divider"></div>
 
-                <li class="nav-item dropdown">
-                  <a style="color:red;" class="nav-link dropdown-toggle" href="{{url_for('chat')}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <strong>Chat-Room</strong>
-                  </a>
+                <div class="alert alert-primary" role="alert">
+                  <li class="nav-item dropdown">
+                    <a style="color:red;" class="nav-link dropdown-toggle" href="{{url_for('chat')}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <strong>Chat-Room</strong>
+                    </a>
 
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a style="color:red;" class="dropdown-item" href="{{url_for('signup')}}"><strong>Signup</strong></a>
-                    <a style="color:green;" class="dropdown-item" href="{{url_for('login')}}"><em><strong>Login</strong></em></a>
-                    <a style="color:blue;" class="dropdown-item" href="{{url_for('create_room')}}"><strong><em>Create Room</em></strong></a>
-                    <a style="color:red;" class="dropdown-item" href="{{url_for('logout')}}"><em><strong>Logout</strong></em></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a style="color:red;" class="dropdown-item" href="{{url_for('signup')}}"><strong>Signup</strong></a>
+                      <a style="color:green;" class="dropdown-item" href="{{url_for('login')}}"><em><strong>Login</strong></em></a>
+                      <a style="color:blue;" class="dropdown-item" href="{{url_for('create_room')}}"><strong><em>Create Room</em></strong></a>
+                      <a style="color:red;" class="dropdown-item" href="{{url_for('logout')}}"><em><strong>Logout</strong></em></a>
 
-                    <div class="dropdown-divider"></div>
-                    <a style="color:green;" class="dropdown-item" href="{{url_for('chat')}}"><strong>Chat</strong></a>
-                  </div>
-                </li>
+                      <div class="dropdown-divider"></div>
+                      <a style="color:green;" class="dropdown-item" href="{{url_for('chat')}}"><strong>Chat</strong></a>
+                    </div>
+                  </li>
+                </div>
 
-                <li class="nav-item dropdown">
-                  <a style="color:green;" class="nav-link dropdown-toggle" href="{{url_for('news')}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <strong>Portfolio</strong>
-                  </a>
+                <div class="alert alert-danger" role="alert">
+                  <li class="nav-item dropdown">
+                    <a style="color:green;" class="nav-link dropdown-toggle" href="{{url_for('news')}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <strong>Portfolio</strong>
+                    </a>
 
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a style="color:red;" class="dropdown-item" href="{{url_for('about')}}"><strong><em>About</em></strong></a>
-                    <a style="color:blue;" class="dropdown-item" href="{{url_for('skills')}}"><em><strong>Skills</strong></em></a>
-                    <a style="color:red;" class="dropdown-item" href="{{url_for('home')}}"><strong>Home</strong></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a style="color:red;" class="dropdown-item" href="{{url_for('about')}}"><strong><em>About</em></strong></a>
+                      <a style="color:blue;" class="dropdown-item" href="{{url_for('skills')}}"><em><strong>Skills</strong></em></a>
+                      <a style="color:red;" class="dropdown-item" href="{{url_for('home')}}"><strong>Home</strong></a>
 
-                    <div class="dropdown-divider"></div>
-                    <a style="color:green;" class="dropdown-item" href="{{url_for('index')}}"><strong>Projects</strong></a>
-                  </div>
-                </li>
+                      <div class="dropdown-divider"></div>
+                      <a style="color:green;" class="dropdown-item" href="{{url_for('index')}}"><strong>More Projects</strong></a>
+                    </div>
+                  </li>
+                </div>
 
-                <li class="nav-item dropdown">
-                  <a style="color:blue;" class="nav-link dropdown-toggle" href="{{url_for('contact')}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <strong>Contact</strong>
-                  </a>
+                <div class="alert alert-success" role="alert">
+                  <li class="nav-item dropdown">
+                    <a style="color:blue;" class="nav-link dropdown-toggle" href="{{url_for('contact')}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <strong>Contact</strong>
+                    </a>
 
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a style="color:red;" class="dropdown-item" href="https://www.linkedin.com/in/imvickykumar999"><strong>LinkedIn</strong></a>
-                    <a style="color:blue;" class="dropdown-item" href="https://github.com/imvickykumar999"><em><strong>GitHub</strong></em></a>
-                    <div class="dropdown-divider"></div>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a style="color:red;" class="dropdown-item" href="https://www.linkedin.com/in/imvickykumar999"><strong>LinkedIn</strong></a>
+                      <a style="color:blue;" class="dropdown-item" href="https://github.com/imvickykumar999"><em><strong>GitHub</strong></em></a>
+                      <div class="dropdown-divider"></div>
 
-                    <a style="color:red;" class="dropdown-item" href="{{url_for('contact')}}"><strong>More Contacts</strong></a>
-                  </div>
-                </li>
+                      <a style="color:red;" class="dropdown-item" href="{{url_for('contact')}}"><strong>More Contacts</strong></a>
+                    </div>
+                  </li>
+                </div>
 
               </ul>
 
