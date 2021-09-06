@@ -78,6 +78,7 @@
             <div class="alert alert-light" role="alert">
             <!-- <div class="jumbotron jumbotron-fluid"> -->
 
+            <br>
               <div class="alert alert-primary" role="alert">
 
                 <a target="_blank" href="https://api.whatsapp.com/send?phone=918239957923&text=What%20is%20Credential%20to%20write%20quotes?">
@@ -92,15 +93,6 @@
                 <input type="password" name="credentials" placeholder="Due to Security Reason"/>
                 <br><br>
               </div>
-
-<!-- =============================================================   -->
-
-              <!-- <form method="post">
-              	<input type="button" value="Send Email"
-              		onclick="sendEmail()" />
-              </form> -->
-
-<!-- ================================================================ -->
 
               <br>
               <div class="alert alert-danger" role="alert">
@@ -117,25 +109,94 @@
                 <br><br>
               </div>
 
-              <!-- <div class="alert alert-success" role="alert">
-                <h3>
-                  <strong>Enter OTP <br> sent to email id</strong>
-                </h3>
-
-                <br>
-                <input type="password" name="person" placeholder="Enter here"/>
-                <br><br>
-              </div> -->
-
               <br>
-              <div class="alert alert-success" role="alert">
+              <div class="alert alert-warning" role="alert">
                 <h3>
                   <strong>Enter Your <br> Quote / Poem / Story </strong>
                 </h3>
+                <br>
 
                 <!-- <input type="text" name="message" placeholder="Let's Start Healthy Conversation"/> -->
-                <textarea name="message" rows="10" cols="60"> </textarea>
+                <textarea name="message" id="result1" rows="10" cols="60"> </textarea>
+
                 <br><br>
+                <div class="alert alert-light" role="alert">
+                  <h2 style="color:red;">
+                    <strong>
+                      Voice Typing feature
+                      <br>
+                      works best on Laptop
+                    </strong>
+                  </h2>
+                  <br><br>
+
+                  <div class="alert alert-success" role="alert">
+                    <h4>Click me to <strong>START</strong> speaking...</h4>
+                    <button type = "button" onclick="startConverting();">
+                      <i class="fa fa-microphone"></i>
+                    </button>
+                  </div>
+
+                  <div class="alert alert-danger" role="alert">
+                    <h4>Click me to <strong>TURN OFF</strong> mic...</h4>
+                    <button type = "button" onclick="stopConverting();">
+                      <i class="fa fa-remove">
+                      </i>
+                    </button>
+                  </div>
+                </div>
+
+                <script type="text/javascript">
+
+                  var overlay = document.getElementById("overlay");
+
+                    var r = document.getElementById('result1');
+                    var speechRecognizer = new webkitSpeechRecognition();// a new speech recognition object
+
+                    //function to start listening to voice and then convert it to text
+                    function startConverting () {
+                      if('webkitSpeechRecognition' in window){
+
+                        speechRecognizer.continuous = true;
+                        speechRecognizer.interimResults = true;
+                        speechRecognizer.lang = 'en-IN';
+                        speechRecognizer.start();
+
+                        var finalTranscripts = '';
+                        speechRecognizer.onresult = function(event){
+                          var interimTranscripts = '';
+
+                          for(var i = event.resultIndex; i < event.results.length; i++){
+                            var transcript = event.results[i][0].transcript;
+                            transcript.replace("\n", "<br>");
+
+                            if(event.results[i].isFinal){
+                              finalTranscripts += transcript;
+                            }
+
+                            else{
+                              interimTranscripts += transcript;
+                            }
+                          }
+                          r.value = finalTranscripts + interimTranscripts ;
+                        };
+                        speechRecognizer.onerror = function (event) {
+                        };
+                      }
+
+                      else{
+                        r.innerHTML = 'No browser support. Please upgrade your browser';
+                      }
+                    }
+
+                    //function to stop listening
+                    function stopConverting()
+                    {
+                      speechRecognizer.stop();
+                    }
+
+                  </script>
+                <br>
               </div>
 
               <!-- <div class="alert alert-danger" role="alert"> -->
