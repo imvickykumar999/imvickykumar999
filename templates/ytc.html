@@ -42,7 +42,6 @@
       </center>
     </div>
   </div>
-  <br>
 
   <div id="vickscroll">
     {% if scroll %}
@@ -52,8 +51,19 @@
     {% endif %}
   </div>
   <!-- scroll='vickscroll', -->
-  <br>
 
+  <br>
+  <div class="alert alert-success" role="alert">
+    <a target="_blank" href="https://home-automation-336c0-default-rtdb.firebaseio.com/Views">
+      <h1>
+        <strong>
+          Page Views = {{pageviews}}
+        </strong>
+      </h1>
+    </a>
+  </div>
+
+  <br>
   <div class="jumbotron">
     <div class="container">
       <center>
@@ -193,7 +203,7 @@
                     <br><br>
                   </div> -->
 
-                  <div class="alert alert-warning" role="alert">
+                  <div class="alert alert-light" role="alert">
                     <div class="alert alert-primary" role="alert">
 
                       <!-- <a href="https://www.youtube.com/watch?v=AZmAgoir1Tc"> -->
@@ -216,17 +226,17 @@
                       <!-- </a> -->
                     </div>
 
-                    {% if len == 34 %}
-                      <input type="text" name="ytc" value="https://www.youtube.com/watch?list={{prefill}}" id="result1" placeholder="Voice Search"/>
-                    {% else %}
-                      <input type="text" name="ytc" value="{{prefill}}" id="result1" placeholder="Voice Search"/>
-                    {% endif %}
-                    <br><br>
+                    <div class="alert alert-success" role="alert">
+                      {% if len == 34 %}
+                        <input type="text" name="ytc" value="https://www.youtube.com/watch?list={{prefill}}" id="result1" placeholder="Voice Search"/>
+                      {% else %}
+                        <input type="text" name="ytc" value="{{prefill}}" id="result1" placeholder="Voice Search"/>
+                      {% endif %}
+                      <br><br>
 
                     <!-- <input type="text" id="result1" size="40" maxlength=100 name = "Name" />
                     <br> -->
 
-                    <div class="alert alert-success" role="alert">
                       <h5>Click me to <strong>START</strong> speaking...</h5>
                       <button type = "button" onclick="startConverting();">
                         <i class="fa fa-microphone"></i>
@@ -234,7 +244,7 @@
                     </div>
 
                     <div class="alert alert-danger" role="alert">
-                      <h5>Click me to <strong>STOP</strong> speaking...</h5>
+                      <h5>Click me to <strong>TURN OFF</strong> mic...</h5>
                     	<button type = "button" onclick="stopConverting();">
                         <i class="fa fa-remove">
                         </i>
@@ -322,11 +332,11 @@
                     <!-- </div> -->
                   </a>
 
-                  <br><br>
+                  <br><br><br>
 
                   <div class="collapse" id="download">
-                    <div class="alert alert-primary" role="alert">
-                      <h3>
+                    <div class="alert alert-light" role="alert">
+                      <h3 style="color:red;">
                         <strong>Advanced Settings</strong>
                       </h3>
 
@@ -361,19 +371,20 @@
                       </div>
 
                     </div>
-                    <br><br>
+                    <br>
 
-                    <div class="alert alert-danger" role="alert">
-                      <h2>
+                    <div class="alert alert-light" role="alert">
+                      <h2 style="color:blue;">
                         <strong>
                           Enter Trim Timing
                         </strong>
                       </h2>
+                      <br>
 
                       <div class="alert alert-primary" role="alert">
-                        <input type="text" name="vts" placeholder="intial time in seconds"/>
+                        <input type="text" name="vts" placeholder="intial time, e.g., 5:37"/>
                         <br>
-                        <input type="text" name="vte" placeholder="final time in seconds"/>
+                        <input type="text" name="vte" placeholder="final time e.g., 13:8"/>
                       </div>
                     </div>
 

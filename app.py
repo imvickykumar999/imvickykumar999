@@ -350,7 +350,7 @@ def converted_covid19():
         return render_template('covid19.html', l=l,
                                ifsent = ifsent,
                                scroll='vickscroll',
-                               pageviews=pageviews,                               
+                               pageviews=pageviews,
                                # dfhtml = dfhtml,
                                )
     except Exception as e:
@@ -455,6 +455,7 @@ def vickstube():
     # recommend = list(vdict.keys())
     # print(recommend)
 
+    pageviews = callviews()
     return render_template("ytc.html",
                             dict=dict,
                             tm=tm,
@@ -468,6 +469,7 @@ def vickstube():
                             range10=range(1,11),
                             # recommend=recommend,
                             recommend=[],
+                            pageviews=pageviews,
                             # rangerec=range(recommend),
                             info=info,
                             scroll='vickscroll',
@@ -549,6 +551,10 @@ def converted_vickstube():
     if te=='':
         te=600
 
+    ts = int(ts.split(':')[0])*60 + int(ts.split(':')[1])
+    te = int(te.split(':')[0])*60 + int(te.split(':')[1])
+    print('@@@@@@@@ time @@@@@@@-> ', ts, te)
+
     if pid == None:
         if video_type == "V":
             title = ytd.yt_video(vid, int(ts), int(te))
@@ -579,6 +585,7 @@ def converted_vickstube():
     recommend = list(vdict.keys())[:10]
     print(recommend)
 
+    pageviews = callviews()
     return render_template("ytc.html",
                             dict=com,
                             tm=tm,
@@ -591,7 +598,9 @@ def converted_vickstube():
                             range10=range(1,11),
                             rangerec=range(len(recommend)),
                             info=info,
+                            pageviews=pageviews,
                             vid=vid,
+                            scroll='vickscroll',
                             )
 
 # ========================================================

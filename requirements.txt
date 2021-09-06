@@ -34,7 +34,7 @@ gevent
 google-api-python-client
 fpdf
 youtube-search
-pytube
+pytube==11.0.1
 pathlib
 pytest-shutil
 jsonify
