@@ -11,161 +11,179 @@
   </head>
 
   <body>
+    <center>
 
     <div class="jumbotron">
       <div class="container">
-
         <div class="alert alert-danger" role="alert">
-
-          <center>
             <!-- <a href="https://inshorts.com/en/read"> -->
-            <a href="https://github.com/imvickykumar999/hackathon-iot-car-parking/blob/817968740db243f19b5e9619b4f73c9e64d2d363/app.py#L440">
+
+            <a target="_blank" href="https://github.com/imvickykumar999/hackathon-iot-car-parking/blob/817968740db243f19b5e9619b4f73c9e64d2d363/app.py#L440">
               <h1 style="color:red;">
                 <strong>
-                  IOT LED Android App
+                  IOT LED via ESP32
                   <br>
                   <em style="color:green;">See Code on GitHub</em>
                 </strong>
               </h1>
             </a>
-          </center>
 
         </div>
       </div>
     </div>
 
+    <div id="vickscroll">
+      {% if scroll %}
+      <script>
+          document.location.hash = '#' + '{{ scroll }}';
+      </script>
+      {% endif %}
+    </div>
+    <!-- scroll='vickscroll', -->
+
+    <br>
+    <div class="alert alert-success" role="alert">
+      <a target="_blank" href="https://home-automation-336c0-default-rtdb.firebaseio.com/Views">
+        <h1>
+          <strong>
+            Page Views = {{pageviews}}
+          </strong>
+        </h1>
+      </a>
+    </div>
+    <br>
+
     <div class="jumbotron jumbotron">
-        <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <center>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
 
+            <div class="card">
               <div class="card">
-                <div class="card">
 
-                  {% if data == '1' %}
+                {% if data == '1' %}
 
-                  <a target="_blank" href="https://console.firebase.google.com/u/0/project/home-automation-336c0/database/home-automation-336c0-default-rtdb/data/~2FA~2FB~2FC~2FSwitch">
-                    <img src={{img}} alt="switch">
-                  </a>
+                <a target="_blank" href="https://console.firebase.google.com/u/0/project/home-automation-336c0/database/home-automation-336c0-default-rtdb/data/~2FA~2FB~2FC~2FSwitch">
+                  <img src={{img}} alt="switch">
+                </a>
 
-                  <h1 style="color:red;" class="card-title">Bulb</h1>
-                  <br>
-                    <h3>
-                      <p class="card-text">There is a LED at my Room, <br> which has been Switched ON</p>
-                    </h3>
-                  <br>
-
-                  <a target="_blank" href="https://api.whatsapp.com/send?phone=918239957923&text=Hey Vicks, Show me LED Light" class="btn btn-primary">Switched ON</a>
-
-                  {% elif data == '0' %}
-
-                  <a target="_blank" href="https://console.firebase.google.com/u/0/project/home-automation-336c0/database/home-automation-336c0-default-rtdb/data/~2FA~2FB~2FC~2FSwitch">
-                    <img src={{img}} alt="switch">
-                  </a>
-
-                  <h1 style="color:red;" class="card-title">Bulb</h1>
-                  <br>
-                    <h3>
-                      <p class="card-text">There is a LED at my Room, <br> which has been Switched OFF</p>
-                    </h3>
-                  <br>
-
-                  <a target="_blank" href="https://api.whatsapp.com/send?phone=918239957923&text=Hey Vicks, Show me LED Light" class="btn btn-primary">Switched OFF</a>
-
-                  {% else %}
-
-                  <a target="_blank" href="https://console.firebase.google.com/u/0/project/home-automation-336c0/database/home-automation-336c0-default-rtdb/data/~2FA~2FB~2FC~2FSwitch">
-                    <img src={{img}} alt="switch">
-                  </a>
-
-                  <h1 style="color:red;" class="card-title">Bulb</h1>
-                  <br>
-                    <h3>
-                      <p class="card-text">Wrong Credentials</p>
-                    </h3>
-                  <br>
-
-                  <a target="_blank" href="https://api.whatsapp.com/send?phone=918239957923&text=Hey Vicks, Show me LED Light" class="btn btn-primary">Switched OFF</a>
-
-                  {% endif %}
-
-                </div>
-              </div>
-
-              <br><br>
-
-          <form method="post" action="/converted_iotled">
-
-            <div class="alert alert-danger" role="alert">
-              <center>
-
-                <div class="alert alert-success" role="alert">
-                  <h3>
-                    <strong>Enter Credentials</strong>
-                  </h3>
-                  <br>
-
-                  <input type="password" name="credentials" placeholder=" Due to Security Purpose"/>
-                </div>
+                <h1 style="color:red;" class="card-title">Bulb</h1>
                 <br>
+                  <h3>
+                    <p class="card-text">There is a LED at my Room, <br> which has been Switched ON</p>
+                  </h3>
+                <br>
+
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=918239957923&text=Hey Vicks, Show me LED Light" class="btn btn-primary">Switched ON</a>
+
+                {% elif data == '0' %}
+
+                <a target="_blank" href="https://console.firebase.google.com/u/0/project/home-automation-336c0/database/home-automation-336c0-default-rtdb/data/~2FA~2FB~2FC~2FSwitch">
+                  <img src={{img}} alt="switch">
+                </a>
+
+                <h1 style="color:red;" class="card-title">Bulb</h1>
+                <br>
+                  <h3>
+                    <p class="card-text">There is a LED at my Room, <br> which has been Switched OFF</p>
+                  </h3>
+                <br>
+
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=918239957923&text=Hey Vicks, Show me LED Light" class="btn btn-primary">Switched OFF</a>
+
+                {% else %}
+
+                <a target="_blank" href="https://console.firebase.google.com/u/0/project/home-automation-336c0/database/home-automation-336c0-default-rtdb/data/~2FA~2FB~2FC~2FSwitch">
+                  <img src={{img}} alt="switch">
+                </a>
+
+                <h1 style="color:red;" class="card-title">Bulb</h1>
+                <br>
+                  <h3>
+                    <p class="card-text">Wrong Credentials</p>
+                  </h3>
+                <br>
+
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=918239957923&text=Hey Vicks, Show me LED Light" class="btn btn-primary">Switched OFF</a>
+
+                {% endif %}
+
+              </div>
+            </div>
+
+            <br><br>
+
+            <form method="post" action="/converted_iotled">
+
+              <div class="alert alert-light" role="alert">
+                <center>
+
+                  <div class="alert alert-success" role="alert">
+                    <h3>
+                      <strong>Enter Credentials</strong>
+                    </h3>
+                    <br>
+
+                    <input type="password" name="credentials" placeholder=" Due to Security Purpose"/>
+                  </div>
+                  <br>
+
+                    <div class="alert alert-warning" role="alert">
+                      <h3>
+                        <strong>Select Switch</strong>
+                      </h3>
+
+                      <br>
+                      <div class="alert alert-danger" role="alert">
+                        <div class="custom-control custom-radio">
+                          <input value="0" type="radio" id="audio" name="turn" class="form-check-input" checked>
+                          <label class="form-check-label" for="customRadio1">
+                            <h5>Turn OFF</h5>
+                          </label>
+                        </div>
+                      </div>
+
+                      <br>
+                      <div class="alert alert-success" role="alert">
+                        <div class="custom-control custom-radio">
+                          <input value="1" type="radio" id="audio" name="turn" class="form-check-input">
+                          <label class="form-check-label" for="customRadio1">
+                            <h5>Turn ON</h5>
+                          </label>
+                        </div>
+                      </div>
+
+                    </div>
+                    <!-- <br><br> -->
+
+
+                  <!-- <div class="alert alert-success" role="alert">
+                    <h3>
+                      <strong>Enter Switch (1/0)</strong>
+                    </h3>
+
+                    <input type="text" name="iotled" placeholder="LED Switch"/>
+                  </div> -->
+
+                  <br>
 
                   <div class="alert alert-primary" role="alert">
-                    <h3>
-                      <strong>Select Switch</strong>
-                    </h3>
-
-                    <br>
-                    <div class="alert alert-danger" role="alert">
-                      <div class="custom-control custom-radio">
-                        <input value="0" type="radio" id="audio" name="turn" class="form-check-input" checked>
-                        <label class="form-check-label" for="customRadio1">
-                          <h5>Turn OFF</h5>
-                        </label>
-                      </div>
-                    </div>
-
-                    <br>
-                    <div class="alert alert-success" role="alert">
-                      <div class="custom-control custom-radio">
-                        <input value="1" type="radio" id="audio" name="turn" class="form-check-input">
-                        <label class="form-check-label" for="customRadio1">
-                          <h5>Turn ON</h5>
-                        </label>
-                      </div>
-                    </div>
-
+                    <!-- <input type="submit" value="Submit"> -->
+                  <input type="image"
+                         src="../static/logo/submit.png"
+                         width="200"
+                         height="60"
+                         alt="submit"/>
                   </div>
-                  <!-- <br><br> -->
 
+                </center>
+              </div>
+            </form>
 
-                <!-- <div class="alert alert-success" role="alert">
-                  <h3>
-                    <strong>Enter Switch (1/0)</strong>
-                  </h3>
-
-                  <input type="text" name="iotled" placeholder="LED Switch"/>
-                </div> -->
-
-                <br>
-
-                <div class="alert alert-primary" role="alert">
-                  <!-- <input type="submit" value="Submit"> -->
-                <input type="image"
-                       src="../static/logo/submit.png"
-                       width="200"
-                       height="60"
-                       alt="submit"/>
-                </div>
-
-              </center>
-            </div>
-          </form>
-
-        </center>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
+    </center>
   </body>
 </html>
 

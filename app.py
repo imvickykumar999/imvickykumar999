@@ -844,8 +844,11 @@ def iotled():
     else:
         img = 'static/logo/error.png'
 
+    pageviews = callviews()
     return render_template("iotled.html",
                             data=data1,
+                            pageviews=pageviews,
+                            scroll='vickscroll',
                             img = img,
                           )
 
@@ -876,8 +879,11 @@ def converted_iotled():
     else:
         img = 'static/logo/error.png'
 
+    pageviews = callviews()
     return render_template("iotled.html",
                             data=data1,
+                            pageviews=pageviews,
+                            scroll='vickscroll',                            
                             img = img,
                           )
 
