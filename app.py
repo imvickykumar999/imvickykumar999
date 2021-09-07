@@ -640,15 +640,31 @@ def mail_sent():
     file1.close()
 
     body = f'''\
-<html>
-  <head>Vicks OTP</head>
-  <body>
-    <p>Hi !<br>
-       How are you?<br>
-       Here is the OTP = {otp} you wanted.
-    </p>
-  </body>
-</html>
+        <html>
+          <head>Vicks Quotes</head>
+          <body>
+
+            <h2 style="color:green;">
+               Hi, <br> {''.join(toaddr.split('@')[0])}
+            </h2>
+            <br>
+
+           <h1>
+               Here is the OTP you wanted.
+               <br><br> {otp}
+           </h1>
+
+             <br>
+             <a target="_blank" href="https://imvickykumar999.herokuapp.com/yourquotes">
+               <h3 style="color:red;">
+                 <strong>
+                   Redirect to Vicks Quote.
+                 </strong>
+               </h3>
+             </a>
+
+          </body>
+        </html>
     '''
     msg.attach(MIMEText(body, 'html'))
 
