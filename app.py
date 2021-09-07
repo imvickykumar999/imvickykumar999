@@ -139,6 +139,8 @@ def send_reels(filename):
 def send_exe(filename):
     return send_from_directory("uploads/reels", filename)
 
+# https://github.com/csuhan/ReDet/issues/14#issuecomment-914544044
+
 @app.route("/downloaded_reels", methods=['POST', 'GET'])
 def vicks_reels():
     try:
