@@ -182,7 +182,7 @@
 
                 <div class="card">
                   <center>
-                    <a href="{{sa[x]}}">
+                    <a target="_blank" href="{{sa[x]}}">
                       <div class="alert alert-danger" role="alert">
                         <h1 style="color:red;" class="card-title">
                           {{x+1}}). {{ha[x]}}
@@ -199,9 +199,9 @@
 
                     <br>
                     {% if la[x] == 'link not found' %}
-                        <a href="{{la[x]}}" class="btn btn-danger">Link NOT Found</a>
+                        <a target="_blank" href="#" class="btn btn-danger">Link NOT Found</a>
                     {% else %}
-                        <a href="{{la[x]}}" class="btn btn-success">Read More</a>
+                        <a target="_blank" href="{{la[x]}}" class="btn btn-success">Read More</a>
                     {% endif %}
 
                     <br>
