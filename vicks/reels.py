@@ -1,6 +1,8 @@
 import time
 from instascrape import Reel
 
+# https://github.com/csuhan/ReDet/issues/14#issuecomment-914544044
+
 def download(link):
     path = f"uploads/reels/{int(time.time())}.mp4"
 
