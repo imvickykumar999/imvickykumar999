@@ -551,9 +551,12 @@ def converted_vickstube():
     if te=='':
         te=600
 
-    ts = int(ts.split(':')[0])*60 + int(ts.split(':')[1])
-    te = int(te.split(':')[0])*60 + int(te.split(':')[1])
-    print('@@@@@@@@ time @@@@@@@-> ', ts, te)
+    try:
+        ts = int(ts.split(':')[0])*60 + int(ts.split(':')[1])
+        te = int(te.split(':')[0])*60 + int(te.split(':')[1])
+        print('@@@@@@@@ time @@@@@@@-> ', ts, te)
+    except:
+        pass
 
     if pid == None:
         if video_type == "V":
@@ -883,7 +886,7 @@ def converted_iotled():
     return render_template("iotled.html",
                             data=data1,
                             pageviews=pageviews,
-                            scroll='vickscroll',                            
+                            scroll='vickscroll',
                             img = img,
                           )
 
