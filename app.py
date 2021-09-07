@@ -131,8 +131,12 @@ def reels():
                            path='uploads/reels/1631038604.mp4'
                             )
 
-@app.route('/uploads/reels/<filename>')
+@app.route('/pre tests/reels/dist/<filename>')
 def send_reels(filename):
+    return send_from_directory("pre tests/reels/dist", filename)
+
+@app.route('/uploads/reels/<filename>')
+def send_exe(filename):
     return send_from_directory("uploads/reels", filename)
 
 @app.route("/downloaded_reels", methods=['POST', 'GET'])

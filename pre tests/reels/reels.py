@@ -42,8 +42,10 @@ canvas.pack()
 frame=Frame(root,bg="white")
 frame.place(relwidth=1,relheight=1)
 
-background_image = ImageTk.PhotoImage(Image.open('background.png'))
-background_label = Label(frame, image = background_image)
+# background_image = ImageTk.PhotoImage(Image.open('background.png'))
+background_label = Label(frame,
+ # image = background_image
+ )
 background_label.place(relx=-0.25,relwidth = 0.7, relheight =1)
 
 
@@ -73,3 +75,4 @@ label2.place(relx = 0.48, rely = 0.7, relheight =0.1)
 
 
 root.mainloop()
+input()
