@@ -36,6 +36,12 @@ except Exception as e:
     pass
 
 try:
+    os.mkdir('uploads/reels')
+except Exception as e:
+    print(e)
+    pass
+
+try:
     os.mkdir('uploads/audio')
 except Exception as e:
     print(e)
@@ -115,6 +121,41 @@ def callviews():
 #     return render_template('live.html')
 
 # ======================================================
+
+@app.route("/reels")
+def reels():
+    pageviews = callviews()
+    return render_template('reels.html',
+                           scroll='vickscroll',
+                           pageviews=pageviews,
+                           path='uploads/reels/1631038604.mp4'
+                            )
+
+@app.route('/uploads/reels/<filename>')
+def send_reels(filename):
+    return send_from_directory("uploads/reels", filename)
+
+@app.route("/downloaded_reels", methods=['POST', 'GET'])
+def vicks_reels():
+    try:
+        from flask import request as req
+        vid = req.form['reels']
+
+        from vicks import reels
+        path = reels.download(vid)
+        print(path)
+
+        pageviews = callviews()
+        return render_template('reels.html',
+                                path=path,
+                                scroll='vickscroll',
+                                pageviews=pageviews,
+                                )
+
+    except Exception as e:
+        return render_template("404.html", message = f'{e}')
+
+# ===================================================
 
 @app.route("/maps")
 def maps():

@@ -1,0 +1,122 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="../static/css/stylesheet.css">
+
+  <title>YouTube Comments</title>
+</head>
+
+<body>
+
+  <div class="jumbotron jumbotron">
+    <div class="container">
+      <center>
+
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+
+            <div class="alert alert-success" role="alert">
+              <a href="https://github.com/imvickykumar999/hackathon-iot-car-parking/stargazers">
+
+                <h1 style="color:red;">
+                  <strong>
+                    Instagram Reels Downloader
+                    <br>
+                    <em style="color:green;">See Code on GitHub</em>
+                    <br><br>
+                    Background Music Player
+                  </strong>
+                </h1>
+
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </center>
+    </div>
+  </div>
+
+  <div id="vickscroll">
+    {% if scroll %}
+    <script>
+        document.location.hash = '#' + '{{ scroll }}';
+    </script>
+    {% endif %}
+  </div>
+  <!-- scroll='vickscroll', -->
+
+  <br>
+  <div class="jumbotron jumbotron">
+    <div class="alert alert-danger" role="alert">
+      <a target="_blank" href="https://home-automation-336c0-default-rtdb.firebaseio.com/Views">
+        <h1>
+          <strong>
+            Page Views = {{pageviews}}
+          </strong>
+        </h1>
+      </a>
+    </div>
+  </div>
+
+  <br>
+  <div class="jumbotron jumbotron">
+    <div class="container">
+      <center>
+        <div class="container">
+
+          <form method="post" action="/downloaded_reels">
+            <div class="alert alert-light" role="alert">
+              <center>
+
+                <br>
+                <div class="alert alert-success" role="alert">
+                  <a href="{{path}}">
+                    <h2 style="color:green;">
+                      Share Downloaded Reel
+                      <br>
+                      (Copy Hyperlink)
+                    </h2>
+                  </a>
+                </div>
+
+                <br>
+                <video width="405" height="720" controls>
+                  <source src="{{path}}" type="video/mp4">
+                </video>
+
+                <br><br><br>
+                <div class="alert alert-danger" role="alert">
+                  <h3>
+                    <strong>Enter Reels URL</strong>
+                  </h3>
+
+                  <input type="text" name="reels" placeholder="Paste URL here"/>
+                  <br><br>
+
+                  <input type="image"
+                     src="../static/logo/submit.png"
+                     width="200"
+                     height="60"
+                     alt="submit"/>
+                </div>
+
+              </center>
+            </div>
+          </form>
+
+        </div>
+      </center>
+    </div>
+  </div>
+
+</body>
+</html>
+
+{% endblock %}
