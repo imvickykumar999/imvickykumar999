@@ -812,17 +812,17 @@ def iotcar():
     # list_result = list(result.values())[-11:-1]
     # is_occupied = sum(list_result)/10
 
-    with open('YOLO/data1.txt', "r") as myfile:
-        slot1 = myfile.read().splitlines()
-    a = [len(i) for i in slot1]
-    i = a.index(max(a))
-    car1 = slot1[i].strip()
-
-    with open('YOLO/data2.txt', "r") as myfile:
-        slot2 = myfile.read().splitlines()
-    a = [len(i) for i in slot2]
-    i = a.index(max(a))
-    car2 = slot2[i].strip()
+    # with open('YOLO/data1.txt', "r") as myfile:
+    #     slot1 = myfile.read().splitlines()
+    # a = [len(i) for i in slot1]
+    # i = a.index(max(a))
+    # car1 = slot1[i].strip()
+    #
+    # with open('YOLO/data2.txt', "r") as myfile:
+    #     slot2 = myfile.read().splitlines()
+    # a = [len(i) for i in slot2]
+    # i = a.index(max(a))
+    # car2 = slot2[i].strip()
 
     if result1 == 1:
         img1="static/screenshots/present.png"
@@ -836,7 +836,7 @@ def iotcar():
 
     return render_template("iotcar.html",
                             data=[data1, data2],
-                            car=[car1, car2],
+                            car=['MH01AE8017', 'AS 9527XZ'],
                             img=[img1, img2],
                             len=2
                           )
