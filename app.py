@@ -128,7 +128,7 @@ def reels():
     return render_template('reels.html',
                            scroll='vickscroll',
                            pageviews=pageviews,
-                           path='uploads/reels/1631038604.mp4'
+                           path='uploads/reels/1631081300.mp4'
                             )
 
 @app.route('/pre tests/reels/dist/<filename>')
