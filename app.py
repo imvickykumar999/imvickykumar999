@@ -1184,6 +1184,8 @@ def hacker_vicky():
                         key=os.path.getmtime)
     video_path = sorted(Path('./uploads/videos').iterdir(),
                         key=os.path.getmtime)
+    reels_path = sorted(Path('./uploads/reels').iterdir(),
+                        key=os.path.getmtime)
     # py2exe = sorted(Path('./uploads/py2exe').iterdir(),
     #                     key=os.path.getmtime)
 
@@ -1191,6 +1193,7 @@ def hacker_vicky():
                             dist=dist,
                             # py2exe=py2exe,
                             image_names=image_names,
+                            reels_path=reels_path,
                             audio_path=audio_path,
                             news_path=news_path,
                             video_path=video_path,
