@@ -282,9 +282,19 @@ def movies():
 def converted_movies():
     movixcode = request.form['movixcode']
 
+    kotaurl = [
+       '1KAy0PK9ONvm1yh6nxC6X9jkOb7Km8PD0',
+       '1MZOVH1DgkGeNq2WfikG-BueFjpkgOHfv',
+       '1Sjr6S66ZUAOSfJTplMWECzdn_yL_LSqU',
+       '11I61nhEGrCoRqWkv7E7LJZU71SVfj6ib',
+       '17glJSEk5_bmp-_LUh24IJPUagPROwSlu',
+       ]
+
     return render_template('movies.html',
                            scroll='vickscroll',
                            movixcode=movixcode,
+                           kota25=range(4),
+                           kotaurl=kotaurl,
                            passbell='showing',
                            applied='no',
                            )
