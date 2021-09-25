@@ -271,15 +271,18 @@ def vicks_maps():
 
 @app.route("/movies")
 def movies():
+    pageviews = callviews()
     return render_template('movies.html',
-                           scroll='vickscroll',
                            applied='yes',
                            movixcode='movixcode',
+                           scroll='vickscroll',
+                           pageviews=pageviews,
                            passbell='notshow',
                            )
 
 @app.route('/vicks_movies', methods=['POST', 'GET'])
 def converted_movies():
+    pageviews = callviews()
     movixcode = request.form['movixcode']
 
     kotaurl = [
@@ -291,10 +294,11 @@ def converted_movies():
        ]
 
     return render_template('movies.html',
-                           scroll='vickscroll',
                            movixcode=movixcode,
                            kota25=range(4),
                            kotaurl=kotaurl,
+                           pageviews=pageviews,
+                           scroll='vickscroll',
                            passbell='showing',
                            applied='no',
                            )

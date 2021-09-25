@@ -13,12 +13,43 @@
 
 <body>
 
+  <br>
   <div id="vickscroll">
     {% if scroll %}
     <script>
         document.location.hash = '#' + '{{ scroll }}';
     </script>
     {% endif %}
+  </div>
+  <br>
+  <!-- scroll='vickscroll', -->
+
+  <div class="jumbotron jumbotron">
+    <div class="alert alert-danger" role="alert">
+      <a target="_blank" href="https://home-automation-336c0-default-rtdb.firebaseio.com/Views">
+        <h1>
+          <strong>
+            <em>
+              Page Views = {{pageviews}}
+            </em>
+          </strong>
+        </h1>
+      </a>
+    <!-- </div> -->
+
+      <br>
+      <center>
+
+        <form>
+          <script
+            src="https://checkout.razorpay.com/v1/payment-button.js"
+            data-payment_button_id="pl_I1O6gK4fq2r9y6"
+            async>
+          </script>
+        </form>
+
+      </center>
+    </div>
   </div>
   <br>
 
@@ -84,9 +115,18 @@
                     KOTA FACTORY
                     <br>
                     <strong>
+
                       <a target="_blank" href="https://drive.google.com/file/d/{{kotaurl[0]}}/view?usp=sharing">
                       S2.E(1)
                       </a>
+
+                      <br><br>
+                      <h3 style="color:green;">
+                        <em>
+                          Swipe Left <<< Next
+                        </em>
+                      </h3>
+
                     </strong>
                   </h1>
                 </div>
@@ -252,11 +292,14 @@
               <h1 style="color:red;">
                 Also Watch Webseries
                 <br>
-                Money Heist
+                <strong>
+                  Money Heist
+                </strong>
               </h1>
             </a>
           </div>
 
+          <br>
           <div>
             <iframe src="https://drive.google.com/file/d/1Yf6-9uiDqoog2Ao603vbpRFOde8KNj1h/preview"
             width="640" height="480" allow="autoplay" allowfullscreen></iframe>
