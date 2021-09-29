@@ -1,7 +1,8 @@
 
 from datetime import datetime
 from bson.json_util import dumps
-from flask_login import LoginManager, login_user, login_required, logout_user, current_user
+from flask_login import LoginManager
+from flask_login import login_user, login_required, logout_user, current_user
 from flask_socketio import SocketIO, join_room, leave_room
 from pymongo.errors import DuplicateKeyError
 
