@@ -224,7 +224,7 @@
       <br>
       <div class="jumbotron jumbotron">
 
-        <a class="btn btn-warning"
+        <a class="btn btn-success"
         data-toggle="collapse"
         href="#collapseExample"
         role="button">
@@ -232,7 +232,7 @@
         <h1 style="color:black">
           Click me to
           <br>
-          See Quotes
+          Unfold Quotes
         </h1>
         </a>
 
@@ -314,9 +314,47 @@
         </div>
       </div>
 
-    </div>
-  </center>
+      <a class="btn btn-danger"
+      data-toggle="collapse"
+      href="#collapseExample"
+      role="button">
 
+      <h1 style="color:black">
+        Click me to
+        <br>
+        Fold Quotes
+      </h1>
+      </a>
+
+    </div>
+
+    <div class="jumbotron jumbotron">
+
+      <a class="btn btn-primary"
+      data-toggle="collapse"
+      href="#api"
+      role="button">
+
+      <h1 style="color:black">
+        Click me to
+        <br>
+        See API
+      </h1>
+      </a>
+
+    <div class="collapse" id="api">
+      <div class="card card-body">
+        <div class="container">
+          <br>
+          <h4 style="color:blue">
+            {{data}}
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </center>
 </body>
 </html>
 
