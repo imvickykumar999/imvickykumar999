@@ -3,6 +3,7 @@ from instascrape import Reel
 # import requests
 
 # https://github.com/csuhan/ReDet/issues/14#issuecomment-914544044
+# https://skylens.io/blog/how-to-find-your-instagram-session-id
 
 def download(link):
     path = f"uploads/reels/{int(time.time())}.mp4"
@@ -10,7 +11,7 @@ def download(link):
     try:
         if (link):
 
-            SESSIONID = "17cf39ea412-7a8f71"
+            SESSIONID = "7015147780%3AqzrBNQTaTh1mzO%3A19"
             headers = {
             # "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.74 Safari/537.36 Edg/79.0.309.43",
             "User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Mobile Safari/537.36 Edg/87.0.664.57",
