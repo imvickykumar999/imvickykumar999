@@ -1002,8 +1002,8 @@ def converted_playfair_cipher():
 
 @app.route("/qrcode")
 def qrcode():
-    data = "https://github.com/imvickykumar999/Android-Web-App/blob/main/web2app-master/app/outputs/apk/debug/app-debug.apk"
-    img = "static/logo/link.jpeg"
+    data = "https://api.whatsapp.com/send/?phone=918239957923&text=Hi%20Vicky,%20I%20want%20to%20buy%20you%20coffee!"
+    img = "static\screenshots\donate.png"
     return render_template("qrcode.html",
                             data=data,
                             img=img)
