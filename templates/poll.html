@@ -32,33 +32,22 @@
               </a>
             </div>
 
-            <br>
-            <div class="alert alert-primary" role="alert">
-              <a target="_blank" href="https://home-automation-336c0-default-rtdb.firebaseio.com/Views">
-                <h1 style="color:red;">
-                  <strong>
-                    Page Views = {{pageviews}}
-                  </strong>
-                </h1>
-              </a>
-            </div>
-
           </div>
         </div>
 
         <br>
           <form method="post" action="/converted_poll">
-            <div class="alert alert-light" role="alert">
+            <div class="alert alert-danger" role="alert">
             <!-- <div class="jumbotron jumbotron-fluid"> -->
 
             <br>
-              <div class="alert alert-success" role="alert">
+              <div class="alert alert-primary" role="alert">
                 <a target="_blank" href="/vicksmail">
-                  <h2 style="color:red;">
+                  <h1 style="color:red;">
                     <strong>
                       Click me to<br>Get OTP
                     </strong>
-                  </h2>
+                  </h1>
                 </a>
 
                 <br>
@@ -70,11 +59,11 @@
               <div class="alert alert-warning" role="alert">
                 <br>
                 <div class="alert alert-light" role="alert">
-                  <h1 style="color:red;">
+                  <h2 style="color:red;">
                     <strong>
                       What’s your favorite ice cream flavor?
                     </strong>
-                  </h1>
+                  </h2>
                 </div>
 
                 <br><br>
@@ -142,7 +131,21 @@
       <br>
 
       <div class="jumbotron jumbotron">
-        <img src="data:image/png;base64,{{data1}}">
+        <div class="alert alert-danger" role="alert">
+
+          <a target="_blank" href="https://home-automation-336c0-default-rtdb.firebaseio.com/Views">
+            <h1 style="color:red;">
+              <strong>
+                Page Views = {{pageviews}}
+              </strong>
+            </h1>
+          </a>
+        </div>
+
+        <br><br>
+        <a href="/poll">
+          <img src="data:image/png;base64,{{data1}}">
+        </a>
       </div>
 
   </center>
