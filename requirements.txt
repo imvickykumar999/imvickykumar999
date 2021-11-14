@@ -19,10 +19,9 @@ html5lib==1.0.1
 PyPDF2
 img2pdf
 clipboard
-bson
+pymongo
 flask-socketio
 eventlet==0.30.2
-pymongo
 flask-login
 Pillow==8.1.0
 urllib3==1.26.2
