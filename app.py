@@ -731,7 +731,7 @@ def mail_sent():
 
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login(fromaddr, "pythonsagarvicky")
+    s.login(fromaddr, "onlyforpython")
 
     text = msg.as_string()
     s.sendmail(fromaddr, toaddr, text)
