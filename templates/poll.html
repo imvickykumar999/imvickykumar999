@@ -1,0 +1,152 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../static/css/stylesheet.css">
+
+    <!-- https://stackoverflow.com/a/50728936/11493297 -->
+  <title>Vicks Poll</title>
+</head>
+
+<body>
+  <center>
+    <div class="jumbotron jumbotron">
+
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+
+            <div class="alert alert-danger" role="alert">
+              <a href="https://github.com/imvickykumar999/imvickykumar999/blob/4e143cc2285d0aceab1c7e7b8a95eaa4c42c7b67/templates/yourquotes.html#L49">
+
+                <h1 style="color:red;">
+                  <strong>
+                    Poll Opinion
+                    <br>
+                    <em style="color:green;">See Code on GitHub</em>
+                  </strong>
+                </h1>
+
+              </a>
+            </div>
+
+            <br>
+            <div class="alert alert-primary" role="alert">
+              <a target="_blank" href="https://home-automation-336c0-default-rtdb.firebaseio.com/Views">
+                <h1 style="color:red;">
+                  <strong>
+                    Page Views = {{pageviews}}
+                  </strong>
+                </h1>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <br>
+          <form method="post" action="/converted_poll">
+            <div class="alert alert-light" role="alert">
+            <!-- <div class="jumbotron jumbotron-fluid"> -->
+
+            <br>
+              <div class="alert alert-success" role="alert">
+                <a target="_blank" href="/vicksmail">
+                  <h2 style="color:red;">
+                    <strong>
+                      Click me to<br>Get OTP
+                    </strong>
+                  </h2>
+                </a>
+
+                <br>
+                <input type="text" name="otp" placeholder="Check your mail and Enter OTP"/>
+                <br><br>
+              </div>
+
+              <br>
+              <div class="alert alert-warning" role="alert">
+                <br>
+                <div class="alert alert-light" role="alert">
+                  <h1 style="color:red;">
+                    <strong>
+                      What’s your favorite ice cream flavor?
+                    </strong>
+                  </h1>
+                </div>
+
+                <br><br>
+                <div class="alert alert-primary" role="alert">
+                  <div class="custom-control custom-radio">
+                    <input value="1" type="radio" id="audio" name="message" class="form-check-input" checked>
+                    <label class="form-check-label" for="customRadio1">
+                      <h5>Option 1 : Vanilla</h5>
+                    </label>
+                  </div>
+                </div>
+
+                <br>
+                <div class="alert alert-primary" role="alert">
+                  <div class="custom-control custom-radio">
+                    <input value="2" type="radio" id="audio" name="message" class="form-check-input">
+                    <label class="form-check-label" for="customRadio1">
+                      <h5>Option 2 : Chocolate</h5>
+                    </label>
+                  </div>
+                </div>
+
+                <br>
+                <div class="alert alert-primary" role="alert">
+                  <div class="custom-control custom-radio">
+                    <input value="3" type="radio" id="video" name="message" class="form-check-input">
+                    <label class="form-check-label" for="customRadio2">
+                      <h5>Option 3 : Strawberry</h5>
+                    </label>
+                  </div>
+                </div>
+
+                <br>
+                <div class="alert alert-primary" role="alert">
+                  <div class="custom-control custom-radio">
+                    <input value="4" type="radio" id="video" name="message" class="form-check-input">
+                    <label class="form-check-label" for="customRadio2">
+                      <h5>Option 4 : Butter Scotch</h5>
+                    </label>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- <div class="alert alert-danger" role="alert"> -->
+                <input type="image"
+                       src="../static/logo/submit.png"
+                       width="200"
+                       height="60"
+                       alt="submit"/>
+              <!-- </div> -->
+
+          </div>
+        </form>
+      </div>
+
+      <br>
+      <div id="vickscroll">
+        {% if scroll %}
+        <script>
+            document.location.hash = '#' + '{{ scroll }}';
+        </script>
+        {% endif %}
+      </div>
+      <br>
+
+      <div class="jumbotron jumbotron">
+        <img src="data:image/png;base64,{{data1}}">
+      </div>
+
+  </center>
+</body>
+</html>
+
+{% endblock %}

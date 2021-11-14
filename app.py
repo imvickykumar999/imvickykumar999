@@ -715,15 +715,6 @@ def mail_sent():
                <br><br> {otp}
            </h1>
 
-             <br>
-             <a target="_blank" href="https://imvickykumar999.herokuapp.com/yourquotes">
-               <h3 style="color:red;">
-                 <strong>
-                   Redirect to Vicks Quote.
-                 </strong>
-               </h3>
-             </a>
-
           </body>
         </html>
     '''
@@ -737,6 +728,104 @@ def mail_sent():
     s.sendmail(fromaddr, toaddr, text)
     s.quit()
     return render_template("mailsent.html", sent='yes')
+
+def plot_url(data):
+    import matplotlib.pyplot as plt
+    import io, base64
+
+    def countFreq(arr, n):
+        mp = dict()
+        for i in range(n):
+            if arr[i] in mp.keys():
+                mp[arr[i]] += 1
+            else:
+                mp[arr[i]] = 1
+        return mp
+
+    arr = list(data.values())
+    n = len(arr)
+    mp = countFreq(arr, n)
+    print('\n************---> ', mp)
+
+    img = io.BytesIO()
+    y = list(mp.values())
+    x = list(mp.keys())
+
+    fig = plt.figure(figsize = (5, 5))
+    plt.bar(x, y, color ='red', width = 0.4)
+
+    plt.xlim(0,5)
+    plt.grid(True)
+
+    plt.xlabel("Options  --->")
+    plt.ylabel("No. of Votes  --->")
+    plt.title("Favourite ice Cream Flavour : Poll Result\n")
+
+    plt.savefig(img, format='png')
+    img.seek(0)
+    return base64.b64encode(img.getvalue()).decode()
+
+@app.route("/poll")
+def poll():
+    from vicks import crud
+
+    obj1 = crud.vicks('@Hey_Vicks',
+     link = 'https://new-project-ab9c7-default-rtdb.firebaseio.com/')
+
+    data = obj1.pull('Group/Chat')
+    if data == None:
+        obj1.push()
+    data = obj1.pull('Group/Chat')
+
+    pageviews = callviews()
+    return render_template("poll.html",
+                           scroll='vickscroll',
+                           pageviews=pageviews,
+                           data1 = plot_url(data),
+                           )
+
+@app.route('/converted_poll', methods=['POST'])
+def converted_poll():
+    from vicks import crud
+
+    credentials = '@Hey_Vicks'
+    otp = request.form['otp'].strip()
+
+    f=open("otp.txt",'r')
+    f = f.read()
+    getotp = f[:4]
+    person = f[4:].split('@')[0]
+
+    f = open("otp.txt", "w")
+    f.write('-')
+    f.close()
+
+    if otp == getotp and otp != '-':
+        if person == '':
+            obj1 = crud.vicks(credentials, link = 'https://new-project-ab9c7-default-rtdb.firebaseio.com/')
+        else:
+            obj1 = crud.vicks(credentials, name = person,
+            link = 'https://new-project-ab9c7-default-rtdb.firebaseio.com/')
+
+        message = int(request.form['message'])
+        if message == '':
+            obj1.push()
+        else:
+            obj1.push(message, child = f'Group/Chat/{person}')
+
+        data = obj1.pull('Group/Chat')
+        print('------------------------->', data)
+        pageviews = callviews()
+
+        return render_template("poll.html",
+                               scroll='vickscroll',
+                               pageviews=pageviews,
+                               data1 = plot_url(data),
+                               )
+    else:
+        return render_template("404.html", message = 'Wrong OTP')
+
+# ------------------------------------------------------
 
 @app.route("/yourquotes")
 def yourquotes():
