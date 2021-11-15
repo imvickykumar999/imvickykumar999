@@ -13,13 +13,15 @@
 
 <body>
   <center>
+
+    <br><br>
     <div class="jumbotron jumbotron">
 
         <div class="jumbotron jumbotron-fluid">
           <div class="container">
 
             <div class="alert alert-danger" role="alert">
-              <a href="https://github.com/imvickykumar999/imvickykumar999/blob/174803ef8b72374f5c6c32dea654d27786e45609/templates/poll.html#L22">
+              <a target="_blank" href="https://github.com/imvickykumar999/imvickykumar999/blob/fa8fb2b66f6183ccc75cd5c925c53a90236f5e4d/app.py#L736">
 
                 <h1 style="color:red;">
                   <strong>
@@ -37,33 +39,23 @@
 
         <br>
           <form method="post" action="/converted_poll">
-            <div class="alert alert-danger" role="alert">
+            <div class="alert alert-success" role="alert">
             <!-- <div class="jumbotron jumbotron-fluid"> -->
 
-            <br>
-              <div class="alert alert-primary" role="alert">
-                <a target="_blank" href="/vicksmail">
-                  <h1 style="color:red;">
-                    <strong>
-                      Click me to<br>Get OTP
-                    </strong>
-                  </h1>
-                </a>
-
-                <br>
-                <input type="text" name="otp" placeholder="Check your mail and Enter OTP"/>
-                <br><br>
-              </div>
-
               <br>
-              <div class="alert alert-warning" role="alert">
+              <div class="alert alert-light" role="alert">
                 <br>
-                <div class="alert alert-light" role="alert">
+                <div class="alert alert-warning" role="alert">
                   <h2 style="color:red;">
                     <strong>
                       What’s your favorite ice cream flavor?
                     </strong>
                   </h2>
+
+                  <br>
+                  <img src="static/screenshots/ice.jpg"
+                  width="60%" alt="ice">
+                  <br><br>
                 </div>
 
                 <br><br>
@@ -108,7 +100,23 @@
 
               </div>
 
+              <br>
+                <div class="alert alert-danger" role="alert">
+                  <a target="_blank" href="/vicksmail">
+                    <h1 style="color:red;">
+                      <strong>
+                        Click me to<br>Get OTP
+                      </strong>
+                    </h1>
+                  </a>
+
+                  <br>
+                  <input type="text" name="otp" placeholder="Check your mail and Enter OTP"/>
+                  <br><br>
+                </div>
+
               <!-- <div class="alert alert-danger" role="alert"> -->
+              <br>
                 <input type="image"
                        src="../static/logo/submit.png"
                        width="200"
@@ -147,6 +155,33 @@
           <img src="data:image/png;base64,{{data1}}">
         </a>
       </div>
+
+      <br><br>
+      <div class="jumbotron jumbotron">
+
+        <a class="btn btn-warning"
+        data-toggle="collapse"
+        href="#api"
+        role="button">
+
+        <h1 style="color:black">
+          Click me to
+          <br>
+          See API
+        </h1>
+        </a>
+
+      <div class="collapse" id="api">
+        <div class="card card-body">
+          <div class="container">
+            <br>
+            <h4 style="color:blue">
+              {{data2}}
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </center>
 </body>

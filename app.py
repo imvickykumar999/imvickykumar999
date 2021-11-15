@@ -782,6 +782,7 @@ def poll():
                            scroll='vickscroll',
                            pageviews=pageviews,
                            data1 = plot_url(data),
+                           data2=data,
                            )
 
 @app.route('/converted_poll', methods=['POST'])
@@ -821,6 +822,7 @@ def converted_poll():
                                scroll='vickscroll',
                                pageviews=pageviews,
                                data1 = plot_url(data),
+                               data2=data,
                                )
     else:
         return render_template("404.html", message = 'Wrong OTP')
