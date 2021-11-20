@@ -42,6 +42,12 @@ except Exception as e:
     pass
 
 try:
+    os.mkdir('uploads/mashup')
+except Exception as e:
+    print(e)
+    pass
+
+try:
     os.mkdir('uploads/audio')
 except Exception as e:
     print(e)
@@ -80,6 +86,10 @@ def callviews():
     pageviews += 1
     obj1.push(data = pageviews, child = 'Views')
     return pageviews
+
+@app.route('/pre tests/reels/dist/<filename>')
+def send_reels(filename):
+    return send_from_directory("pre tests/reels/dist", filename)
 
 # pageviews = callviews()
 
@@ -131,9 +141,7 @@ def reels():
                            path='uploads/reels/1631081300.mp4'
                             )
 
-@app.route('/pre tests/reels/dist/<filename>')
-def send_reels(filename):
-    return send_from_directory("pre tests/reels/dist", filename)
+
 
 @app.route('/uploads/reels/<filename>')
 def send_exe(filename):
@@ -161,7 +169,67 @@ def vicks_reels():
     except Exception as e:
         return render_template("404.html", message = f'{e}')
 
-# ===================================================
+# ==========================---------=========================
+
+@app.route("/mashup")
+def mashup():
+    pageviews = callviews()
+    return render_template('mashup.html',
+                           scroll='vickscroll',
+                           pageviews=pageviews,
+                           path='uploads/mashup/audio1637349073.mp4'
+                            )
+
+
+@app.route('/uploads/mashup/<filename>')
+def send_mashup(filename):
+    return send_from_directory("uploads/mashup", filename)
+
+# https://github.com/csuhan/ReDet/issues/14#issuecomment-914544044
+
+@app.route("/downloaded_mashup", methods=['POST', 'GET'])
+def vicks_mashup():
+    try:
+        from flask import request as req
+        vid = req.form['video']
+        aud = req.form['audio']
+
+        from vicks import reels
+        import time
+
+        vpath = f"uploads/mashup/video{int(time.time())}.mp4"
+        apath = f"uploads/mashup/audio{int(time.time())}.mp4"
+        vpath = reels.download(vid, vpath)
+        apath = reels.download(aud, apath)
+
+        # from moviepy.editor import VideoFileClip, AudioFileClip
+        import moviepy.editor as mpe
+            
+        videoclip = mpe.VideoFileClip(vpath)
+        vidur = videoclip.duration
+        background_music = mpe.AudioFileClip(apath)
+        audur = background_music.duration
+
+        dur = min(audur, vidur)
+        print('\n**************-->', dur)
+        videoclip = videoclip.subclip(0, dur)
+        background_music = background_music.subclip(0, dur)
+
+        new_clip = videoclip.set_audio(background_music)
+        new_clip.write_videofile(apath)
+
+        pageviews = callviews()
+        return render_template('mashup.html',
+                                path=apath,
+                                scroll='vickscroll',
+                                pageviews=pageviews,
+                                )
+
+    except Exception as e:
+        return render_template("404.html", message = f'{e}')
+
+
+# ======================================================
 
 @app.route("/maps")
 def maps():
