@@ -1,4 +1,7 @@
 <h1 align = "Center" >Hello There 👋 </h1>
+
+[![Typing SVG](http://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=I'm+a+Purrgrammer.)](https://git.io/typing-svg)
+
 <p align="Left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=orange&label=PROFILE+VIEWS" alt="imvickykumar999"  /> </p>
 
 ## Activity
