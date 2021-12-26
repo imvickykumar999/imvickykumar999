@@ -36,6 +36,13 @@ except Exception as e:
     pass
 
 try:
+    import os
+    os.mkdir('uploads/vixtify')
+except Exception as e:
+    print(e)
+    pass
+
+try:
     os.mkdir('uploads/reels')
 except Exception as e:
     print(e)
@@ -171,6 +178,86 @@ def vicks_reels():
 
 # ==========================---------=========================
 
+@app.route("/vixtify")
+def vixtify():
+    pageviews = callviews()
+    return render_template('vixtify.html',
+                           scroll='vickscroll',
+                           pageviews=pageviews,
+                           type='playlist',
+                           ids=['1Wo3nhrw15u8kiiS5mxKGe'],
+                           path=[],
+                           )
+
+@app.route('/uploads/vixtify/<filename>')
+def send_vixtify(filename):
+    return send_from_directory("uploads/vixtify", filename)
+
+
+@app.route("/downloaded_vixtify", methods=['POST', 'GET'])
+def vicks_vixtify():
+    try:
+        import shutil
+        shutil.rmtree('uploads/vixtify')
+    except Exception as e:
+        print(e)
+        pass
+
+    try:
+        import os
+        os.mkdir('uploads/vixtify')
+    except Exception as e:
+        print(e)
+        pass
+
+    try:
+        import spotipy
+        from flask import request as req
+        from spotipy.oauth2 import SpotifyClientCredentials
+        import urllib.request
+
+        client_id = '4a05ec0273d64243990bfee317f48246'
+        client_secret = 'ff69fdebe3ea4e61a58f0f0497022c00'
+
+        ClientCredentials = SpotifyClientCredentials( client_id = client_id,
+                                                      client_secret = client_secret )
+
+        sp = spotipy.Spotify( auth_manager = ClientCredentials )
+        results = sp.search(q=req.form['vixtify'], limit=10)
+
+        app, ids = [], []
+        for i in results['tracks']['items']:
+            if i['preview_url']:
+                print(i['preview_url'])
+                app.append(i['preview_url'])
+                ids.append(i['album']['external_urls']['spotify'].split('/')[4])
+
+        for i in app[:3]:
+            print(i)
+            urllib.request.urlretrieve(i, f"uploads/vixtify/{i.split('/')[4].split('?')[0]}.mp3")
+
+        import os
+        files = os.listdir('uploads/vixtify')
+        print(files)
+        spname = []
+        for file in files:
+            spname.append(file)
+
+        pageviews = callviews()
+        return render_template('vixtify.html',
+                                path= spname,
+                                ids=ids,
+                                type='album',
+                                scroll='vickscroll',
+                                pageviews=pageviews,
+                                )
+
+    except Exception as e:
+        return render_template("404.html", message = f'{e}')
+
+# =============================================================
+
+
 @app.route("/mashup")
 def mashup():
     pageviews = callviews()
@@ -204,7 +291,7 @@ def vicks_mashup():
 
         # from moviepy.editor import VideoFileClip, AudioFileClip
         import moviepy.editor as mpe
-            
+
         videoclip = mpe.VideoFileClip(vpath)
         vidur = videoclip.duration
         background_music = mpe.AudioFileClip(apath)

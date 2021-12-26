@@ -26,20 +26,11 @@
               <a href="https://github.com/imvickykumar999/imvickykumar999/blob/master/vicks/reels.py">
                 <h1 style="color:red;">
                   <strong>
-                    Instagram Reels Downloader
-                    <br>
+                    Spotify Song Downloader
+                    <br><br>
                     <em style="color:green;">See Code on GitHub</em>
                   </strong>
                 </h1>
-              </a>
-
-              <br>
-              <a href="pre tests/reels/dist/reels.exe">
-                <h2 style="color:black;">
-                  <em>
-                    Download Reels Downloader exe
-                  </em>
-                </h2>
               </a>
             </div>
 
@@ -90,18 +81,16 @@
 
     </div>
 
-    <!-- <br>
+    <br>
     <div class="alert alert-primary" role="alert">
       <br><br>
       <iframe
-        src="https://open.spotify.com/embed/playlist/1Wo3nhrw15u8kiiS5mxKGe?utm_source=generator"
-        width="100%"
-        height="380"
-        frameBorder="0"
-        allowfullscreen=""
+        src="https://open.spotify.com/embed/{{type}}/{{ids[0]}}?utm_source=generator"
+        width="100%" height="380"
+        frameBorder="0" allowfullscreen=""
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
       </iframe>
-    </div> -->
+    </div>
   </div>
 
 <br>
@@ -123,38 +112,28 @@
       <center>
         <div class="container">
 
-          <form method="post" action="/downloaded_reels">
+          <form method="post" action="/downloaded_vixtify">
             <div class="alert alert-warning" role="alert">
               <center>
 
-                <br>
-                <div class="alert alert-success" role="alert">
-                  <a target="_blank" href="{{path}}">
-                    <h1 style="color:green;">
-                      Share Downloaded Reel
-                      <br>
-                      (Copy Hyperlink)
-                    </h1>
-                  </a>
-                </div>
+                {% for i in path %}
+                  <div class="alert alert-primary" role="alert">
+                    <audio controls>
+                      <source src="uploads/vixtify/{{i}}" type="audio/mpeg">
+                    </audio>
+                  </div>
+                {% endfor %}
 
                 <br>
-                <video width="405" height="720" controls>
-                  <source src="{{path}}" type="video/mp4">
-                </video>
-
-                <br><br><br>
                 <div class="alert alert-danger" role="alert">
                   <h1>
                     <strong>
-                      Copy reel URL
-                      <br>and
-                      <br>
-                      Paste here
+                      Write Song Name
+                      <br>to Search
                     </strong>
                   </h1>
 
-                  <input type="text" name="reels" placeholder="Paste URL here and Press Submit"/>
+                  <input type="text" name="vixtify" placeholder="Write here and Press Submit"/>
                   <br><br>
 
                   <input type="image"

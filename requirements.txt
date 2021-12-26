@@ -46,3 +46,4 @@ pandas
 pyinstaller
 insta-scrape
 matplotlib
+spotipy
