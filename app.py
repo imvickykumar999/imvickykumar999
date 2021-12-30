@@ -257,6 +257,46 @@ def vicks_vixtify():
 
 # =============================================================
 
+try:
+    import os
+    os.mkdir('uploads/vixmemes')
+except Exception as e:
+    print(e)
+    pass
+
+@app.route("/vixmemes")
+def vixmemes():
+    pageviews = callviews()
+    return render_template('vixmemes.html',
+                           scroll='vickscroll',
+                           pageviews=pageviews,
+                           )
+
+@app.route('/uploads/vixmemes/<filename>')
+def send_vixmemes(filename):
+    return send_from_directory("uploads/vixmemes", filename)
+
+
+@app.route("/downloaded_vixmemes", methods=['POST', 'GET'])
+def vicks_vixmemes():
+    try:
+        from vicks import defmeme as dm
+        from flask import request as req
+
+        idno = int(req.form['idno'])
+        file = dm.memers(idno = idno)[0]
+        print('============>', file)
+
+        pageviews = callviews()
+        return render_template('vixmemes.html',
+                                scroll='vickscroll',
+                                pageviews=pageviews,
+                                )
+
+    except Exception as e:
+        return render_template("404.html", message = f'{e}')
+
+# =============================================================
 
 @app.route("/mashup")
 def mashup():
