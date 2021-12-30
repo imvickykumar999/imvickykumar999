@@ -261,7 +261,7 @@ def vicks_vixtify():
 def vixmemes():
     pageviews = callviews()
     file = 'https://i.imgflip.com/5zik67.jpg'
-    
+
     return render_template('vixmemes.html',
                            scroll='vickscroll',
                            file=file,
@@ -909,7 +909,7 @@ def mail_sent():
 
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login(fromaddr, "onlyforpython")
+    s.login(fromaddr, "onlyforpythonvicks")
 
     text = msg.as_string()
     s.sendmail(fromaddr, toaddr, text)
