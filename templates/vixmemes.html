@@ -23,13 +23,15 @@
           <div class="container">
 
             <div class="alert alert-success" role="alert">
-              <a href="https://github.com/imvickykumar999/imvickykumar999/blob/master/vicks/reels.py">
+              <a href="https://github.com/imvickykumar999/imvickykumar999/blob/master/templates/vixmemes.html">
                 <h1 style="color:red;">
+
                   <strong>
-                    Spotify Song Downloader
+                    Meme Generator
                     <br><br>
                     <em style="color:green;">See Code on GitHub</em>
                   </strong>
+
                 </h1>
               </a>
             </div>
@@ -83,25 +85,62 @@
       <center>
         <div class="container">
 
-          <div class="alert alert-primary" role="alert">
-            <iframe frameborder="0" scrolling="yes" width="100%" height="370"
-               src="https://github.com/imvickykumar999/Memes/blob/main/memes.csv" name="imgbox" id="imgbox">
+          <div class="alert alert-warning" role="alert">
+            <a target = '_blank' href="https://api.imgflip.com/get_memes">
+              <h1>
+                <strong>
+                  Thanks 2 ImgFlip API
+                </strong>
+              </h1>
+            </a>
+
+            <br>
+            <iframe frameborder="0" scrolling="yes" width="100%" height="900"
+               src="/memeapi" name="imgbox" id="imgbox">
             </iframe>
           </div>
 
           <form method="post" action="/downloaded_vixmemes">
             <center>
 
-              <br>
-              <div class="alert alert-danger" role="alert">
-                <h1>
-                  <strong>
-                    Write id number
-                  </strong>
-                </h1>
+              <br><br>
+              <div class="alert alert-light" role="alert">
+                <div class="alert alert-danger" role="alert">
 
-                <input type="text" name="idno" placeholder="Write here and Press Submit"/>
-                <br><br>
+                  <h2>
+                    <strong>
+                      Write id number
+                    </strong>
+                  </h2>
+
+
+                  <input type="text" name="idno" placeholder="Write here and Press Submit"/>
+                  <br><br>
+                </div>
+
+                <div class="alert alert-success" role="alert">
+                  <h2>
+                    <strong>
+                      Enter Text0
+                    </strong>
+                  </h2>
+
+
+                  <input type="text" name="text0" placeholder="Write here..."/>
+                  <br><br>
+                </div>
+
+                <div class="alert alert-primary" role="alert">
+                  <h2>
+                    <strong>
+                      Enter Text1
+                    </strong>
+                  </h2>
+
+
+                  <input type="text" name="text1" placeholder="Write here..."/>
+                  <br><br>
+                </div>
 
                 <input type="image"
                    src="../static/logo/submit.png"

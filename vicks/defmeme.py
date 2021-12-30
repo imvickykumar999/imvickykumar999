@@ -17,4 +17,4 @@ def memers(idno = 2, text0 = 'C++', text1 = 'Python'):
         'text1':text1,
     }
     response = requests.request('POST', URL, params=params).json()
-    return response['data']['url']
+    return response['data']['url'], images

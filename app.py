@@ -257,14 +257,27 @@ def vicks_vixtify():
 
 # =============================================================
 
+@app.route("/memeapi")
+def memeapi():
+    import requests
+    data = requests.get('https://api.imgflip.com/get_memes').json()['data']['memes']
+    images = [{'name':image['name'],'url':image['url'],'id':image['id'],
+               'box_count':image['box_count']} for image in data]
+
+    return render_template('memeapi.html',
+                        images=images,
+                        range100=range(100),
+                           )
+
 @app.route("/vixmemes")
 def vixmemes():
     pageviews = callviews()
-    file = 'https://i.imgflip.com/5zik67.jpg'
+    file = 'https://i.imgflip.com/5zj4wx.jpg'
 
     return render_template('vixmemes.html',
                            scroll='vickscroll',
                            file=file,
+                           images=[],
                            pageviews=pageviews,
                            )
 
@@ -274,14 +287,21 @@ def vicks_vixmemes():
         from vicks import defmeme as dm
         from flask import request as req
 
-        idno = int(req.form['idno'])
-        file = dm.memers(idno = idno)
+        idno = req.form['idno']
+        text0 = req.form['text0']
+        text1 = req.form['text1']
+
+        if text0 == '' or text1 == '':
+            text0 = 'C++'
+            text1 = 'Python'
+        file = dm.memers(idno = int(idno), text0 = text0, text1 = text1)
         print('============>', file)
 
         pageviews = callviews()
         return render_template('vixmemes.html',
                                 scroll='vickscroll',
-                                file=file,
+                                file=file[0],
+                                images=file[1],
                                 pageviews=pageviews,
                                 )
 
