@@ -49,3 +49,4 @@ matplotlib
 spotipy
 keras
 opencv-python
+skia-python
