@@ -295,7 +295,7 @@ def vicks_vixmemes():
             text0 = 'C++'
             text1 = 'Python'
         file = dm.memers(idno = int(idno), text0 = text0, text1 = text1)
-        print('============>', file)
+        # print('============>', file)
 
         pageviews = callviews()
         return render_template('vixmemes.html',
@@ -309,6 +309,78 @@ def vicks_vixmemes():
         return render_template("404.html", message = f'{e}')
 
 # =============================================================
+
+try:
+    os.mkdir('uploads/mnistvix')
+except Exception as e:
+    print(e)
+    pass
+
+@app.route('/uploads/mnistvix/<filename>')
+def send_mnistvix(filename):
+    return send_from_directory("uploads/mnistvix", filename)
+
+app.config['UPLOAD_mnist'] = 'uploads/mnistvix'
+
+@app.route("/mnistvix")
+def mnistvix():
+    pageviews = callviews()
+
+    return render_template('mnistvix.html',
+                           scroll='vickscroll',
+                           pageviews=pageviews,
+                           pred=[],
+                           rangex=range(0),
+                           filn=[],
+                           )
+
+@app.route("/downloaded_mnistvix", methods=['POST', 'GET'])
+def vicks_mnistvix():
+    try:
+        import shutil
+        shutil.rmtree('uploads/mnistvix')
+    except Exception as e:
+        print(e)
+        pass
+
+    try:
+        os.mkdir('uploads/mnistvix')
+    except Exception as e:
+        print(e)
+        pass
+
+    try:
+        loc='uploads/mnistvix/error.txt'
+        if request.method == 'POST':
+            files = request.files.getlist('myfile')
+
+            for file in files:
+                if file and allowed_file(file.filename):
+                    filename = secure_filename(file.filename)
+                    loc = os.path.join(app.config['UPLOAD_mnist'], filename)
+                    file.save(loc)
+                    print('==========>>> ', loc)
+
+        from vicks import scan
+        tesp = scan.test()
+        pred = tesp[0]
+        filn = tesp[1]
+        print('-------------> ', filn)
+
+        pageviews = callviews()
+        return render_template('mnistvix.html',
+                                scroll='vickscroll',
+                                pred=pred,
+                                filn=filn,
+                                rangex=range(len(filn)),
+                                pageviews=pageviews,
+                                )
+
+    except Exception as e:
+        return render_template("404.html", message = f'{e}')
+
+# =========================================================
+
 
 @app.route("/mashup")
 def mashup():

@@ -1,0 +1,125 @@
+{% extends "base.html"%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../static/css/stylesheet.css">
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8191146460815779"
+         crossorigin="anonymous"></script>
+
+  <title>YouTube Comments</title>
+</head>
+
+<body>
+
+  <div class="jumbotron jumbotron">
+    <div class="container">
+      <center>
+
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+
+            <div class="alert alert-success" role="alert">
+              <a target="_blank" href="https://github.com/imvickykumar999/imvickykumar999/blob/master/templates/vixmemes.html">
+                <h1 style="color:red;">
+
+                  <strong>
+                    MNIST SCANNER
+                    <br><br>
+                    <img src="../static/logo/aimages.png" alt="4">
+                    <br><br>
+                    <h1>Output : 4</h1>
+                    <em style="color:green;">See Code on GitHub</em>
+                  </strong>
+
+                </h1>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </center>
+    </div>
+  </div>
+
+  <div id="vickscroll">
+    {% if scroll %}
+    <script>
+        document.location.hash = '#' + '{{ scroll }}';
+    </script>
+    {% endif %}
+  </div>
+
+  <br>
+  <div class="jumbotron jumbotron">
+    <div class="alert alert-danger" role="alert">
+
+      <a target="_blank" href="https://home-automation-336c0-default-rtdb.firebaseio.com/Views">
+        <h1>
+          <strong>
+            <em>
+              Page Views = {{pageviews}}
+            </em>
+          </strong>
+        </h1>
+      </a>
+    </div>
+
+    <br>
+    <div class="alert alert-primary" role="alert">
+      <center>
+        <h1><strong>Scanned Numbers is/are :</strong></h1>
+
+        {% for i in rangex %}
+          <div class="alert alert-light" role="alert">
+            <br><br>
+            <img src="../uploads/mnistvix/{{filn[i]}}" alt="{{pred[i]}}">
+            <br><br>
+            <h1 style="color:red;">
+              <strong>
+                Output : {{pred[i]}}
+              </strong>
+            </h1>
+          </div>
+          <br><br>
+        {% endfor %}
+
+      </center>
+    </div>
+  </div>
+
+  <br>
+  <div class="jumbotron jumbotron">
+    <div class="container">
+      <center>
+        <div class="container">
+
+          <form method="post"
+          action="/downloaded_mnistvix"
+          enctype="multipart/form-data">
+
+  					<div class="alert alert-danger" role="alert">
+    					<input type="file" name="myfile" multiple="true" autocomplete="off" required>
+
+              <br><br>
+              <input type="image"
+                     src="../static/logo/submit.png"
+                     width="200"
+                     height="60"
+                     alt="submit"/>
+            </div>
+    			</form>
+
+        </div>
+      </center>
+    </div>
+  </div>
+
+</body>
+</html>
+
+{% endblock %}

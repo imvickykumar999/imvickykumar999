@@ -47,3 +47,4 @@ pyinstaller
 insta-scrape
 matplotlib
 spotipy
+keras
