@@ -336,8 +336,12 @@ def vicks_mashup():
         from vicks import reels
         import time
 
-        vpath = f"uploads/mashup/video{int(time.time())}.mp4"
-        apath = f"uploads/mashup/audio{int(time.time())}.mp4"
+        vname = vid.split('/')[4]
+        aname = aud.split('/')[4]
+
+        vpath = f"uploads/mashup/{vname}.mp4"
+        apath = f"uploads/mashup/{aname}.mp4"
+
         vpath = reels.download(vid, vpath)
         apath = reels.download(aud, apath)
 
