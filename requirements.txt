@@ -48,5 +48,4 @@ insta-scrape
 matplotlib
 spotipy
 keras
-opencv-python
-skia-python
+opencv-python==4.2.0.34
