@@ -1005,7 +1005,7 @@ def mail_sent():
 
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login(fromaddr, "onlyforpythonvicks")
+    s.login(fromaddr, "gjkF@%$TLLHgehnJ354bgfgb5gdf")
 
     text = msg.as_string()
     s.sendmail(fromaddr, toaddr, text)
