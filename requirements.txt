@@ -47,5 +47,3 @@ pyinstaller
 insta-scrape
 matplotlib
 spotipy
-keras
-opencv-python
