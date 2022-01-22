@@ -272,12 +272,21 @@ def memeapi():
 @app.route("/vixmemes")
 def vixmemes():
     pageviews = callviews()
-    file = 'https://i.imgflip.com/5zj4wx.jpg'
+    # file = 'drake.jpg'
+
+    import requests
+    import random
+
+    data = requests.get('https://api.imgflip.com/get_memes').json()['data']['memes']
+    images = [{'name':image['name'],'url':image['url'],'id':image['id'],
+               'box_count':image['box_count']} for image in data]
+
+    ran = random.randint(0,100)
+    file = images[ran]
 
     return render_template('vixmemes.html',
                            scroll='vickscroll',
-                           file=file,
-                           images=[],
+                           file=file['url'],
                            pageviews=pageviews,
                            )
 
@@ -296,21 +305,21 @@ def vicks_vixmemes():
             text1 = 'Python'
 
         file = dm.memers(idno = int(idno), text0 = text0, text1 = text1)
+        # file = dm.pilmeme(text0 = text0, text1 = text1)
         print('============>', file[0])
 
-        try:
-            from vicks import instaupload as iu
-            f = iu.instaup(file[0])
-            print(f)
-
-        except Exception as e:
-            print('/////////--> ', e)
+        # try:
+        #     from vicks import instaupload as iu
+        #     f = iu.instaup(file[0])
+        #     print(f)
+        #
+        # except Exception as e:
+        #     print('/////////--> ', e)
 
         pageviews = callviews()
         return render_template('vixmemes.html',
                                 scroll='vickscroll',
                                 file=file[0],
-                                images=file[1],
                                 pageviews=pageviews,
                                 )
 
