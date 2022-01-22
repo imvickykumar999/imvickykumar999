@@ -6,7 +6,7 @@
 
 <style>
 	
-div {
+img {
   width: 200px;
   height: 100px;
   border: 1px solid black;
@@ -53,10 +53,17 @@ div {
   }
 </script>
 	
-<div onmousemove="showCoords(event)" onmouseout="clearCoor()"></div>
+<div onmousemove="showCoords(event)" onmouseout="clearCoor()">
+  <center>
+    <img src="drake.jpg" alt="">
+  </center>
+</div>
+	
 <p>Mouse over the rectangle above to get the horizontal and vertical coordinates of your mouse pointer.</p>
 
-<p id="demo"></p>
+<p id="demo">
+	Coorrdinates will be shown here....
+</p>
 
 <script>
 function showCoords(event) {
