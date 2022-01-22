@@ -5,13 +5,6 @@
 <title>Display Webcam Stream</title>
 
 <style>
-	
-img {
-  width: 200px;
-  height: 100px;
-  border: 1px solid black;
-}
-	
 #container {
 	margin: 0px auto;
 	width: 500px;
@@ -34,11 +27,12 @@ img {
 	</center>
 </h1>
 
-<div id="container">
+<div id="container" onmousemove="showCoords(event)" onmouseout="clearCoor()">
 	<video autoplay="true" id="videoElement">
 
 	</video>
 </div>
+	
 <script>
   var video = document.querySelector("#videoElement");
 
@@ -53,16 +47,10 @@ img {
   }
 </script>
 	
-<div onmousemove="showCoords(event)" onmouseout="clearCoor()">
-  <center>
-    <img src="drake.jpg" alt="">
-  </center>
-</div>
-	
-<p>Mouse over the rectangle above to get the horizontal and vertical coordinates of your mouse pointer.</p>
+<p>Mouse over the Video above to get the horizontal and vertical coordinates of your mouse pointer.</p>
 
 <p id="demo">
-	Coorrdinates will be shown here....
+    Coorrdinates will be shown here....
 </p>
 
 <script>
