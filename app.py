@@ -294,8 +294,17 @@ def vicks_vixmemes():
         if text0 == '' or text1 == '':
             text0 = 'C++'
             text1 = 'Python'
+
         file = dm.memers(idno = int(idno), text0 = text0, text1 = text1)
-        # print('============>', file)
+        print('============>', file[0])
+
+        try:
+            from vicks import instaupload as iu
+            f = iu.instaup(file[0])
+            print(f)
+
+        except Exception as e:
+            print('/////////--> ', e)
 
         pageviews = callviews()
         return render_template('vixmemes.html',
