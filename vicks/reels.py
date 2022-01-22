@@ -18,6 +18,7 @@ def download(link,
             "cookie":f'sessionid={SESSIONID};'
             }
 
+            link = f'https://www.instagram.com/reel/{link.split("/")[4]}'
             google_reel=Reel(link)
             google_reel.scrape(headers=headers)
             google_reel.download(fp=path)
@@ -30,4 +31,4 @@ def download(link,
 
     return path
 
-# download('https://www.instagram.com/reel/CTjI5hJI-uA/?utm_source=ig_web_copy_link')
+# download('https://www.instagram.com/reel/CTjI5hJI-uA')
