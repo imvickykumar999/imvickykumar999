@@ -30,9 +30,17 @@
       <div class="alert alert-success" role="alert">
         <br>
 
-        <strong>
-          <h1>ID Number : {{i+1}}</h1>
-        </strong>
+        <div class="alert alert-danger" role="alert">
+          <strong>
+            <h1>
+              <strong>
+                ID Number
+                <br>
+                {{images[i]['id']}}
+              </strong>
+            </h1>
+          </strong>
+        </div>
         <br><br>
 
         <img src="{{images[i]['url']}}"
@@ -45,7 +53,7 @@
            <tr>
               <th>
                 <div class="alert alert-light" role="alert">
-                  <h4>{{ key }}</h4>
+                  <h4><strong>{{ key.upper() }}</strong></h4>
                 </div>
               </th>
 

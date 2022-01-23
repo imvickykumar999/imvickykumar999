@@ -261,8 +261,7 @@ def vicks_vixtify():
 def memeapi():
     import requests
     data = requests.get('https://api.imgflip.com/get_memes').json()['data']['memes']
-    images = [{'name':image['name'],'url':image['url'],'id':image['id'],
-               'box_count':image['box_count']} for image in data]
+    images = [{'name':image['name'],'url':image['url'],'id':image['id']} for image in data]
 
     return render_template('memeapi.html',
                         images=images,
@@ -286,7 +285,7 @@ def vixmemes():
 
     return render_template('vixmemes.html',
                            scroll='vickscroll',
-                           file=file['url'],
+                           file=file,
                            pageviews=pageviews,
                            )
 
@@ -306,7 +305,7 @@ def vicks_vixmemes():
 
         file = dm.memers(idno = int(idno), text0 = text0, text1 = text1)
         # file = dm.pilmeme(text0 = text0, text1 = text1)
-        print('============>', file[0])
+        print('============>', file)
 
         # try:
         #     from vicks import instaupload as iu
@@ -319,7 +318,7 @@ def vicks_vixmemes():
         pageviews = callviews()
         return render_template('vixmemes.html',
                                 scroll='vickscroll',
-                                file=file[0],
+                                file=file,
                                 pageviews=pageviews,
                                 )
 

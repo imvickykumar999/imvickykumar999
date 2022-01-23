@@ -1,4 +1,4 @@
-def memers(idno = 2, text0 = 'C++', text1 = 'Python'):
+def memers(idno = 124822590, text0 = 'C++', text1 = 'Python'):
     import requests
 
     username = 'imvickykumar999'
@@ -12,13 +12,14 @@ def memers(idno = 2, text0 = 'C++', text1 = 'Python'):
     params = {
         'username': username,
         'password': password,
-        'template_id':images[idno-1]['id'],
+        # 'template_id':images[idno-1]['id'],
+        'template_id':idno,
         'text0':text0,
         'text1':text1,
     }
     response = requests.request('POST', URL, params=params).json()
     print('#####------> ', response)
-    return response['data']['url'], images
+    return response['data']
 
 
 def pilmeme(text0 = '''

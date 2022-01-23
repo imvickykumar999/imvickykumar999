@@ -69,16 +69,40 @@
     <br>
     <div class="alert alert-primary" role="alert">
       <center>
-        <h1><strong>Generated Meme</strong></h1>
+
+        <a target="_blank" href="https://api.whatsapp.com/send?text={{file['url']}}">
+          <h1>
+            <strong style="color:red;">
+              Share This Meme
+              <br>
+              link On WhatsApp !
+            </strong>
+          </h1>
+        </a>
 
         <br>
           <!-- <a target="_blank" href="{{file}}"> -->
             <img id="myImgId"
-            src="{{file}}"
+            src="{{file['url']}}"
             width="60%"
             alt="generated meme">
           <!-- </a> -->
         <br><br><br>
+
+        {% if file['id'] %}
+          <div class="alert alert-danger" role="alert">
+            <strong>
+              <h1>
+                <strong>
+                  ID Number
+                  <br>
+                  {{file['id']}}
+                </strong>
+              </h1>
+            </strong>
+          </div>
+        {% endif %}
+        <br>
 
         <div class="alert alert-light" role="alert">
           <h3>X - Coordinate of image :
@@ -103,10 +127,12 @@
         <div class="container">
 
           <div class="alert alert-warning" role="alert">
-            <a target = '_blank' href="https://api.imgflip.com/get_memes">
+            <a target = '_blank' href="/memeapi">
               <h1>
-                <strong>
-                  Thanks 2 ImgFlip API
+                <strong style="color:red;">
+                  Scroll down for
+                  <br>
+                  more templates
                 </strong>
               </h1>
             </a>
@@ -115,6 +141,15 @@
             <iframe frameborder="0" scrolling="yes" width="100%" height="900"
                src="/memeapi" name="imgbox" id="imgbox">
             </iframe>
+
+            <br><br>
+            <a target = '_blank' href="https://api.imgflip.com/get_memes">
+              <h1>
+                <strong>
+                  Thanks 2 ImgFlip API
+                </strong>
+              </h1>
+            </a>
           </div>
 
           <form method="post" action="/downloaded_vixmemes">
@@ -131,14 +166,14 @@
                   </h2>
 
 
-                  <input type="text" name="idno" placeholder="Write here and Press Submit"/>
+                  <input type="text" name="idno" placeholder="Copy ID Number and paste here..."/>
                   <br><br>
                 </div>
 
                 <div class="alert alert-success" role="alert">
                   <h2>
                     <strong>
-                      Enter Text0
+                      Enter Top Text
                     </strong>
                   </h2>
 
@@ -150,7 +185,7 @@
                 <div class="alert alert-primary" role="alert">
                   <h2>
                     <strong>
-                      Enter Text1
+                      Enter Bottom Text
                     </strong>
                   </h2>
 
