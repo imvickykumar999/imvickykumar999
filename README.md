@@ -32,8 +32,8 @@
 
 # [About me](https://imvickykumar999.github.io/imvickykumar999/) :
 
-<p> I am a Computer Science Student, currently in 3rd year student at RIET, Jaipur 🏫 </p>
-<p> Schooling from Jawahar Navodaya Vidyalaya. </p>
+<p> I am a Computer Science Student, currently in 4th year student at RIET, Jaipur 🏫 </p>
+<p> Schooling from Jawahar Navodaya Vidyalaya, Gautam Buddha Nagar. </p>
 
 - 🔭 I’m currently working on Drones.
 - 🌱 I’m currently learning OpenCV, Website Hosting and Machine Learning
