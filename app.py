@@ -1545,6 +1545,7 @@ def upload_file():
         password = request.form['unique']
 
         for file in files:
+            print(file)
             if file and allowed_file(file.filename):
                 filename = secure_filename(file.filename)
                 loc = os.path.join(app.config['UPLOAD_FOLDER'], filename)
