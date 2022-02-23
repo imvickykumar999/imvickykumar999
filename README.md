@@ -6,7 +6,7 @@
 
 --------------------------------------------
 
-# >>> [Ideationology Lab](https://vixtest.herokuapp.com/)
+# >>> [Ideationology Lab](https://ideationology.herokuapp.com/)
 
 [![ss](https://github.com/imvickykumar999/Ideationology-Attendance/blob/main/static/ideationology.jpg?raw=true)](https://github.com/imvickykumar999/Ideationology-Attendance)
 
