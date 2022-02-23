@@ -104,11 +104,11 @@
 
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="alert alert-primary" role="alert">
-              <a style="color:red;" class="navbar-brand" href="{{url_for('vixmemes')}}">
+              <a target="_blank" style="color:blue;" class="navbar-brand" href="https://vixtest.herokuapp.com/">
                 <strong>
-                  Memes
+                  Ideationology
                   <br>
-                  Generator
+                  Lab
                 </strong>
               </a>
             </div>
@@ -144,6 +144,7 @@
                       <div class="dropdown-divider"></div>
 
                       <div class="alert alert-success" role="alert">
+                        <a style="color:blue;" class="dropdown-item" href="{{url_for('vixmemes')}}"><strong>Memes Generator</strong></a>
                         <a style="color:green;" class="dropdown-item" href="{{url_for('yourquotes')}}"><strong>Your Quotes</strong></a>
                         <a style="color:red;" class="dropdown-item" href="{{url_for('covid19')}}"><strong>Cowin Slot</strong></a>
                         <a style="color:blue;" class="dropdown-item" href="{{url_for('movies')}}"><strong>Movies</strong></a>
