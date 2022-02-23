@@ -2,9 +2,18 @@
 
 [![Typing SVG](http://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=I'm+a+Purrgrammer.)](https://git.io/typing-svg)
 
-<p align="Left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=orange&label=PROFILE+VIEWS" alt="imvickykumar999"  /> </p>
+<p align="Left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=orange&label=PROFILE+VIEWS" alt="imvickykumar999"/> </p>
 
-## Activity
+--------------------------------------------
+
+# >>> [Ideationology Lab](https://vixtest.herokuapp.com/)
+
+[![ss](https://github.com/imvickykumar999/Ideationology-Attendance/blob/main/static/ideationology.jpg?raw=true)](https://github.com/imvickykumar999/Ideationology-Attendance)
+
+------------------------------------------
+
+<h1 align = "Center" > Activity </h1>
+<br> 
 
 <div align="center">
     <a href="https://github.com/imvickykumar999">
@@ -14,6 +23,8 @@
 	<img src="https://github.com/h-ssiqueira/h-ssiqueira/blob/output/github-contribution-grid-snake.svg" alt="Snake animation">
 	</a>
 </div>
+
+---------------------------------------
 
 # [Home Automation](https://imvickykumar999.herokuapp.com) : [Linkedin Post](https://www.linkedin.com/posts/imvickykumar999_esp32-androidapp-okgoogle-activity-6799109517461209088-b5yc)
 
@@ -29,6 +40,8 @@
 [![pypi](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package/blob/main/screenshot.png?raw=true)](https://pypi.org/project/imvickykumar999/) -->
 
 [![image](https://user-images.githubusercontent.com/50515418/125958098-72cd8413-be4b-42f2-951a-a876aa12b81e.png)](https://imvickykumar999.herokuapp.com/vickstube?vix=eYq7WapuDLU&t=38#vickscroll)
+
+----------------------------------------
 
 # [About me](https://imvickykumar999.github.io/imvickykumar999/) :
 
@@ -111,16 +124,9 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
--->
 
-## Other profiles
-<br>
 
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/imvickykumar999/)
-- [![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/11493297/vicky-kumar)
-- [![HackerRank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/imvickykumar999)
-- [![Sololearn](https://img.shields.io/badge/-Sololearn-3a464b?style=for-the-badge&logo=Sololearn&logoColor=white)](https://www.sololearn.com/profile/8044164)
-- [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/imvickykumar999/)
+
 
 
 ### Skills 👨‍💻
@@ -137,3 +143,19 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 <br>
 
 ![](https://hit.yhype.me/github/profile?user_id=50515418)
+
+
+
+-->
+
+----------------------------------------------
+
+## Other profiles
+<br>
+
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/imvickykumar999/)
+- [![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/11493297/vicky-kumar)
+- [![HackerRank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/imvickykumar999)
+- [![Sololearn](https://img.shields.io/badge/-Sololearn-3a464b?style=for-the-badge&logo=Sololearn&logoColor=white)](https://www.sololearn.com/profile/8044164)
+- [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/imvickykumar999/)
+
