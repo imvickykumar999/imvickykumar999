@@ -6,7 +6,7 @@
 
 --------------------------------------------
 
-# >>> [Ideationology Lab](https://ideationology.herokuapp.com/)
+# >>> [Ideationology Lab](https://ideationologylab.herokuapp.com/)
 
 [![ss](https://github.com/imvickykumar999/Ideationology-Attendance/blob/main/static/ideationology.jpg?raw=true)](https://github.com/imvickykumar999/Ideationology-Attendance)
 
@@ -39,7 +39,7 @@
 ## >>> [My vixuploader PyPi Package](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package) :
 [![pypi](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package/blob/main/screenshot.png?raw=true)](https://pypi.org/project/imvickykumar999/) -->
 
-[![image](https://user-images.githubusercontent.com/50515418/125958098-72cd8413-be4b-42f2-951a-a876aa12b81e.png)](https://imvickykumar999.herokuapp.com/vickstube?vix=eYq7WapuDLU&t=38#vickscroll)
+[![image](https://user-images.githubusercontent.com/50515418/125958098-72cd8413-be4b-42f2-951a-a876aa12b81e.png)](https://imvicks.herokuapp.com/vickstube?vix=eYq7WapuDLU&t=38#vickscroll)
 
 ----------------------------------------
 
