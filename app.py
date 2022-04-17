@@ -1363,14 +1363,20 @@ def converted_iotled():
 @app.route("/playfair_cipher")
 def playfair_cipher():
 
-    data0 = "security, monarchy"
-    data1 = "eiioqoyldc, instruments"
-    data2 = "stalxlings, gatlmzclrqtx"
+    data0 = "security"
+    data1 = "Can you Read it"
+    data2 = "UY WG XA SC IH TY"
+    matrix = [['S', 'E', 'C', 'U', 'R'],
+            ['I', 'T', 'Y', 'A', 'B'],
+            ['D', 'F', 'G', 'H', 'K'],
+            ['L', 'M', 'N', 'O', 'P'],
+            ['Q', 'V', 'W', 'X', 'Z']]
 
     return render_template("playfair_cipher.html",
                             data0=data0,
                             data1=data1,
-                            data2=data2
+                            data2=data2,
+                            matrix=matrix,                            
                             )
 
 
@@ -1385,7 +1391,8 @@ def converted_playfair_cipher():
     return render_template("playfair_cipher.html",
                             data0=key.upper(),
                             data1=data[0],
-                            data2=data[1]
+                            data2=data[1],
+                            matrix=data[2],
                             )
 
 # -------------------------------------------------

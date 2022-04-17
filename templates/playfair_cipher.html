@@ -36,10 +36,24 @@
       </div>
     </div>
 
-    <br><br><br>
+    <br>
+    <div id="output" class="card">
+      Matrix
+      <br>
+      <div class="alert alert-success" role="alert">
+        {% for i in matrix %}
+          {% for j in i %}
+            {{j}}
+          {% endfor %}
+        <br>
+        {% endfor %}
+      </div>
+    </div>
 
+    <br>
     <div id="output" class="card">
       Key
+      <br>
       <div class="alert alert-primary" role="alert">
         {{data0}}
       </div>
@@ -47,20 +61,28 @@
 
     <div id="output" class="card">
       Text
+      <br>
       <div class="alert alert-warning" role="alert">
         {{data1}}
       </div>
     </div>
 
+    <br>
     <div id="output" class="card">
-      Encrypted
+      <strong>Encrypted</strong>
+      <br><br>
       <div class="alert alert-danger" role="alert">
         {{data2}}
       </div>
+
+      <a target="_blank" href="https://planetcalc.com/7751/?text={{data2}}&keyword={{data0}}&action=decrypt">
+        <h4>
+          Click me to Decrypt.
+        </h4>
+      </a>
     </div>
 
-    <br><br><br>
-
+    <br>
     <form method="post" action="/converted_playfair_cipher">
       <div class="alert alert-primary" role="alert">
         <center>

@@ -133,9 +133,9 @@ def encrypt(key = 'monarchy', text = "instruments"):
     print(epair)
     print()
 
-    return tpair, epair
+    return tpair, epair, matrix
 
 
-key = 'monarchy'
-text = "instruments"
-encrypt(key, text)
+# key = 'monarchy'
+# text = "instruments"
+# encrypt(key, text)
