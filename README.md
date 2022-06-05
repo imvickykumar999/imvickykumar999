@@ -16,7 +16,7 @@
 <br> 
 
 <div align="center">
-    <a href="https://github.com/imvickykumar999">
+     <a href="https://github.com/imvickykumar999">
 	<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imvickykumar999&layout=compact&langs_count=10&theme=tokyonight&title_color=2895BC&hide=VHDL,Stata&custom_title=Most recently used languages" alt="Most recently used languages">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=imvickykumar999&hide=issues&show_icons=true&theme=tokyonight&hideborder=true&title_color=2895BC&icon_color=FE0000&include_all_commits=true" alt="GitHub stats">
 	<img src="https://activity-graph.herokuapp.com/graph?username=imvickykumar999&custom_title=Recently%20contributions&hide_border=true&area=true&area_color=2895BC&point=FE0000&line=2895BC&theme=react-dark" alt="Recently contributions graph">
@@ -39,7 +39,7 @@
 ## >>> [My vixuploader PyPi Package](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package) :
 [![pypi](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package/blob/main/screenshot.png?raw=true)](https://pypi.org/project/imvickykumar999/) -->
 
-[![image](https://user-images.githubusercontent.com/50515418/125958098-72cd8413-be4b-42f2-951a-a876aa12b81e.png)](https://imvicks.herokuapp.com/vickstube?vix=eYq7WapuDLU&t=38#vickscroll)
+[![image](https://user-images.githubusercontent.com/50515418/125958098-72cd8413-be4b-42f2-951a-a876aa12b81e.png)](https://imvicks.herokuapp.com/vickstube)
 
 ----------------------------------------
 
