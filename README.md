@@ -49,7 +49,7 @@
 
 # [About me](https://imvickykumar999.github.io/imvickykumar999/) :
 
-<p> I am a Computer Science Student, currently in 4th year student at RIET, Jaipur 🏫 </p>
+<p> Pursued B.Tech in Computer Science Student from Rajasthan Institute of Engineering and Technology, Jaipur 🏫 </p>
 <p> Schooling from Jawahar Navodaya Vidyalaya, Gautam Buddha Nagar. </p>
 
 - 🔭 I’m currently working on Drones.
@@ -60,7 +60,7 @@
 - ✨ Innovation: [Home Automation](https://imvickykumar999.herokuapp.com/)
 - 😄 Pronouns: Hey Vicks !
 - ⚡ Fun fact: I like conversation in Memes Language
-- 🐍 I’m working on Python Projects, Android
+- 🐍 I’m working on Python Projects
 - 🎮 I like to play NFS and JC2
 
 - 📫 How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vicky-kumar-433542190/)](https://www.linkedin.com/in/vicky-kumar-433542190/) , [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:imvickykumar999@gmail.com)](mailto:imvickykumar999@gmail.com)
