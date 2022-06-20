@@ -49,7 +49,7 @@
 
 # [About me](https://imvickykumar999.github.io/imvickykumar999/) :
 
-<p> Pursued B.Tech in Computer Science Student from Rajasthan Institute of Engineering and Technology, Jaipur 🏫 </p>
+<p> Pursued B.Tech in Computer Science and Engineering (CSE) from Rajasthan Institute of Engineering and Technology, Jaipur 🏫 </p>
 <p> Schooling from Jawahar Navodaya Vidyalaya, Gautam Buddha Nagar. </p>
 
 - 🔭 I’m currently working on Drones.
