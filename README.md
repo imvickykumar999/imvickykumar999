@@ -12,7 +12,7 @@
 
 # >>> [Ideationology Lab](https://ideationologylab.herokuapp.com/)
 
-[![ss](https://github.com/imvickykumar999/Ideationology-Attendance/blob/main/static/ideationology.jpg?raw=true)](https://github.com/imvickykumar999/Ideationology-Attendance)
+[![ss](https://github.com/imvickykumar999/Ideationology-Attendance/blob/main/static/ideationology.jpg?raw=true)](https://github.com/imvickykumar999/Ideationology-Lab)
 
 ------------------------------------------
 
