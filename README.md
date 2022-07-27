@@ -66,7 +66,7 @@
 - 🐍 I’m working on Python Projects
 - 🎮 I like to play NFS and JC2
 
-- 📫 How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vicky-kumar-433542190/)](https://www.linkedin.com/in/vicky-kumar-433542190/) , [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:imvickykumar999@gmail.com)](mailto:imvickykumar999@gmail.com)
+- 📫 How to reach me: [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:imvickykumar999@gmail.com)](mailto:imvickykumar999@gmail.com)
 
 <!--
 ============================================================================================================
@@ -158,11 +158,14 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 ----------------------------------------------
 
 ## Other profiles
-<br>
 
+| [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/imvickykumar999/) | [![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/11493297/vicky-kumar) | [![Sololearn](https://img.shields.io/badge/-Sololearn-3a464b?style=for-the-badge&logo=Sololearn&logoColor=white)](https://www.sololearn.com/profile/8044164) |
+| ------- | --- | --- |
+
+<!--
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/imvickykumar999/)
 - [![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/11493297/vicky-kumar)
 - [![HackerRank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/imvickykumar999)
 - [![Sololearn](https://img.shields.io/badge/-Sololearn-3a464b?style=for-the-badge&logo=Sololearn&logoColor=white)](https://www.sololearn.com/profile/8044164)
 - [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/imvickykumar999/)
-
+-->
