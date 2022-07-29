@@ -60,7 +60,7 @@
 - 👯 I’m looking to collaborate on Flask based Projects
 - 🤔 I’m looking for help with Machine Learning Algorithms
 - 💬 Ask me about Python and Mathematics
-- ✨ Innovation: [Home Automation](https://imvickykumar999.herokuapp.com/)
+- ✨ Innovation: [Home Automation](https://imvicks.herokuapp.com/)
 - 😄 Pronouns: Hey Vicks !
 - ⚡ Fun fact: I like conversation in Memes Language
 - 🐍 I’m working on Python Projects
