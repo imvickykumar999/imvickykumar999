@@ -58,13 +58,15 @@
 	- 🔭 I’m currently working on Drones.
 	- 🌱 I’m currently learning OpenCV, Website Hosting and Machine Learning
 	- 👯 I’m looking to collaborate on Flask based Projects
+	
 	- 🤔 I’m looking for help with Machine Learning Algorithms
 	- 💬 Ask me about Python and Mathematics
-	- ✨ Innovation: Home Automation
-	- 😄 Pronouns: Hey Vicks !
-	- ⚡ Fun fact: I like conversation in Memes Language
 	- 🐍 I’m working on Python Projects
 	- 🎮 I like to play NFS and JC2
+
+	- ✨ Innovation : Home Automation
+	- 😄 Pronouns   : Hey Vicks !
+	- ⚡ Fun fact   : I like conversation in Memes Language
 
 - 📫 How to reach me: [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:imvickykumar999@gmail.com)](mailto:imvickykumar999@gmail.com)
 
