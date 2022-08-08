@@ -4,7 +4,6 @@
 
 <p align="Left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=orange&label=PROFILE+VIEWS" alt="imvickykumar999"/> </p>
 
-## >>> 3D View of Contributions in the last year : [imvickykumar999-2021.stl](https://github.com/imvickykumar999/imvickykumar999/blob/master/imvickykumar999-2021.stl)
 ## >>> Fetching and Uploading Mars Photo on [Instagram](https://www.instagram.com/vix.bot/) (vix.bot) : [mars.py](https://github.com/imvickykumar999/Mars-photos-from-NASA)
 
 ------------------------------------
