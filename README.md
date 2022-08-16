@@ -8,13 +8,13 @@
 
 ------------------------------------
 
-[![image](https://user-images.githubusercontent.com/50515418/174425972-de004c74-49f4-4e75-96c2-61e6e4609cef.png)](https://github.com/imvickykumar999/Home-Automation-Project/blob/d7006612f674e38a00b6b94e2a6b3933b6e322ca/bluetooth_LED/bluetooth_LED.ino#L54)
+> [![image](https://user-images.githubusercontent.com/50515418/174425972-de004c74-49f4-4e75-96c2-61e6e4609cef.png)](https://github.com/imvickykumar999/Home-Automation-Project/blob/d7006612f674e38a00b6b94e2a6b3933b6e322ca/bluetooth_LED/bluetooth_LED.ino#L54)
 
 --------------------------------------------
 
 # >>> [Real Time Gold Price API.gs](https://github.com/imvickykumar999/gold-price-api#httpsmetalpriceapicomdashboard)
 
-[![image](https://user-images.githubusercontent.com/50515418/184836988-cf4a7786-262b-46d1-8ece-75d02ba3cee1.png)](https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit?usp=sharing)
+> [![image](https://user-images.githubusercontent.com/50515418/184836988-cf4a7786-262b-46d1-8ece-75d02ba3cee1.png)](https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit?usp=sharing)
 
 ------------------------------------------
 
@@ -35,16 +35,20 @@
 
 ## >>> Run `heroku logs -t -a imvickykumar999` in CMD to check [errors](https://github.com/imvickykumar999/hackathon-iot-car-parking/blob/main/heroku%20logs.png?raw=true) in [deployed site](https://imvickykumar999.herokuapp.com/iotcar).
 
-<!-- ## >>> [Github Contribution Tracker](https://raw.githubusercontent.com/imvickykumar999/imvickykumar999/master/Screenshot_20201116-010319_Chrome.jpg)
+
+<!-- 
+## >>> [Github Contribution Tracker](https://raw.githubusercontent.com/imvickykumar999/imvickykumar999/master/Screenshot_20201116-010319_Chrome.jpg)
 [![graph](https://github.com/imvickykumar999/imvickykumar999/blob/master/graph.png?raw=true)](https://github.com/imvickykumar999/imvickykumar999/blob/master/github%20contribution%20tracker.py)
 
 ## >>> [Website using Flask](https://imvickykumar999.herokuapp.com/)
 [![image](https://user-images.githubusercontent.com/50515418/104084798-66d54600-5270-11eb-8026-ad9404e5d7af.png)](https://imvickykumar999.herokuapp.com/)
 
 ## >>> [My vixuploader PyPi Package](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package) :
-[![pypi](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package/blob/main/screenshot.png?raw=true)](https://pypi.org/project/imvickykumar999/) -->
+[![pypi](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package/blob/main/screenshot.png?raw=true)](https://pypi.org/project/imvickykumar999/) 
+-->
 
-[![image](https://user-images.githubusercontent.com/50515418/183247907-a2cc26d8-0495-41d1-b28a-50647534e266.png)](https://imvicks.herokuapp.com/vickstube?vix=1xKz11LIzo0&t=2409#vickscroll)
+
+> [![image](https://user-images.githubusercontent.com/50515418/183247907-a2cc26d8-0495-41d1-b28a-50647534e266.png)](https://imvicks.herokuapp.com/vickstube?vix=1xKz11LIzo0&t=2409#vickscroll)
 
 ----------------------------------------
 
