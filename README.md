@@ -14,7 +14,7 @@
 
 # >>> [Real Time Gold Price API.gs](https://github.com/imvickykumar999/gold-price-api#httpsmetalpriceapicomdashboard)
 
-> [![image](https://user-images.githubusercontent.com/50515418/184836988-cf4a7786-262b-46d1-8ece-75d02ba3cee1.png)](https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit?usp=sharing)
+> [![image](https://user-images.githubusercontent.com/50515418/184925679-6d0b4c23-d934-4b9f-a736-d764b5c4d338.png)](https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit?usp=sharing)
 
 ------------------------------------------
 
