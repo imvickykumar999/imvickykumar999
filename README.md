@@ -12,9 +12,9 @@
 
 --------------------------------------------
 
-# >>> [Ideationology Lab](https://ideationologylab.herokuapp.com/)
+# >>> [Real Time Gold Price API.gs](https://github.com/imvickykumar999/gold-price-api#httpsmetalpriceapicomdashboard)
 
-[![ss](https://github.com/imvickykumar999/Ideationology-Attendance/blob/main/static/ideationology.jpg?raw=true)](https://github.com/imvickykumar999/Ideationology-Lab)
+[![image](https://user-images.githubusercontent.com/50515418/184836988-cf4a7786-262b-46d1-8ece-75d02ba3cee1.png)](https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit?usp=sharing)
 
 ------------------------------------------
 
@@ -23,7 +23,6 @@
 
 <div align="center">
      <a href="https://github.com/imvickykumar999">
-	<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imvickykumar999&layout=compact&langs_count=10&theme=tokyonight&title_color=2895BC&hide=VHDL,Stata&custom_title=Most recently used languages" alt="Most recently used languages">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=imvickykumar999&hide=issues&show_icons=true&theme=tokyonight&hideborder=true&title_color=2895BC&icon_color=FE0000&include_all_commits=true" alt="GitHub stats">
 	<img src="https://activity-graph.herokuapp.com/graph?username=imvickykumar999&custom_title=Recently%20contributions&hide_border=true&area=true&area_color=2895BC&point=FE0000&line=2895BC&theme=react-dark" alt="Recently contributions graph">
 	<img src="https://github.com/h-ssiqueira/h-ssiqueira/blob/output/dist/github-contribution-grid-snake.svg" alt="Snake animation">
@@ -70,6 +69,9 @@
 - 📫 How to reach me: [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:imvickykumar999@gmail.com)](mailto:imvickykumar999@gmail.com)
 
 <!--
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imvickykumar999&layout=compact&langs_count=10&theme=tokyonight&title_color=2895BC&hide=VHDL,Stata&custom_title=Most recently used languages" alt="Most recently used languages">
+
 ============================================================================================================
 
 <br>
