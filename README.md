@@ -18,7 +18,7 @@
 
 -----------------------------------
 
-# 💰 `Google Cloud Platform` X `50:30:20 Rule`
+# 💰 `Google Cloud Platform` [x](https://github.com/imvickykumar999/50-30-20-Googe-Sheet-of-Ankur-Warikoo) `50:30:20 Rule`
 
 > [![image](https://user-images.githubusercontent.com/50515418/185192459-0e0d0cdd-9b8b-4b5e-9fa3-7dae7abec293.png)](https://docs.google.com/spreadsheets/d/14XZFGM8UN8DDga7dH30t8ycYjHeGG-w9gDk_5hI8rns/edit?usp=sharing)
 
