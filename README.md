@@ -18,7 +18,7 @@
 
 -----------------------------------
 
-## 💰 `Google Cloud Platform` X `50:30:20 Rule`
+# 💰 `Google Cloud Platform` X `50:30:20 Rule`
 
 > [![image](https://user-images.githubusercontent.com/50515418/185192459-0e0d0cdd-9b8b-4b5e-9fa3-7dae7abec293.png)](https://docs.google.com/spreadsheets/d/14XZFGM8UN8DDga7dH30t8ycYjHeGG-w9gDk_5hI8rns/edit?usp=sharing)
 
@@ -59,23 +59,25 @@
 
 # 🎨 [About me](https://imvickykumar999.github.io/imvickykumar999/) :
 
-<p> Pursued B.Tech in Computer Science and Engineering (CSE) from Rajasthan Institute of Engineering and Technology, Jaipur 🏫 </p>
-<p> Schooling from Jawahar Navodaya Vidyalaya, Gautam Buddha Nagar. </p>
+	Pursued B.Tech in Computer Science and Engineering (CSE) from Rajasthan Institute of Engineering and Technology, Jaipur 🏫
+	Schooling from Jawahar Navodaya Vidyalaya, Gautam Buddha Nagar.
 
-	- 🔭 I’m currently working on Drones.
-	- 🌱 I’m currently learning OpenCV, Website Hosting and Machine Learning
-	- 👯 I’m looking to collaborate on Flask based Projects
-	
-	- 🤔 I’m looking for help with Machine Learning Algorithms
-	- 💬 Ask me about Python and Mathematics
-	- 🐍 I’m working on Python Projects
-	- 🎮 I like to play NFS and JC2
+		- 🔭 I’m currently working on Drones.
+		- 🌱 I’m currently learning OpenCV, Website Hosting and Machine Learning
+		- 👯 I’m looking to collaborate on Flask based Projects
+
+		- 🤔 I’m looking for help with Machine Learning Algorithms
+		- 💬 Ask me about Python and Mathematics
+		- 🐍 I’m working on Python Projects
+		- 🎮 I like to play NFS and JC2
 
 	- ✨ Innovation : Home Automation
 	- 😄 Pronouns   : Hey Vicks !
 	- ⚡ Fun fact   : I like conversation in Memes Language
 
-- 📫 How to reach me: [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:imvickykumar999@gmail.com)](mailto:imvickykumar999@gmail.com)
+<br>
+
+- 📫 How to reach me: [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:vicky.kumar@neosalpha.com)](mailto:vicky.kumar@neosalpha.com)
 
 <!--
 
