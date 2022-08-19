@@ -59,8 +59,10 @@
 
 # 🎨 [About me](https://imvickykumar999.github.io/imvickykumar999/) :
 
-	Pursued B.Tech in Computer Science and Engineering (CSE) from Rajasthan Institute of Engineering and Technology, Jaipur 🏫
-	Schooling from Jawahar Navodaya Vidyalaya, Gautam Buddha Nagar.
+	- Pursued B.Tech (2018 - 2022) in Computer Science and Engineering (CSE) 
+	  from Rajasthan Institute of Engineering and Technology, Jaipur 🏫
+	  
+	- Schooling from Jawahar Navodaya Vidyalaya, Gautam Buddha Nagar.
 
 		- 🔭 I’m currently working on Drones.
 		- 🌱 I’m currently learning OpenCV, Website Hosting and Machine Learning
