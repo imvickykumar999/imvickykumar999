@@ -1,4 +1,4 @@
-<h1 align = "Left"> <li> Hello There 👋 </li> </h1>
+<h1 align = "Left"> <li> Hello There <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="34"> </li> </h1>
 
 [![Typing SVG](http://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=I'm+a+Purrgrammer.)](https://git.io/typing-svg)
 
@@ -10,6 +10,8 @@
 
 <div align="center">
      <a href="https://github.com/imvickykumar999">
+     <img src="https://github-readme-streak-stats.herokuapp.com/?user=imvickykumar999&theme=tokyonight" alt="mystreak"/>
+	<br><br><br>
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=imvickykumar999&hide=issues&show_icons=true&theme=tokyonight&hideborder=true&title_color=2895BC&icon_color=FE0000&include_all_commits=true" alt="GitHub stats">
 	<img src="https://activity-graph.herokuapp.com/graph?username=imvickykumar999&custom_title=Recently%20contributions&hide_border=true&area=true&area_color=2895BC&point=FE0000&line=2895BC&theme=react-dark" alt="Recently contributions graph">
 	<img src="https://github.com/h-ssiqueira/h-ssiqueira/blob/output/dist/github-contribution-grid-snake.svg" alt="Snake animation">
@@ -79,7 +81,7 @@
 
 <br>
 
-- 📫 How to reach me: [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:vicky.kumar@neosalpha.com)](mailto:vicky.kumar@neosalpha.com)
+- 📫 How to reach me:   [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:vicky.kumar@neosalpha.com)](mailto:vicky.kumar@neosalpha.com)
 
 <!--
 
