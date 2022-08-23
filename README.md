@@ -1,59 +1,80 @@
-<h1 align = "Left"> <li> Hello There <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="34"> </li> </h1>
+<h1 align="center">
+  Hello There!
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
+</h1>
 
-[![Typing SVG](http://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=I'm+a+Purrgrammer.)](https://git.io/typing-svg)
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?lines=I'm+a+Purrgrammer.;Experienced%20Backend%20Engineer;4%2B%20years%20of%20coding%20experience;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=440&height=45&color=f75c7e&vCenter=true&size=22&pause=1000"></a>
+</p>
 
-<h1 align = "Center" > Activity </h1>
+---------------------------------
+
+<h2 align = "Center" > Activity </h2>
 
 <p align="Center"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=orange&label=PROFILE+VIEWS" alt="imvickykumar999"/> </p>
 
 <br> 
-
 <div align="center">
-     <a href="https://github.com/imvickykumar999">
-     <img src="https://github-readme-streak-stats.herokuapp.com/?user=imvickykumar999&theme=tokyonight" alt="mystreak"/>
-	<br><br><br>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=imvickykumar999&hide=issues&show_icons=true&theme=tokyonight&hideborder=true&title_color=2895BC&icon_color=FE0000&include_all_commits=true" alt="GitHub stats">
-	<img src="https://activity-graph.herokuapp.com/graph?username=imvickykumar999&custom_title=Recently%20contributions&hide_border=true&area=true&area_color=2895BC&point=FE0000&line=2895BC&theme=react-dark" alt="Recently contributions graph">
-	<img src="https://github.com/h-ssiqueira/h-ssiqueira/blob/output/dist/github-contribution-grid-snake.svg" alt="Snake animation">
-	</a>
+     
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=imvickykumar999&theme=tokyonight" alt="mystreak">
+
+<img src="https://activity-graph.herokuapp.com/graph?username=imvickykumar999&custom_title=Recently%20contributions&hide_border=true&area=true&area_color=2895BC&point=FE0000&line=2895BC&theme=react-dark" alt="Recently contributions graph">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=imvickykumar999&hide=issues&show_icons=true&theme=tokyonight&hideborder=true&title_color=2895BC&icon_color=FE0000&include_all_commits=true" alt="GitHub stats">
+
+<img src="https://github.com/h-ssiqueira/h-ssiqueira/blob/output/dist/github-contribution-grid-snake.svg" alt="Snake animation">
+<br>
+
+<img alt="imvickykumar999's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imvickykumar999&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook" height="192px">
+
 </div>
 
------------------------------------
 
-# 💰 `Google Cloud Platform` [x](https://github.com/imvickykumar999/50-30-20-Googe-Sheet-of-Ankur-Warikoo) `50:30:20 Rule`
+# 📊 My Projects
+(click below arrow to view more projects...)
+
+<details> 
+
+----------------------------------------
+
+## 💰 `Google Cloud Platform` [x](https://github.com/imvickykumar999/50-30-20-Googe-Sheet-of-Ankur-Warikoo) `50:30:20 Rule`
 
 > [![image](https://user-images.githubusercontent.com/50515418/185192459-0e0d0cdd-9b8b-4b5e-9fa3-7dae7abec293.png)](https://docs.google.com/spreadsheets/d/14XZFGM8UN8DDga7dH30t8ycYjHeGG-w9gDk_5hI8rns/edit?usp=sharing)
 
 --------------------------------------------
 
-# 📈 `Real Time` Gold Price [API.gs](https://github.com/imvickykumar999/gold-price-api#httpsmetalpriceapicomdashboard)
+## 📈 `Real Time` Gold Price [API.gs](https://github.com/imvickykumar999/gold-price-api#httpsmetalpriceapicomdashboard)
 
 > [![image](https://user-images.githubusercontent.com/50515418/184925679-6d0b4c23-d934-4b9f-a736-d764b5c4d338.png)](https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit?usp=sharing)
 
 ---------------------------------------
 
-# 🏠 `Home Automation` : [Linkedin Post](https://www.linkedin.com/posts/imvickykumar999_esp32-androidapp-okgoogle-activity-6799109517461209088-b5yc)
+## 🏠 `Home Automation` : [Linkedin Post](https://www.linkedin.com/posts/imvickykumar999_esp32-androidapp-okgoogle-activity-6799109517461209088-b5yc)
 
 > [![image](https://user-images.githubusercontent.com/50515418/174425972-de004c74-49f4-4e75-96c2-61e6e4609cef.png)](https://github.com/imvickykumar999/Home-Automation-Project/blob/d7006612f674e38a00b6b94e2a6b3933b6e322ca/bluetooth_LED/bluetooth_LED.ino#L54)
 
 ------------------------
 
-## 🧑‍💻 Run `heroku logs -t -a imvickykumar999` in CMD to check [errors](https://github.com/imvickykumar999/hackathon-iot-car-parking/blob/main/heroku%20logs.png?raw=true) in [deployed site](https://imvickykumar999.herokuapp.com/iotcar).
-
-
 <!-- 
+
 ## >>> [Github Contribution Tracker](https://raw.githubusercontent.com/imvickykumar999/imvickykumar999/master/Screenshot_20201116-010319_Chrome.jpg)
 [![graph](https://github.com/imvickykumar999/imvickykumar999/blob/master/graph.png?raw=true)](https://github.com/imvickykumar999/imvickykumar999/blob/master/github%20contribution%20tracker.py)
 
 ## 📸 `Auto` Fetched and Uploads `Mars Photo` on [Instagram](https://www.instagram.com/vix.bot/) (vix.bot) : [mars.py](https://github.com/imvickykumar999/Mars-photos-from-NASA)
 
 ## >>> [Website using Flask](https://imvickykumar999.herokuapp.com/)
-[![image](https://user-images.githubusercontent.com/50515418/104084798-66d54600-5270-11eb-8026-ad9404e5d7af.png)](https://imvickykumar999.herokuapp.com/)
+[![image](https://user-images.githubusercontent.com/50515418/104084798-66d54600-5270-11eb-8026-ad9404e5d7af.png)](https://imvicks.herokuapp.com/)
 
-## >>> [My vixuploader PyPi Package](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package) :
-[![pypi](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package/blob/main/screenshot.png?raw=true)](https://pypi.org/project/imvickykumar999/) 
 -->
 
+## >>> `pip install imvickykumar999` PyPi [Package](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package) :
+[![image](https://user-images.githubusercontent.com/50515418/186072402-89d5dc3c-e5db-474f-b1eb-a6a88144cc81.png)](https://pypi.org/project/imvickykumar999/) 
+
+------------------------------
+
+</details>
+
+## 🧑‍💻 Run `heroku logs -t -a imvickykumar999` in CMD to check [errors](https://github.com/imvickykumar999/hackathon-iot-car-parking/blob/main/heroku%20logs.png?raw=true) in [deployed site](https://imvickykumar999.herokuapp.com/iotcar).
 
 > [![image](https://user-images.githubusercontent.com/50515418/183247907-a2cc26d8-0495-41d1-b28a-50647534e266.png)](https://imvicks.herokuapp.com/vickstube?vix=1xKz11LIzo0&t=2409#vickscroll)
 
