@@ -15,20 +15,23 @@
 
 <br> 
 <div align="center">
-     
+
+<img alt="imvickykumar999's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imvickykumar999&langs_count=8&layout=compact&theme=react&hide_border=false&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook" height="192px">
+
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=imvickykumar999&theme=tokyonight" alt="mystreak">
 
-<img src="https://activity-graph.herokuapp.com/graph?username=imvickykumar999&custom_title=Recently%20contributions&hide_border=true&area=true&area_color=2895BC&point=FE0000&line=2895BC&theme=react-dark" alt="Recently contributions graph">
+<br><br>
+<img src="https://denvercoder1-activity-graph.herokuapp.com/graph/?username=imvickykumar999&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true&theme=react-dark" alt="Recently contributions graph">
 
+<br><br>
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=imvickykumar999&hide=issues&show_icons=true&theme=tokyonight&hideborder=true&title_color=2895BC&icon_color=FE0000&include_all_commits=true" alt="GitHub stats">
 
+<br><br>
 <img src="https://github.com/h-ssiqueira/h-ssiqueira/blob/output/dist/github-contribution-grid-snake.svg" alt="Snake animation">
 <br>
 
-<img alt="imvickykumar999's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imvickykumar999&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook" height="192px">
-
 </div>
-
+<br>
 
 # 📊 My Projects
 (click below arrow to view more projects...)
