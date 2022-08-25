@@ -18,6 +18,7 @@
 
 <img alt="imvickykumar999's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imvickykumar999&langs_count=8&layout=compact&theme=react&hide_border=false&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook" height="192px">
 
+<br><br>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=imvickykumar999&theme=tokyonight" alt="mystreak">
 
 <br><br>
