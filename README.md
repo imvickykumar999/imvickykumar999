@@ -37,7 +37,7 @@
 <br>
 
 # 📊 My Projects
-(click below arrow to view more projects...)
+(click below arrow to view more Projects and PYPI Packages...)
 
 <details> 
 
