@@ -51,27 +51,12 @@
 </div>
 
 # 📊 My Projects
-(click below arrow to view more Projects and PYPI Packages...)
-
-<details> 
 
 ----------------------------------------
 
-## 💰 `Google Cloud Platform` [x](https://github.com/imvickykumar999/50-30-20-Googe-Sheet-of-Ankur-Warikoo) `50:30:20 Rule`
+## 🏠 `Home Automation` : [Linkedin Post](https://www.linkedin.com/posts/imvickykumar999_playstore-homeautomation-chargers-activity-7005271396771598337-hKnR?utm_source=share&utm_medium=member_desktop)
 
-> [![image](https://user-images.githubusercontent.com/50515418/185192459-0e0d0cdd-9b8b-4b5e-9fa3-7dae7abec293.png)](https://docs.google.com/spreadsheets/d/14XZFGM8UN8DDga7dH30t8ycYjHeGG-w9gDk_5hI8rns/edit?usp=sharing)
-
---------------------------------------------
-
-## 📈 `Real Time` Gold Price [API.gs](https://github.com/imvickykumar999/gold-price-api#httpsmetalpriceapicomdashboard)
-
-> [![image](https://user-images.githubusercontent.com/50515418/184925679-6d0b4c23-d934-4b9f-a736-d764b5c4d338.png)](https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit?usp=sharing)
-
----------------------------------------
-
-## 🏠 `Home Automation` : [Linkedin Post](https://www.linkedin.com/posts/imvickykumar999_esp32-androidapp-okgoogle-activity-6799109517461209088-b5yc)
-
-> [![image](https://user-images.githubusercontent.com/50515418/174425972-de004c74-49f4-4e75-96c2-61e6e4609cef.png)](https://github.com/imvickykumar999/Home-Automation-Project/blob/d7006612f674e38a00b6b94e2a6b3933b6e322ca/bluetooth_LED/bluetooth_LED.ino#L54)
+> [![image](https://user-images.githubusercontent.com/50515418/174425972-de004c74-49f4-4e75-96c2-61e6e4609cef.png)](https://github.com/imvickykumar999/MultiUser-Home-Automation-App)
 
 ------------------------
 
@@ -91,16 +76,33 @@
 	>>> import vixtor
 [![image](https://user-images.githubusercontent.com/50515418/186072402-89d5dc3c-e5db-474f-b1eb-a6a88144cc81.png)](https://pypi.org/project/imvickykumar999/) 
 
+---------------------------------------
+
+(click below arrow to view more Projects and PYPI Packages...)
+
+<details> 
+
+## 💰 `Google Cloud Platform` [x](https://github.com/imvickykumar999/50-30-20-Googe-Sheet-of-Ankur-Warikoo) `50:30:20 Rule`
+
+> [![image](https://user-images.githubusercontent.com/50515418/185192459-0e0d0cdd-9b8b-4b5e-9fa3-7dae7abec293.png)](https://docs.google.com/spreadsheets/d/14XZFGM8UN8DDga7dH30t8ycYjHeGG-w9gDk_5hI8rns/edit?usp=sharing)
+
+--------------------------------------------
+
+## 📈 `Real Time` Gold Price [API.gs](https://github.com/imvickykumar999/gold-price-api#httpsmetalpriceapicomdashboard)
+
+> [![image](https://user-images.githubusercontent.com/50515418/184925679-6d0b4c23-d934-4b9f-a736-d764b5c4d338.png)](https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit?usp=sharing)
+
 ------------------------------
 
 </details>
 
-## 🧑‍💻 Run `heroku logs -t -a imvickykumar999` in CMD to check [errors](https://github.com/imvickykumar999/hackathon-iot-car-parking/blob/main/heroku%20logs.png?raw=true) in [deployed site](https://imvickykumar999.herokuapp.com/iotcar).
+<!-- ## 🧑‍💻 Run `heroku logs -t -a imvickykumar999` in CMD to check [errors](https://github.com/imvickykumar999/hackathon-iot-car-parking/blob/main/heroku%20logs.png?raw=true) in [deployed site](https://imvickykumar999.herokuapp.com/iotcar).
 
 > [![image](https://user-images.githubusercontent.com/50515418/183247907-a2cc26d8-0495-41d1-b28a-50647534e266.png)](https://imvicks.herokuapp.com/vickstube?vix=1xKz11LIzo0&t=2409#vickscroll)
 
 ----------------------------------------
-
+ -->
+ 
 # 🎨 [About me](https://imvickykumar999.github.io/imvickykumar999/) :
 
 	- Pursued B.Tech (2018 - 2022) in Computer Science and Engineering (CSE) 
