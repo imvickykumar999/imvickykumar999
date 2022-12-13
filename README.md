@@ -1,5 +1,5 @@
- #### `Duolingo Profile` : [`imvickykumar999`](https://www.duolingo.com/profile/imvickykumar999)
-
+ #### >>> `Duolingo Profile` : [`imvickykumar999`](https://www.duolingo.com/profile/imvickykumar999)
+ 
 <h1 align="center">
   Hello There!
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
@@ -9,32 +9,27 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?lines=I'm+a+Purrgrammer+(Python).;Experienced%20Backend%20Engineer;4%2B%20years%20of%20coding%20experience;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=440&height=45&color=f75c7e&vCenter=true&size=22&pause=1000"></a>
 </p>
 
-## >>> Home Automation App now on [Play Store](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp).
+## Home Automation App now on [Play Store](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp).
 [![image](https://user-images.githubusercontent.com/50515418/203515274-7b3965d5-7c78-4f7a-a031-2037aa6f3c21.png)](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp)
 
 ---------------------------------
 
-<h2 align = "Center" > Activity </h2>
+<h1 align = "Center" > Activity </h1>
 
 <p align="Center"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=orange&label=PROFILE+VIEWS" alt="imvickykumar999"/> </p>
-
-<!--
---------------------------------------------------------------------------------------------------------------
 
 <br> 
 <div align="center">
 
-<img alt="imvickykumar999's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imvickykumar999&langs_count=8&layout=compact&theme=react&hide_border=false&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook" height="192px">
+<img src="https://api.githubtrends.io/user/svg/imvickykumar999/repos?time_range=one_year&theme=dark" alt="mystreak">
+<img src="https://api.githubtrends.io/user/svg/imvickykumar999/langs?time_range=one_year&theme=dark" alt="mystreak">
 
 <br><br>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=imvickykumar999&theme=tokyonight" alt="mystreak">
 
 <br><br>
-<img src="https://denvercoder1-activity-graph.herokuapp.com/graph/?username=imvickykumar999&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true&theme=react-dark" alt="Recently contributions graph">
-
-<br><br>
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=imvickykumar999&hide=issues&show_icons=true&theme=tokyonight&hideborder=true&title_color=2895BC&icon_color=FE0000&include_all_commits=true" alt="GitHub stats">
-
+	
 <br><br>
 <img src="https://github.com/h-ssiqueira/h-ssiqueira/blob/output/dist/github-contribution-grid-snake.svg" alt="Snake animation">
 <br>
@@ -42,17 +37,13 @@
 </div>
 <br>
 
---------------------------------------------------------------------------------------------------
--->
+-------------------------------------
 
-<br>
-<div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=imvickykumar999&theme=tokyonight" alt="mystreak">
-</div>
+[![2022 GitHub Wrapped](https://github.com/imvickykumar999/imvickykumar999/blob/master/github-wrapped.png?raw=true)](https://www.githubtrends.io/wrapped/imvickykumar999)
+
+----------------------------------
 
 # 📊 My Projects
-
-----------------------------------------
 
 ## 🏠 `Home Automation` : [Linkedin Post](https://www.linkedin.com/posts/imvickykumar999_playstore-homeautomation-chargers-activity-7005271396771598337-hKnR?utm_source=share&utm_medium=member_desktop)
 
@@ -74,7 +65,7 @@
 
 ## >>> `pip install imvickykumar999` PyPi [Package](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package) :
 	>>> import vixtor
-[![image](https://user-images.githubusercontent.com/50515418/186072402-89d5dc3c-e5db-474f-b1eb-a6a88144cc81.png)](https://pypi.org/project/imvickykumar999/) 
+> [![image](https://user-images.githubusercontent.com/50515418/186072402-89d5dc3c-e5db-474f-b1eb-a6a88144cc81.png)](https://pypi.org/project/imvickykumar999/) 
 
 ---------------------------------------
 
