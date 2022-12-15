@@ -60,7 +60,7 @@
 
 -->
 
-`3 steps to start with this package` Open CMD and write...
+## `3 steps to start with this package` Open CMD and write...
 
 	>>> pip install imvickykumar999
 	>>> python
