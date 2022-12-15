@@ -60,11 +60,12 @@
 
 -->
 
-## >>> `pip install imvickykumar999`
+`3 steps to start with this package` Open CMD and write...
 
-PyPi [Package](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package)
-
+	>>> pip install imvickykumar999
+	>>> python
 	>>> import vixtor
+
 > [![image](https://user-images.githubusercontent.com/50515418/186072402-89d5dc3c-e5db-474f-b1eb-a6a88144cc81.png)](https://pypi.org/project/imvickykumar999/) 
 
 ---------------------------------------
