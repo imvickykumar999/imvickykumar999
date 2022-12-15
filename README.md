@@ -70,7 +70,7 @@
 
 ---------------------------------------
 
-(click below arrow to view more Projects and PYPI Packages...)
+(click below arrow to view more Projects...)
 
 <details> 
 
