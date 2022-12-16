@@ -95,6 +95,8 @@
 ----------------------------------------
  -->
  
+ ----------------------------------
+ 
 # 🎨 [About me](https://imvickykumar999.github.io/imvickykumar999/) :
 
 	- Pursued B.Tech (2018 - 2022) in Computer Science and Engineering (CSE) 
