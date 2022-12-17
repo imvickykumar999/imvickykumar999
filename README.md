@@ -36,7 +36,7 @@
 
 -------------------------------------
 
-[![2022 GitHub Wrapped](https://github.com/imvickykumar999/imvickykumar999/blob/master/github-wrapped.png?raw=true)](https://www.githubtrends.io/wrapped/imvickykumar999)
+> [![2022 GitHub Wrapped](https://github.com/imvickykumar999/imvickykumar999/blob/master/github-wrapped.png?raw=true)](https://www.githubtrends.io/wrapped/imvickykumar999)
 
 ----------------------------------
 
