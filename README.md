@@ -72,6 +72,12 @@
 
 ---------------------------------------
 
+# .py to .exe
+
+	>>> pip install pyinstaller
+	>>> pyinstaller --onefile --noconsole "your_file.py"
+	>>> cd dist
+	
 (click below arrow to view more Projects...)
 
 <details> 
