@@ -60,9 +60,11 @@
 
 -->
 
+[![Typing SVG](http://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=pip+install+imvickykumar999)](https://pypi.org/project/imvickykumar999/)
+
 ## `3 steps to start with this package` Open CMD and write...
 
-	>>> pip install imvickykumar999
+	>>> pip install imvickykumar999 --upgrade
 	>>> python
 	>>> import vixtor
 
