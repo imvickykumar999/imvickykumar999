@@ -78,7 +78,7 @@
 
 # .py to .exe
 
-	>>> pip install pyinstaller
+	>>> pip install pyinstaller --upgrade
 	>>> pyinstaller --onefile --noconsole "your_file.py"
 	>>> cd dist
 	
