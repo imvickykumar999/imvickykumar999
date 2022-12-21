@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?lines=I'm+a+Purrgrammer+(Python).;Experienced%20Backend%20Engineer;4%2B%20years%20of%20coding%20experience;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=440&height=45&color=f75c7e&vCenter=true&size=22&pause=1000"></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?lines=I'm+a+Purrgrammer+(Python).;Experienced%20Backend%20Engineer;4%2B%20years%20of%20coding%20experience;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=500&height=45&color=blue&vCenter=true&size=22&pause=1000"></a>
 </p>
 
  <p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=blue&label=PROFILE+VIEWS" alt="imvickykumar999"/> </p>
@@ -65,7 +65,7 @@
 
 -->
 
-[![Typing SVG](http://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=pip+install+imvickykumar999)](https://pypi.org/project/imvickykumar999/)
+[![Typing SVG](http://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=pip+install+imvickykumar999&width=550)](https://pypi.org/project/imvickykumar999/)
 
 ## `3 steps to start with this package` Open CMD and write...
 
