@@ -8,7 +8,7 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?lines=I'm+a+Purrgrammer+(Python).;Experienced%20Backend%20Engineer;4%2B%20years%20of%20coding%20experience;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=500&height=45&color=blue&vCenter=true&size=22&pause=1000"></a>
 </p>
 
- <p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=blue&label=PROFILE+VIEWS" alt="imvickykumar999"/> </p>
+ <p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=blue&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
 
 [![image](https://user-images.githubusercontent.com/50515418/208747562-47ff073a-6e3c-4887-8351-fb9b4aa88d29.png)](https://github.com/imvickykumar999/imvickykumar999/blob/master/imvickykumar999-2021.stl)
 
