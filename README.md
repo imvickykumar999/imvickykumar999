@@ -10,7 +10,7 @@
 
 ------------------------------
 
-`Profile View` Counter Hacks : [via `Postman`](https://github.com/imvickykumar/imvickykumar#github-view-counter--postman)
+`Profile View` Counter Hacks : [via `Postman, Google AppScript and Dell Boomi`](https://github.com/imvickykumar/imvickykumar#github-view-counter--postman)
 
  <p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&color=blue&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
 
