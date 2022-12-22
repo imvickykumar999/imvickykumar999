@@ -99,9 +99,7 @@
 
 ## 📈 `Real Time` Gold Price [API.gs](https://github.com/imvickykumar999/gold-price-api#httpsmetalpriceapicomdashboard)
 
-> [![image](https://user-images.githubusercontent.com/50515418/184925679-6d0b4c23-d934-4b9f-a736-d764b5c4d338.png)](https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit?usp=sharing)
-
-------------------------------
+> [![image](https://user-images.githubusercontent.com/50515418/209143842-6a806a82-2386-4751-8b21-db119e5b1926.png)](https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit?usp=sharing)
 
 </details>
 
