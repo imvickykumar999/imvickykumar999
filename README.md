@@ -18,7 +18,7 @@
 
 ----------------------------
 
-## Home Automation App now on [Play Store](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp).
+## `Home Automation App` now on [Play Store](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp).
 > [![image](https://user-images.githubusercontent.com/50515418/203515274-7b3965d5-7c78-4f7a-a031-2037aa6f3c21.png)](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp)
 
 ---------------------------------
@@ -49,7 +49,7 @@
 
 ----------------------------------
 
-# 📊 My Projects
+> # 📊 My Projects
 
 ## 🏠 `Home Automation` : [Linkedin Post](https://www.linkedin.com/posts/imvickykumar999_playstore-homeautomation-chargers-activity-7005271396771598337-hKnR?utm_source=share&utm_medium=member_desktop)
 
@@ -81,7 +81,7 @@
 
 ---------------------------------------
 
-# .py to .exe
+# `.py to .exe`
 
 	>>> pip install pyinstaller --upgrade
 	>>> pyinstaller --onefile --noconsole "your_file.py"
@@ -112,7 +112,7 @@
  
  ----------------------------------
  
-# 🎨 [About me](https://imvickykumar999.github.io/imvickykumar999/) :
+# 🎨 `About` [me](https://imvickykumar999.github.io/imvickykumar999/) :
 
 	- Pursued B.Tech (2018 - 2022) in Computer Science and Engineering (CSE) 
 	  from Rajasthan Institute of Engineering and Technology, Jaipur 🏫
