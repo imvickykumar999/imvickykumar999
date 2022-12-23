@@ -33,10 +33,10 @@
 
 <br><br>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=imvickykumar999&theme=tokyonight" alt="mystreak">
-
-<br><br>
-<img src="https://github.com/h-ssiqueira/h-ssiqueira/blob/output/dist/github-contribution-grid-snake.svg" alt="Snake animation">
 <br>
+
+![github contribution grid snake animation](https://raw.githubusercontent.com/AkshatRastogi-1nC0re/AkshatRastogi-1nC0re/output/github-contribution-grid-snake-sissa.svg#gh-dark-mode-only)
+![github contribution grid snake animation](https://raw.githubusercontent.com/AkshatRastogi-1nC0re/AkshatRastogi-1nC0re/output/github-contribution-grid-snake-sissa-white.svg#gh-light-mode-only)
 
 </div>
 <br>
