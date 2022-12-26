@@ -142,7 +142,7 @@
 
 <br>
 
-- 📫 How to reach me:   [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:vicky.kumar@neosalpha.com)](mailto:vicky.kumar@neosalpha.com)
+- 📫 How to reach me:   [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white)](mailto:imvickykumar999@gmail.com)
 
 <!--
 
