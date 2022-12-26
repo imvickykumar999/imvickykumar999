@@ -45,7 +45,13 @@
 
  ## `Duolingo Profile` : [im`vicky`kumar999](https://www.duolingo.com/profile/imvickykumar999)
 
-> [![2022 GitHub Wrapped](https://github.com/imvickykumar999/imvickykumar999/blob/master/github-wrapped.png?raw=true)](https://www.githubtrends.io/wrapped/imvickykumar999)
+> ![image](https://user-images.githubusercontent.com/50515418/209567846-a770fe44-ea41-43ac-ac5c-58bcef6aae6d.png)
+
+----------------------------------
+
+## GitHub Statistic 
+
+> [![github-wrapped](https://user-images.githubusercontent.com/50515418/209567871-eb3b6d87-49ad-4d41-8d3f-70e069db07b4.png)](https://www.githubtrends.io/wrapped/imvickykumar999)
 
 ----------------------------------
 
