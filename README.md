@@ -1,69 +1,154 @@
-<h1 align = "Center" >Hello There 👋 </h1>
+ 
+ <h1 align="center">
+  Hello There!
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
+</h1>
 
-[![Typing SVG](http://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=I'm+a+Purrgrammer.)](https://git.io/typing-svg)
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?lines=I'm+a+Purrgrammer+(Python).;Experienced%20Backend%20Engineer;4%2B%20years%20of%20coding%20experience;Always%20learning%20new%20things&font=Fira%20Code&center=true&width=500&height=45&color=blue&vCenter=true&size=22&pause=1000"></a>
+</p>
 
-<p align="Left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&style=plastic&color=orange&label=PROFILE+VIEWS" alt="imvickykumar999"/> </p>
+------------------------------
 
-## >>> 3D View of Contributions in the last year : [imvickykumar999-2021.stl](https://github.com/imvickykumar999/imvickykumar999/blob/master/imvickykumar999-2021.stl)
+[`Profile View`](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRwaHati9JPeMFl9wbCnTNSr3dWo3NkkorO60OyQId3j-gOpxYGgDeYGp249xlkW_7BlDy_EYBNWVFl/pubchart?oid=2084833100&format=interactive) Counter Hacks : [via `Postman, Google AppScript and Dell Boomi`](https://github.com/imvickykumar999/GitHub-Views-Counter-Hacks#github-counter-viewer-graph-on-google-spreadsheet)
 
---------------------------------------------
+ <p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&color=blue&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
 
-# >>> [Ideationology Lab](https://ideationologylab.herokuapp.com/)
+> [![image](https://user-images.githubusercontent.com/50515418/208747562-47ff073a-6e3c-4887-8351-fb9b4aa88d29.png)](https://github.com/imvickykumar999/imvickykumar999/blob/master/imvickykumar999-2021.stl)
 
-[![ss](https://github.com/imvickykumar999/Ideationology-Attendance/blob/main/static/ideationology.jpg?raw=true)](https://github.com/imvickykumar999/Ideationology-Attendance)
+----------------------------
 
-------------------------------------------
+## `Home Automation App` now on [Play Store](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp).
+> [![image](https://user-images.githubusercontent.com/50515418/203515274-7b3965d5-7c78-4f7a-a031-2037aa6f3c21.png)](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp)
+
+---------------------------------
 
 <h1 align = "Center" > Activity </h1>
-<br> 
 
+<br> 
 <div align="center">
-     <a href="https://github.com/imvickykumar999">
-	<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imvickykumar999&layout=compact&langs_count=10&theme=tokyonight&title_color=2895BC&hide=VHDL,Stata&custom_title=Most recently used languages" alt="Most recently used languages">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=imvickykumar999&hide=issues&show_icons=true&theme=tokyonight&hideborder=true&title_color=2895BC&icon_color=FE0000&include_all_commits=true" alt="GitHub stats">
-	<img src="https://activity-graph.herokuapp.com/graph?username=imvickykumar999&custom_title=Recently%20contributions&hide_border=true&area=true&area_color=2895BC&point=FE0000&line=2895BC&theme=react-dark" alt="Recently contributions graph">
-	<img src="https://github.com/h-ssiqueira/h-ssiqueira/blob/output/github-contribution-grid-snake.svg" alt="Snake animation">
-	</a>
+
+<img src="https://api.githubtrends.io/user/svg/imvickykumar999/repos?time_range=one_year&theme=dark" alt="mystreak">
+<img src="https://api.githubtrends.io/user/svg/imvickykumar999/langs?time_range=one_year&theme=dark" alt="mystreak">
+
+<br><br>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=imvickykumar999&theme=tokyonight" alt="mystreak">
+<br>
+
+![github contribution grid snake animation](https://raw.githubusercontent.com/AkshatRastogi-1nC0re/AkshatRastogi-1nC0re/output/github-contribution-grid-snake-sissa.svg#gh-dark-mode-only)
+![github contribution grid snake animation](https://raw.githubusercontent.com/AkshatRastogi-1nC0re/AkshatRastogi-1nC0re/output/github-contribution-grid-snake-sissa-white.svg#gh-light-mode-only)
+
 </div>
+<br>
+
+-------------------------------------
+
+ ## `Duolingo Profile` : [im`vicky`kumar999](https://www.duolingo.com/profile/imvickykumar999)
+
+> [![image](https://user-images.githubusercontent.com/50515418/209567846-a770fe44-ea41-43ac-ac5c-58bcef6aae6d.png)](https://www.duolingo.com/profile/imvickykumar999/courses)
+
+----------------------------------
+
+## GitHub Statistic 
+
+> [![github-wrapped](https://user-images.githubusercontent.com/50515418/209567871-eb3b6d87-49ad-4d41-8d3f-70e069db07b4.png)](https://www.githubtrends.io/wrapped/imvickykumar999)
+
+----------------------------------
+
+> # 📊 My Projects
+
+## 🏠 `Home Automation` : [Linkedin Post](https://www.linkedin.com/posts/imvickykumar999_playstore-homeautomation-chargers-activity-7005271396771598337-hKnR?utm_source=share&utm_medium=member_desktop)
+
+> [![image](https://user-images.githubusercontent.com/50515418/174425972-de004c74-49f4-4e75-96c2-61e6e4609cef.png)](https://github.com/imvickykumar999/MultiUser-Home-Automation-App)
+
+------------------------
+
+<!-- 
+
+## >>> [Github Contribution Tracker](https://raw.githubusercontent.com/imvickykumar999/imvickykumar999/master/Screenshot_20201116-010319_Chrome.jpg)
+[![graph](https://github.com/imvickykumar999/imvickykumar999/blob/master/graph.png?raw=true)](https://github.com/imvickykumar999/imvickykumar999/blob/master/github%20contribution%20tracker.py)
+
+## 📸 `Auto` Fetched and Uploads `Mars Photo` on [Instagram](https://www.instagram.com/vix.bot/) (vix.bot) : [mars.py](https://github.com/imvickykumar999/Mars-photos-from-NASA)
+
+## >>> [Website using Flask](https://imvickykumar999.herokuapp.com/)
+[![image](https://user-images.githubusercontent.com/50515418/104084798-66d54600-5270-11eb-8026-ad9404e5d7af.png)](https://imvicks.herokuapp.com/)
+
+-->
+
+[![Typing SVG](http://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=pip+install+imvickykumar999&width=550)](https://pypi.org/project/imvickykumar999/)
+
+## `3 steps to start with this package` Open CMD and write...
+
+	>>> pip install imvickykumar999 --upgrade
+	>>> python
+	>>> import vixtor
+
+> [![image](https://user-images.githubusercontent.com/50515418/186072402-89d5dc3c-e5db-474f-b1eb-a6a88144cc81.png)](https://pypi.org/project/imvickykumar999/) 
 
 ---------------------------------------
 
-# [Home Automation](https://imvickykumar999.herokuapp.com) : [Linkedin Post](https://www.linkedin.com/posts/imvickykumar999_esp32-androidapp-okgoogle-activity-6799109517461209088-b5yc)
+# `.py to .exe`
 
-## >>> Run `heroku logs -t -a imvickykumar999` in CMD to check [errors](https://github.com/imvickykumar999/hackathon-iot-car-parking/blob/main/heroku%20logs.png?raw=true) in [deployed site](https://imvickykumar999.herokuapp.com/iotcar).
+	>>> pip install pyinstaller --upgrade
+	>>> pyinstaller --onefile --noconsole "your_file.py"
+	>>> cd dist
+	
+----------------------------	
 
-<!-- ## >>> [Github Contribution Tracker](https://raw.githubusercontent.com/imvickykumar999/imvickykumar999/master/Screenshot_20201116-010319_Chrome.jpg)
-[![graph](https://github.com/imvickykumar999/imvickykumar999/blob/master/graph.png?raw=true)](https://github.com/imvickykumar999/imvickykumar999/blob/master/github%20contribution%20tracker.py)
+	(click below arrow to view more Projects...)
 
-## >>> [Website using Flask](https://imvickykumar999.herokuapp.com/)
-[![image](https://user-images.githubusercontent.com/50515418/104084798-66d54600-5270-11eb-8026-ad9404e5d7af.png)](https://imvickykumar999.herokuapp.com/)
+<details> 
 
-## >>> [My vixuploader PyPi Package](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package) :
-[![pypi](https://github.com/imvickykumar999/100th-Repository-Morsetor-python-Package/blob/main/screenshot.png?raw=true)](https://pypi.org/project/imvickykumar999/) -->
+## 💰 `Google Cloud Platform` [x](https://github.com/imvickykumar999/50-30-20-Googe-Sheet-of-Ankur-Warikoo) `50:30:20 Rule`
 
-[![image](https://user-images.githubusercontent.com/50515418/125958098-72cd8413-be4b-42f2-951a-a876aa12b81e.png)](https://imvicks.herokuapp.com/vickstube)
+> [![image](https://user-images.githubusercontent.com/50515418/185192459-0e0d0cdd-9b8b-4b5e-9fa3-7dae7abec293.png)](https://docs.google.com/spreadsheets/d/14XZFGM8UN8DDga7dH30t8ycYjHeGG-w9gDk_5hI8rns/edit?usp=sharing)
 
+--------------------------------------------
+
+## 📈 `Real Time` Gold Price [API.gs](https://github.com/imvickykumar999/gold-price-api#httpsmetalpriceapicomdashboard)
+
+> [![image](https://user-images.githubusercontent.com/50515418/209143842-6a806a82-2386-4751-8b21-db119e5b1926.png)](https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit?usp=sharing)
+
+</details>
+
+<!-- ## 🧑‍💻 Run `heroku logs -t -a imvickykumar999` in CMD to check [errors](https://github.com/imvickykumar999/hackathon-iot-car-parking/blob/main/heroku%20logs.png?raw=true) in [deployed site](https://imvickykumar999.herokuapp.com/iotcar).
+
+> [![image](https://user-images.githubusercontent.com/50515418/183247907-a2cc26d8-0495-41d1-b28a-50647534e266.png)](https://imvicks.herokuapp.com/vickstube?vix=1xKz11LIzo0&t=2409#vickscroll)
+
+https://drive.google.com/drive/folders/1Wf_P-342R4OMO7sIQV2AHJET3h4eZe4W?usp=share_link
 ----------------------------------------
+ -->
+ 
+ ----------------------------------
+ 
+# 🎨 `About` [me](https://imvickykumar999.github.io/imvickykumar999/) :
 
-# [About me](https://imvickykumar999.github.io/imvickykumar999/) :
+	- Pursued B.Tech (2018 - 2022) in Computer Science and Engineering (CSE) 
+	  from Rajasthan Institute of Engineering and Technology, Jaipur 🏫
+	  
+	- Schooling from Jawahar Navodaya Vidyalaya, Gautam Buddha Nagar.
 
-<p> I am a Computer Science Student, currently in 4th year student at RIET, Jaipur 🏫 </p>
-<p> Schooling from Jawahar Navodaya Vidyalaya, Gautam Buddha Nagar. </p>
+		- 🔭 I’m currently working on Drones.
+		- 🌱 I’m currently learning OpenCV, Website Hosting and Machine Learning
+		- 👯 I’m looking to collaborate on Flask based Projects
 
-- 🔭 I’m currently working on Drones.
-- 🌱 I’m currently learning OpenCV, Website Hosting and Machine Learning
-- 👯 I’m looking to collaborate on Flask based Projects
-- 🤔 I’m looking for help with Machine Learning Algorithms
-- 💬 Ask me about Python and Mathematics
-- ✨ Innovation: [Home Automation](https://imvickykumar999.herokuapp.com/)
-- 😄 Pronouns: Hey Vicks !
-- ⚡ Fun fact: I like conversation in Memes Language
-- 🐍 I’m working on Python Projects, Android
-- 🎮 I like to play NFS and JC2
+		- 🤔 I’m looking for help with Machine Learning Algorithms
+		- 💬 Ask me about Python and Mathematics
+		- 🐍 I’m working on Python Projects
+		- 🎮 I like to play NFS and JC2
 
-- 📫 How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vicky-kumar-433542190/)](https://www.linkedin.com/in/vicky-kumar-433542190/) , [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:imvickykumar999@gmail.com)](mailto:imvickykumar999@gmail.com)
+	- ✨ Innovation : Home Automation
+	- 😄 Pronouns   : Hey Vicks !
+	- ⚡ Fun fact   : I like conversation in Memes Language
+
+<br>
+
+- 📫 How to reach me:   [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white)](mailto:imvickykumar999@gmail.com)
 
 <!--
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imvickykumar999&layout=compact&langs_count=10&theme=tokyonight&title_color=2895BC&hide=VHDL,Stata&custom_title=Most recently used languages" alt="Most recently used languages">
+
 ============================================================================================================
 
 <br>
@@ -152,12 +237,15 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 ----------------------------------------------
 
-## Other profiles
-<br>
+## 📱 Other `Profiles`
 
+| [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/imvickykumar999/) | [![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/11493297/vicky-kumar) | [![Sololearn](https://img.shields.io/badge/-Sololearn-3a464b?style=for-the-badge&logo=Sololearn&logoColor=white)](https://www.sololearn.com/profile/8044164) |
+| ------- | --- | --- |
+
+<!--
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/imvickykumar999/)
 - [![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/11493297/vicky-kumar)
 - [![HackerRank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/imvickykumar999)
 - [![Sololearn](https://img.shields.io/badge/-Sololearn-3a464b?style=for-the-badge&logo=Sololearn&logoColor=white)](https://www.sololearn.com/profile/8044164)
 - [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/imvickykumar999/)
-
+-->
