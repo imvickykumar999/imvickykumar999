@@ -18,7 +18,7 @@
 
 ----------------------------
 
-# `Home Automation Kit` now on [OLX](https://www.olx.in/item/home-automation-kit-iid-1718979231).
+# 🏠 `Home Automation Kit` now on [OLX](https://www.olx.in/item/home-automation-kit-iid-1718979231).
 
 ## `Home Automation App` now on [Play Store](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp).
 > [![image](https://user-images.githubusercontent.com/50515418/203515274-7b3965d5-7c78-4f7a-a031-2037aa6f3c21.png)](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp)
