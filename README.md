@@ -4,7 +4,7 @@
 
 <!-- [`via Postman, Google AppScript and Dell Boomi`](https://github.com/imvickykumar999/GitHub-Views-Counter-Hacks#github-counter-viewer-graph-on-google-spreadsheet) -->
 
-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar&color=blue&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/>  ( Since Jan 30, 2023 ) </p>
+- <p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar&color=blue&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/>  ( Since Dec 21, 2022 ) </p>
 
 
  <h1 align="center">
@@ -64,7 +64,7 @@
 
 ----------------------------------
 
-## `GitHub Statistic`
+# `GitHub Statistic`
 
 > [![github-wrapped](https://user-images.githubusercontent.com/50515418/209567871-eb3b6d87-49ad-4d41-8d3f-70e069db07b4.png)](https://www.githubtrends.io/wrapped/imvickykumar999)
 
