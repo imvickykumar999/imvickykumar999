@@ -1,6 +1,8 @@
  - `My followers are from ...` [`here`](https://imvickykumar999.github.io/imvickykumar999/)
  
-- `Hacked Page View Counter :` [`via Postman, Google AppScript and Dell Boomi`](https://github.com/imvickykumar999/GitHub-Views-Counter-Hacks#github-counter-viewer-graph-on-google-spreadsheet)
+- [`Hacked`](https://github.com/imvickykumar999/GitHub-Views-Counter-Hacks#github-view-counter--multi-collection-on-postman) `Page View` 
+
+<!-- [`via Postman, Google AppScript and Dell Boomi`](https://github.com/imvickykumar999/GitHub-Views-Counter-Hacks#github-counter-viewer-graph-on-google-spreadsheet) -->
 
 - <p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar&color=blue&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/>  ( Since Jan 30, 2023 ) </p>
 
@@ -21,8 +23,8 @@
 
 ------------------------------
 
-- `Honest Page View`
-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&color=orange&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
+- `Honest` `Page View`
+- <p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&color=orange&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> ( Since Dec 18, 2021 ) </p>
 
 [![image](https://user-images.githubusercontent.com/50515418/208747562-47ff073a-6e3c-4887-8351-fb9b4aa88d29.png)](https://github.com/imvickykumar999/imvickykumar999/blob/master/imvickykumar999-2021.stl)
 
