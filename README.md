@@ -30,9 +30,10 @@
 
 ----------------------------
 
-# 🏠 `Home Automation Kit` now on [OLX](https://www.olx.in/item/home-automation-kit-iid-1718979231).
+<!-- # `Home Automation Kit` now on [OLX](https://www.olx.in/item/home-automation-kit-iid-1718979231). -->
 
-## `Home Automation App` now on [Play Store](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp).
+## 🏠 `Home Automation App / Kit` `now on` [`Play Store`](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp) / `OLX`.
+
 > [![image](https://user-images.githubusercontent.com/50515418/203515274-7b3965d5-7c78-4f7a-a031-2037aa6f3c21.png)](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp)
 
 ---------------------------------
@@ -63,7 +64,7 @@
 
 ----------------------------------
 
-## GitHub Statistic 
+## `GitHub Statistic`
 
 > [![github-wrapped](https://user-images.githubusercontent.com/50515418/209567871-eb3b6d87-49ad-4d41-8d3f-70e069db07b4.png)](https://www.githubtrends.io/wrapped/imvickykumar999)
 
@@ -71,7 +72,7 @@
 
 > # 📊 My Projects
 
-## 🏠 `Home Automation` : [Linkedin Post](https://www.linkedin.com/posts/imvickykumar999_playstore-homeautomation-chargers-activity-7005271396771598337-hKnR?utm_source=share&utm_medium=member_desktop)
+## 🏠 `Home Automation` : [`Linkedin Post`](https://www.linkedin.com/posts/imvickykumar999_playstore-homeautomation-chargers-activity-7005271396771598337-hKnR?utm_source=share&utm_medium=member_desktop)
 
 > [![image](https://user-images.githubusercontent.com/50515418/174425972-de004c74-49f4-4e75-96c2-61e6e4609cef.png)](https://github.com/imvickykumar999/MultiUser-Home-Automation-App)
 
