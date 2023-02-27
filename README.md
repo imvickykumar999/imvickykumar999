@@ -30,13 +30,17 @@
 - <p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&color=orange&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
 - ( Since 18 Dec 2021 )
 
-[![image](https://user-images.githubusercontent.com/50515418/208747562-47ff073a-6e3c-4887-8351-fb9b4aa88d29.png)](https://github.com/imvickykumar999/imvickykumar999/blob/master/imvickykumar999-2021.stl)
+-------------------------
 
-----------------------------
+<!-- [![image](https://user-images.githubusercontent.com/50515418/208747562-47ff073a-6e3c-4887-8351-fb9b4aa88d29.png)](https://github.com/imvickykumar999/imvickykumar999/blob/master/imvickykumar999-2021.stl)
+
+---------------------------- -->
 
 <!-- # `Home Automation Kit` now on [OLX](https://www.olx.in/item/home-automation-kit-iid-1718979231). -->
 
 ## 🏠 `Home Automation App / Kit` `now on` [`Play Store`](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp) / `OLX`.
+
+<br>
 
 > [![image](https://user-images.githubusercontent.com/50515418/203515274-7b3965d5-7c78-4f7a-a031-2037aa6f3c21.png)](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp)
 
