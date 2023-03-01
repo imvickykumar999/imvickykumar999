@@ -66,19 +66,19 @@
 
 -------------------------------------
 
- ## `Duolingo Profile` : [im`vicky`kumar999](https://www.duolingo.com/profile/imvickykumar999)
+ ## 🏫 `Duolingo Profile` : [im`vicky`kumar999](https://www.duolingo.com/profile/imvickykumar999)
 
 > [![image](https://user-images.githubusercontent.com/50515418/209567846-a770fe44-ea41-43ac-ac5c-58bcef6aae6d.png)](https://www.duolingo.com/profile/imvickykumar999/courses)
 
 ----------------------------------
 
-# `GitHub Statistic`
+# 📊 `GitHub Statistic`
 
 > [![github-wrapped](https://user-images.githubusercontent.com/50515418/209567871-eb3b6d87-49ad-4d41-8d3f-70e069db07b4.png)](https://www.githubtrends.io/wrapped/imvickykumar999)
 
 ----------------------------------
 
-> # 📊 My Projects
+> # 💡 My Projects
 
 ## 🏠 `Home Automation` : [`Linkedin Post`](https://www.linkedin.com/posts/imvickykumar999_playstore-homeautomation-chargers-activity-7005271396771598337-hKnR?utm_source=share&utm_medium=member_desktop)
 
@@ -100,7 +100,7 @@
 
 [![Typing SVG](http://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=pip+install+imvickykumar999&width=550)](https://pypi.org/project/imvickykumar999/)
 
-## `3 steps to start with my Package` Open CMD and write...
+## 🪶 `3 steps to start with my Package` Open CMD and write...
 
 	>>> pip install imvickykumar999 --upgrade
 	>>> python
@@ -110,7 +110,7 @@
 
 ---------------------------------------
 
-# `.py to .exe`
+# 💻 `.py to .exe`
 
 	>>> pip install pyinstaller --upgrade
 	>>> pyinstaller --onefile --noconsole "your_file.py"
