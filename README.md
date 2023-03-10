@@ -106,6 +106,12 @@
 	>>> python
 	>>> import vixtor
 
+<br>
+
+- `Tutorial on Implementing Python Package :` [`YouTube Video`](https://www.youtube.com/watch?v=eeZB80pLPP8)
+
+<br>
+
 > [![image](https://user-images.githubusercontent.com/50515418/186072402-89d5dc3c-e5db-474f-b1eb-a6a88144cc81.png)](https://pypi.org/project/imvickykumar999/) 
 
 ---------------------------------------
