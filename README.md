@@ -187,7 +187,7 @@ https://drive.google.com/drive/folders/1Wf_P-342R4OMO7sIQV2AHJET3h4eZe4W?usp=sha
 	  
 	- Schooling from Jawahar Navodaya Vidyalaya, Gautam Buddha Nagar.
 
-		- 🔭 I’m currently working on Drones.
+		- 🔭 I’m currently working on N-Dimentional Games (3D and 4D).
 		- 🌱 I’m currently learning OpenCV, Website Hosting and Machine Learning
 		- 👯 I’m looking to collaborate on Flask based Projects
 
