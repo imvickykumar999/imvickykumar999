@@ -106,7 +106,7 @@ Hyper Compass
 
 # 📊 `GitHub Statistic`
 
-> [![github-wrapped](https://user-images.githubusercontent.com/50515418/209567871-eb3b6d87-49ad-4d41-8d3f-70e069db07b4.png)](https://www.githubtrends.io/wrapped/imvickykumar999)
+> [![github-wrapped](https://user-images.githubusercontent.com/50515418/226859910-4098d9d4-5388-4520-945d-496bbb97cba9.png)](https://www.githubtrends.io/wrapped/imvickykumar999)
 
 ----------------------------------
 
