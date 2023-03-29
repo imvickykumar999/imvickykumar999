@@ -28,23 +28,7 @@ maintaining streaks ...
  -->
  
  
- 
- - `My followers are from ...` [`Here`](https://imvickykumar999.github.io/imvickykumar999/)
- 
- [![hacked](https://user-images.githubusercontent.com/50515418/227901960-3fb404d5-96f8-456f-9a6e-a9ec7ed47ab2.jpg)](https://www.youtube.com/watch?v=nYVj4BmR0bM)
-
----------------------
- 
-- [`Hacked`](https://github.com/imvickykumar999/GitHub-Views-Counter-Hacks#github-view-counter--multi-collection-on-postman) `Page View` 
-
-<!-- [`via Postman, Google AppScript and Dell Boomi`](https://github.com/imvickykumar999/GitHub-Views-Counter-Hacks#github-counter-viewer-graph-on-google-spreadsheet) -->
-
-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar&color=blue&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
-
-		( Since 21 Dec 2022 )
-
-
- <h1 align="center">
+<h1 align="center">
   Hello There!
 <!--   <a href = "https://imvickykumar999.github.io/imvickykumar999/">
      My Followers!
@@ -58,20 +42,68 @@ maintaining streaks ...
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?lines=I'm+a+Purrgrammer+(Python).;Always%20learning%20new%20concepts&font=Fira%20Code&center=true&width=500&height=45&color=blue&vCenter=true&size=22&pause=1000"></a>
 </p>
 
-------------------------------
+<table align="center">
+
+<tr>
+<td>
+Honest Page View
+</td>
+
+<td>
+<a href="https://github.com/imvickykumar999/GitHub-Views-Counter-Hacks#github-view-counter--multi-collection-on-postman">
+Hacked Page View
+</a>
+</td>
+</tr>
+
+<tr>
+<td>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&color=orange&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
+</td>
+<td>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar&color=blue&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
+</td>
+</tr>
+
+<tr>
+<th>
+( Since 18 Dec 2021 )
+</th>
+
+<th>
+( Since 21 Dec 2022 )
+</th>
+</tr>
+</table>
+
+<br> <br>
+
+- `My followers are from ...` [`Here`](https://imvickykumar999.github.io/imvickykumar999/)
+
+--------------------
+ 
+[![hacked](https://user-images.githubusercontent.com/50515418/227901960-3fb404d5-96f8-456f-9a6e-a9ec7ed47ab2.jpg)](https://www.youtube.com/watch?v=nYVj4BmR0bM)
+
+-----------------
+
+<!-- 
+- [`Hacked`](https://github.com/imvickykumar999/GitHub-Views-Counter-Hacks#github-view-counter--multi-collection-on-postman) `Page View` 
+
+[`via Postman, Google AppScript and Dell Boomi`](https://github.com/imvickykumar999/GitHub-Views-Counter-Hacks#github-counter-viewer-graph-on-google-spreadsheet)
+
+- <p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar&color=blue&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
+
+		( Since 21 Dec 2022 )
 
 - `Honest` `Page View`
 - <p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&color=orange&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
 
 		( Since 18 Dec 2021 )
+ 
+[![image](https://user-images.githubusercontent.com/50515418/208747562-47ff073a-6e3c-4887-8351-fb9b4aa88d29.png)](https://github.com/imvickykumar999/imvickykumar999/blob/master/imvickykumar999-2021.stl)
 
--------------------------
-
-<!-- [![image](https://user-images.githubusercontent.com/50515418/208747562-47ff073a-6e3c-4887-8351-fb9b4aa88d29.png)](https://github.com/imvickykumar999/imvickykumar999/blob/master/imvickykumar999-2021.stl)
-
----------------------------- -->
-
-<!-- # `Home Automation Kit` now on [OLX](https://www.olx.in/item/home-automation-kit-iid-1718979231). -->
+# `Home Automation Kit` now on [OLX](https://www.olx.in/item/home-automation-kit-iid-1718979231). 
+-->
 
 ## 🏠 `Home Automation App / Kit` `now on` [`Play Store`](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp) / `OLX`.
 
