@@ -43,17 +43,17 @@ maintaining streaks ...
 </p>
 
 <table align="center">
-
 <tr>
-<td>
+	
+<th>
 Honest Page View
-</td>
+</th>
 
-<td>
+<th>
 <a href="https://github.com/imvickykumar999/GitHub-Views-Counter-Hacks#github-view-counter--multi-collection-on-postman">
 Hacked Page View
 </a>
-</td>
+</th>
 </tr>
 
 <tr>
@@ -66,13 +66,14 @@ Hacked Page View
 </tr>
 
 <tr>
-<th>
+<td>
 ( Since 18 Dec 2021 )
-</th>
+</td>
 
-<th>
+<td>
 ( Since 21 Dec 2022 )
-</th>
+</td>
+	
 </tr>
 </table>
 
