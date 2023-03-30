@@ -46,12 +46,12 @@ maintaining streaks ...
 <tr>
 	
 <th>
-_Honest Page View_
+Honest Page View
 </th>
 
 <th>
 <a href="https://github.com/imvickykumar999/GitHub-Views-Counter-Hacks#github-view-counter--multi-collection-on-postman">
-_Hacked Page View_
+Hacked Page View
 </a>
 </th>
 </tr>
@@ -67,11 +67,11 @@ _Hacked Page View_
 
 <tr>
 <td>
-( Since 18 Dec 2021 )
+Since 18 Dec 2021
 </td>
 
 <td>
-( Since 21 Dec 2022 )
+Since 21 Dec 2022
 </td>
 	
 </tr>
