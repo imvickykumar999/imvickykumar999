@@ -191,7 +191,7 @@ Since 21 Dec 2022
 
 # 💻 `.py to .exe`
 
-	>>> pip install pyinstaller --upgrade
+	>>> pip install pyinstaller==5.1
 	>>> pyinstaller --onefile --noconsole "your_file.py"
 	>>> cd dist
 	
