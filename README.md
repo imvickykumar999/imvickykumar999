@@ -223,7 +223,7 @@ https://drive.google.com/drive/folders/1Wf_P-342R4OMO7sIQV2AHJET3h4eZe4W?usp=sha
  
  ----------------------------------
  
-# 🎨 `About` [me](https://imvickykumar999.github.io/imvickykumar999/) :
+# 🎨 `About me` :
 
 	- Pursued B.Tech (2018 - 2022) in Computer Science and Engineering (CSE) 
 	  from Rajasthan Institute of Engineering and Technology, Jaipur 🏫
