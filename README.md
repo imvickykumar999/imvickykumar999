@@ -58,7 +58,7 @@ Honest Page View
 
 <th>
 <a href="https://github.com/imvickykumar999/GitHub-Views-Counter-Hacks#github-view-counter--multi-collection-on-postman">
-Hacked Page View
+Spammed Page View
 </a>
 </th>
 </tr>
