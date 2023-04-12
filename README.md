@@ -1,5 +1,8 @@
 <!--  
 
+ Laptop is in service center, maintaining contribution from mobile.
+
+
 https://github.com/github/codespaces-blank/commit/3ceb5780bfb6024c8446c5b476e6bd5cba918937#commitcomment-93156770
 
 _config.yml
