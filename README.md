@@ -100,9 +100,11 @@ Since 21 Dec 2022
 </tr>
 </table>
 
-<br> <br>
+<br> 
 
-- `My followers are from ...` [`Here`](https://imvickykumar999.github.io/imvickykumar999/)
+<!-- <br>
+
+- `My followers are from ...` [`Here`](https://imvickykumar999.github.io/imvickykumar999/) -->
 
 --------------------
  
