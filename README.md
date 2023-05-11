@@ -257,8 +257,8 @@ https://drive.google.com/drive/folders/1Wf_P-342R4OMO7sIQV2AHJET3h4eZe4W?usp=sha
 
 		- 🤔 I’m looking for help with Machine Learning Algorithms
 		- 💬 Ask me about Python and Mathematics
-		- 🐍 I’m working on Python Projects
-		- 🎮 I like to play NFS and JC2
+		- 🐍 I’m working on 4D Games (Ursina)
+		- 🎮 I like to play Minecraft, NFS and JC2
 
 	- ✨ Innovation : Home Automation
 	- 😄 Pronouns   : Hey Vicks !
