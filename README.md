@@ -74,7 +74,7 @@ Honest Page View
 </th>
 
 <th>
-<a href="https://github.com/imvickykumar999/GitHub-Views-Counter-Hacks#archieved-backup">
+<a href="https://github.com/imvickykumar999/GitHub-Views-Counter-Hacks#archived-backup">
 Spammed Page View
 </a>
 </th>
