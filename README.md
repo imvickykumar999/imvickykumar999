@@ -97,7 +97,7 @@ Since 18 Dec 2021
 </td>
 
 <td>
-Since 21 Dec 2022
+Since 21 Dec 2022 (reset)
 </td>
 	
 </tr>
