@@ -109,6 +109,12 @@ Since 21 Dec 2022 (reset)
 
 - `My followers are from ...` [`Here`](https://imvickykumar999.github.io/imvickykumar999/) -->
 
+<div align="center">
+<br>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=imvickykumar999&theme=tokyonight" alt="mystreak">
+<br><br>
+</div>
+
 --------------------
  
 [![hacked](https://user-images.githubusercontent.com/50515418/227901960-3fb404d5-96f8-456f-9a6e-a9ec7ed47ab2.jpg)](https://www.youtube.com/watch?v=nYVj4BmR0bM)
@@ -151,8 +157,6 @@ Since 21 Dec 2022 (reset)
 <img src="https://api.githubtrends.io/user/svg/imvickykumar999/langs?time_range=one_year&theme=dark" alt="mystreak">
 
 <br><br>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=imvickykumar999&theme=tokyonight" alt="mystreak">
-<br>
 
 ![github contribution grid snake animation](https://raw.githubusercontent.com/AkshatRastogi-1nC0re/AkshatRastogi-1nC0re/output/github-contribution-grid-snake-sissa.svg#gh-dark-mode-only)
 ![github contribution grid snake animation](https://raw.githubusercontent.com/AkshatRastogi-1nC0re/AkshatRastogi-1nC0re/output/github-contribution-grid-snake-sissa-white.svg#gh-light-mode-only)
