@@ -111,7 +111,7 @@ Since 21 Dec 2022 (reset)
 
 <div align="center">
 <br>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=imvickykumar999&theme=tokyonight" alt="mystreak">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=imvickykumar999&theme=gruvbox-duo" alt="mystreak">
 <br><br>
 </div>
 
