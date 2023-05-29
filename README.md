@@ -252,8 +252,11 @@ https://drive.google.com/drive/folders/1Wf_P-342R4OMO7sIQV2AHJET3h4eZe4W?usp=sha
  
 # 🎨 `About me` :
 
+	- Post Graduation Programme in Data Science
+	  from International Institute of Information Technology, Bangalore
+	
 	- Pursued B.Tech (2018 - 2022) in Computer Science and Engineering (CSE) 
-	  from Rajasthan Institute of Engineering and Technology, Jaipur 🏫
+	  from Rajasthan Institute of Engineering and Technology, Jaipur.
 	  
 	- Schooling from Jawahar Navodaya Vidyalaya, Gautam Buddha Nagar.
 
