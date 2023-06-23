@@ -84,10 +84,10 @@ Spammed Page View
 
 <tr>
 <td>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&color=orange&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&color=blue&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
 </td>
 <td>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar&color=blue&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar&color=orange&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
 </td>
 </tr>
 
