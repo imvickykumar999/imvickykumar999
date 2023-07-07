@@ -115,6 +115,11 @@ Since 21 Dec 2022 (reset)
 <br><br>
 </div>
 
+<br>
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=imvickykumar999&theme=radical&no-bg=true&no-frame=true&column=4" alt="imvickykumar999" />
+</p>
+
 --------------------
  
 [![hacked](https://user-images.githubusercontent.com/50515418/227901960-3fb404d5-96f8-456f-9a6e-a9ec7ed47ab2.jpg)](https://www.youtube.com/watch?v=nYVj4BmR0bM)
