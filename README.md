@@ -120,11 +120,26 @@ Since 21 Dec 2022 (reset)
 <img src="https://github-profile-trophy.vercel.app/?username=imvickykumar999&theme=radical&no-bg=true&no-frame=true&column=4" alt="imvickykumar999" />
 </p>
 
---------------------
+<br>
+<h1 align = "Center" > 🔥 Activity </h1>
+
+<br> 
+<div align="center">
+
+<img src="https://api.githubtrends.io/user/svg/imvickykumar999/repos?time_range=one_year&theme=dark" alt="mystreak">
+<img src="https://api.githubtrends.io/user/svg/imvickykumar999/langs?time_range=one_year&theme=dark" alt="mystreak">
+
+<br><br>
+
+![github contribution grid snake animation](https://raw.githubusercontent.com/AkshatRastogi-1nC0re/AkshatRastogi-1nC0re/output/github-contribution-grid-snake-sissa.svg#gh-dark-mode-only)
+![github contribution grid snake animation](https://raw.githubusercontent.com/AkshatRastogi-1nC0re/AkshatRastogi-1nC0re/output/github-contribution-grid-snake-sissa-white.svg#gh-light-mode-only)
+
+</div>
+<br><br>
  
 [![hacked](https://user-images.githubusercontent.com/50515418/227901960-3fb404d5-96f8-456f-9a6e-a9ec7ed47ab2.jpg)](https://www.youtube.com/watch?v=nYVj4BmR0bM)
 
------------------
+<br> 
 
 <!-- 
 - [`Hacked`](https://github.com/imvickykumar999/GitHub-Views-Counter-Hacks#github-view-counter--multi-collection-on-postman) `Page View` 
@@ -151,45 +166,30 @@ Since 21 Dec 2022 (reset)
 
 > [![image](https://user-images.githubusercontent.com/50515418/203515274-7b3965d5-7c78-4f7a-a031-2037aa6f3c21.png)](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp)
 
----------------------------------
-
-<h1 align = "Center" > Activity </h1>
-
 <br> 
-<div align="center">
-
-<img src="https://api.githubtrends.io/user/svg/imvickykumar999/repos?time_range=one_year&theme=dark" alt="mystreak">
-<img src="https://api.githubtrends.io/user/svg/imvickykumar999/langs?time_range=one_year&theme=dark" alt="mystreak">
-
-<br><br>
-
-![github contribution grid snake animation](https://raw.githubusercontent.com/AkshatRastogi-1nC0re/AkshatRastogi-1nC0re/output/github-contribution-grid-snake-sissa.svg#gh-dark-mode-only)
-![github contribution grid snake animation](https://raw.githubusercontent.com/AkshatRastogi-1nC0re/AkshatRastogi-1nC0re/output/github-contribution-grid-snake-sissa-white.svg#gh-light-mode-only)
-
-</div>
-<br>
-
--------------------------------------
 
  ## 🏫 `Duolingo Profile` : [im`vicky`kumar999](https://www.duolingo.com/profile/imvickykumar999)
 
 > [![image](https://user-images.githubusercontent.com/50515418/209567846-a770fe44-ea41-43ac-ac5c-58bcef6aae6d.png)](https://www.duolingo.com/profile/imvickykumar999/courses)
 
-----------------------------------
+<br> 
 
-# 📊 `GitHub Statistic`
+<h1 align = "Center" > 📊 GitHub Statistic </h1>
+<br>
 
 > [![github-wrapped](https://user-images.githubusercontent.com/50515418/226859910-4098d9d4-5388-4520-945d-496bbb97cba9.png)](https://www.githubtrends.io/wrapped/imvickykumar999)
 
-----------------------------------
+<br> 
 
-> # 💡 My Projects
+<h1 align = "Center" > 💡 My Projects </h1>
+<br>
 
 ## 🏠 `Home Automation` : [`Linkedin Post`](https://www.linkedin.com/posts/imvickykumar999_playstore-homeautomation-chargers-activity-7005271396771598337-hKnR?utm_source=share&utm_medium=member_desktop)
 
 > [![image](https://user-images.githubusercontent.com/50515418/174425972-de004c74-49f4-4e75-96c2-61e6e4609cef.png)](https://github.com/imvickykumar999/MultiUser-Home-Automation-App)
 
-------------------------
+<br> 
+
 
 <!-- 
 
@@ -219,7 +219,7 @@ Since 21 Dec 2022 (reset)
 
 > [![image](https://user-images.githubusercontent.com/50515418/186072402-89d5dc3c-e5db-474f-b1eb-a6a88144cc81.png)](https://pypi.org/project/imvickykumar999/) 
 
----------------------------------------
+<br> 
 
 # 💻 `.py to .exe`
 
@@ -237,7 +237,7 @@ Since 21 Dec 2022 (reset)
 
 > [![image](https://user-images.githubusercontent.com/50515418/185192459-0e0d0cdd-9b8b-4b5e-9fa3-7dae7abec293.png)](https://docs.google.com/spreadsheets/d/14XZFGM8UN8DDga7dH30t8ycYjHeGG-w9gDk_5hI8rns/edit?usp=sharing)
 
---------------------------------------------
+<br> 
 
 ## 📈 `Real Time` Gold Price [API.gs](https://github.com/imvickykumar999/gold-price-api#httpsmetalpriceapicomdashboard)
 
@@ -253,7 +253,7 @@ https://drive.google.com/drive/folders/1Wf_P-342R4OMO7sIQV2AHJET3h4eZe4W?usp=sha
 ----------------------------------------
  -->
  
- ----------------------------------
+------------------------------
  
 # 🎨 `About me` :
 
