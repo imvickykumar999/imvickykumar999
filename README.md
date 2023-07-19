@@ -172,6 +172,21 @@ Since 21 Dec 2022 (reset)
 
  ## 🏫 `Duolingo Profile` : [im`vicky`kumar999](https://www.duolingo.com/profile/imvickykumar999)
 
+```javascript
+document.cookie.match(new RegExp('(^| )jwt_token=([^;]+)'))[0].slice(11);
+```
+
+```python
+import duolingo
+myJWT = 'eyJ0eXA*************IUzI1NiJ9.************************.r0Qg9T47L************SL0Nc0Xg'
+lingo = duolingo.Duolingo(username='imvickykumar999', jwt=myJWT)
+
+for i in lingo.get_languages():
+    print(lingo.get_language_details(i))
+```
+
+<br>
+
 > [![image](https://user-images.githubusercontent.com/50515418/209567846-a770fe44-ea41-43ac-ac5c-58bcef6aae6d.png)](https://www.duolingo.com/profile/imvickykumar999/courses)
 
 <br> 
