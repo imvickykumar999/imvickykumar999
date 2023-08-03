@@ -173,7 +173,8 @@ Since 21 Dec 2022 (reset)
  ## 🏫 `Duolingo Profile` : [im`vicky`kumar999](https://www.duolingo.com/profile/imvickykumar999)
 
 ```javascript
-document.cookie.match(new RegExp('(^| )jwt_token=([^;]+)'))[0].slice(11);
+// login to duolingo.com, and run in the browser console to get JWT Token
+myJWT = document.cookie.match(new RegExp('(^| )jwt_token=([^;]+)'))[0].slice(11);
 ```
 
 ```python
