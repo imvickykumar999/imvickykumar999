@@ -128,6 +128,10 @@ Since 21 Dec 2022 (reset)
 <br> 
 <div align="center">
 
+<img alt="Vicky's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=imvickykumar999&include_all_commits=true&count_private=true&show_icons=true&theme=tokyonight">
+
+<br><br>
+
 <img src="https://api.githubtrends.io/user/svg/imvickykumar999/repos?time_range=one_year&theme=dark" alt="mystreak">
 <img src="https://api.githubtrends.io/user/svg/imvickykumar999/langs?time_range=one_year&theme=dark" alt="mystreak">
 
