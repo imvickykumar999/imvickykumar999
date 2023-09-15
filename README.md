@@ -95,7 +95,7 @@ Spammed Page View
 
 <tr>
 <td>
-Since 18 Dec 2021
+Since 18 Dec 2021 (set)
 </td>
 
 <td>
