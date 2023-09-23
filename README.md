@@ -288,7 +288,7 @@ https://drive.google.com/drive/folders/1Wf_P-342R4OMO7sIQV2AHJET3h4eZe4W?usp=sha
 	- Schooling from Jawahar Navodaya Vidyalaya, Gautam Buddha Nagar.
 	
 	- Skill Set:
-		- 🔭 I’m working on Dark Websites (XAMPP) and .onion/ Hosting
+		- 🔭 I’m working on Dark Websites (Flask) and .onion/ Hosting
 		- 🌱 I’m currently learning OpenCV and Machine Learning
 		- 👯 I’m looking to collaborate on Flask based Projects
 	
