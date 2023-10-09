@@ -118,6 +118,40 @@ Since 21 Dec 2022 (reset)
 </div>
 
 <br>
+
+# 🎨 `About me` :
+
+	- Post Graduation Programme in Data Science from 
+ 	  International Institute of Information Technology, Bangalore
+	
+	- Pursued B.Tech (2018 - 2022) in Computer Science and Engineering (CSE) 
+	  from Rajasthan Institute of Engineering and Technology, Jaipur.
+	  
+	- Schooling from Jawahar Navodaya Vidyalaya, 
+ 	  Gautam Buddha Nagar.
+ 
+	- Skill Set:
+		- 🔭 I’m working on Dark Websites (Flask) and .onion/ Hosting
+		- 🌱 I’m currently learning OpenCV and Machine Learning
+		- 👯 I’m looking to collaborate on Flask based Projects
+	
+		- 🐍  Creating games like Minecraft Python Edition (Ursina)
+		- 🎮 I like to play NFS MW, JC4, and Minecraft Java Edition
+		- 🤔 I’m looking for help with ESP32 and IoT Projects
+		- 💬 Ask me about Python and Mathematics
+	
+	- 😄 Pronouns: Hey Vicks!
+	- 🖼️ Hobbies: Sketching and Video Editing
+	- ✨ Innovation: Home Automation and Dark Web
+	- ⚡ Fun fact: I like conversation in Memes Language
+
+<br>
+
+	(click the `Details` arrow to view more Projects...)
+
+<details>
+<br>
+	
 <p align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=imvickykumar999&theme=radical&no-bg=true&no-frame=true&column=3" alt="imvickykumar999" />
 </p>
@@ -128,9 +162,12 @@ Since 21 Dec 2022 (reset)
 <br> 
 <div align="center">
 
+<!--
 <img alt="Vicky's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=imvickykumar999&include_all_commits=true&count_private=true&show_icons=true&theme=tokyonight">
+<br>
+-->
 
-<br><br>
+<br>
 
 <img src="https://api.githubtrends.io/user/svg/imvickykumar999/repos?time_range=one_year&theme=dark" alt="mystreak">
 <img src="https://api.githubtrends.io/user/svg/imvickykumar999/langs?time_range=one_year&theme=dark" alt="mystreak">
@@ -248,13 +285,8 @@ for i in lingo.get_languages():
 	>>> pip install pyinstaller==5.1
 	>>> pyinstaller --onefile --noconsole "your_file.py"
 	>>> cd dist
-	
-----------------------------	
 
-	(click below arrow to view more Projects...)
-
-<details> 
-
+ 
 ## 💰 `Google Cloud Platform` [x](https://github.com/imvickykumar999/50-30-20-Googe-Sheet-of-Ankur-Warikoo) `50:30:20 Rule`
 
 > [![image](https://user-images.githubusercontent.com/50515418/185192459-0e0d0cdd-9b8b-4b5e-9fa3-7dae7abec293.png)](https://docs.google.com/spreadsheets/d/14XZFGM8UN8DDga7dH30t8ycYjHeGG-w9gDk_5hI8rns/edit?usp=sharing)
@@ -265,8 +297,6 @@ for i in lingo.get_languages():
 
 > [![image](https://user-images.githubusercontent.com/50515418/209143842-6a806a82-2386-4751-8b21-db119e5b1926.png)](https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit?usp=sharing)
 
-</details>
-
 <!-- ## 🧑‍💻 Run `heroku logs -t -a imvickykumar999` in CMD to check [errors](https://github.com/imvickykumar999/hackathon-iot-car-parking/blob/main/heroku%20logs.png?raw=true) in [deployed site](https://imvickykumar999.herokuapp.com/iotcar).
 
 > [![image](https://user-images.githubusercontent.com/50515418/183247907-a2cc26d8-0495-41d1-b28a-50647534e266.png)](https://imvicks.herokuapp.com/vickstube?vix=1xKz11LIzo0&t=2409#vickscroll)
@@ -274,35 +304,6 @@ for i in lingo.get_languages():
 https://drive.google.com/drive/folders/1Wf_P-342R4OMO7sIQV2AHJET3h4eZe4W?usp=share_link
 ----------------------------------------
  -->
- 
-------------------------------
- 
-# 🎨 `About me` :
-
-	- Post Graduation Programme in Data Science
-	  from International Institute of Information Technology, Bangalore
-	
-	- Pursued B.Tech (2018 - 2022) in Computer Science and Engineering (CSE) 
-	  from Rajasthan Institute of Engineering and Technology, Jaipur.
-	  
-	- Schooling from Jawahar Navodaya Vidyalaya, Gautam Buddha Nagar.
-	
-	- Skill Set:
-		- 🔭 I’m working on Dark Websites (Flask) and .onion/ Hosting
-		- 🌱 I’m currently learning OpenCV and Machine Learning
-		- 👯 I’m looking to collaborate on Flask based Projects
-	
-		- 🐍  Creating games like Minecraft Python Edition (Ursina)
-		- 🤔 I’m looking for help with Machine Learning Algorithms
-		- 💬 Ask me about Python and Mathematics
-		- 🎮 I like to play NFS, JC2 and Minecraft
-	
-	- ✨ Innovation: Home Automation
-	- 😄 Pronouns: Hey Vicks!
-	- 🖼️ Hobbies: Sketching and Video Editing
-	- ⚡ Fun fact: I like conversation in Memes Language
-
-<br>
 
 - 📫 How to reach me:   [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white)](mailto:imvickykumar999@gmail.com)
 
@@ -396,7 +397,11 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 -->
 
+</details>
+
 ----------------------------------------------
+
+<br>
 
 ## 📱 Other `Profiles`
 
