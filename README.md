@@ -147,9 +147,11 @@ Since 21 Dec 2022 (reset)
 
 <br>
 
-	(click the `Details` arrow to view more Projects...)
-
 <details>
+	<summary>
+		Click me to view more Projects...
+	</summary>
+
 <br>
 	
 <p align="center">
@@ -398,8 +400,6 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 -->
 
 </details>
-
-----------------------------------------------
 
 <br>
 
