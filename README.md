@@ -132,11 +132,11 @@ Since 21 Dec 2022 (reset)
  
 	- Skill Set:
 		- 🔭 I’m working on Dark Websites (Flask) and .onion/ Hosting
-		- 🌱 I’m currently learning OpenCV and Machine Learning
+		- 🐍 Creating games like Minecraft Python Edition (Ursina)
 		- 👯 I’m looking to collaborate on Flask based Projects
 	
-		- 🐍  Creating games like Minecraft Python Edition (Ursina)
 		- 🎮 I like to play NFS MW, JC4, and Minecraft Java Edition
+		- 🌱 I’m currently learning OpenCV and Machine Learning
 		- 🤔 I’m looking for help with ESP32 and IoT Projects
 		- 💬 Ask me about Python and Mathematics
 	
