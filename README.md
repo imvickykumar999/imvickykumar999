@@ -1,5 +1,28 @@
 <!--  
 
+class SoftwareQualityEngineer:
+    """We write software that tests other software"""
+
+    def __init__(self):
+        self.name = "Jake Callahan"
+        self.position = "Technical Lead"
+        self.team = "Satellite QE"
+        self.company = "Red Hat"
+        self.title_modifier = "Principal"
+
+    def __repr__(self):
+        return " - ".join((self.name, self.position, self.team, self.company))
+
+    @property
+    def social(self):
+        """Contact me easily here:"""
+        return {
+            "Twitter": "https://twitter.com/JakeJCallahan",
+            "YouTube": "https://youtube.com/c/JakeCallahan",
+        }
+
+-----------------------------------
+ 
 # Web Scrapping ...
 
 import requests
