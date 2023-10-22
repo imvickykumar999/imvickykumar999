@@ -163,6 +163,7 @@ w5swpnkq6ml5k6fq5vwp3o7izcpthm5d4ivhm44phuunsbpfr75ii2yd.onion
 
 <br>
 
+> ### `DISCLAIMER`: I have made this website to learn related concepts and for educational purposes only.
 >![image](https://github.com/imvickykumar999/imvickykumar999/assets/50515418/680e5cd4-b567-45f7-bdd7-47abb8549786)
 
 <br>
