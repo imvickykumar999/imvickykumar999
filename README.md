@@ -153,7 +153,7 @@ class Fresher:
  	  Gautam Buddha Nagar.
  
 	- Skill Set:
-		- 🔭 I’m working on Dark Websites (Flask) and .onion/ Hosting
+		- 🔭 I’m working on ADB commands and .onion/ Hosting (Flask)
 		- 🐍 Creating games like Minecraft Python Edition (Ursina)
 		- 👯 I’m looking to collaborate on Flask based Projects
 	
