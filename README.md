@@ -408,11 +408,12 @@ for i in lingo.get_languages():
 
 https://drive.google.com/drive/folders/1Wf_P-342R4OMO7sIQV2AHJET3h4eZe4W?usp=share_link
 ----------------------------------------
- -->
 
-- 📫 How to reach me:   [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white)](mailto:imvickykumar999@gmail.com)
+<br>
 
-<!--
+	📫 How to reach me:
+
+[![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white)](mailto:imvickykumar999@gmail.com)
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imvickykumar999&layout=compact&langs_count=10&theme=tokyonight&title_color=2895BC&hide=VHDL,Stata&custom_title=Most recently used languages" alt="Most recently used languages">
 
