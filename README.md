@@ -256,7 +256,7 @@ w5swpnkq6ml5k6fq5vwp3o7izcpthm5d4ivhm44phuunsbpfr75ii2yd.onion
 
 <br>
 
-<h1 align = "Center" > 🔥 Activity </h1>
+<h1 align = "Center" > 🔥 Activity & Projects </h1>
 
 <br> 
 <div align="center">
@@ -264,13 +264,12 @@ w5swpnkq6ml5k6fq5vwp3o7izcpthm5d4ivhm44phuunsbpfr75ii2yd.onion
 <!--
 <img alt="Vicky's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=imvickykumar999&include_all_commits=true&count_private=true&show_icons=true&theme=tokyonight">
 <br>
--->
-
-<br>
 
 <p align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=imvickykumar999&theme=radical&no-bg=true&no-frame=true&column=3" alt="imvickykumar999" />
 </p>
+
+-->
 
 <br>
 
@@ -306,15 +305,6 @@ w5swpnkq6ml5k6fq5vwp3o7izcpthm5d4ivhm44phuunsbpfr75ii2yd.onion
 [![image](https://user-images.githubusercontent.com/50515418/208747562-47ff073a-6e3c-4887-8351-fb9b4aa88d29.png)](https://github.com/imvickykumar999/imvickykumar999/blob/master/imvickykumar999-2021.stl)
 
 # `Home Automation Kit` now on [OLX](https://www.olx.in/item/home-automation-kit-iid-1718979231). 
--->
-
-## 🏠 `Home Automation App / Kit` `now on` [`Play Store`](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp) / `OLX`.
-
-<br>
-
-> [![image](https://user-images.githubusercontent.com/50515418/203515274-7b3965d5-7c78-4f7a-a031-2037aa6f3c21.png)](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp)
-
-<br> 
 
  ## 🏫 `Duolingo Profile` : [im`vicky`kumar999](https://www.duolingo.com/profile/imvickykumar999)
 
@@ -347,6 +337,16 @@ for i in lingo.get_languages():
 
 <h1 align = "Center" > 💡 My Projects </h1>
 <br>
+
+-->
+
+## 🏠 `Home Automation App / Kit` `now on` [`Play Store`](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp) / `OLX`.
+
+<br>
+
+> [![image](https://user-images.githubusercontent.com/50515418/203515274-7b3965d5-7c78-4f7a-a031-2037aa6f3c21.png)](https://play.google.com/store/apps/details?id=com.homeautomation.iotapp)
+
+<br> 
 
 ## 🏠 `Home Automation` : [`Linkedin Post`](https://www.linkedin.com/posts/imvickykumar999_playstore-homeautomation-chargers-activity-7005271396771598337-hKnR?utm_source=share&utm_medium=member_desktop)
 
