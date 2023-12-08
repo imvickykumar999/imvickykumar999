@@ -95,11 +95,50 @@ maintaining streaks ...
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 </h1>
 
-<br>
-
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?lines=I'm+a+Python+Programmer&font=Fira%20Code&center=true&width=500&height=45&color=blue&vCenter=true&size=22&pause=1000"></a>
 </p>
+
+<br>
+<center>
+
+[![image-0]][cta-0] [![image-1]][cta-1] [![image-2]][cta-2]<br/>
+[![image-3]][cta-3] [![image-4]][cta-4] [![image-5]][cta-5]<br/>
+[![image-6]][cta-6] [![image-7]][cta-7] [![image-8]][cta-8]
+
+[![play-button-image]][play-button-image-cta]
+
+### Activities
+
+![activities]
+
+[image-0]:  https://tic-tac-toe-backend.onrender.com/renderCell?cellIndex=0
+[image-1]:  https://tic-tac-toe-backend.onrender.com/renderCell?cellIndex=1
+[image-2]:  https://tic-tac-toe-backend.onrender.com/renderCell?cellIndex=2
+[image-3]:  https://tic-tac-toe-backend.onrender.com/renderCell?cellIndex=3
+[image-4]:  https://tic-tac-toe-backend.onrender.com/renderCell?cellIndex=4
+[image-5]:  https://tic-tac-toe-backend.onrender.com/renderCell?cellIndex=5
+[image-6]:  https://tic-tac-toe-backend.onrender.com/renderCell?cellIndex=6
+[image-7]:  https://tic-tac-toe-backend.onrender.com/renderCell?cellIndex=7
+[image-8]:  https://tic-tac-toe-backend.onrender.com/renderCell?cellIndex=8
+
+[cta-0]:  https://tic-tac-toe-backend.onrender.com/clickCell?cellIndex=0
+[cta-1]:  https://tic-tac-toe-backend.onrender.com/clickCell?cellIndex=1
+[cta-2]:  https://tic-tac-toe-backend.onrender.com/clickCell?cellIndex=2
+[cta-3]:  https://tic-tac-toe-backend.onrender.com/clickCell?cellIndex=3
+[cta-4]:  https://tic-tac-toe-backend.onrender.com/clickCell?cellIndex=4
+[cta-5]:  https://tic-tac-toe-backend.onrender.com/clickCell?cellIndex=5
+[cta-6]:  https://tic-tac-toe-backend.onrender.com/clickCell?cellIndex=6
+[cta-7]:  https://tic-tac-toe-backend.onrender.com/clickCell?cellIndex=7
+[cta-8]:  https://tic-tac-toe-backend.onrender.com/clickCell?cellIndex=8
+
+[play-button-image]:  https://tic-tac-toe-backend.onrender.com/renderPlayControls
+[play-button-image-cta]:  https://tic-tac-toe-backend.onrender.com/clickPlayControls
+
+[activities]: https://tic-tac-toe-backend.onrender.com/renderActivities
+
+</center>
+<br>
 
 <table align="center">
 <tr>
