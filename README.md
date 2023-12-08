@@ -84,22 +84,7 @@ Hyper Compass
 </table>
 
 maintaining streaks ...
- -->
- 
- 
-<h1 align="center">
-  Hello There!
-<!--   <a href = "https://imvickykumar999.github.io/imvickykumar999/">
-     My Followers!
-  </a> -->
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
-</h1>
 
-<p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?lines=I'm+a+Python+Programmer&font=Fira%20Code&center=true&width=500&height=45&color=blue&vCenter=true&size=22&pause=1000"></a>
-</p>
-
-<br>
 <center>
 
 [![image-0]][cta-0] [![image-1]][cta-1] [![image-2]][cta-2]<br/>
@@ -138,6 +123,22 @@ maintaining streaks ...
 [activities]: https://tic-tac-toe-backend.onrender.com/renderActivities
 
 </center>
+
+ -->
+ 
+ 
+<h1 align="center">
+  Hello There!
+<!--   <a href = "https://imvickykumar999.github.io/imvickykumar999/">
+     My Followers!
+  </a> -->
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
+</h1>
+
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?lines=I'm+a+Python+Programmer&font=Fira%20Code&center=true&width=500&height=45&color=blue&vCenter=true&size=22&pause=1000"></a>
+</p>
+
 <br>
 
 <table align="center">
