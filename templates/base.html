@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+  
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8191146460815779"
+     crossorigin="anonymous"></script>
+    <meta name="google-adsense-account" content="ca-pub-8191146460815779">
+
     <meta charset="utf-8">
-    <link rel="icon" href="../static/logo/vix.png">
+    <link rel="shortcut icon" type="image/x-icon" href="static/vix.png" />
 
     <style>
+        .rounded {
+            border-radius:1.0rem!important
+        }
+
         .video-container {
             position: relative;
-            padding-bottom: 56.25%; /* 16:9 */
+            padding-bottom: 56.25%;
             height: 0;
-            }
+        }
 
         .video-container iframe {
             position: absolute;
@@ -17,7 +26,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            }
+        }
 
         * {
           box-sizing: border-box;
@@ -28,20 +37,17 @@
         .card-img-top {
           object-fit: cover;
           object-position: center;
-          /* height: 650px;
-          width: 540px; */
         }
 
         body {
           font-family: Arial, Helvetica, sans-serif;
           font-size: 25px;
-          background-image: url("../static/screenshots/jumbo.jpg");
+          background-image: url("../static/jumbo.jpg");
           padding: 30px;
           line-height: 1.6;
         }
 
         h1 {
-          /* text-align: center; */
           margin-bottom: 30px;
           border-bottom: 1px #ccc solid;
         }
@@ -67,51 +73,29 @@
 
     </style>
 
-    <title>Free YouTube Premium</title>
+    <title>Vicks News</title>
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> -->
         <style>
                 .jumbotron-fluid {
-                    background: url("../static/screenshots/back.jpg") center center / cover no-repeat;
+                    background: url("../static/back.jpg") center center / cover no-repeat;
                 }
         </style>
 
   </head>
   <body>
 
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-      (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/61255aee649e0a0a5cd2c266/1fdsumdpa';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-      })();
-    </script>
-    <!--End of Tawk.to Script-->
-
     <center>
-      <div class="jumbotron jumbotron-fluid">
+      <div class="jumbotron jumbotron-fluid rounded">
         <div class="container">
 
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="alert alert-primary" role="alert">
-              <a target="_blank" style="color:blue;" class="navbar-brand" href="https://ideationologylab.herokuapp.com/">
-                <strong>
-                  Ideationology
-                  <br>
-                  Lab
-                </strong>
-              </a>
-            </div>
+            <a class="navbar-brand" href="{{url_for('news')}}">
+              <strong>Random News</strong>
+            </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -120,150 +104,72 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
 
-                <div class="dropdown-divider"></div>
-                <!-- <h5 style="color:green;">
-                  <strong>
-                    My Innovative Projects
-                  </strong>
-                </h5> -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="https://inshorts.com/en/read" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <strong>More News</strong>
+                  </a>
 
-                <div class="alert alert-danger" role="alert">
-                  <li class="nav-item dropdown">
-                    <a style="color:blue;" class="nav-link dropdown-toggle" href="{{url_for('news')}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <h6>
-                        <strong>Projects</strong>
-                      </h6>
-                    </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/news/the-verge">The Verge</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/news/bbc-news">BBC News</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/news/cnn">CNN</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/news/time">Time</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/news/the-wall-street-journal">The Wall Street Journal</a>
+                  </div>
+                </li>
 
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a style="color:green;" class="dropdown-item" href="{{url_for('share')}}"><strong><em>Share</em></strong></a>
-                      <a style="color:blue;" class="dropdown-item" href="{{url_for('morse')}}"><em><strong>Morse</strong></em></a>
-                      <a style="color:red;" class="dropdown-item" href="{{url_for('qrcode')}}"><strong>QR Code</strong></a>
-                      <a style="color:green;" class="dropdown-item" href="{{url_for('ipynb')}}"><strong><em>ipynb</em></strong></a>
-                      <a style="color:red;" class="dropdown-item" href="{{url_for('playfair_cipher')}}"><strong>Playfair Cipher</strong></a>
-                      <div class="dropdown-divider"></div>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="https://imvickykumar999.pythonanywhere.com/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <strong>Contact</strong>
+                  </a>
 
-                      <div class="alert alert-success" role="alert">
-                        <a style="color:blue;" class="dropdown-item" href="{{url_for('vixmemes')}}"><strong>Memes Generator</strong></a>
-                        <a style="color:green;" class="dropdown-item" href="{{url_for('yourquotes')}}"><strong>Your Quotes</strong></a>
-                        <a style="color:red;" class="dropdown-item" href="{{url_for('covid19')}}"><strong>Cowin Slot</strong></a>
-                        <a style="color:blue;" class="dropdown-item" href="{{url_for('movies')}}"><strong>Movies</strong></a>
-                        <a style="color:red;" class="dropdown-item" href="{{url_for('news')}}"><strong>News</strong></a>
-                        <a style="color:green;" class="dropdown-item" href="{{url_for('vickstube')}}"><strong>YouTube</strong></a>
-                        <a style="color:blue;" class="dropdown-item" href="{{url_for('reels')}}"><strong>Reels Downloader</strong></a>
-                        <a style="color:red;" class="dropdown-item" href="{{url_for('poll')}}"><strong>Poll Voting</strong></a>
-                        <a style="color:green;" class="dropdown-item" href="{{url_for('mashup')}}"><strong>Mash-Up Reels</strong></a>
-                        <a style="color:blue;" class="dropdown-item" href="{{url_for('vixtify')}}"><strong>My Spotify</strong></a>
-                        <a style="color:red;" class="dropdown-item" href="{{url_for('mnistvix')}}"><strong>MNIST Scanner</strong></a>
-                      </div>
-                      <div class="dropdown-divider"></div>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a target="_blank" class="dropdown-item" href="https://www.linkedin.com/in/imvickykumar999/">LinkedIn</a>
+                    <div class="dropdown-divider"></div>
+                    <a target="_blank" class="dropdown-item" href="https://github.com/imvickykumar999">GitHub</a>
+                  </div>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="https://googleadsense.pythonanywhere.com/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <strong>Daily News</strong>
+                  </a>
 
-                      <a style="color:blue;" class="dropdown-item" href="{{url_for('iotcar')}}"><strong>IOT Car</strong></a>
-                      <a style="color:green;" class="dropdown-item" href="{{url_for('maps')}}"><strong>Vick's Map</strong></a>
-                      <a style="color:red;" class="dropdown-item" href="{{url_for('form')}}"><strong>Certificate</strong></a>
-                      <a style="color:blue;" class="dropdown-item" href="{{url_for('iotled')}}"><strong>IOT LED</strong></a>
-
-                    </div>
-                  </li>
-                </div>
-
-                <div class="dropdown-divider"></div>
-
-                <div class="alert alert-primary" role="alert">
-                  <li class="nav-item dropdown">
-                    <a style="color:red;" class="nav-link dropdown-toggle" href="{{url_for('chat')}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <strong>Chat-Room</strong>
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a style="color:red;" class="dropdown-item" href="{{url_for('signup')}}"><strong>Signup</strong></a>
-                      <a style="color:green;" class="dropdown-item" href="{{url_for('login')}}"><em><strong>Login</strong></em></a>
-                      <a style="color:blue;" class="dropdown-item" href="{{url_for('create_room')}}"><strong><em>Create Room</em></strong></a>
-                      <a style="color:red;" class="dropdown-item" href="{{url_for('logout')}}"><em><strong>Logout</strong></em></a>
-
-                      <div class="dropdown-divider"></div>
-                      <a style="color:green;" class="dropdown-item" href="{{url_for('chat')}}"><strong>Chat</strong></a>
-                    </div>
-                  </li>
-                </div>
-
-                <div class="alert alert-danger" role="alert">
-                  <li class="nav-item dropdown">
-                    <a style="color:green;" class="nav-link dropdown-toggle" href="{{url_for('news')}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <strong>Portfolio</strong>
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a style="color:red;" class="dropdown-item" href="{{url_for('about')}}"><strong><em>About</em></strong></a>
-                      <a style="color:blue;" class="dropdown-item" href="{{url_for('skills')}}"><em><strong>Skills</strong></em></a>
-                      <a style="color:red;" class="dropdown-item" href="{{url_for('home')}}"><strong>Home</strong></a>
-
-                      <div class="dropdown-divider"></div>
-                      <a style="color:green;" class="dropdown-item" href="{{url_for('index')}}"><strong>More Projects</strong></a>
-                    </div>
-                  </li>
-                </div>
-
-                <div class="alert alert-success" role="alert">
-                  <li class="nav-item dropdown">
-                    <a style="color:blue;" class="nav-link dropdown-toggle" href="{{url_for('contact')}}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <strong>Contact</strong>
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a style="color:red;" class="dropdown-item" href="https://www.linkedin.com/in/imvickykumar999"><strong>LinkedIn</strong></a>
-                      <a style="color:blue;" class="dropdown-item" href="https://github.com/imvickykumar999"><em><strong>GitHub</strong></em></a>
-                      <div class="dropdown-divider"></div>
-
-                      <a style="color:red;" class="dropdown-item" href="{{url_for('contact')}}"><strong>More Contacts</strong></a>
-                    </div>
-                  </li>
-                </div>
-
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a target="_blank" class="dropdown-item" href="https://www.instagram.com/vixbot2023/">Instagram</a>
+                    <div class="dropdown-divider"></div>
+                    <a target="_blank" class="dropdown-item" href="https://mastodon.social/@imvickykumar999">Mastodon</a>
+                    <div class="dropdown-divider"></div>
+                    <a target="_blank" class="dropdown-item" href="https://t.me/VixReelsbot">Telegram</a>
+                  </div>
+                </li>
               </ul>
 
-              <form class="form-inline my-2 my-lg-0" action="/uploads/Vicky Kumar Resume.pdf">
-                <!-- <input class="form-control mr-sm-2" type="search" name = "Download" placeholder="My Resume" aria-label="Download"> -->
-                <button style="color:blue;" class="btn btn-outline-warning my-2 my-sm-0" type="submit">
+              <form class="form-inline my-2 my-lg-0" action="/home">
+                <button style="color:black;" class="btn btn-light" type="submit">
                   <h5>
-                    <strong>
-                      Download My Resume
-                    </strong>
+                    <strong>Home</strong>
                   </h5>
                 </button>
               </form>
 
             </div>
           </nav>
+          <br><br>
 
-        </div>
-        <br>
+          <iframe style="border-radius:12px" 
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1DWXVJK4aT7pmk?utm_source=generator&theme=0" 
+            width="100%" height="152" 
+            frameBorder="0" 
+            allowfullscreen="" 
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+            loading="lazy">
+          </iframe>
 
-        <div class="jumbotron">
-          <div class="container">
-
-              <div class="alert alert-danger" role="alert">
-                <a href="/news">
-                  <h1 style="color:red">
-                    <strong>
-                      <em>
-                        Live : NDTV News
-                      </em>
-                    </strong>
-                  </h1>
-                </a>
-              </div>
-
-              <div class="class="video-container"">
-                <iframe
-                        src="https://www.youtube.com/embed/WB-y7_ymPJ4?&autoplay=0"
-                        frameborder="0"
-                        width="720" height="405"
-                        allow="autoplay; encrypted-media" allowfullscreen>
-                </iframe>
-              </div>
-
-          </div>
         </div>
       </div>
     </center>
