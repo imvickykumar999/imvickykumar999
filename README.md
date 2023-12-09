@@ -446,6 +446,8 @@ for i in lingo.get_languages():
 
 [![image](https://user-images.githubusercontent.com/50515418/209143842-6a806a82-2386-4751-8b21-db119e5b1926.png)](https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit?usp=sharing)
 
+<br>
+
 <!-- ## 🧑‍💻 Run `heroku logs -t -a imvickykumar999` in CMD to check [errors](https://github.com/imvickykumar999/hackathon-iot-car-parking/blob/main/heroku%20logs.png?raw=true) in [deployed site](https://imvickykumar999.herokuapp.com/iotcar).
 
 > [![image](https://user-images.githubusercontent.com/50515418/183247907-a2cc26d8-0495-41d1-b28a-50647534e266.png)](https://imvicks.herokuapp.com/vickstube?vix=1xKz11LIzo0&t=2409#vickscroll)
@@ -549,6 +551,8 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 <br>
 
+># [**`News Website`**](https://imvickykumar999.pythonanywhere.com/) ***follow bots for daily news***
+>
 >[![image](https://github.com/imvickykumar999/imvickykumar999/assets/50515418/d9f90d7b-423d-4dc5-9207-5b9642ef6a70)](https://imvickykumar999.pythonanywhere.com/)
 
 <br>
