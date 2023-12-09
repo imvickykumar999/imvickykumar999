@@ -212,11 +212,16 @@ class Fresher:
         return " - ".join((self.fname, self.lname))
 
     @property
-    def social(self):
-        """Contact me easily here:"""
+    def social_bots(self):
+        """Follow bots for daily automated and scheduled news"""
         return {
-            "Twitter": "https://twitter.com/imvickykumar999",
-            "LinkedIn": "https://www.linkedin.com/in/imvickykumar999",
+            "Twitter"      : "https://twitter.com/imvickykumar999",
+            "LinkedIn"     : "https://www.linkedin.com/in/imvickykumar999",
+            "YouTube"      : "https://youtube.com/@imvickykumar999",
+            "News Webiste" : "https://imvickykumar999.pythonanywhere.com/"
+            "Instagram Bot": "https://www.instagram.com/vix.bot",
+            "Telegram Bot" : "https://t.me/VixReelsbot",
+            "Mastodon Bot" : "https://mastodon.social/@imvickykumar999",
         }
 ```
 
