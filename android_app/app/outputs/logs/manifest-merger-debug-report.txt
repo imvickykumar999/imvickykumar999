@@ -1,0 +1,155 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\3035001e819cc3d0fe5da2946ed58920\appcompat-v7-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\a4d99604710610a6f7d5ee694e30ea44\constraint-layout-1.1.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\45e1b34fec422a6f958891234bb81ba5\support-fragment-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\f99cfdb815574606bd07df55b0ce809a\animated-vector-drawable-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\a1e6c2d8e64692a95c7204a02d92071c\support-core-ui-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\b75a8c3544fc9d362e9433c0d5018b88\support-core-utils-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\c4d0f5a87766f2f0bce84df6e4c2b75a\support-vector-drawable-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\36290e30509f8f4f1fc6df8984b93fd0\loader-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\f0cd8c19b772d62d8538f17105abac22\viewpager-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\a5a591fde7ee1e4900b65845daebadb9\coordinatorlayout-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\7a62f7bdfc651a9d4d53d402ec523c9e\drawerlayout-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\d4862055cce0461754110ee71297b3fa\slidingpanelayout-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\ed793ed434aaafc75e74e195b440f10c\customview-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\897132fc4d484f5964f6564a67d97ebc\swiperefreshlayout-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\2f5572c0e5915ebcabeb93942724e9e7\asynclayoutinflater-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\8cef58b15376b6d7bda98a82f58efc62\support-compat-28.0.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\f5ac0133e6e7498150a51be8c47f6f74\versionedparcelable-28.0.0-rc01\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\e862b8c5a4128c47ce5a4c08ca3f603a\cursoradapter-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\f6dc15b1d1c197326e80a2a8d86007b6\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\0b08be1a75b217c6f38f505598007cce\documentfile-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\effe25fcfcf0993ea8a31f352a8765bc\localbroadcastmanager-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\deffac25b17f872319188aa5d9292620\print-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\2c65c7d5b9168584c2d5a7c01b0e8f8c\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\c406aa8880a945c377b9fce0dbf5c738\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\1e40f40c6a82491f685c7d1cb8015c17\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\b074b93886360c485d6130c5caaa3a60\interpolator-28.0.0-rc01\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:3:5-64
+		INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:5:5-83
+	android:name
+		ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:7:5-21:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\a4d99604710610a6f7d5ee694e30ea44\constraint-layout-1.1.2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\a4d99604710610a6f7d5ee694e30ea44\constraint-layout-1.1.2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\8cef58b15376b6d7bda98a82f58efc62\support-compat-28.0.0-rc01\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\8cef58b15376b6d7bda98a82f58efc62\support-compat-28.0.0-rc01\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\f5ac0133e6e7498150a51be8c47f6f74\versionedparcelable-28.0.0-rc01\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\f5ac0133e6e7498150a51be8c47f6f74\versionedparcelable-28.0.0-rc01\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\8cef58b15376b6d7bda98a82f58efc62\support-compat-28.0.0-rc01\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:11:9-46
+	android:icon
+		ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:9:9-37
+	android:allowBackup
+		ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.mahbu.convertanywebsiteintoandroidapp.MainActivity
+ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\3035001e819cc3d0fe5da2946ed58920\appcompat-v7-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\3035001e819cc3d0fe5da2946ed58920\appcompat-v7-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\a4d99604710610a6f7d5ee694e30ea44\constraint-layout-1.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\a4d99604710610a6f7d5ee694e30ea44\constraint-layout-1.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\45e1b34fec422a6f958891234bb81ba5\support-fragment-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\45e1b34fec422a6f958891234bb81ba5\support-fragment-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\f99cfdb815574606bd07df55b0ce809a\animated-vector-drawable-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\f99cfdb815574606bd07df55b0ce809a\animated-vector-drawable-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\a1e6c2d8e64692a95c7204a02d92071c\support-core-ui-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\a1e6c2d8e64692a95c7204a02d92071c\support-core-ui-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\b75a8c3544fc9d362e9433c0d5018b88\support-core-utils-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\b75a8c3544fc9d362e9433c0d5018b88\support-core-utils-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\c4d0f5a87766f2f0bce84df6e4c2b75a\support-vector-drawable-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\c4d0f5a87766f2f0bce84df6e4c2b75a\support-vector-drawable-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\36290e30509f8f4f1fc6df8984b93fd0\loader-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\36290e30509f8f4f1fc6df8984b93fd0\loader-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\f0cd8c19b772d62d8538f17105abac22\viewpager-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\f0cd8c19b772d62d8538f17105abac22\viewpager-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\a5a591fde7ee1e4900b65845daebadb9\coordinatorlayout-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\a5a591fde7ee1e4900b65845daebadb9\coordinatorlayout-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\7a62f7bdfc651a9d4d53d402ec523c9e\drawerlayout-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\7a62f7bdfc651a9d4d53d402ec523c9e\drawerlayout-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\d4862055cce0461754110ee71297b3fa\slidingpanelayout-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\d4862055cce0461754110ee71297b3fa\slidingpanelayout-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\ed793ed434aaafc75e74e195b440f10c\customview-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\ed793ed434aaafc75e74e195b440f10c\customview-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\897132fc4d484f5964f6564a67d97ebc\swiperefreshlayout-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\897132fc4d484f5964f6564a67d97ebc\swiperefreshlayout-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\2f5572c0e5915ebcabeb93942724e9e7\asynclayoutinflater-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\2f5572c0e5915ebcabeb93942724e9e7\asynclayoutinflater-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\8cef58b15376b6d7bda98a82f58efc62\support-compat-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\8cef58b15376b6d7bda98a82f58efc62\support-compat-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\f5ac0133e6e7498150a51be8c47f6f74\versionedparcelable-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\f5ac0133e6e7498150a51be8c47f6f74\versionedparcelable-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\e862b8c5a4128c47ce5a4c08ca3f603a\cursoradapter-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\e862b8c5a4128c47ce5a4c08ca3f603a\cursoradapter-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\f6dc15b1d1c197326e80a2a8d86007b6\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\f6dc15b1d1c197326e80a2a8d86007b6\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\0b08be1a75b217c6f38f505598007cce\documentfile-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\0b08be1a75b217c6f38f505598007cce\documentfile-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\effe25fcfcf0993ea8a31f352a8765bc\localbroadcastmanager-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\effe25fcfcf0993ea8a31f352a8765bc\localbroadcastmanager-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\deffac25b17f872319188aa5d9292620\print-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\deffac25b17f872319188aa5d9292620\print-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\2c65c7d5b9168584c2d5a7c01b0e8f8c\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\2c65c7d5b9168584c2d5a7c01b0e8f8c\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\c406aa8880a945c377b9fce0dbf5c738\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\c406aa8880a945c377b9fce0dbf5c738\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\1e40f40c6a82491f685c7d1cb8015c17\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\1e40f40c6a82491f685c7d1cb8015c17\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\b074b93886360c485d6130c5caaa3a60\interpolator-28.0.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\Vicky\.gradle\caches\transforms-2\files-2.1\b074b93886360c485d6130c5caaa3a60\interpolator-28.0.0-rc01\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vicky\Desktop\Repository\Android-Web-App\web2app-master\app\src\main\AndroidManifest.xml
