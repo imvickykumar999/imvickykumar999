@@ -88,11 +88,23 @@
   </head>
   <body>
 
+    <script type="text/javascript">
+      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+      (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/61255aee649e0a0a5cd2c266/1fdsumdpa';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+      })();
+    </script>
+
     <center>
       <div class="jumbotron jumbotron-fluid rounded">
         <div class="container">
 
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
             <a class="navbar-brand" href="{{url_for('news')}}">
               <strong>Random News</strong>
             </a>
@@ -163,7 +175,8 @@
 
           <iframe style="border-radius:12px" 
             src="https://open.spotify.com/embed/playlist/37i9dQZF1DWXVJK4aT7pmk?utm_source=generator&theme=0" 
-            width="100%" height="152" 
+            width="100%" 
+            height="352" 
             frameBorder="0" 
             allowfullscreen="" 
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
