@@ -551,9 +551,13 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 <br>
 
-># [**`News Website`**](https://imvickykumar999.pythonanywhere.com/) ***... follow bots for daily news***
+># [**`News Website`**](https://imvickykumar999.pythonanywhere.com/)
 >
 >[![image](https://github.com/imvickykumar999/imvickykumar999/assets/50515418/2a720934-042e-46dd-b343-d00a2cc25932)](https://imvickykumar999.pythonanywhere.com/)
+>
+># ***... follow [`bots`](https://mastodon.social/@imvickykumar999) for daily news***
+>
+>[![image](https://github.com/imvickykumar999/imvickykumar999/assets/50515418/ef3756f7-d5b0-47e8-9789-bebd75756e41)](https://script.google.com/home/projects/1UijQ7ly5WSLKrMLLgFDhYti71GWC7onL2jbdLwW6QsbvD8MCvRhjrfMv/edit)
 
 <br>
 
