@@ -1,0 +1,1836 @@
+2023-10-15 12:20:53,579: OSError: write error
+2023-11-11 12:51:00,845: OSError: write error
+2023-12-03 03:21:00,538: OSError: write error
+2023-12-06 06:35:19,539: OSError: write error
+2023-12-06 06:35:19,717: OSError: write error
+2023-12-06 06:35:19,880: OSError: write error
+2023-12-06 06:35:20,051: OSError: write error
+2023-12-06 06:35:20,242: OSError: write error
+2023-12-06 06:35:20,476: OSError: write error
+2023-12-06 06:35:20,700: OSError: write error
+2023-12-06 06:35:21,028: OSError: write error
+2023-12-06 06:35:21,246: OSError: write error
+2023-12-06 06:35:21,473: OSError: write error
+2023-12-06 06:35:21,665: OSError: write error
+2023-12-06 06:35:21,846: OSError: write error
+2023-12-06 06:35:22,020: OSError: write error
+2023-12-06 06:35:22,291: OSError: write error
+2023-12-06 06:35:22,454: OSError: write error
+2023-12-06 06:35:22,615: OSError: write error
+2023-12-06 06:35:22,842: OSError: write error
+2023-12-06 06:35:23,071: OSError: write error
+2023-12-06 06:35:23,289: OSError: write error
+2023-12-06 06:35:23,503: OSError: write error
+2023-12-06 06:35:23,675: OSError: write error
+2023-12-06 06:35:23,846: OSError: write error
+2023-12-06 06:35:24,021: OSError: write error
+2023-12-06 06:35:24,187: OSError: write error
+2023-12-06 06:35:24,363: OSError: write error
+2023-12-06 06:35:24,541: OSError: write error
+2023-12-06 06:35:24,713: OSError: write error
+2023-12-06 06:35:24,900: OSError: write error
+2023-12-06 06:35:25,097: OSError: write error
+2023-12-06 06:35:25,277: OSError: write error
+2023-12-06 06:35:25,449: OSError: write error
+2023-12-06 06:35:25,635: OSError: write error
+2023-12-06 06:35:25,801: OSError: write error
+2023-12-06 06:35:25,968: OSError: write error
+2023-12-06 06:35:26,150: OSError: write error
+2023-12-06 06:35:26,336: OSError: write error
+2023-12-06 06:35:26,516: OSError: write error
+2023-12-06 06:35:26,752: OSError: write error
+2023-12-06 06:35:26,980: OSError: write error
+2023-12-06 06:35:27,167: OSError: write error
+2023-12-06 06:35:27,394: OSError: write error
+2023-12-06 06:35:27,652: OSError: write error
+2023-12-06 06:35:27,875: OSError: write error
+2023-12-06 06:35:28,043: OSError: write error
+2023-12-06 06:35:28,211: OSError: write error
+2023-12-06 06:35:28,381: OSError: write error
+2023-12-06 06:35:28,559: OSError: write error
+2023-12-06 06:35:28,749: OSError: write error
+2023-12-06 06:35:28,941: OSError: write error
+2023-12-06 06:35:29,234: OSError: write error
+2023-12-06 06:35:29,503: OSError: write error
+2023-12-06 06:35:29,771: OSError: write error
+2023-12-06 06:35:30,068: OSError: write error
+2023-12-06 06:35:30,323: OSError: write error
+2023-12-06 06:35:30,591: OSError: write error
+2023-12-06 06:35:30,864: OSError: write error
+2023-12-06 06:35:31,124: OSError: write error
+2023-12-06 06:35:31,444: OSError: write error
+2023-12-06 06:35:31,693: OSError: write error
+2023-12-06 06:35:32,003: OSError: write error
+2023-12-06 06:35:32,257: OSError: write error
+2023-12-06 06:35:32,511: OSError: write error
+2023-12-06 06:35:32,832: OSError: write error
+2023-12-06 06:35:33,092: OSError: write error
+2023-12-06 06:35:33,349: OSError: write error
+2023-12-06 06:35:33,596: OSError: write error
+2023-12-06 06:35:33,894: OSError: write error
+2023-12-06 06:35:34,151: OSError: write error
+2023-12-06 06:35:34,411: OSError: write error
+2023-12-06 06:35:34,666: OSError: write error
+2023-12-06 06:35:34,980: OSError: write error
+2023-12-06 06:35:35,282: OSError: write error
+2023-12-06 06:35:35,543: OSError: write error
+2023-12-06 06:35:35,806: OSError: write error
+2023-12-06 06:35:36,059: OSError: write error
+2023-12-06 06:35:36,317: OSError: write error
+2023-12-06 06:35:36,584: OSError: write error
+2023-12-06 06:35:36,841: OSError: write error
+2023-12-06 06:35:37,087: OSError: write error
+2023-12-06 06:35:37,342: OSError: write error
+2023-12-06 06:35:37,601: OSError: write error
+2023-12-06 06:35:37,904: OSError: write error
+2023-12-06 06:35:38,163: OSError: write error
+2023-12-06 06:35:38,472: OSError: write error
+2023-12-06 06:35:38,723: OSError: write error
+2023-12-06 06:35:38,972: OSError: write error
+2023-12-06 06:35:39,219: OSError: write error
+2023-12-06 06:35:39,483: OSError: write error
+2023-12-06 06:35:39,768: OSError: write error
+2023-12-06 06:35:40,069: OSError: write error
+2023-12-06 06:35:40,315: OSError: write error
+2023-12-06 06:35:40,560: OSError: write error
+2023-12-06 06:35:40,828: OSError: write error
+2023-12-06 06:35:41,105: OSError: write error
+2023-12-06 06:35:41,379: OSError: write error
+2023-12-06 06:35:41,634: OSError: write error
+2023-12-06 06:35:41,954: OSError: write error
+2023-12-06 06:35:42,202: OSError: write error
+2023-12-06 06:35:42,446: OSError: write error
+2023-12-06 06:35:42,712: OSError: write error
+2023-12-06 06:35:42,959: OSError: write error
+2023-12-06 06:35:43,273: OSError: write error
+2023-12-06 06:35:43,531: OSError: write error
+2023-12-06 06:35:43,782: OSError: write error
+2023-12-06 06:35:44,025: OSError: write error
+2023-12-06 06:35:44,275: OSError: write error
+2023-12-06 06:35:44,532: OSError: write error
+2023-12-06 06:35:44,787: OSError: write error
+2023-12-06 06:35:45,358: OSError: write error
+2023-12-06 06:35:45,623: OSError: write error
+2023-12-06 06:35:45,877: OSError: write error
+2023-12-06 06:35:46,124: OSError: write error
+2023-12-06 06:35:46,390: OSError: write error
+2023-12-06 06:35:46,677: OSError: write error
+2023-12-06 06:35:46,977: OSError: write error
+2023-12-06 06:35:47,267: OSError: write error
+2023-12-06 06:35:47,540: OSError: write error
+2023-12-06 06:35:47,791: OSError: write error
+2023-12-06 06:35:48,086: OSError: write error
+2023-12-06 06:35:48,341: OSError: write error
+2023-12-06 06:35:48,592: OSError: write error
+2023-12-06 06:35:48,857: OSError: write error
+2023-12-06 06:35:49,124: OSError: write error
+2023-12-06 06:35:49,383: OSError: write error
+2023-12-06 06:35:49,636: OSError: write error
+2023-12-06 06:35:49,935: OSError: write error
+2023-12-06 06:35:50,183: OSError: write error
+2023-12-06 06:35:50,440: OSError: write error
+2023-12-06 06:35:50,746: OSError: write error
+2023-12-06 06:35:51,003: OSError: write error
+2023-12-06 06:35:51,253: OSError: write error
+2023-12-06 06:35:51,512: OSError: write error
+2023-12-06 06:35:51,823: OSError: write error
+2023-12-06 06:35:52,079: OSError: write error
+2023-12-06 06:35:52,324: OSError: write error
+2023-12-06 06:35:52,604: OSError: write error
+2023-12-06 06:35:52,885: OSError: write error
+2023-12-06 06:35:53,129: OSError: write error
+2023-12-06 06:35:53,381: OSError: write error
+2023-12-06 06:35:53,641: OSError: write error
+2023-12-06 06:35:54,048: OSError: write error
+2023-12-06 06:35:54,290: OSError: write error
+2023-12-06 06:35:54,594: OSError: write error
+2023-12-06 06:35:54,838: OSError: write error
+2023-12-06 06:35:55,133: OSError: write error
+2023-12-06 06:35:55,383: OSError: write error
+2023-12-06 06:35:55,635: OSError: write error
+2023-12-06 06:35:55,900: OSError: write error
+2023-12-06 06:35:56,185: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:35:56,202: OSError: write error
+2023-12-06 06:35:56,472: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:35:56,719: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:35:56,971: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:35:58,249: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:35:58,890: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:35:59,484: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:36:08,638: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:36:16,221: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:36:24,488: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:36:25,370: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:36:27,004: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:36:35,975: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:36:45,006: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:37:11,059: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:37:14,728: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:37:45,335: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:38:10,159: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:38:20,564: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:39:30,555: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:40:04,561: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:40:20,754: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:40:44,619: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:40:54,857: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:41:12,187: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:41:25,948: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:41:41,333: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:41:46,068: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:41:50,758: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:42:06,797: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:42:19,723: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:42:23,357: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:43:06,718: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:44:01,248: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:45:10,087: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 06:57:16,777: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 07:10:44,541: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 07:31:00,377: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 07:31:55,238: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 07:34:13,572: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 08:50:07,094: Exception on /news/time [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 87, in one_news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 08:50:15,140: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 08:54:29,848: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 09:07:21,965: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 09:35:48,067: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 09:37:03,619: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-06 09:37:18,132: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 49, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 57, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+**NO MATCH**
+During handling of the above exception, another exception occurred:
+**NO MATCH**
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 107, in news
+    ha, ia, ba, la = get_news(source)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 64, in get_news
+    box = req.json()['articles']
+KeyError: 'articles'
+2023-12-23 07:40:59,490: Error running WSGI application
+2023-12-23 07:40:59,495: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:40:59,495:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:40:59,495:     from flask_app import app as application  # noqa
+2023-12-23 07:40:59,495: 
+2023-12-23 07:40:59,496:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:40:59,496:     import secrets, gspread
+2023-12-23 07:40:59,496: ***************************************************
+2023-12-23 07:40:59,496: If you're seeing an import error and don't know why,
+2023-12-23 07:40:59,496: we have a dedicated help page to help you debug: 
+2023-12-23 07:40:59,496: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:40:59,496: ***************************************************
+2023-12-23 07:41:01,801: Error running WSGI application
+2023-12-23 07:41:01,802: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:41:01,802:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:41:01,802:     from flask_app import app as application  # noqa
+2023-12-23 07:41:01,802: 
+2023-12-23 07:41:01,802:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:41:01,802:     import secrets, gspread
+2023-12-23 07:41:01,802: ***************************************************
+2023-12-23 07:41:01,802: If you're seeing an import error and don't know why,
+2023-12-23 07:41:01,803: we have a dedicated help page to help you debug: 
+2023-12-23 07:41:01,803: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:41:01,803: ***************************************************
+2023-12-23 07:41:41,405: Error running WSGI application
+2023-12-23 07:41:41,407: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:41:41,407:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:41:41,407:     from flask_app import app as application  # noqa
+2023-12-23 07:41:41,407: 
+2023-12-23 07:41:41,407:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:41:41,407:     import secrets, gspread
+2023-12-23 07:41:41,408: ***************************************************
+2023-12-23 07:41:41,408: If you're seeing an import error and don't know why,
+2023-12-23 07:41:41,408: we have a dedicated help page to help you debug: 
+2023-12-23 07:41:41,408: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:41:41,408: ***************************************************
+2023-12-23 07:41:42,685: Error running WSGI application
+2023-12-23 07:41:42,686: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:41:42,686:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:41:42,686:     from flask_app import app as application  # noqa
+2023-12-23 07:41:42,686: 
+2023-12-23 07:41:42,687:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:41:42,687:     import secrets, gspread
+2023-12-23 07:41:42,687: ***************************************************
+2023-12-23 07:41:42,687: If you're seeing an import error and don't know why,
+2023-12-23 07:41:42,689: we have a dedicated help page to help you debug: 
+2023-12-23 07:41:42,689: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:41:42,690: ***************************************************
+2023-12-23 07:42:26,085: Error running WSGI application
+2023-12-23 07:42:26,089: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:42:26,089:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:42:26,090:     from flask_app import app as application  # noqa
+2023-12-23 07:42:26,090: 
+2023-12-23 07:42:26,090:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:42:26,090:     import secrets, gspread
+2023-12-23 07:42:26,090: ***************************************************
+2023-12-23 07:42:26,090: If you're seeing an import error and don't know why,
+2023-12-23 07:42:26,090: we have a dedicated help page to help you debug: 
+2023-12-23 07:42:26,090: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:42:26,090: ***************************************************
+2023-12-23 07:42:27,911: Error running WSGI application
+2023-12-23 07:42:27,911: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:42:27,911:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:42:27,912:     from flask_app import app as application  # noqa
+2023-12-23 07:42:27,912: 
+2023-12-23 07:42:27,912:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:42:27,912:     import secrets, gspread
+2023-12-23 07:42:27,912: ***************************************************
+2023-12-23 07:42:27,912: If you're seeing an import error and don't know why,
+2023-12-23 07:42:27,912: we have a dedicated help page to help you debug: 
+2023-12-23 07:42:27,912: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:42:27,912: ***************************************************
+2023-12-23 07:44:29,806: Error running WSGI application
+2023-12-23 07:44:29,809: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:44:29,810:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:44:29,810:     from flask_app import app as application  # noqa
+2023-12-23 07:44:29,810: 
+2023-12-23 07:44:29,811:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:44:29,811:     import secrets, gspread
+2023-12-23 07:44:29,811: ***************************************************
+2023-12-23 07:44:29,811: If you're seeing an import error and don't know why,
+2023-12-23 07:44:29,811: we have a dedicated help page to help you debug: 
+2023-12-23 07:44:29,811: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:44:29,811: ***************************************************
+2023-12-23 07:44:33,961: Error running WSGI application
+2023-12-23 07:44:33,962: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:44:33,962:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:44:33,963:     from flask_app import app as application  # noqa
+2023-12-23 07:44:33,963: 
+2023-12-23 07:44:33,963:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:44:33,963:     import secrets, gspread
+2023-12-23 07:44:33,963: ***************************************************
+2023-12-23 07:44:33,963: If you're seeing an import error and don't know why,
+2023-12-23 07:44:33,963: we have a dedicated help page to help you debug: 
+2023-12-23 07:44:33,963: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:44:33,964: ***************************************************
+2023-12-23 07:44:49,159: Error running WSGI application
+2023-12-23 07:44:49,162: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:44:49,162:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:44:49,162:     from flask_app import app as application  # noqa
+2023-12-23 07:44:49,163: 
+2023-12-23 07:44:49,163:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:44:49,163:     import secrets, gspread
+2023-12-23 07:44:49,163: ***************************************************
+2023-12-23 07:44:49,163: If you're seeing an import error and don't know why,
+2023-12-23 07:44:49,163: we have a dedicated help page to help you debug: 
+2023-12-23 07:44:49,163: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:44:49,163: ***************************************************
+2023-12-23 07:44:50,510: Error running WSGI application
+2023-12-23 07:44:50,511: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:44:50,511:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:44:50,511:     from flask_app import app as application  # noqa
+2023-12-23 07:44:50,511: 
+2023-12-23 07:44:50,511:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:44:50,511:     import secrets, gspread
+2023-12-23 07:44:50,512: ***************************************************
+2023-12-23 07:44:50,512: If you're seeing an import error and don't know why,
+2023-12-23 07:44:50,512: we have a dedicated help page to help you debug: 
+2023-12-23 07:44:50,512: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:44:50,512: ***************************************************
+2023-12-23 07:46:12,686: Error running WSGI application
+2023-12-23 07:46:12,689: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:46:12,689:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:46:12,690:     from flask_app import app as application  # noqa
+2023-12-23 07:46:12,690: 
+2023-12-23 07:46:12,690:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:46:12,690:     import secrets, gspread
+2023-12-23 07:46:12,690: ***************************************************
+2023-12-23 07:46:12,691: If you're seeing an import error and don't know why,
+2023-12-23 07:46:12,691: we have a dedicated help page to help you debug: 
+2023-12-23 07:46:12,691: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:46:12,691: ***************************************************
+2023-12-23 07:46:15,362: Error running WSGI application
+2023-12-23 07:46:15,362: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:46:15,362:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:46:15,363:     from flask_app import app as application  # noqa
+2023-12-23 07:46:15,363: 
+2023-12-23 07:46:15,363:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:46:15,363:     import secrets, gspread
+2023-12-23 07:46:15,364: ***************************************************
+2023-12-23 07:46:15,364: If you're seeing an import error and don't know why,
+2023-12-23 07:46:15,364: we have a dedicated help page to help you debug: 
+2023-12-23 07:46:15,364: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:46:15,364: ***************************************************
+2023-12-23 07:48:40,292: Error running WSGI application
+2023-12-23 07:48:40,295: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:48:40,295:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:48:40,296:     from flask_app import app as application  # noqa
+2023-12-23 07:48:40,296: 
+2023-12-23 07:48:40,296:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:48:40,296:     import secrets, gspread
+2023-12-23 07:48:40,296: ***************************************************
+2023-12-23 07:48:40,296: If you're seeing an import error and don't know why,
+2023-12-23 07:48:40,296: we have a dedicated help page to help you debug: 
+2023-12-23 07:48:40,297: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:48:40,297: ***************************************************
+2023-12-23 07:48:43,859: Error running WSGI application
+2023-12-23 07:48:43,860: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:48:43,860:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:48:43,861:     from flask_app import app as application  # noqa
+2023-12-23 07:48:43,861: 
+2023-12-23 07:48:43,861:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:48:43,861:     import secrets, gspread
+2023-12-23 07:48:43,861: ***************************************************
+2023-12-23 07:48:43,862: If you're seeing an import error and don't know why,
+2023-12-23 07:48:43,862: we have a dedicated help page to help you debug: 
+2023-12-23 07:48:43,862: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:48:43,862: ***************************************************
+2023-12-23 07:50:03,859: Error running WSGI application
+2023-12-23 07:50:03,862: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:50:03,863:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:50:03,863:     from flask_app import app as application  # noqa
+2023-12-23 07:50:03,863: 
+2023-12-23 07:50:03,864:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:50:03,864:     import secrets, gspread
+2023-12-23 07:50:03,864: ***************************************************
+2023-12-23 07:50:03,864: If you're seeing an import error and don't know why,
+2023-12-23 07:50:03,864: we have a dedicated help page to help you debug: 
+2023-12-23 07:50:03,865: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:50:03,865: ***************************************************
+2023-12-23 07:50:06,706: Error running WSGI application
+2023-12-23 07:50:06,706: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:50:06,707:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:50:06,707:     from flask_app import app as application  # noqa
+2023-12-23 07:50:06,707: 
+2023-12-23 07:50:06,707:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:50:06,707:     import secrets, gspread
+2023-12-23 07:50:06,707: ***************************************************
+2023-12-23 07:50:06,707: If you're seeing an import error and don't know why,
+2023-12-23 07:50:06,707: we have a dedicated help page to help you debug: 
+2023-12-23 07:50:06,707: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:50:06,707: ***************************************************
+2023-12-23 07:52:20,736: Error running WSGI application
+2023-12-23 07:52:20,737: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:52:20,737:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:52:20,737:     from flask_app import app as application  # noqa
+2023-12-23 07:52:20,738: 
+2023-12-23 07:52:20,738:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:52:20,738:     import secrets, gspread
+2023-12-23 07:52:20,738: ***************************************************
+2023-12-23 07:52:20,738: If you're seeing an import error and don't know why,
+2023-12-23 07:52:20,738: we have a dedicated help page to help you debug: 
+2023-12-23 07:52:20,738: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:52:20,738: ***************************************************
+2023-12-23 07:52:24,616: Error running WSGI application
+2023-12-23 07:52:24,616: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:52:24,616:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:52:24,617:     from flask_app import app as application  # noqa
+2023-12-23 07:52:24,617: 
+2023-12-23 07:52:24,617:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 07:52:24,617:     import secrets, gspread
+2023-12-23 07:52:24,617: ***************************************************
+2023-12-23 07:52:24,618: If you're seeing an import error and don't know why,
+2023-12-23 07:52:24,618: we have a dedicated help page to help you debug: 
+2023-12-23 07:52:24,618: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:52:24,618: ***************************************************
+2023-12-23 07:56:08,143: Error running WSGI application
+2023-12-23 07:56:08,146: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:56:08,146:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:56:08,146:     from flask_app import app as application  # noqa
+2023-12-23 07:56:08,146: 
+2023-12-23 07:56:08,146:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 10, in <module>
+2023-12-23 07:56:08,146:     import secrets, gspread
+2023-12-23 07:56:08,146: ***************************************************
+2023-12-23 07:56:08,147: If you're seeing an import error and don't know why,
+2023-12-23 07:56:08,147: we have a dedicated help page to help you debug: 
+2023-12-23 07:56:08,147: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:56:08,147: ***************************************************
+2023-12-23 07:56:13,875: Error running WSGI application
+2023-12-23 07:56:13,876: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:56:13,876:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:56:13,876:     from flask_app import app as application  # noqa
+2023-12-23 07:56:13,876: 
+2023-12-23 07:56:13,876:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 10, in <module>
+2023-12-23 07:56:13,876:     import secrets, gspread
+2023-12-23 07:56:13,876: ***************************************************
+2023-12-23 07:56:13,877: If you're seeing an import error and don't know why,
+2023-12-23 07:56:13,877: we have a dedicated help page to help you debug: 
+2023-12-23 07:56:13,877: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:56:13,877: ***************************************************
+2023-12-23 07:57:37,652: Error running WSGI application
+2023-12-23 07:57:37,653: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:57:37,653:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:57:37,654:     from flask_app import app as application  # noqa
+2023-12-23 07:57:37,654: 
+2023-12-23 07:57:37,654:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 10, in <module>
+2023-12-23 07:57:37,654:     import secrets, gspread
+2023-12-23 07:57:37,654: ***************************************************
+2023-12-23 07:57:37,654: If you're seeing an import error and don't know why,
+2023-12-23 07:57:37,654: we have a dedicated help page to help you debug: 
+2023-12-23 07:57:37,654: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:57:37,654: ***************************************************
+2023-12-23 07:57:38,972: Error running WSGI application
+2023-12-23 07:57:38,972: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 07:57:38,972:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 07:57:38,972:     from flask_app import app as application  # noqa
+2023-12-23 07:57:38,972: 
+2023-12-23 07:57:38,973:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 10, in <module>
+2023-12-23 07:57:38,973:     import secrets, gspread
+2023-12-23 07:57:38,973: ***************************************************
+2023-12-23 07:57:38,973: If you're seeing an import error and don't know why,
+2023-12-23 07:57:38,973: we have a dedicated help page to help you debug: 
+2023-12-23 07:57:38,973: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 07:57:38,973: ***************************************************
+2023-12-23 08:01:45,331: Error running WSGI application
+2023-12-23 08:01:45,333: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 08:01:45,334:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 21, in <module>
+2023-12-23 08:01:45,334:     import secrets, gspread
+2023-12-23 08:01:45,334: ***************************************************
+2023-12-23 08:01:45,334: If you're seeing an import error and don't know why,
+2023-12-23 08:01:45,334: we have a dedicated help page to help you debug: 
+2023-12-23 08:01:45,334: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 08:01:45,334: ***************************************************
+2023-12-23 08:01:49,013: Error running WSGI application
+2023-12-23 08:01:49,014: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 08:01:49,014:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 21, in <module>
+2023-12-23 08:01:49,014:     import secrets, gspread
+2023-12-23 08:01:49,014: ***************************************************
+2023-12-23 08:01:49,014: If you're seeing an import error and don't know why,
+2023-12-23 08:01:49,014: we have a dedicated help page to help you debug: 
+2023-12-23 08:01:49,015: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 08:01:49,015: ***************************************************
+2023-12-23 08:03:10,738: Exception on /login [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 118, in login
+    session['logged_in']=True
+  File "/usr/local/lib/python3.9/site-packages/flask/sessions.py", line 97, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2023-12-23 08:07:08,410: Error running WSGI application
+2023-12-23 08:07:08,413: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 08:07:08,413:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 08:07:08,413:     from flask_app import app as application  # noqa
+2023-12-23 08:07:08,413: 
+2023-12-23 08:07:08,413:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 08:07:08,413:     import gspread
+2023-12-23 08:07:08,413: ***************************************************
+2023-12-23 08:07:08,414: If you're seeing an import error and don't know why,
+2023-12-23 08:07:08,414: we have a dedicated help page to help you debug: 
+2023-12-23 08:07:08,414: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 08:07:08,414: ***************************************************
+2023-12-23 08:14:37,702: Error running WSGI application
+2023-12-23 08:14:37,705: ModuleNotFoundError: No module named 'gspread'
+2023-12-23 08:14:37,705:   File "/var/www/imvickykumar999_pythonanywhere_com_wsgi.py", line 20, in <module>
+2023-12-23 08:14:37,705:     from flask_app import app as application  # noqa
+2023-12-23 08:14:37,705: 
+2023-12-23 08:14:37,705:   File "/home/imvickykumar999/pythonanywhere/flask_app.py", line 11, in <module>
+2023-12-23 08:14:37,705:     import gspread
+2023-12-23 08:14:37,705: ***************************************************
+2023-12-23 08:14:37,705: If you're seeing an import error and don't know why,
+2023-12-23 08:14:37,705: we have a dedicated help page to help you debug: 
+2023-12-23 08:14:37,705: https://help.pythonanywhere.com/pages/DebuggingImportError/
+2023-12-23 08:14:37,706: ***************************************************
