@@ -34,3 +34,13 @@ function fetchDataFromExcel() {
   Logger.log(data);
   return data;
 }
+
+
+// Execution log
+
+// 11:29:47 AM	Notice	Execution started
+// 11:29:47 AM	Info	[[18erecs080.vicky@rietjaipur.ac.in], [sagar.sws2000@gmail.com], [hellovickykumar123@gmail.com]]
+// 11:29:47 AM	Info	Row 1, Column 1: 18erecs080.vicky@rietjaipur.ac.in
+// 11:29:48 AM	Info	Row 2, Column 1: sagar.sws2000@gmail.com
+// 11:29:48 AM	Info	Row 3, Column 1: hellovickykumar123@gmail.com
+// 11:29:49 AM	Notice	Execution completed
