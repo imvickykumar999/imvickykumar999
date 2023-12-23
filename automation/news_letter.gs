@@ -1,4 +1,7 @@
 
+// https://script.google.com/u/0/home/projects/1NY5hLZ14Mb0bdrt2dtCuE7ha_YI3TeElH5MPTyxa4-e-_hhp0HtBl3lb/edit
+// https://docs.google.com/spreadsheets/d/1akZpxtRhFIm97X9ZIdlAm10nfs0_drWTo40rVvkI6zs/edit#gid=0
+
 function myFunction() {
   data = fetchDataFromExcel();
 

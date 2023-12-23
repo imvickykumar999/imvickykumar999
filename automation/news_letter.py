@@ -1,4 +1,7 @@
 
+# https://docs.google.com/spreadsheets/d/1akZpxtRhFIm97X9ZIdlAm10nfs0_drWTo40rVvkI6zs/edit#gid=0
+# "client_email": "ideationology@ideationology-lab.iam.gserviceaccount.com"
+
 import gspread
 
 def append_row_if_unique(row_data = ['18erecs080.vicky@rietjaipur.ac.in']):
