@@ -1,10 +1,11 @@
 
 from json import dumps
+import requests, random
 from httplib2 import Http
 
-def main(url):
+def main(url, photo, title, description, link):
     bot_message = {
-        'text' : text,
+        'text' : title,
           "cards": [
             {
               "sections": [
@@ -12,7 +13,7 @@ def main(url):
                   "widgets": [
                     {
                       "textParagraph": {
-                        "text": "<b>Roses</b> are <font color=\"#ff0000\">red</font>,<br><i>Violets</i> are <font color=\"#0000ff\">blue</font>"
+                        "text": f"{description}"
                       }
                     }
                   ]
@@ -25,10 +26,10 @@ def main(url):
               "widgets": [
                 {
                   "image": {
-                    "imageUrl": "https://developers.google.com/chat/images/cards-image.png",
+                    "imageUrl": f"{photo}",
                     "onClick": {
                       "openLink": {
-                        "url": "https://developers.google.com/chat/api/guides/message-formats/cards#image_widget/"
+                        "url": f"{link}"
                       }
                     }
                   }
@@ -49,18 +50,25 @@ def main(url):
         headers=message_headers,
         body=dumps(bot_message),
     )
-
     return response
 
 if __name__ == '__main__':
-    text = input('Write message : ')
+  url = input('\nEnter chat URL : ') # https://chat.google.com/room/AAAA-pCtR2s?cls=7
+  news_api = input('\nEnter NewsAPI : ') # https://newsapi.org/account
 
-    if text == '':
-        text = '''
-    Hey Vicks,
-    Hello from a Python script!
-    '''
-    url = 'https://chat.googleapis.com/v1/spaces/AAAA-pCtR2s/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=ZtcRtCCJrX12a_D2s4zG_J7oXBNFFnBW8LRCUh3IBCM'
-    response = main(url)
-    print(response)
-  
+  source = ['bbc-news', 'cnn', 'the-verge', 'time', 'the-wall-street-journal']
+  source = random.choice(source)
+  gets = f'https://newsapi.org/v1/articles?source={source}&sortBy=top&apiKey={news_api}'
+
+  req = requests.get(gets)
+  box = req.json()['articles']
+
+  for j, i in enumerate(box):
+    if i['description'] == None:
+        i['description'] = 'Read More'
+
+    title = f"{j+1}). {i['title']}"
+    photo = i['urlToImage']
+    description = i['description']
+    link = i['url']
+    main(url, photo, title, description, link)
