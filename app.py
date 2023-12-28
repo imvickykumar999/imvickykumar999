@@ -1,4 +1,8 @@
 
+# from HostTor import VicksTor
+import VicksTor as vix
+vix.run_server('flask')
+
 from flask import (Flask,
     render_template,
     request, redirect,
@@ -182,5 +186,5 @@ def page_not_found(e):
 if __name__ == '__main__':
     app.run(
         # host="0.0.0.0", 
-        debug=True
+        # debug=True
     )
