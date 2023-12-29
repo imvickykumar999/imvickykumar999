@@ -13,6 +13,25 @@
   <body>
     <center>
     
+      {% if session.username %}
+        <h3 class='jumbotron'>{{good}}
+        <br>
+          <strong>
+            @{{session.username}}
+          </strong>
+        </h3>
+
+      {% else %}
+        <h3 class='jumbotron'>{{good}} 
+        <br>
+          <a href="{{url_for('login')}}">
+            <strong>
+              Guest
+            </strong>
+          </a>
+        </h3>
+      {% endif %}
+  
       <div class="jumbotron jumbotron-fluid rounded">
         <div class="container">
           {%for x in range(0, len)%}

@@ -1,7 +1,7 @@
 
 # from HostTor import VicksTor
-import VicksTor as vix
-vix.run_server('flask')
+# import VicksTor as vix
+# vix.run_server('flask')
 
 from flask import (Flask,
     render_template,
@@ -12,12 +12,25 @@ from flask import (Flask,
 
 from functools import wraps
 import secrets, gspread
-import sqlite3 as sql
 import requests, random
+import sqlite3 as sql
+import datetime
 
 app = Flask(__name__)
 secret_key = secrets.token_hex(16)
 app.config['SECRET_KEY'] = secret_key
+
+def good_day():
+    currentTime = datetime.datetime.now()
+    currentTime.hour
+
+    if currentTime.hour < 12:
+        return 'Good morning'
+    elif 12 <= currentTime.hour < 18:
+        return 'Good afternoon'
+    else:
+        return 'Good evening'
+
 
 def get_news(source, api_key='39e270768fef4cfe848af36d98107e82'):
     try:
@@ -61,6 +74,7 @@ def one_news(source):
     try:
         ha, ia, ba, la = get_news(source)
         return render_template('news.html', 
+                                good=good_day(),                               
                                 ha=ha, 
                                 ia=ia, 
                                 ba=ba, 
@@ -79,6 +93,7 @@ def home():
 
             ha, ia, ba, la = get_news(source, api_key)
             return render_template('news.html', 
+                                    good=good_day(),                                   
                                     ha=ha, 
                                     ia=ia, 
                                     ba=ba, 
@@ -96,6 +111,7 @@ def news():
     try:
         ha, ia, ba, la = get_news(source)
         return render_template('news.html', 
+                                good=good_day(),
                                 ha=ha, 
                                 ia=ia, 
                                 ba=ba, 
@@ -186,5 +202,5 @@ def page_not_found(e):
 if __name__ == '__main__':
     app.run(
         # host="0.0.0.0", 
-        # debug=True
+        debug=True
     )
