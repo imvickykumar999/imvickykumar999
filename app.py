@@ -21,8 +21,8 @@ secret_key = secrets.token_hex(16)
 app.config['SECRET_KEY'] = secret_key
 
 def good_day():
-    currentTime = datetime.datetime.now()
-    currentTime.hour
+    currentTime = datetime.datetime.now() + datetime.timedelta(hours=0)
+    print(currentTime.hour)
 
     if currentTime.hour < 12:
         return 'Good morning'
