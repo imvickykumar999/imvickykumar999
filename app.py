@@ -21,11 +21,10 @@ secret_key = secrets.token_hex(16)
 app.config['SECRET_KEY'] = secret_key
 
 
-@app.route('/saved_news')
-def saved_news():
-    '''Save data and fetch all saved to render'''
-    print('Saved.')
-    return redirect('/')
+@app.route('/background_process_test')
+def background_process_test():
+    print("Saving")
+    return "Saved"
 
 
 def good_day():

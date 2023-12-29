@@ -12,7 +12,20 @@
 
   <body>
     <center>
-    
+
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script type=text/javascript>
+          $(function() {
+            $('a#test').on('click', function(e) {
+              e.preventDefault()
+              $.getJSON('/background_process_test',
+                  function(data) {
+                  console.log(data)
+              });
+            });
+          });
+      </script>
+
       {% if session.username %}
         <h3 class='jumbotron'>{{good}}
         <br>
@@ -38,9 +51,11 @@
 
               <div class="col mb-4">
                 <div class="card">
-                
-                  <button type="button" onclick="window.location.href='{{ url_for('saved_news') }}';">Save News</button>
-                  <img src={{ia[x]}} class="card-img-top">
+
+                    <form>
+                      <a href=# id=test><button class='btn btn-default'>Save Card</button></a>
+                    </form>
+                    <img src={{ia[x]}} class="card-img-top">
 
                   <div class="card">
                     <h2 style="color:black;" class="card-title">
