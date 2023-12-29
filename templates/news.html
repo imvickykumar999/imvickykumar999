@@ -38,9 +38,9 @@
 
               <div class="col mb-4">
                 <div class="card">
-                  <a target="_blank" href={{ia[x]}}>
-                    <img src={{ia[x]}} class="card-img-top">
-                  </a>
+                
+                  <button type="button" onclick="window.location.href='{{ url_for('saved_news') }}';">Save News</button>
+                  <img src={{ia[x]}} class="card-img-top">
 
                   <div class="card">
                     <h2 style="color:black;" class="card-title">

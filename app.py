@@ -20,6 +20,14 @@ app = Flask(__name__)
 secret_key = secrets.token_hex(16)
 app.config['SECRET_KEY'] = secret_key
 
+
+@app.route('/saved_news')
+def saved_news():
+    '''Save data and fetch all saved to render'''
+    print('Saved.')
+    return redirect('/')
+
+
 def good_day():
     currentTime = datetime.datetime.now() + datetime.timedelta(hours=0)
     print(currentTime.hour)
