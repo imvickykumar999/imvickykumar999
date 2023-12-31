@@ -20,12 +20,10 @@ app = Flask(__name__)
 secret_key = secrets.token_hex(16)
 app.config['SECRET_KEY'] = secret_key
 
-
 @app.route('/background_process_test')
 def background_process_test():
     print("Saving")
     return "Saved"
-
 
 def good_day():
     currentTime = datetime.datetime.now() + datetime.timedelta(hours=0)
@@ -37,7 +35,6 @@ def good_day():
         return 'Good afternoon'
     else:
         return 'Good evening'
-
 
 def get_news(source, api_key='39e270768fef4cfe848af36d98107e82'):
     try:
@@ -169,7 +166,9 @@ def reg():
         name=request.form["uname"]
         email=request.form["email"]
         pwd=request.form["upass"]
+
         newsletter = request.form.get('newsletter')
+        session['email']=email
 
         if newsletter:
             row_data = [email]
@@ -198,9 +197,27 @@ def reg():
 
 @app.route("/logout")
 def logout():
-	session.clear()
-	flash('You are now logged out','success')
-	return redirect(url_for('login'))
+
+    gc = gspread.service_account(filename='automation/ideationology-lab-b60654e44e37.json')
+    sh = gc.open_by_key('1akZpxtRhFIm97X9ZIdlAm10nfs0_drWTo40rVvkI6zs')
+    worksheet = sh.worksheet('Sheet1')
+
+    cell_list = worksheet.get_all_values()
+    row_to_delete = None
+
+    for i, row in enumerate(cell_list):
+        if row[0] == session['email']:
+            row_to_delete = i + 1
+            break
+
+    if row_to_delete:
+        worksheet.delete_rows(row_to_delete)
+        print(f"Row {row_to_delete} deleted.")
+    else:
+        print("Element not found, no row deleted.")
+
+    session.clear()
+    return redirect(url_for('login'))
 
 @app.errorhandler(404)
 def page_not_found(e):
