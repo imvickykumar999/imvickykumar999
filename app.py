@@ -126,12 +126,28 @@ def news():
 
 @app.route('/login',methods=['POST','GET'])
 def login():
-    status=True
     con=sql.connect("db_sample.db")
 
     if request.method=='POST':
         email=request.form["email"]
         pwd=request.form["upass"]
+
+        session['email']=email
+        row_data = [email]
+        
+        spreadsheet_id = '1akZpxtRhFIm97X9ZIdlAm10nfs0_drWTo40rVvkI6zs'
+        worksheet_name = 'Sheet1'
+        unique_col_index = 0 
+
+        gc = gspread.service_account(filename='automation/ideationology-lab-b60654e44e37.json')
+        sh = gc.open_by_key(spreadsheet_id)
+        worksheet = sh.worksheet(worksheet_name)
+
+        existing_data = worksheet.get_all_values()
+        unique_element_exists = any(row_data[unique_col_index] == row[unique_col_index] for row in existing_data)
+
+        if not unique_element_exists:
+            worksheet.append_row(row_data)
 
         cur=con.cursor()
         cur.execute("select UNAME from users where EMAIL=? and UPASS=?",(email,pwd))
@@ -164,27 +180,8 @@ def reg():
 
     if request.method=='POST':
         name=request.form["uname"]
-        email=request.form["email"]
         pwd=request.form["upass"]
-
-        newsletter = request.form.get('newsletter')
-        session['email']=email
-
-        if newsletter:
-            row_data = [email]
-            spreadsheet_id = '1akZpxtRhFIm97X9ZIdlAm10nfs0_drWTo40rVvkI6zs'
-            worksheet_name = 'Sheet1'
-            unique_col_index = 0 
-
-            gc = gspread.service_account(filename='automation/ideationology-lab-b60654e44e37.json')
-            sh = gc.open_by_key(spreadsheet_id)
-            worksheet = sh.worksheet(worksheet_name)
-
-            existing_data = worksheet.get_all_values()
-            unique_element_exists = any(row_data[unique_col_index] == row[unique_col_index] for row in existing_data)
-
-            if not unique_element_exists:
-                worksheet.append_row(row_data)
+        email=request.form["email"]
 
         cur=con.cursor()
         cur.execute("insert into users(UNAME,UPASS,EMAIL) values(?,?,?)",(name,pwd,email))
