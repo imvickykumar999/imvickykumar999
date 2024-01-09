@@ -241,7 +241,6 @@ class Fresher:
 		- 🐍 Creating games like Minecraft Python Edition (Ursina)
 		- 👯 I’m looking to collaborate on Flask based Projects
 	
-		- 🎮 I like to play NFS MW, JC4, and Minecraft Java Edition
 		- 🌱 I’m currently learning OpenCV and Machine Learning
 		- 🤔 I’m looking for help with ESP32 and IoT Projects
 		- 💬 Ask me about Python and Mathematics
@@ -261,6 +260,7 @@ class Fresher:
 <br>
 
 <!--
+		- 🎮 I like to play NFS MW, JC4, and Minecraft Java Edition
 
 # `Netflix Phishing` *on* `Dark Web`
 
