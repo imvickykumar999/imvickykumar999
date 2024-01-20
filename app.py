@@ -20,11 +20,6 @@ app = Flask(__name__)
 secret_key = secrets.token_hex(16)
 app.config['SECRET_KEY'] = secret_key
 
-@app.route('/background_process_test')
-def background_process_test():
-    print("Saving")
-    return "Saved"
-
 def good_day():
     currentTime = datetime.datetime.now() + datetime.timedelta(hours=0)
     print(currentTime.hour)
