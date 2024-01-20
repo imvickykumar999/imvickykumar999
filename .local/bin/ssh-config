@@ -1,0 +1,86 @@
+#!/usr/local/bin/python3.10
+"""
+Script to load and view ssh keys found from user directories
+"""
+
+import os
+
+from systematic.shell import Script, ScriptCommand, ScriptError
+from systematic.sshconfig import UserSSHKeys, SSHConfig, SSHKeyError
+
+DEFAULT_CONFIG = os.path.expanduser('~/.ssh/sshkeys.conf')
+
+KEY_DETAILS = """%(path)s
+  Algorithm:   %(algorithm)s
+  Key Bits:    %(bits)s
+  Fingerprint: %(fingerprint)s
+"""
+
+class SSHConfigCommand(ScriptCommand):
+    def parse_args(self, args):
+        self.keys = UserSSHKeys()
+        self.config = SSHConfig()
+
+        if os.path.isfile(args.config):
+            try:
+                self.keys.read_config(path=args.config)
+            except SSHKeyError as e:
+                self.exit(1, 'Error loading {0}: {1}'.format(args.config, e))
+
+        return args
+
+
+class ListCommand(SSHConfigCommand):
+
+    def run(self, args):
+        args = SSHConfigCommand.parse_args(self, args)
+
+        if args.command == 'available':
+            for k in filter(lambda x: x.available,  self.keys.values()):
+                self.message(KEY_DETAILS % k)
+
+        elif args.command == 'list':
+            for k in self.keys.loaded_keys.values():
+                self.message(KEY_DETAILS % k)
+
+        elif args.command == 'status':
+            for k in self.keys.values():
+                if k.available:
+                    status = k.is_loaded and 'LOADED' or 'UNLOADED'
+                else:
+                    status = 'UNAVAILABLE'
+                self.message('{0:12s} {1}'.format(status, k.path))
+
+
+class HostsCommand(SSHConfigCommand):
+    def run(self, args):
+        args = SSHConfigCommand.parse_args(self, args)
+
+        for name in sorted(self.config.keys()):
+            self.message(name)
+            hostconfig = self.config[name]
+            for k,v in hostconfig.items():
+                self.message('{0:20s} {1}'.format(k, v))
+
+
+class LoaderCommand(SSHConfigCommand):
+    def run(self, args):
+        args = SSHConfigCommand.parse_args(self, args)
+
+        if args.command == 'load':
+            self.keys.load_keys([key for key in self.keys.available if key.autoload])
+
+        if args.command == 'unload':
+            for key in [key for key in self.keys.available if key.is_loaded]:
+                key.unload()
+
+
+script = Script()
+script.add_argument('-c', '--config', default=DEFAULT_CONFIG, help='Configuration file path')
+script.add_subcommand(ListCommand('list', 'List loaded SSH keys'))
+script.add_subcommand(ListCommand('available', 'List available SSH keys'))
+script.add_subcommand(ListCommand('status', 'Show load status of known keys'))
+script.add_subcommand(HostsCommand('hosts', 'List configured hosts'))
+script.add_subcommand(LoaderCommand('load', 'Load all available and known hosts'))
+script.add_subcommand(LoaderCommand('unload', 'Unload all known hosts'))
+args = script.parse_args()

@@ -1,0 +1,63 @@
+{% extends "base.html"%}
+{% block content %}
+
+<div class="jumbotron rounded">
+  <div class="container">
+    <center>
+
+      {% if not api_key %}
+        <div class="alert alert-primary" role="alert">
+          <br>
+
+          <a target="_blank" href="https://newsapi.org/register">
+            <h4 style="color:blue;">
+              <strong>
+                Click here to get Your News API Key
+              </strong>
+            </h4>
+            <br>
+
+            <img src="/static/apikeys.png" alt="apikeys.png">
+            <br><br>
+          </a>
+
+          <form method="post" action="/home">
+            <div class="alert alert-primary" role="alert">
+
+              <h2 style="color:red;">
+                Enter News API Key
+              </h2>
+
+              <input type="text" name="api_key">
+              <br><br>
+
+            </div>
+            <br>
+            <input type="image"
+                    src="/static/submit.png"
+                    width="200"
+                    height="60"
+                    alt="submit"/>
+        </form>
+
+        </div>
+        {% else %}
+
+        <a target="_blank" href="https://www.linkedin.com/in/imvickykumar999/recent-activity/all/">
+          <button class="button">More Projects</button>
+        </a>
+
+        <br><br>
+        <iframe
+          src="https://www.youtube.com/embed/?listType=videoseries&list=PLyeWzbpbicN1EJOT6SGpW-tImwg5exOEp"
+          width="720"
+          height="405"
+          frameborder="0"
+          allowfullscreen>
+
+      {% endif %}
+    </center>
+  </div>
+</div>
+
+{% endblock %}
