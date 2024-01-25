@@ -4,6 +4,7 @@ from flask import (Flask,
     request, redirect,
     url_for, flash,
     session,
+    send_from_directory
 )
 
 from functools import wraps
@@ -79,7 +80,11 @@ def one_news(source):
                                 la=la,
                                 len = len(ha))
     except:
-        return render_template('home.html', api_key=False)
+        return render_template('index.html', api_key=False)
+
+@app.route('/templates/assets/<path:path>')
+def send_report(path):
+    return send_from_directory('./templates/assets/', path)
 
 @app.route('/home', methods=['POST', 'GET'])
 def home():
@@ -98,7 +103,7 @@ def home():
                                     la=la,
                                     len = len(ha))
         else:
-            return render_template('home.html', api_key=True)
+            return render_template('index.html', api_key=True)
     except: return render_template('404.html')
 
 @app.route('/')
@@ -116,7 +121,7 @@ def news():
                                 la=la,
                                 len = len(ha))
     except:
-        return render_template('home.html', api_key=False)
+        return render_template('index.html', api_key=False)
 
 @app.route('/login',methods=['POST','GET'])
 def login():
