@@ -64,7 +64,7 @@ def is_logged_in(f):
 			return f(*args,**kwargs)
 		else:
 			flash('Unauthorized, Please Login','danger')
-			return redirect(url_for('login'))
+			return redirect(url_for('login', next=request.url))
 	return wrap
 
 @app.route('/news/<source>')
@@ -130,9 +130,7 @@ def login():
     if request.method=='POST':
         email=request.form["email"]
         pwd=request.form["upass"]
-        
         next_url = request.form.get("next")
-        print(next_url)
 
         session['email']=email
         row_data = [email]
@@ -155,7 +153,6 @@ def login():
         cur.execute("select UNAME from users where EMAIL=? and UPASS=?",(email,pwd))
         data=cur.fetchone()
 
-        print(data)
         if data:
             session['logged_in']=True
             session['username']=data[0]
@@ -168,16 +165,6 @@ def login():
         else:
             flash('Invalid Login. Try Again','danger')
     return render_template("login.html")
-
-def is_logged_in(f):
-	@wraps(f)
-	def wrap(*args,**kwargs):
-		if 'logged_in' in session:
-			return f(*args,**kwargs)
-		else:
-			flash('Unauthorized, Please Login','danger')
-			return redirect(url_for('login'))
-	return wrap
 
 @app.route('/reg',methods=['POST','GET'])
 def reg():
