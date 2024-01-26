@@ -7,9 +7,9 @@
 
         <!-- =====BOX ICONS===== -->
         <link target="_blank" href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
         <title>Vicky - Portfolio</title>
     </head>
+
     <body>
         <!--===== HEADER =====-->
         <header class="l-header">
@@ -176,11 +176,11 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Submit" class="contact__button button">
+                    <form onsubmit="submitLoginForm(event)" method='post' action="/templates/index.html" class="contact__form">
+                        <input type="text" name="flname" placeholder="Name" class="contact__input">
+                        <input type="mail" name="email" placeholder="Email" class="contact__input">
+                        <input type="text" name="message" placeholder="Message" class="contact__input">
+                        <input type="submit" value="Submit" class="contact__button button">
                     </form>
                 </div>
             </section>
@@ -199,6 +199,9 @@
 
         <!--===== SCROLL REVEAL =====-->
         <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== CONTACT JS =====-->
+        <script src="templates/assets/contact.js"></script>
 
         <!--===== MAIN JS =====-->
         <script src="templates/assets/main.js"></script>
