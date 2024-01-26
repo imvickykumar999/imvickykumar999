@@ -130,6 +130,9 @@ def login():
     if request.method=='POST':
         email=request.form["email"]
         pwd=request.form["upass"]
+        
+        next_url = request.form.get("next")
+        print(next_url)
 
         session['email']=email
         row_data = [email]
@@ -156,6 +159,10 @@ def login():
         if data:
             session['logged_in']=True
             session['username']=data[0]
+
+            if next_url:
+                return redirect(next_url)
+        
             flash('Login Successfully','success')
             return redirect('/')
         else:
