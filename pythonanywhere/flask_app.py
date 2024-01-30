@@ -177,6 +177,13 @@ def reg():
         pwd=request.form["upass"]
 
         cur=con.cursor()
+        cur.execute("SELECT * FROM users WHERE EMAIL=?", (email,))
+        existingInfo = cur.fetchone()
+
+        if existingInfo is not None:
+            flash('Email already exist, choose different email.','danger')
+            return redirect('reg')
+
         cur.execute("insert into users(UNAME,UPASS,EMAIL) values(?,?,?)",(name,pwd,email))
         con.commit()
         cur.close()

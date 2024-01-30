@@ -1,7 +1,7 @@
 
 import sqlite3 as sql3
 
-con = sql3.connect('db_sample.db')
+con = sql3.connect('pythonanywhere/db_sample.db')
 cur = con.cursor()
 cur.execute("DROP TABLE IF EXISTS users")
 
