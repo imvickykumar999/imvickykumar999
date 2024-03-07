@@ -201,15 +201,15 @@ Since 21 Dec 2022 (reset)
 # 🎨 `About me` :
 
 ```python
-class Fresher:
+class Noob:
     """My Introduction"""
 
     def __init__(self):
-        self.fname = "Vicky"
-        self.lname = "Kumar"
+        self.myname = "Vicky Kumar"
+        self.profile = "Automation Engineer"
 
     def __repr__(self):
-        return " - ".join((self.fname, self.lname))
+        return ", ".join([self.myname, self.profile])
 
     @property
     def social_bots(self):
