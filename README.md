@@ -201,7 +201,7 @@ Since 21 Dec 2022 (reset)
 # 🎨 `About me` :
 
 ```python
-class Noob:
+class imvickykumar999:
     """My Introduction"""
 
     def __init__(self):
@@ -214,11 +214,12 @@ class Noob:
     @property
     def social_bots(self):
         """Follow bots for daily automated and scheduled news"""
+        
         return {
-            "News Webisite": "https://imvickykumar999.pythonanywhere.com/"
+            "News Webisite": "https://imvickykumar999.pythonanywhere.com/",
+            "Mastodon Bot" : "https://mastodon.social/@imvickykumar999",
             "Instagram Bot": "https://www.instagram.com/vix.bot",
             "Telegram Bot" : "https://t.me/VixReelsbot",
-            "Mastodon Bot" : "https://mastodon.social/@imvickykumar999",
         }
 ```
 
