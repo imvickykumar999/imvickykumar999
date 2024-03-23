@@ -152,17 +152,17 @@ Honest Page View
 
 <th>
 <a href="https://github.com/imvickykumar999/GitHub-Views-Counter-Hacks#archived-backup">
-Spammed Page View
+Triggered Page View
 </a>
 </th>
 </tr>
 
 <tr>
 <td>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&color=blue&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=imvickykumar999&color=blue&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
 </td>
 <td>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=imvickykumar&color=orange&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=imvickykumar&color=orange&label=PROFILE+VIEWS&style=flat-square" alt="imvickykumar999"/> </p>
 </td>
 </tr>
 
