@@ -240,7 +240,7 @@ class imvickykumar999:
 		- 👯 I’m looking to collaborate on Flask based Projects
 	
 		- 🌱 I’m currently learning OpenCV and Machine Learning
-		- 🤔 I’m looking for help with ESP32 and IoT Projects
+		- 🤔 I’m looking for help with ESP32 and MCPi Edition
 		- 💬 Ask me about Python and Mathematics
 	
 	- 😄 Pronouns: Hey Vicks!
