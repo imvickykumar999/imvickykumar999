@@ -206,7 +206,7 @@ class imvickykumar999:
 
     def __init__(self):
         self.myname = "Vicky Kumar"
-        self.profile = "Automation Engineer"
+        self.profile = "Django Developer"
 
     def __repr__(self):
         return ", ".join([self.myname, self.profile])
