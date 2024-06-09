@@ -248,9 +248,9 @@ class imvickykumar999:
 	- ✨ Innovation: Home Automation and Dark Web
 	- ⚡ Fun fact: I like conversation in Memes Language
 
->## `Django CRUD` : https://djangocrudvicks.pythonanywhere.com/
+>## `Django CRUD` **:** https://crudproject.pythonanywhere.com/
 >
->[![image](https://github.com/imvickykumar999/imvickykumar999/assets/50515418/d0765623-cbc7-4038-83a7-e3c077e28cd7)](https://djangocrudvicks.pythonanywhere.com/)
+>[![image](https://github.com/imvickykumar999/imvickykumar999/assets/50515418/234cbf98-456e-42b0-a1e8-592c9e1514c1)](https://github.com/imvickykumar999/Django-CRUD-Form)
 
 <br>
 
