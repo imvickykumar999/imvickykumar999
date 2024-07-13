@@ -125,8 +125,7 @@ maintaining streaks ...
 </center>
 
  -->
- 
- 
+
 <h1 align="center">
   Hello There!
 <!--   <a href = "https://imvickykumar999.github.io/imvickykumar999/">
@@ -140,7 +139,6 @@ maintaining streaks ...
 </p>
 
 <br>
-
 <table align="center">
 <tr>
 	
@@ -177,8 +175,13 @@ Since 21 Dec 2022 (reset)
 	
 </tr>
 </table>
-
 <br> 
+
+<div align="center">
+    <img src="https://img.shields.io/github/followers/imvickykumar999?style=social" alt="GitHub Followers">
+    &nbsp;&nbsp;
+    <img src="https://img.shields.io/github/stars/imvickykumar999?style=social" alt="GitHub Stars">
+</div>
 
 <!-- <br>
 
