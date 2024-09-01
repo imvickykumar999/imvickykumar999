@@ -554,8 +554,6 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 </details>
 
-<br>
-
 ># [**`News Website`**](https://imvickykumar999.pythonanywhere.com/) ***... follow [`bots`](https://mastodon.social/@imvickykumar999) for daily news***
 >
 >[![image](https://github.com/imvickykumar999/imvickykumar999/assets/50515418/6b0c72ee-38eb-42b1-a5cb-66d07d58c27f)](https://imvickykumar999.pythonanywhere.com/)
