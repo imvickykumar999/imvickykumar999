@@ -1,5 +1,10 @@
 <!--  
 
+unzip /home/heyvicks/app.zip
+find /home/heyvicks -type d -exec chmod 755 {} +
+zip -r project.zip .
+
+
 ```stl
 solid cube_corner
   facet normal 0.0 -1.0 0.0
