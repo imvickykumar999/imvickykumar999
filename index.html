@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/67197854">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <title>Portfolio - Vicky</title>
+</head>
+<body>
+
+<!--===== HEADER =====-->
+<header class="l-header">
+  <nav class="nav bd-grid">
+    <div><a href="#" class="nav__logo">Vicky</a></div>
+    <div class="nav__menu" id="nav-menu">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </div>
+    <div class="nav__toggle" id="nav-toggle"><i class='bx bx-menu'></i></div>
+  </nav>
+</header>
+
+<main class="l-main">
+  <!--===== HOME =====-->
+  <section class="home bd-grid" id="home">
+    <div class="home__data">
+      <h1 class="home__title" id="home-title">Loading...</h1>
+      <a href="#contact" class="button">Contact</a>
+    </div>
+
+    <div class="home__social">
+      <a href="#" id="linkedin-link" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+      <a href="#" id="github-link" class="home__social-icon"><i class='bx bxl-github'></i></a>
+    </div>
+
+    <div class="home__img">
+      <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg">
+        <mask id="mask0" mask-type="alpha">
+          <path d="M9.19 145.96C34.02 76.58 114.86 54.73 184.11 29.48C245.80 6.99 311.86 -14.95 370.73 14.14C431.20 44.03 467.94 107.51 477.19 174.31C485.90 237.23 454.93 294.38 416.51 344.95C373.74 401.25 326.07 462.80 255.44 466.19C179.42 469.83 111.55 422.14 65.16 361.81C17.48 299.81 -17.16 219.58 9.19 145.96Z"/>
+        </mask>
+        <g mask="url(#mask0)">
+          <path d="M9.19 145.96C34.02 76.58 114.86 54.73 184.11 29.48C245.80 6.99 311.86 -14.95 370.73 14.14C431.20 44.03 467.94 107.51 477.19 174.31C485.90 237.23 454.93 294.38 416.51 344.95C373.74 401.25 326.07 462.80 255.44 466.19C179.42 469.83 111.55 422.14 65.16 361.81C17.48 299.81 -17.16 219.58 9.19 145.96Z"/>
+          <image id="home-image" class="home__blob-img" x="50" y="105" href="assets/img/perfil.png" />
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <!--===== ABOUT =====-->
+  <section class="about section" id="about">
+    <h2 class="section-title">About</h2>
+    <div class="about__container bd-grid">
+      <div class="about__img"><img src="assets/img/about.jpg" alt="Profile" id="about-image" /></div>
+      <div>
+        <h2 class="about__subtitle" id="about-name">I'm Vicky</h2>
+        <p class="about__text" id="about-bio">Loading bio...</p>
+      </div>
+    </div>
+  </section>
+
+  <!--===== SKILLS =====-->
+  <section class="skills section" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills__container bd-grid">
+      <div>
+        <h2 class="skills__subtitle" id="skills-name">Professional Skills</h2>
+        <p class="skills__text" id="skills-bio">Loading skills...</p>
+        <div id="skills-list"></div>
+      </div>
+      <div><img src="assets/img/work3.jpg" alt="" class="skills__img" id="skills-image" /></div>
+    </div>
+  </section>
+
+  <!--===== WORK =====-->
+  <section class="work section" id="work">
+    <h2 class="section-title">Work</h2>
+    <div class="work__container bd-grid" id="work-list"></div>
+  </section>
+
+  <!--===== CONTACT =====-->
+  <section class="contact section" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact__container bd-grid">
+
+      <form id="contact-form" class="contact__form">
+        <input type="text" id="flname" placeholder="Name" class="contact__input" required />
+        <input type="email" id="email" placeholder="Email" class="contact__input" required />
+        <textarea id="message" cols="0" rows="10" class="contact__input" required></textarea>
+        <input type="button" value="Submit" id="submit-btn" class="contact__button button" />
+      </form>
+
+    </div>
+  </section>
+</main>
+
+<div class="whatsapp_float">
+    <a href="https://t.me/VixReelsbot" target="_blank">
+    <img src="https://avatars.githubusercontent.com/u/67197854" width="20px" height="20px" class="whatsapp_float_btn" alt="AI Chatbot"></a>
+</div>
+
+<!--===== FOOTER =====-->
+<footer class="footer">
+  <p class="footer__title">Vicky</p>
+  <div class="footer__social">
+    <a target="_blank" href="https://www.instagram.com/imvickykumar999" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+    <a target="_blank" href="https://twitter.com/imvickykumar999" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+  </div>
+  <p class="footer__copy">&#169; All rights reserved @imvickykumar999</p>
+</footer>
+
+<!--===== SCROLL REVEAL =====-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--===== JQUERY + AJAX PORTFOLIO FETCH =====-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  const BASE_URL = "https://drfapi.pythonanywhere.com/api";
+
+  $(document).ready(function () {
+    // Home
+    $.get(`${BASE_URL}/home/`, function (data) {
+      $('#home-title').html(`Hi,<br>I'm <span class="home__title-color">${data.title}</span><br>${data.subtitle}`);
+      $('#linkedin-link').attr('href', data.linkedin_url);
+      $('#github-link').attr('href', data.github_url);
+      $('#home-image').attr('href', data.image);
+    });
+
+    // About
+    $.get(`${BASE_URL}/about/`, function (data) {
+      $('#about-name').text(`I'm ${data.name}`);
+      $('#about-bio').html(data.bio);
+      $('#about-image').attr('src', data.profile_image);
+    });
+
+    // Skilled
+    $.get(`${BASE_URL}/skilled/`, function (data) {
+      $('#skills-name').text(data.name);
+      $('#skills-bio').text(data.bio);
+      $('#skills-image').attr('src', data.profile_image);
+    });
+
+    // Skills list
+    $.get(`${BASE_URL}/skills/`, function (skills) {
+      let html = '';
+      skills.forEach(skill => {
+        html += `
+          <div class="skills__data">
+            <div class="skills__names">
+              <span class="skills__name">${skill.skill_name}</span>
+            </div>
+            <div class="skills__bar" style="width: ${skill.proficiency}%"></div>
+            <div><span class="skills__percentage">${skill.proficiency}%</span></div>
+          </div>`;
+      });
+      $('#skills-list').html(html);
+    });
+
+    // Work
+    $.get(`${BASE_URL}/work/`, function(projects){
+      let html = '';
+      projects.forEach(p=>{
+        const name = (p.project_name || '').replace(/-/g,' ');
+        html += `
+          <a href="${p.project_url}" class="work__img" target="_blank"
+            style="--bg-url:url('${p.project_image}')">
+            <img src="${p.project_image}" alt="${name}">
+            <div class="work__overlay">${name}</div>
+          </a>`;
+      });
+      $('#work-list').html(html);
+    });
+
+    // Contact form submission
+    $('#submit-btn').click(function (e) {
+      e.preventDefault(); // Prevent the default form submission
+
+      // Gather form data
+      const name = $('#flname').val();
+      const email = $('#email').val();
+      const message = $('#message').val();
+
+      // Check if the fields are not empty
+      if (name && email && message) {
+        $.ajax({
+          url: `${BASE_URL}/contact/`,
+          type: 'POST',
+          data: {
+            name: name,
+            email: email,
+            message: message,
+            csrfmiddlewaretoken: $('input[name="csrfmiddlewaretoken"]').val()  // Get CSRF token from the form
+          },
+          success: function (response) {
+            alert(response.message); // Display success message
+            $('#contact-form')[0].reset(); // Reset form fields
+          },
+          error: function (xhr) {
+            const error = xhr.responseJSON;
+            alert(error.error); // Display error message
+          }
+        });
+      } else {
+        alert('Please fill in all fields.');
+      }
+    });
+
+  });
+</script>
+
+<!--===== MAIN JS (Menu, Scroll, Reveal) =====-->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
