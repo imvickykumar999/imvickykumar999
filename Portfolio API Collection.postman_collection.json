@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "0c79028e-cfbe-41da-b2b6-eadef88841e8",
+		"name": "Portfolio API Collection",
+		"description": "Postman collection for Portfolio Django REST API endpoints.\n\n[https://drfapi.pythonanywhere.com/](https://drfapi.pythonanywhere.com/)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25350357",
+		"_collection_link": "https://grey-flare-687554.postman.co/workspace/My-Workspace~f66982bb-efa3-4d6d-84f1-13a23da04d43/collection/25350357-0c79028e-cfbe-41da-b2b6-eadef88841e8?action=share&source=collection_link&creator=25350357"
+	},
+	"item": [
+		{
+			"name": "API Overview",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://drfapi.pythonanywhere.com/api/",
+					"protocol": "https",
+					"host": [
+						"drfapi",
+						"pythonanywhere",
+						"com"
+					],
+					"path": [
+						"api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://drfapi.pythonanywhere.com/api/home/",
+					"protocol": "https",
+					"host": [
+						"drfapi",
+						"pythonanywhere",
+						"com"
+					],
+					"path": [
+						"api",
+						"home",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "About",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://drfapi.pythonanywhere.com/api/about/",
+					"protocol": "https",
+					"host": [
+						"drfapi",
+						"pythonanywhere",
+						"com"
+					],
+					"path": [
+						"api",
+						"about",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Skilled",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://drfapi.pythonanywhere.com/api/skilled/",
+					"protocol": "https",
+					"host": [
+						"drfapi",
+						"pythonanywhere",
+						"com"
+					],
+					"path": [
+						"api",
+						"skilled",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Skills",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://drfapi.pythonanywhere.com/api/skills/",
+					"protocol": "https",
+					"host": [
+						"drfapi",
+						"pythonanywhere",
+						"com"
+					],
+					"path": [
+						"api",
+						"skills",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Work",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://drfapi.pythonanywhere.com/api/work/",
+					"protocol": "https",
+					"host": [
+						"drfapi",
+						"pythonanywhere",
+						"com"
+					],
+					"path": [
+						"api",
+						"work",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Submit Contact",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "John Doe",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "johndoe@example.com",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "Hello, this is a test message!",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://drfapi.pythonanywhere.com/api/contact/",
+					"protocol": "https",
+					"host": [
+						"drfapi",
+						"pythonanywhere",
+						"com"
+					],
+					"path": [
+						"api",
+						"contact",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
