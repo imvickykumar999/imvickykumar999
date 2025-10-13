@@ -71,7 +71,7 @@ Since 21 Dec 2022 (reset)
 
 <br>
 
-[![blogforge](https://github.com/user-attachments/assets/9852b2a8-a6b2-4d77-8398-7dcf4cadb78b)](https://play.google.com/store/apps/details?id=com.vicksblog.blogforge&pcampaignid=web_share)
+[![ADK-Web](https://github.com/user-attachments/assets/c4782f15-e43b-42f3-a322-54c4a0beec8e)](https://adkweb.pythonanywhere.com/)
 
 <br>
 
