@@ -71,9 +71,11 @@ Since 21 Dec 2022 (reset)
 
 <br>
 
+## `My Best Project`
+
 [![ADK-Web](https://github.com/user-attachments/assets/c4782f15-e43b-42f3-a322-54c4a0beec8e)](https://adkweb.pythonanywhere.com/)
 
-## 📱 `Other Profiles`
+## `My Profiles`
 
 | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/imvickykumar999/) | [![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/11493297/vicky-kumar) | [![Sololearn](https://img.shields.io/badge/-Sololearn-3a464b?style=for-the-badge&logo=Sololearn&logoColor=white)](https://www.sololearn.com/profile/8044164) | [![Hackerrank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/imvickykumar999?hr_r=1)
 | ------- | --- | --- | ---- |
