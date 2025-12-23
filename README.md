@@ -71,10 +71,17 @@ Since 21 Dec 2022 (reset)
 
 <br>
 
->## `My Best Project` : [`google-adk`](https://adkgpt.pythonanywhere.com/?session_id=GitHub)
->
->[![ADK-Chat](https://github.com/user-attachments/assets/c4782f15-e43b-42f3-a322-54c4a0beec8e)](https://adkweb.pythonanywhere.com/)
->[![ADK-Brand](https://github.com/user-attachments/assets/fccd2e28-b47a-4578-8f52-5dd1ceb9de98)](https://adkgpt.pythonanywhere.com/)
+## `My Best Project` : [`google-adk`](https://adkgpt.pythonanywhere.com/?session_id=GitHub)
+
+[![ADK-Chat](https://github.com/user-attachments/assets/c4782f15-e43b-42f3-a322-54c4a0beec8e)](https://adkweb.pythonanywhere.com/)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/imvickykumar999/24x7-Stream-Docker/main/deploy.sh | bash
+```
+
+[![Gemini_Generated_Image_kg8j7jkg8j7jkg8j](https://github.com/user-attachments/assets/0e36d3ca-750b-4eb3-bb2d-d1b16a87793a)](https://youtu.be/53juSivBZL0)
+
+<br>
 
 ## `My Profiles`
 
