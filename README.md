@@ -52,11 +52,13 @@ Since 21 Dec 2022 (reset)
     <img src="https://img.shields.io/github/stars/imvickykumar999?style=social" alt="GitHub Stars">
 </div>
 
+<!--
 <div align="center">
 <br>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=imvickykumar999&theme=gruvbox-duo" alt="mystreak">
 <br><br>
 </div>
+-->
 
 <br>
 
