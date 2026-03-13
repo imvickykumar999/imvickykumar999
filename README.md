@@ -75,13 +75,13 @@ Since 21 Dec 2022 (reset)
 
 # **My Projects**
 
+>## 24x7 Stream E-commerce Website
+>
+>[![ADK-Chat](https://github.com/user-attachments/assets/b874826f-a179-4cd3-80d3-bc423cce7a73)](https://24x7stream.pythonanywhere.com)
+>
 >## Google ADK Custom Chatbot
 >
 >[![ADK-Chat](https://github.com/user-attachments/assets/c4782f15-e43b-42f3-a322-54c4a0beec8e)](https://adkgpt.pythonanywhere.com/?session_id=GitHub)
->
->## 24x7 Stream E-commerce Website
->
->[![ADK-Chat](https://github.com/user-attachments/assets/7e17bef5-3f40-40fa-abc2-35ebd346b42e)](https://shop.imvickykumar999.dpdns.org/)
 
 <br>
 
