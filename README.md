@@ -79,9 +79,9 @@ Since 21 Dec 2022 (reset)
 >
 >[![ADK-Chat](https://github.com/user-attachments/assets/b874826f-a179-4cd3-80d3-bc423cce7a73)](https://24x7stream.pythonanywhere.com)
 >
->## Google ADK Custom Chatbot
+>## 24x7 Stream Dashboard (Free Trial)
 >
->[![ADK-Chat](https://github.com/user-attachments/assets/c4782f15-e43b-42f3-a322-54c4a0beec8e)](https://adkgpt.pythonanywhere.com/?session_id=GitHub)
+>[![ADK-Chat](https://github.com/user-attachments/assets/8f5b427c-b71e-4a54-b149-9124c1d2bc15)](https://test.imvickykumar999.dpdns.org/)
 
 <br>
 
