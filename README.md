@@ -77,11 +77,11 @@ Since 21 Dec 2022 (reset)
 
 >## 24x7 Stream E-commerce Website
 >
->[![ADK-Chat](https://github.com/user-attachments/assets/b874826f-a179-4cd3-80d3-bc423cce7a73)](https://24x7stream.pythonanywhere.com)
+>[![ADK-Chat](https://github.com/user-attachments/assets/c13bd90a-6654-46b5-b827-37b795c4edf7)](https://24x7stream.pythonanywhere.com)
 >
 >## 24x7 Stream Dashboard (Free Trial)
 >
->[![ADK-Chat](https://github.com/user-attachments/assets/8f5b427c-b71e-4a54-b149-9124c1d2bc15)](https://test.imvickykumar999.dpdns.org/)
+>[![ADK-Chat](https://github.com/user-attachments/assets/096ed1e7-fa2a-4445-ad47-982a2b7858d0)](https://test.imvickykumar999.dpdns.org/)
 
 <br>
 
