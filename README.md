@@ -82,6 +82,10 @@ Since 21 Dec 2022 (reset)
 >## 24x7 Stream Dashboard (Free Trial)
 >
 >[![ADK-Chat](https://github.com/user-attachments/assets/096ed1e7-fa2a-4445-ad47-982a2b7858d0)](https://test.imvickykumar999.dpdns.org/)
+>
+>## Custom Onion Vanity Generator [(Watch Live)](https://youtu.be/f460WY3IMcw)
+>
+>[![Dark-Web](https://github.com/user-attachments/assets/a03d10b3-9cc7-488b-9e41-e6c706db859d)](http://vanity3yyoibkcgj6xbsvr72oh2prmiky5bbe7ogxyq662ewhpdsaeqd.onion/)
 
 <br>
 
