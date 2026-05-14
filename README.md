@@ -75,7 +75,7 @@ Since 21 Dec 2022 (reset)
 
 # **My Projects**
 
->## 24x7 Stream [(MSME Registered)](https://24x7stream.pythonanywhere.com)
+>## 24x7 Stream [(MSME Registered)](https://24x7stream.shop/)
 >
 ><img width="1517" height="773" alt="image" src="https://github.com/user-attachments/assets/b232c79b-d1e7-481d-82e4-d9d0133dcd7d" />
 ><img width="1519" height="889" alt="image" src="https://github.com/user-attachments/assets/be69ca2f-ce49-4b8b-9b93-e045157686b7" />
@@ -84,7 +84,7 @@ Since 21 Dec 2022 (reset)
 >
 >[![ADK-Chat](https://github.com/user-attachments/assets/096ed1e7-fa2a-4445-ad47-982a2b7858d0)](https://test.imvickykumar999.dpdns.org/)
 >
->## Custom Onion Vanity Generator [(Watch Live)](https://youtu.be/IXWMF2yFwzk)
+>## Custom Onion Vanity Generator [(Live Streamed)](https://youtu.be/f460WY3IMcw)
 >
 >[![Dark-Web](https://github.com/user-attachments/assets/a03d10b3-9cc7-488b-9e41-e6c706db859d)](http://vanity3yyoibkcgj6xbsvr72oh2prmiky5bbe7ogxyq662ewhpdsaeqd.onion/)
 
