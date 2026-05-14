@@ -76,9 +76,8 @@ Since 21 Dec 2022 (reset)
 # **My Projects**
 
 >## 24x7 Stream [(MSME Registered)](https://24x7stream.shop/)
->
-><img width="1517" height="773" alt="image" src="https://github.com/user-attachments/assets/b232c79b-d1e7-481d-82e4-d9d0133dcd7d" />
-><img width="1519" height="889" alt="image" src="https://github.com/user-attachments/assets/be69ca2f-ce49-4b8b-9b93-e045157686b7" />
+><img width="1507" height="931" alt="image" src="https://github.com/user-attachments/assets/d138e4cf-3b0f-4649-bfd4-53526b575ff9" />
+><img width="1517" height="1024" alt="image" src="https://github.com/user-attachments/assets/dbb9e178-5fff-4329-bde1-02a23445f5a8" />
 >
 >## Stream Dashboard [(Free Trial)](https://24x7live.imvickykumar999.dpdns.org/)
 >
