@@ -75,11 +75,6 @@ Since 21 Dec 2022 (reset)
 
 ># **My Projects**
 >
->		I send voice note on telegram to post on mastodon via openclaw.
->		http://vickykumacjmps5ekfjmjlbhipnhclatvt2e7m5g4kgaisctq7yh4zad.onion/@24x7stream@mastodon.24x7stream.shop
->
-><img width="1536" height="970" alt="image" src="https://github.com/user-attachments/assets/6b462a76-56ac-408c-988b-db7c4fb9e09d" />
->
 >## 24x7 Stream [(MSME Registered)](https://24x7stream.shop/)
 ><img width="1507" height="931" alt="image" src="https://github.com/user-attachments/assets/d138e4cf-3b0f-4649-bfd4-53526b575ff9" />
 ><img width="1517" height="1024" alt="image" src="https://github.com/user-attachments/assets/dbb9e178-5fff-4329-bde1-02a23445f5a8" />
@@ -87,10 +82,6 @@ Since 21 Dec 2022 (reset)
 >## Stream Dashboard [(Free Trial)](https://24x7live.imvickykumar999.dpdns.org/)
 >
 >[![ADK-Chat](https://github.com/user-attachments/assets/096ed1e7-fa2a-4445-ad47-982a2b7858d0)](https://test.imvickykumar999.dpdns.org/)
->
->## Custom Onion Vanity Generator [(Live Streamed)](https://youtu.be/f460WY3IMcw)
->
->[![Dark-Web](https://github.com/user-attachments/assets/a03d10b3-9cc7-488b-9e41-e6c706db859d)](http://vanity3yyoibkcgj6xbsvr72oh2prmiky5bbe7ogxyq662ewhpdsaeqd.onion/)
 
 <br>
 
